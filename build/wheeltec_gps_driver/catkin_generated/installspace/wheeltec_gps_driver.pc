@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/install
+
+Name: wheeltec_gps_driver
+Description: Description of wheeltec_gps_driver
+Version: 0.6.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rosmsg rospy nav_msgs geometry_msgs sensor_msgs tf

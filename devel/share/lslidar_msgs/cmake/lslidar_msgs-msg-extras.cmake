@@ -1,0 +1,2 @@
+set(lslidar_msgs_MESSAGE_FILES "/home/wheeltec/wheeltec_robot/src/lsx10/lslidar_msgs/msg/LslidarPacket.msg;/home/wheeltec/wheeltec_robot/src/lsx10/lslidar_msgs/msg/LslidarPoint.msg;/home/wheeltec/wheeltec_robot/src/lsx10/lslidar_msgs/msg/LslidarScan.msg;/home/wheeltec/wheeltec_robot/src/lsx10/lslidar_msgs/msg/LslidarSweep.msg;/home/wheeltec/wheeltec_robot/src/lsx10/lslidar_msgs/msg/LslidarDifop.msg")
+set(lslidar_msgs_SERVICE_FILES "")

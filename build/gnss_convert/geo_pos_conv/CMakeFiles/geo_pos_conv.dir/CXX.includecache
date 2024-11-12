@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/wheeltec/wheeltec_robot/src/gnss_convert/geo_pos_conv/include/geo_pos_conv/geo_pos_conv.hpp
+math.h
+-
+
+/home/wheeltec/wheeltec_robot/src/gnss_convert/geo_pos_conv/src/geo_pos_conv.cpp
+geo_pos_conv/geo_pos_conv.hpp
+-
+iostream
+-
+cmath
+-
+Eigen/Dense
+-
+

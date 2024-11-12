@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/install
+
+Name: gnss_poser
+Description: Description of gnss_poser
+Version: 0.1.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

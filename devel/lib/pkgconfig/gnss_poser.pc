@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: gnss_poser
+Description: Description of gnss_poser
+Version: 0.1.0
+Cflags: -I/home/wheeltec/wheeltec_robot/src/gnss_convert/gnss_poser/include
+Libs: -L${prefix}/lib 
+Requires: 

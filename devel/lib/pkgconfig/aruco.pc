@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: aruco
+Description: Description of aruco
+Version: 3.1.3
+Cflags: -I/home/wheeltec/wheeltec_robot/src/aruco_ros-noetic-devel/aruco/include
+Libs: -L${prefix}/lib -laruco
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: laserscan_merger
+Description: Description of laserscan_merger
+Version: 1.0.4
+Cflags: -I/home/wheeltec/wheeltec_robot/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

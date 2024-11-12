@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: open_karto
+Description: Description of open_karto
+Version: 1.2.3
+Cflags: -I/home/wheeltec/wheeltec_robot/src/slam_karto/open_karto-melodic-devel/include -I/usr/include
+Libs: -L${prefix}/lib -lkarto /usr/lib/aarch64-linux-gnu/libboost_thread.so.1.71.0
+Requires: sparse_bundle_adjustment

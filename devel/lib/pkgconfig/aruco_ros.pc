@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: aruco_ros
+Description: Description of aruco_ros
+Version: 3.1.3
+Cflags: -I/home/wheeltec/wheeltec_robot/devel/include -I/home/wheeltec/wheeltec_robot/src/aruco_ros-noetic-devel/aruco_ros/include
+Libs: -L${prefix}/lib -laruco_ros_utils
+Requires: aruco sensor_msgs tf

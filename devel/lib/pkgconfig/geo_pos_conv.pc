@@ -1,0 +1,8 @@
+prefix=/home/wheeltec/wheeltec_robot/devel
+
+Name: geo_pos_conv
+Description: Description of geo_pos_conv
+Version: 0.1.0
+Cflags: -I/home/wheeltec/wheeltec_robot/src/gnss_convert/geo_pos_conv/include
+Libs: -L${prefix}/lib -lgeo_pos_conv
+Requires: 
