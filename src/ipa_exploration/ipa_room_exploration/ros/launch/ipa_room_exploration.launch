@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<launch>
+
+	<arg name="robot_radius" default="0.2"/>   <!-- 小车半径 -->
+	<arg name="coverage_radius" default="0.2"/>    <!-- 小车覆盖半径coverage_radius：影响相邻两条路径的间隔距离 -->
+	<arg name="use_test_maps" default="false"/>
+
+	<!-- room exploration server node -->
+	<node ns="room_exploration" pkg="ipa_room_exploration" type="room_exploration_server" name="room_exploration_server" output="screen" respawn="true" respawn_delay="2">
+		<rosparam command="load" file="$(find ipa_room_exploration)/ros/launch/room_exploration_action_server_params.yaml"/>
+	</node>
+
+	<!--  -->
+	<node ns="room_exploration" pkg="ipa_room_exploration" type="room_exploration_client" name="room_exploration_client" output="screen">
+		<rosparam file="$(find turn_on_wheeltec_robot)/map/WHEELTEC.yaml" command="load" />
+		<param name="map_path" value="$(find turn_on_wheeltec_robot)/map/WHEELTEC.pgm"/>
+		<param name="robot_radius" value="$(arg robot_radius)"/>
+		<param name="coverage_radius" value="$(arg coverage_radius)"/>
+		<param name="use_test_maps" value="$(arg use_test_maps)"/>
+	</node>
+
+ <!-- 开启机器人底层相关节点 同时开启导航功能-->
+ <include file="$(find turn_on_wheeltec_robot)/launch/turn_on_wheeltec_robot.launch">
+    <arg name="navigation"  default="true"/>
+ </include>
+ <!-- turn on lidar开启雷达  -->
+ <include file="$(find turn_on_wheeltec_robot)/launch/wheeltec_lidar.launch" />
+
+ <!-- 设置需要用于导航的地图  -->
+ <arg name="map_file" default="$(find turn_on_wheeltec_robot)/map/WHEELTEC.yaml"/>
+ <node name="map_server_for_test" pkg="map_server" type="map_server" args="$(arg map_file)">
+ </node>
+
+ <!-- 开启用于导航的自适应蒙特卡洛定位amcl-->
+ <include file="$(find turn_on_wheeltec_robot)/launch/include/amcl.launch" />
+
+ <!-- MarkerArray功能节点> -->
+ <node name='send_mark' pkg="ipa_room_exploration" type="send_mark.py">
+ </node>
+ 
+</launch>

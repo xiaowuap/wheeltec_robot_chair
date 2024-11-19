@@ -1,0 +1,12 @@
+  <launch>
+
+
+      <!-- tf变换 -->
+      <node pkg="tf" type="static_transform_publisher" name="laser2_to_laser1" args=" 0.2 -0.1 0.15 1.57 0 0 laser_1 laser_2 100" />
+
+
+      <!-- 启动融合雷达 -->
+      <include file="$(find ira_laser_tools)/launch/laserscan_multi_merger.launch" ></include>
+
+
+   </launch>

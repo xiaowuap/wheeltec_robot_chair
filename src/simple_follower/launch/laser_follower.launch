@@ -1,0 +1,15 @@
+<launch>
+  <arg name="lidar_is_cx" default="false"/>
+  <!-- 开启激光雷达跟随以及pid计算节点  -->
+  <include file='$(find simple_follower)/launch/nodes/laserTracker.launch' />
+
+  <include file='$(find simple_follower)/launch/nodes/laserfollow.launch' >
+    	<arg name="lidar_is_cx" value="$(arg lidar_is_cx)"/>
+  </include>
+  <!-- 开启机器人底层相关节点  -->
+  <include file="$(find turn_on_wheeltec_robot)/launch/turn_on_wheeltec_robot.launch" >
+       <arg name="lidar_is_cx" value="$(arg lidar_is_cx)"/>
+  </include> 
+  <!-- turn on lidar开启雷达  -->
+  <include file="$(find turn_on_wheeltec_robot)/launch/wheeltec_lidar.launch" />
+</launch>

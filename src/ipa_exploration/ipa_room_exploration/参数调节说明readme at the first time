@@ -1,0 +1,10 @@
+参数调节说明readme at the first time：
+1. 导航算法请使用DWA导航方式
+2. 建议降低小车最大角速度，避免小车老是原地转圈。具体调节turn_on_wheeltec_robot/params_navs_common/dwa_local_planner_params.yaml中的max_vel_theta至0.4
+
+ipa_room_exploration/ros/launch/ipa_room_exploration.launch中的参数
+3. 小车半径robot_radius根据实际填写
+4. 小车覆盖半径coverage_radius：影响相邻两条路径的间隔距离
+5. path_eps：   生成(线)路径时两点之间的距离= path_eps*0.05
+6. execute_path：是否应该沿着计算的覆盖路径引导机器人
+7. 更多参数请参考ipa_room_exploration/ros/launch/room_exporation_action_server_params.yaml

@@ -1,0 +1,7 @@
+方式一：
+运行open_qt.sh脚本
+sh open_qt.sh
+
+方式二：
+先运行roscore
+在运行rosrun qt_ros_test qt_ros_test

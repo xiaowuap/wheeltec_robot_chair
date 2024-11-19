@@ -1,0 +1,15 @@
+  <launch>
+<!-- 启动lsm10_double frame_id:laser;topic:scan_1 -->
+<!--   <include file="$(find lsm10_v2)/launch/lsm10_v2.launch"> 
+
+      <arg name="if_double" value="true"/>
+
+  </include> -->
+
+<!-- 启动lsc16雷达 frame_id:laser_2;topic:scan_2-->
+  <include file="$(find lslidar_driver)/launch/start.launch"/>
+
+  <include file="$(find pointcloud_to_laserscan)/launch/pointcloud_scan.launch"/>
+
+
+</launch>
