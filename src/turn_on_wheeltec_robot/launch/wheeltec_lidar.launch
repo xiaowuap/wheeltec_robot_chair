@@ -8,7 +8,7 @@
 
     <!-- 镭神M10  N10雷达参数 -->
     <param name="lslidar_driver_node/truncated_mode" value="1"/>    <!--0:不屏蔽角度 1:屏蔽角度-->
-    <rosparam param="lslidar_driver_node/disable_min">[36,113,221,293]</rosparam> <!--角度左值-->
+    <rosparam param="lslidar_driver_node/disable_min">[33,113,221,293]</rosparam> <!--角度左值-->
     <rosparam param="lslidar_driver_node/disable_max">[71,160,253,340]</rosparam> <!--角度右值-->
     <!-- 镭神M10  N10雷达参数 -->
 
