@@ -1,8 +1,17 @@
 <launch>
-  <!--选择cartogapher算法时不开启滤波节点-->
   <arg name="is_cartographer" default="false"/>
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf" output="screen">
+    <rosparam command="load" file="$(find turn_on_wheeltec_robot)/config/ekf.yaml"/>
+    <param name="two_d_mode" value="true"/>
+  </node>
+</launch>
+
+<!--
+<launch>-->
+  <!--选择cartogapher算法时不开启滤波节点-->
+  <!--<arg name="is_cartographer" default="false"/>-->
   <!-- Robot pose ekf 拓展卡尔曼滤波-->
-  <node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf" output="screen" unless="$(arg is_cartographer)">
+  <!--<node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf" output="screen" unless="$(arg is_cartographer)">
     <param name="output_frame" value="odom_combined"/>
     <param name="base_footprint_frame" value="base_footprint"/>
     <param name="freq" value="30.0"/>
@@ -14,6 +23,5 @@
   </node>
 
 </launch>
-
-
+-->
 

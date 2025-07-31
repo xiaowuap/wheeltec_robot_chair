@@ -1,0 +1,29 @@
+frequency: 100
+two_d_mode: true
+publish_tf: true
+
+# ---- 坐标系（强烈建议显式写出来）----
+odom_frame: odom
+base_link_frame: base_footprint
+world_frame: odom              # 本地EKF只发 odom->base_footprint
+
+print_diagnostics: true
+predict_to_current_time: true
+
+# ---- 里程计（喂“原始”轮速，不要 /odom_combined）----
+odom0: /odom                   # ★ 改这里
+odom0_config: [ true, true, false,
+                false, false, true,
+                false, false, false,
+                false, false, false,
+                false, false, false ]
+# 建议在 /odom 消息里把协方差设大些：x,y≈0.6~1.0, yaw≈0.3~0.6
+
+# ---- IMU（只用 yaw）----
+imu0: /imu
+imu0_config: [ false, false, false,
+               false, false, true,
+               false, false, false,
+               false, false, false,
+               false, false, false ]
+imu0_remove_gravitational_acceleration: true
