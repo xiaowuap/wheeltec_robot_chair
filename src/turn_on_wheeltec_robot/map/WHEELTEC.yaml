@@ -1,6 +1,6 @@
 image: /home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot/map/WHEELTEC.pgm
 resolution: 0.025000
-origin: [-47.907331, -36.749075, 0.000000]
+origin: [-10.373758, -3.133796, 0.000000]
 negate: 0
 occupied_thresh: 0.65
 free_thresh: 0.196
