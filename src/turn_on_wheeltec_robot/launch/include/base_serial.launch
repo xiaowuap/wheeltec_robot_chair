@@ -1,6 +1,6 @@
 <launch>
   <!--打开节点wheeltec_robot，初始化串口等操作-->
-  <arg name="odom_frame_id"  default="odom_combined"/>
+  <arg name="odom_frame_id"  default="odom"/>
   <arg name="use_FDI_IMU_GNSS" default="false"/> <!-- 是否使用飞迪系的惯导、GNSS/RTK模块，默认false：使用小车控制板板载的IMU芯片 -->
   <arg name="use_wheeltec_imu"   default="false"/> <!-- 是否使用wheeltec的惯导，默认false：使用小车控制板板载的IMU芯片 -->
  

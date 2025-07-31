@@ -25,7 +25,7 @@
   <arg name="repeat"  default="false"/>
   <!--是否使用cartographer建图算法 此处默认不使用-->
   <arg name="is_cartographer"  default="false"/>
-  <arg name="odom_frame_id"  default="odom_combined"/>
+  <arg name="odom_frame_id"  default="odom"/>
   <!--是否使用FDI_IMU  此处默认不使用-->
   <arg name="use_FDI_IMU_GNSS" default="false"/>
   <!-- turn on base_serial 开启底层单片机的控制节点  -->
@@ -47,6 +47,14 @@
   </include>
   </group>
    
+  <!-- 发布用于建图、导航的TF关系与小车外形可视化 -->
+  <group unless="$(arg lidar_is_cx)">
+    <include file="$(find turn_on_wheeltec_robot)/launch/robot_model_visualization.launch" unless="$(arg repeat)">
+      <arg name="car_mode" value="$(arg car_mode)"/>
+      <arg name="if_voice" value="$(arg if_voice)"/>
+    </include>
+  </group> 
+
 
   <!--当开启导航功能时 启用导航算法选择-->
   <!--当开启2D或3D导航功能时-->
@@ -64,16 +72,6 @@
   <!-- <include file="$(find turn_on_wheeltec_robot)/launch/include/dwa_local_planner_pure3d.launch" if="$(arg pure3d_nav)"> -->
     <arg name="car_mode" value="$(arg car_mode)"/>
   </include>
-
-  <!-- 发布用于建图、导航的TF关系与小车外形可视化 -->
-
-<group unless="$(arg lidar_is_cx)">
-  <include file="$(find turn_on_wheeltec_robot)/launch/robot_model_visualization.launch" unless="$(arg repeat)">
-    <arg name="car_mode" value="$(arg car_mode)"/>
-    <arg name="if_voice" value="$(arg if_voice)"/>
-  </include>
-</group> 
-
 
 <group if="$(arg lidar_is_cx)">
   <include file="$(find turn_on_wheeltec_robot)/launch/robot_model_visualization_cx.launch" unless="$(arg repeat)">

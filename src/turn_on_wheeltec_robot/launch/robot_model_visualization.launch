@@ -256,9 +256,12 @@
   </group>
   <!-- car_mode and tf  chair_diff-->
   <group if="$(eval car_mode == 'chair_diff')">
-      <node pkg="tf" type="static_transform_publisher" name="base_to_laser" args="0.00 0.00 0.00 3.14 0 3.14  base_footprint laser 100" />
-      <node pkg="tf" type="static_transform_publisher" name="base_to_camera" args="0.185 0.00 0.11 0 0 0   base_footprint camera_link 100" />
-      <node pkg="tf" type="static_transform_publisher" name="base_to_gyro" args="0 0 0 0 0 0 base_footprint gyro_link 100" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_laser"
+      args="0 0 0 0 0 1 0 base_footprint laser"/>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_camera"
+      args="0.185 0 0.11 0 0 0 1 base_footprint camera_link"/>
+    <node pkg="tf2_ros" type="static_transform_publisher" name="base_to_gyro"
+      args="0 0 0 0 0 0 1 base_footprint gyro_link"/>
   </group>
 
   <!-- URDF 标准化机器人描述格式 -->

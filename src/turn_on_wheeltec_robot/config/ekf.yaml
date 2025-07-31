@@ -17,6 +17,8 @@ odom0_config: [ true, true, false,
                 false, false, false,
                 false, false, false,
                 false, false, false ]
+odom0_differential: true
+odom0_relative:     false
 # 建议在 /odom 消息里把协方差设大些：x,y≈0.6~1.0, yaw≈0.3~0.6
 
 # ---- IMU（只用 yaw）----
