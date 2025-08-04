@@ -1,0 +1,3 @@
+include package.xml
+include resource/auto_recharge_ros2
+recursive-include auto_recharge_ros2 *.py

@@ -1,0 +1,151 @@
+[0.091s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg
+[4.542s] -- The C compiler identification is GNU 11.4.0
+[4.542s] -- The CXX compiler identification is GNU 11.4.0
+[4.542s] -- Detecting C compiler ABI info
+[4.542s] -- Detecting C compiler ABI info - done
+[4.543s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.543s] -- Detecting C compile features
+[4.543s] -- Detecting C compile features - done
+[4.543s] -- Detecting CXX compiler ABI info
+[4.543s] -- Detecting CXX compiler ABI info - done
+[4.543s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.543s] -- Detecting CXX compile features
+[4.543s] -- Detecting CXX compile features - done
+[4.543s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.543s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.543s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.543s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[4.544s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.544s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.544s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.544s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.544s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.544s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.544s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.544s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.544s] -- Looking for pthread.h
+[4.545s] -- Looking for pthread.h - found
+[4.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.545s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.545s] -- Found Threads: TRUE  
+[4.545s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.545s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.464s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.504s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[5.506s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.551s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[5.552s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.552s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.552s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.604s] -- Found PythonExtra: .so  
+[5.728s] -- Configuring done
+[5.830s] -- Generating done
+[5.851s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg
+[5.889s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg
+[5.890s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg -- -j8 -l8
+[7.758s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.034s] [  1%] Built target wheeltec_mic_msg__cpp
+[8.092s] [  1%] Built target ament_cmake_python_symlink_wheeltec_mic_msg
+[8.116s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.249s] [  3%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.cpp.o[0m
+[10.028s] [  5%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.cpp.o[0m
+[10.764s] [  6%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.cpp.o[0m
+[11.487s] [  7%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.cpp.o[0m
+[12.174s] [  8%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/switch_mic__type_support.cpp.o[0m
+[12.904s] [ 10%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_device_type__type_support.cpp.o[0m
+[13.563s] [ 11%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/motion_control__type_support.cpp.o[0m
+[14.208s] [ 12%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so[0m
+[14.339s] [ 12%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_cpp
+[14.737s] running egg_info
+[14.769s] creating wheeltec_mic_msg.egg-info
+[14.770s] writing wheeltec_mic_msg.egg-info/PKG-INFO
+[14.771s] writing dependency_links to wheeltec_mic_msg.egg-info/dependency_links.txt
+[14.771s] writing top-level names to wheeltec_mic_msg.egg-info/top_level.txt
+[14.771s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[14.864s] reading manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[14.866s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[14.942s] [ 12%] Built target ament_cmake_python_build_wheeltec_mic_msg_egg
+[14.959s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[16.147s] [ 15%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/pcm_msg__type_support.cpp.o[0m
+[16.939s] [ 16%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_major_mic__type_support.cpp.o[0m
+[17.624s] [ 17%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/switch_mic__type_support.cpp.o[0m
+[18.303s] [ 18%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_awake_word__type_support.cpp.o[0m
+[19.020s] [ 20%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_offline_result__type_support.cpp.o[0m
+[19.708s] [ 21%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_device_type__type_support.cpp.o[0m
+[20.427s] [ 22%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/motion_control__type_support.cpp.o[0m
+[21.108s] [ 24%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.231s] [ 24%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp
+[21.247s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[21.967s] [ 26%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[22.401s] [ 27%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[22.836s] [ 29%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[23.286s] [ 30%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[23.757s] [ 31%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[24.217s] [ 32%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[24.666s] [ 34%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/motion_control__type_support.cpp.o[0m
+[25.112s] [ 35%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_cpp.so[0m
+[25.173s] [ 35%] Built target wheeltec_mic_msg__rosidl_typesupport_cpp
+[25.189s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[26.645s] [ 37%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/pcm_msg__functions.c.o[0m
+[26.719s] [ 39%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/switch_mic__functions.c.o[0m
+[26.812s] [ 40%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_major_mic__functions.c.o[0m
+[26.909s] [ 41%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_awake_word__functions.c.o[0m
+[27.001s] [ 43%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_offline_result__functions.c.o[0m
+[27.091s] [ 44%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_device_type__functions.c.o[0m
+[27.181s] [ 45%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/motion_control__functions.c.o[0m
+[27.252s] [ 46%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_generator_c.so[0m
+[27.305s] [ 46%] Built target wheeltec_mic_msg__rosidl_generator_c
+[27.320s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.295s] [ 49%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support_c.cpp.o[0m
+[28.855s] [ 50%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support_c.cpp.o[0m
+[29.433s] [ 51%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support_c.cpp.o[0m
+[30.011s] [ 53%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support_c.cpp.o[0m
+[30.588s] [ 54%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support_c.cpp.o[0m
+[31.168s] [ 55%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support_c.cpp.o[0m
+[31.744s] [ 56%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/motion_control__type_support_c.cpp.o[0m
+[32.318s] [ 58%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so[0m
+[32.438s] [ 58%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c
+[32.453s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[33.133s] [ 60%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[33.181s] [ 62%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[33.232s] [ 63%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[33.282s] [ 64%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[33.335s] [ 65%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[33.384s] [ 67%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[33.432s] [ 68%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/motion_control__type_support.cpp.o[0m
+[33.478s] [ 69%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_c.so[0m
+[33.537s] [ 69%] Built target wheeltec_mic_msg__rosidl_typesupport_c
+[33.553s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[34.559s] [ 72%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.c.o[0m
+[34.617s] [ 73%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support.c.o[0m
+[34.675s] [ 74%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.c.o[0m
+[34.733s] [ 75%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.c.o[0m
+[34.790s] [ 77%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.c.o[0m
+[34.846s] [ 78%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support.c.o[0m
+[34.904s] [ 79%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/motion_control__type_support.c.o[0m
+[34.956s] [ 81%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so[0m
+[35.005s] [ 81%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c
+[35.035s] [ 81%] Built target wheeltec_mic_msg
+[35.065s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[36.972s] [ 82%] Built target wheeltec_mic_msg__py
+[37.001s] [ 83%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_pcm_msg_s.c.o[0m
+[37.165s] [ 84%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_switch_mic_s.c.o[0m
+[37.334s] [ 86%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_major_mic_s.c.o[0m
+[37.501s] [ 87%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_awake_word_s.c.o[0m
+[37.670s] [ 88%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_offline_result_s.c.o[0m
+[37.840s] [ 89%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_device_type_s.c.o[0m
+[38.003s] [ 91%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_motion_control_s.c.o[0m
+[38.163s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/libwheeltec_mic_msg__rosidl_generator_py.so[0m
+[38.224s] [ 92%] Built target wheeltec_mic_msg__rosidl_generator_py
+[38.255s] [ 93%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.466s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[38.519s] [ 94%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext
+[38.550s] [ 96%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[38.762s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[38.816s] [ 97%] Built target wheeltec_mic_msg__rosidl_typesupport_c__pyext
+[38.847s] [ 98%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.063s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.119s] [100%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext

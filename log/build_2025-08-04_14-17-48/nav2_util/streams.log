@@ -1,0 +1,54 @@
+[0.186s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_util': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_robot/install/serial/lib:/home/wheeltec/wheeltec_robot/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco/lib:/home/wheeltec/wheeltec_robot/install/ackermann_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_util -- -j8 -l8
+[0.351s] [  2%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[9.032s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[16.473s] [  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[23.238s] [ 10%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[29.297s] [ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[50.565s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[56.394s] [ 18%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[57.018s] [ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[66.279s] [ 23%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[72.363s] [ 26%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[72.746s] [ 26%] Built target nav2_util_core
+[72.798s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[86.875s] [ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[86.950s] [ 31%] Built target gtest
+[86.990s] [ 34%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[92.542s] [ 36%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[92.814s] [ 36%] Built target lifecycle_bringup
+[92.854s] [ 39%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[94.525s] [ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[94.601s] [ 42%] Built target gtest_main
+[94.640s] [ 44%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[96.991s] [ 47%] [32m[1mLinking CXX executable test_execution_timer[0m
+[97.151s] [ 47%] Built target test_execution_timer
+[97.192s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[105.126s] [ 52%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[105.422s] [ 52%] Built target test_lifecycle_cli_node
+[105.465s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[111.489s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[112.514s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[112.820s] [ 63%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[113.118s] [ 63%] Built target test_geometry_utils
+[113.216s] [ 65%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[113.249s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[122.060s] [ 71%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[122.414s] [ 71%] Built target test_lifecycle_node
+[122.882s] [ 73%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[123.243s] [ 73%] Built target test_lifecycle_utils
+[125.686s] [ 76%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[126.074s] [ 76%] Built target test_odometry_utils
+[148.307s] [ 78%] [32m[1mLinking CXX executable test_actions[0m
+[148.721s] [ 78%] Built target test_actions
+[148.759s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[148.759s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[148.759s] [ 86%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[148.761s] [ 89%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[151.339s] [ 92%] [32m[1mLinking CXX executable test_string_utils[0m
+[151.635s] [ 92%] Built target test_string_utils
+[156.365s] [ 94%] [32m[1mLinking CXX executable test_robot_utils[0m
+[156.685s] [ 94%] Built target test_robot_utils
+[157.679s] [ 97%] [32m[1mLinking CXX executable test_node_utils[0m
+[157.965s] [ 97%] Built target test_node_utils
+[172.363s] [100%] [32m[1mLinking CXX executable test_service_client[0m
+[172.676s] [100%] Built target test_service_client

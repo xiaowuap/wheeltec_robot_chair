@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/nav2_common/ament_cmake_environment_hooks/pythonpath.sh

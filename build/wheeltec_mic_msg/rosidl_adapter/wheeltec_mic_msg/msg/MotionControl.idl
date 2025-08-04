@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wheeltec_mic_msg/msg/MotionControl.msg
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module msg {
+    struct MotionControl {
+      float linear_x;
+
+      float linear_y;
+
+      float angular_z;
+
+      int8 cmd_vel_flag;
+
+      int8 follow_flag;
+
+      int8 goal_reached_flag;
+    };
+  };
+};

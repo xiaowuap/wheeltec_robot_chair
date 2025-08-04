@@ -1,0 +1,53 @@
+[  2%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[ 26%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[ 26%] Built target nav2_util_core
+[ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 31%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 31%] Built target gtest
+[ 34%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[ 36%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[ 36%] Built target lifecycle_bringup
+[ 39%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 42%] Built target gtest_main
+[ 44%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[ 47%] [32m[1mLinking CXX executable test_execution_timer[0m
+[ 47%] Built target test_execution_timer
+[ 50%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[ 52%] Built target test_lifecycle_cli_node
+[ 55%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[ 57%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[ 63%] Built target test_geometry_utils
+[ 65%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[ 68%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[ 71%] Built target test_lifecycle_node
+[ 73%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[ 73%] Built target test_lifecycle_utils
+[ 76%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[ 76%] Built target test_odometry_utils
+[ 78%] [32m[1mLinking CXX executable test_actions[0m
+[ 78%] Built target test_actions
+[ 86%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[ 89%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_string_utils[0m
+[ 92%] Built target test_string_utils
+[ 94%] [32m[1mLinking CXX executable test_robot_utils[0m
+[ 94%] Built target test_robot_utils
+[ 97%] [32m[1mLinking CXX executable test_node_utils[0m
+[ 97%] Built target test_node_utils
+[100%] [32m[1mLinking CXX executable test_service_client[0m
+[100%] Built target test_service_client

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wheeltec_mic_msg/srv/GetDeviceType.srv
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module srv {
+    struct GetDeviceType_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetDeviceType_Response {
+      boolean success;
+
+      string result;
+    };
+  };
+};

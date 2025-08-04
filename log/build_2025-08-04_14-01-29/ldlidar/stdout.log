@@ -1,0 +1,9 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/src/ros2_node/main.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ldlidar[0m
+[100%] Built target ldlidar

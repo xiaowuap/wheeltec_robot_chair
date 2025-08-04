@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/astra_camera_msgs/rosidl_generator_c/astra_camera_msgs/srv/get_camera_info.h

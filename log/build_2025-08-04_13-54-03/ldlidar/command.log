@@ -1,0 +1,1 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/ldlidar': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ldlidar

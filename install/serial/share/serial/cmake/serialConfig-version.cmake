@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/serial/ament_cmake_core/serialConfig-version.cmake

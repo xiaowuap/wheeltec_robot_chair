@@ -1,0 +1,38 @@
+[0.207s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_voxel_grid -- -j8 -l8
+[0.400s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid[0m
+[0.483s] [ 20%] Built target voxel_grid
+[0.553s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.647s] [ 40%] Built target gtest
+[0.784s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.849s] [ 60%] Built target gtest_main
+[0.911s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_tests[0m
+[0.998s] [ 80%] Built target voxel_grid_tests
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target voxel_grid_bresenham_3d[0m
+[1.201s] [100%] Built target voxel_grid_bresenham_3d
+[1.289s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_voxel_grid -- -j8 -l8
+[1.290s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_voxel_grid': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nav2_voxel_grid
+[3.005s] -- Install configuration: "Release"
+[3.005s] -- Execute custom install script
+[3.005s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[3.005s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[3.005s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[3.005s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[3.006s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[3.007s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[3.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[3.064s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_voxel_grid' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nav2_voxel_grid

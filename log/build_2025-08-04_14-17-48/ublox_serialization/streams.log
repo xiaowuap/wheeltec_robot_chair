@@ -1,0 +1,26 @@
+[0.063s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ublox_serialization -- -j8 -l8
+[0.202s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ublox_serialization -- -j8 -l8
+[0.261s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ublox_serialization
+[0.616s] -- Install configuration: ""
+[0.617s] -- Execute custom install script
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/include/ublox_serialization/ublox_serialization/checksum.hpp
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/include/ublox_serialization/ublox_serialization/serialization.hpp
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[0.617s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[0.619s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[0.620s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/package.dsv
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[0.620s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.621s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_targets-extras.cmake
+[0.621s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[0.621s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[0.621s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/package.xml
+[0.621s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ublox_serialization/share/ublox_serialization/cmake/export_ublox_serializationExport.cmake
+[0.646s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ublox_serialization

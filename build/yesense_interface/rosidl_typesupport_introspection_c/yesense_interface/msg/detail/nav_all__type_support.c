@@ -1,0 +1,319 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__type_support.c.em
+// with input from yesense_interface:msg/NavAll.idl
+// generated code does not contain a copyright notice
+
+#include <stddef.h>
+#include "yesense_interface/msg/detail/nav_all__rosidl_typesupport_introspection_c.h"
+#include "yesense_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+#include "rosidl_typesupport_introspection_c/field_types.h"
+#include "rosidl_typesupport_introspection_c/identifier.h"
+#include "rosidl_typesupport_introspection_c/message_introspection.h"
+#include "yesense_interface/msg/detail/nav_all__functions.h"
+#include "yesense_interface/msg/detail/nav_all__struct.h"
+
+
+// Include directives for member types
+// Member `tid`
+#include "yesense_interface/msg/tid.h"
+// Member `tid`
+#include "yesense_interface/msg/detail/tid__rosidl_typesupport_introspection_c.h"
+// Member `acc`
+// Member `gyro`
+#include "yesense_interface/msg/three_axis.h"
+// Member `acc`
+// Member `gyro`
+#include "yesense_interface/msg/detail/three_axis__rosidl_typesupport_introspection_c.h"
+// Member `euler`
+#include "yesense_interface/msg/euler_angle.h"
+// Member `euler`
+#include "yesense_interface/msg/detail/euler_angle__rosidl_typesupport_introspection_c.h"
+// Member `quat`
+#include "yesense_interface/msg/quat.h"
+// Member `quat`
+#include "yesense_interface/msg/detail/quat__rosidl_typesupport_introspection_c.h"
+// Member `temp`
+#include "yesense_interface/msg/sensor_temp.h"
+// Member `temp`
+#include "yesense_interface/msg/detail/sensor_temp__rosidl_typesupport_introspection_c.h"
+// Member `pos`
+#include "yesense_interface/msg/gnss_pos.h"
+// Member `pos`
+#include "yesense_interface/msg/detail/gnss_pos__rosidl_typesupport_introspection_c.h"
+// Member `status`
+#include "yesense_interface/msg/nav_status.h"
+// Member `status`
+#include "yesense_interface/msg/detail/nav_status__rosidl_typesupport_introspection_c.h"
+// Member `vel`
+#include "yesense_interface/msg/vel.h"
+// Member `vel`
+#include "yesense_interface/msg/detail/vel__rosidl_typesupport_introspection_c.h"
+// Member `utc`
+#include "yesense_interface/msg/utc.h"
+// Member `utc`
+#include "yesense_interface/msg/detail/utc__rosidl_typesupport_introspection_c.h"
+// Member `pressure`
+#include "yesense_interface/msg/pressure.h"
+// Member `pressure`
+#include "yesense_interface/msg/detail/pressure__rosidl_typesupport_introspection_c.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+void yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_init_function(
+  void * message_memory, enum rosidl_runtime_c__message_initialization _init)
+{
+  // TODO(karsten1987): initializers are not yet implemented for typesupport c
+  // see https://github.com/ros2/ros2/issues/397
+  (void) _init;
+  yesense_interface__msg__NavAll__init(message_memory);
+}
+
+void yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_fini_function(void * message_memory)
+{
+  yesense_interface__msg__NavAll__fini(message_memory);
+}
+
+static rosidl_typesupport_introspection_c__MessageMember yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[11] = {
+  {
+    "tid",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, tid),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "acc",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, acc),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "gyro",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, gyro),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "euler",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, euler),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "quat",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, quat),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "temp",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, temp),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pos",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, pos),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "status",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, status),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "vel",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, vel),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "utc",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, utc),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pressure",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(yesense_interface__msg__NavAll, pressure),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  }
+};
+
+static const rosidl_typesupport_introspection_c__MessageMembers yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_members = {
+  "yesense_interface__msg",  // message namespace
+  "NavAll",  // message name
+  11,  // number of fields
+  sizeof(yesense_interface__msg__NavAll),
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array,  // message members
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_init_function,  // function to initialize message memory (memory has to be allocated)
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_fini_function  // function to terminate message instance (will not free memory)
+};
+
+// this is not const since it must be initialized on first access
+// since C does not allow non-integral compile-time constants
+static rosidl_message_type_support_t yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_type_support_handle = {
+  0,
+  &yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_members,
+  get_message_typesupport_handle_function,
+};
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_yesense_interface
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, NavAll)() {
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[0].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, Tid)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[1].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, ThreeAxis)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[2].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, ThreeAxis)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[3].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, EulerAngle)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[4].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, Quat)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[5].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, SensorTemp)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[6].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, GnssPos)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[7].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, NavStatus)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[8].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, Vel)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[9].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, Utc)();
+  yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_member_array[10].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, yesense_interface, msg, Pressure)();
+  if (!yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_type_support_handle.typesupport_identifier) {
+    yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_type_support_handle.typesupport_identifier =
+      rosidl_typesupport_introspection_c__identifier;
+  }
+  return &yesense_interface__msg__NavAll__rosidl_typesupport_introspection_c__NavAll_message_type_support_handle;
+}
+#ifdef __cplusplus
+}
+#endif

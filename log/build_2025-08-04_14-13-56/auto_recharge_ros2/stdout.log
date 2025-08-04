@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info
+writing ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/entry_points.txt
+writing requirements to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/requires.txt
+writing top-level names to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/top_level.txt
+writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+reading manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+copying auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+copying auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+running install
+running install_lib
+creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/auto_recharger.py to auto_recharger.cpython-310.pyc
+byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages
+copying resource/auto_recharge_ros2 -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages
+copying package.xml -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/auto_recharge_ros2
+running install_egg_info
+Copying ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2-0.0.1-py3.10.egg-info
+running install_scripts
+Installing auto_recharge script to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/auto_recharge_ros2
+writing list of installed files to '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log'

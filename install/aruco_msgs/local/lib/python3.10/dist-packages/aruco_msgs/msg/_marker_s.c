@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/aruco_msgs/rosidl_generator_py/aruco_msgs/msg/_marker_s.c

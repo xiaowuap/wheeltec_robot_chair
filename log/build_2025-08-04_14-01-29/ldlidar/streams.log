@@ -1,0 +1,10 @@
+[0.100s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ldlidar -- -j8 -l8
+[0.478s] [ 12%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/src/ros2_node/main.cpp.o[0m
+[19.167s] [ 25%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o[0m
+[21.457s] [ 37%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o[0m
+[23.778s] [ 50%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/logger/log_module.cpp.o[0m
+[24.824s] [ 62%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/filter/tofbf.cpp.o[0m
+[27.530s] [ 75%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/dataprocess/lipkg.cpp.o[0m
+[30.172s] [ 87%] [32mBuilding CXX object CMakeFiles/ldlidar.dir/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar_driver/src/core/ldlidar_driver.cpp.o[0m
+[32.173s] [100%] [32m[1mLinking CXX executable ldlidar[0m
+[32.926s] [100%] Built target ldlidar

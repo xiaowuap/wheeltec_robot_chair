@@ -1,0 +1,6 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg
+Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg
+Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg -- -j8 -l8
+Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg -- -j8 -l8
+Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg
+Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg

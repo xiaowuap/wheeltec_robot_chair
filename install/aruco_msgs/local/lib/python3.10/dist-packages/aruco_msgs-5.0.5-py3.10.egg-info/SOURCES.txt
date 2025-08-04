@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/aruco_msgs/ament_cmake_python/aruco_msgs/aruco_msgs.egg-info/SOURCES.txt

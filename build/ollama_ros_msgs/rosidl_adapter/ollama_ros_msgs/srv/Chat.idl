@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ollama_ros_msgs/srv/Chat.srv
+// generated code does not contain a copyright notice
+
+
+module ollama_ros_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Chat_Request {
+      string content;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Chat_Response {
+      string content;
+
+      string model;
+
+      boolean is_done;
+    };
+  };
+};

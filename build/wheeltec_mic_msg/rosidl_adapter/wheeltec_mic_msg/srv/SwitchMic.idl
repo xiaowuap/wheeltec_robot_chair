@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wheeltec_mic_msg/srv/SwitchMic.srv
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module srv {
+    struct SwitchMic_Request {
+      string mic_name;
+    };
+    struct SwitchMic_Response {
+      boolean success;
+
+      string result;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nmea_msgs__py",
+		"source" : "/home/wheeltec/wheeltec_robot/build/nmea_msgs/nmea_msgs__py"
+	}
+}

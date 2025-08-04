@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/rosidl_typesupport_introspection_c/ollama_ros_msgs/srv/detail/chat__rosidl_typesupport_introspection_c.h

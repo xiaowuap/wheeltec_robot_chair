@@ -1,0 +1,6 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/openslam_gmapping
+Invoked command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/openslam_gmapping -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/openslam_gmapping
+Invoking command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/openslam_gmapping -- -j8 -l8
+Invoked command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/openslam_gmapping -- -j8 -l8
+Invoking command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/openslam_gmapping
+Invoked command in '/home/wheeltec/wheeltec_robot/build/openslam_gmapping' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/openslam_gmapping

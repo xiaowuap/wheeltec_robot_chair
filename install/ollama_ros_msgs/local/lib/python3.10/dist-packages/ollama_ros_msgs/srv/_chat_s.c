@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/rosidl_generator_py/ollama_ros_msgs/srv/_chat_s.c

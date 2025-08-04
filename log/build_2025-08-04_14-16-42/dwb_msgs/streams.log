@@ -1,0 +1,303 @@
+[0.050s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dwb_msgs
+[0.486s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.488s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.565s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.567s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.578s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.832s] -- Found nav_2d_msgs: 1.1.6 (/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[0.891s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.936s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.064s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.538s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.653s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.767s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.767s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.768s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.051s] -- Configuring done
+[5.216s] -- Generating done
+[5.305s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/dwb_msgs
+[5.335s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dwb_msgs
+[5.393s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/dwb_msgs -- -j8 -l8
+[5.597s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_c[0m
+[5.688s] [  1%] Built target dwb_msgs__cpp
+[5.702s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[5.703s] [ 12%] Built target ament_cmake_python_symlink_dwb_msgs
+[5.777s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c[0m
+[5.788s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_cpp[0m
+[5.862s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c[0m
+[5.862s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.870s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.906s] [ 24%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[5.915s] [ 35%] Built target dwb_msgs__rosidl_typesupport_c
+[5.953s] [ 47%] Built target dwb_msgs__rosidl_typesupport_cpp
+[5.962s] [ 58%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[5.998s] [ 70%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[6.036s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c[0m
+[6.168s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[6.252s] [ 82%] Built target dwb_msgs
+[6.449s] [ 83%] Built target dwb_msgs__py
+[6.465s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_py[0m
+[6.593s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[6.603s] running egg_info
+[6.606s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.606s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c__pyext[0m
+[6.606s] writing dwb_msgs.egg-info/PKG-INFO
+[6.606s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[6.607s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[6.607s] [ 95%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.607s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[6.634s] [ 97%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[6.671s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[6.683s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.684s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.791s] [100%] Built target ament_cmake_python_build_dwb_msgs_egg
+[7.408s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/dwb_msgs -- -j8 -l8
+[7.423s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/dwb_msgs
+[8.208s] -- Install configuration: ""
+[8.208s] -- Execute custom install script
+[8.208s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[8.208s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[8.209s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[8.210s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[8.211s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[8.212s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[8.213s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[8.213s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.213s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[8.213s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[8.214s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[8.215s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[8.215s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[8.215s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[8.215s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[8.215s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[8.226s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[8.228s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[8.229s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[8.230s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[8.230s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[8.231s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.231s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[8.246s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[8.247s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[8.247s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[8.247s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[8.247s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[8.247s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[8.248s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[8.249s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.250s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[8.251s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[8.252s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[8.252s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.252s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[8.252s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[8.252s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[8.253s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[8.254s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[8.254s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[8.255s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[8.256s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[8.256s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[8.256s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[8.258s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.259s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[8.259s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[8.259s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.259s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.6-py3.10.egg-info/PKG-INFO
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.6-py3.10.egg-info/SOURCES.txt
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.6-py3.10.egg-info/dependency_links.txt
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.6-py3.10.egg-info/top_level.txt
+[8.260s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[8.261s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[8.261s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[8.262s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[8.263s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[8.264s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[8.278s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[8.278s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[8.278s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[8.278s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[8.279s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[8.280s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[8.281s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[8.286s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[8.287s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[8.287s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[8.287s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[8.287s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[8.287s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[8.288s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/package.dsv
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.289s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[8.290s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[8.290s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/package.xml
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[8.290s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[8.455s] Listing '/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[8.456s] Compiling '/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[8.456s] Listing '/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[8.456s] Listing '/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[8.469s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[8.470s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[8.470s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.470s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.471s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.479s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.480s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.481s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[8.481s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.481s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[8.481s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.497s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/dwb_msgs

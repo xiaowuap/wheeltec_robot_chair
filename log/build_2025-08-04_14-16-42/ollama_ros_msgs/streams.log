@@ -1,0 +1,155 @@
+[0.163s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/ollama_ros_chat/ollama_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs
+[0.350s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.022s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.034s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.048s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.106s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.075s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.821s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.076s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.156s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.224s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.227s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.228s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.328s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.344s] -- Added test 'lint_cmake' to check CMake code style
+[4.344s] -- Added test 'xmllint' to check XML markup files
+[4.344s] -- Configuring done
+[4.361s] -- Generating done
+[4.382s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/ollama_ros_msgs
+[4.471s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/ollama_ros_chat/ollama_ros_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs
+[4.482s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ollama_ros_msgs -- -j8 -l8
+[4.602s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_generator_c[0m
+[4.637s] [  3%] Built target ollama_ros_msgs__cpp
+[4.679s] [ 12%] Built target ollama_ros_msgs__rosidl_generator_c
+[4.679s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[4.706s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_introspection_cpp[0m
+[4.707s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_cpp[0m
+[4.722s] [ 12%] Built target ament_cmake_python_symlink_ollama_ros_msgs
+[4.745s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.769s] [ 22%] Built target ollama_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[4.770s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_introspection_c[0m
+[4.792s] [ 32%] Built target ollama_ros_msgs__rosidl_typesupport_fastrtps_c
+[4.796s] [ 41%] Built target ollama_ros_msgs__rosidl_typesupport_cpp
+[4.798s] [ 51%] Built target ollama_ros_msgs__rosidl_typesupport_introspection_cpp
+[4.820s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_c[0m
+[4.828s] [ 61%] Built target ollama_ros_msgs__rosidl_typesupport_introspection_c
+[4.867s] [ 70%] Built target ollama_ros_msgs__rosidl_typesupport_c
+[5.017s] [ 70%] Built target ollama_ros_msgs
+[5.117s] [ 74%] Built target ollama_ros_msgs__py
+[5.157s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_generator_py[0m
+[5.216s] [ 80%] Built target ollama_ros_msgs__rosidl_generator_py
+[5.246s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.252s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[5.258s] [35m[1mConsolidate compiler generated dependencies of target ollama_ros_msgs__rosidl_typesupport_c__pyext[0m
+[5.317s] [ 87%] Built target ollama_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.320s] [ 93%] Built target ollama_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[5.360s] [100%] Built target ollama_ros_msgs__rosidl_typesupport_c__pyext
+[5.464s] running egg_info
+[5.521s] writing ollama_ros_msgs.egg-info/PKG-INFO
+[5.522s] writing dependency_links to ollama_ros_msgs.egg-info/dependency_links.txt
+[5.523s] writing top-level names to ollama_ros_msgs.egg-info/top_level.txt
+[5.752s] reading manifest file 'ollama_ros_msgs.egg-info/SOURCES.txt'
+[5.752s] writing manifest file 'ollama_ros_msgs.egg-info/SOURCES.txt'
+[6.016s] [100%] Built target ament_cmake_python_build_ollama_ros_msgs_egg
+[6.152s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ollama_ros_msgs -- -j8 -l8
+[6.153s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ollama_ros_msgs
+[6.384s] -- Install configuration: ""
+[6.385s] -- Execute custom install script
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/ollama_ros_msgs
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/chat.h
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__functions.h
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__struct.h
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__type_support.h
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/library_path.sh
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/library_path.dsv
+[6.386s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__rosidl_typesupport_fastrtps_c.h
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__rosidl_typesupport_introspection_c.h
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/chat.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__builder.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__struct.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__traits.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__type_support.hpp
+[6.387s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__rosidl_typesupport_fastrtps_cpp.hpp
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/include/ollama_ros_msgs/ollama_ros_msgs/srv/detail/chat__rosidl_typesupport_introspection_cpp.hpp
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/pythonpath.sh
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/pythonpath.dsv
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.388s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.389s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.389s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/__init__.py
+[6.389s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/_ollama_ros_msgs_s.ep.rosidl_typesupport_c.c
+[6.389s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/_ollama_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.389s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/_ollama_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/libollama_ros_msgs__rosidl_generator_py.so
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/srv/__init__.py
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/srv/_chat.py
+[6.390s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/srv/_chat_s.c
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/ollama_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/srv/Chat.idl
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/srv/Chat.srv
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/srv/Chat_Request.msg
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/srv/Chat_Response.msg
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ament_index/resource_index/package_run_dependencies/ollama_ros_msgs
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ament_index/resource_index/parent_prefix_path/ollama_ros_msgs
+[6.391s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/ament_prefix_path.sh
+[6.392s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/ament_prefix_path.dsv
+[6.392s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/path.sh
+[6.406s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/environment/path.dsv
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/local_setup.bash
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/local_setup.sh
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/local_setup.zsh
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/local_setup.dsv
+[6.407s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/package.dsv
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ament_index/resource_index/packages/ollama_ros_msgs
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.407s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgsConfig.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgsConfig-version.cmake
+[6.408s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/package.xml
+[6.408s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_generator_c.so
+[6.408s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[6.408s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_introspection_c.so
+[6.409s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_c.so
+[6.409s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.409s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[6.409s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_typesupport_cpp.so
+[6.464s] Listing '/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs'...
+[6.464s] Compiling '/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/__init__.py'...
+[6.465s] Listing '/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages/ollama_ros_msgs/srv'...
+[6.516s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib/libollama_ros_msgs__rosidl_generator_py.so
+[6.517s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_generator_cExport.cmake
+[6.517s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[6.520s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[6.520s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.520s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[6.520s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.520s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_cExport.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_generator_cppExport.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_cppExport.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/ollama_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[6.521s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_generator_pyExport.cmake
+[6.522s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/share/ollama_ros_msgs/cmake/export_ollama_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[6.545s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ollama_ros_msgs

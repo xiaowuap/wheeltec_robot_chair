@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(yesense_interface_IDL_FILES "msg/Tid.idl;msg/ThreeAxis.idl;msg/SensorTemp.idl;msg/Pressure.idl;msg/EulerAngle.idl;msg/Quat.idl;msg/GnssPos.idl;msg/NavStatus.idl;msg/Vel.idl;msg/Utc.idl;msg/SampleTimestamp.idl;msg/ImuData.idl;msg/ImuDataTenAxis.idl;msg/EulerOnly.idl;msg/RobotLord.idl;msg/AttitudeMinVru.idl;msg/AttitudeMinAhrs.idl;msg/AttitudeAllData.idl;msg/PosOnly.idl;msg/NavMin.idl;msg/NavMinUtc.idl;msg/NavAll.idl")
+set(yesense_interface_INTERFACE_FILES "msg/Tid.msg;msg/ThreeAxis.msg;msg/SensorTemp.msg;msg/Pressure.msg;msg/EulerAngle.msg;msg/Quat.msg;msg/GnssPos.msg;msg/NavStatus.msg;msg/Vel.msg;msg/Utc.msg;msg/SampleTimestamp.msg;msg/ImuData.msg;msg/ImuDataTenAxis.msg;msg/EulerOnly.msg;msg/RobotLord.msg;msg/AttitudeMinVru.msg;msg/AttitudeMinAhrs.msg;msg/AttitudeAllData.msg;msg/PosOnly.msg;msg/NavMin.msg;msg/NavMinUtc.msg;msg/NavAll.msg")

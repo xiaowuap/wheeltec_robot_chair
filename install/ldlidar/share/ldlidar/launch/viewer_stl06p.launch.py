@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar_stl06n_ros2/ldlidar/launch/viewer_stl06p.launch.py

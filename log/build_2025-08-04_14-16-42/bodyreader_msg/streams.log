@@ -1,0 +1,294 @@
+[0.112s] Invoking command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/bodyreader_msg
+[0.159s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.464s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.510s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.514s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.526s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.565s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.701s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.578s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.579s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.580s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.581s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.164s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.587s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.648s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.733s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.733s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.733s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.774s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[3.775s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.795s] -- Configuring done
+[3.902s] -- Generating done
+[3.926s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/bodyreader_msg
+[3.970s] Invoked command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/bodyreader_msg
+[3.971s] Invoking command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/bodyreader_msg -- -j8 -l8
+[4.493s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_generator_c[0m
+[4.494s] [  1%] Built target bodyreader_msg__cpp
+[4.503s] [ 12%] Built target bodyreader_msg__rosidl_generator_c
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_cpp[0m
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_fastrtps_cpp[0m
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_introspection_c[0m
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_fastrtps_c[0m
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_introspection_cpp[0m
+[4.504s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_c[0m
+[4.505s] [ 12%] Built target ament_cmake_python_symlink_bodyreader_msg
+[4.553s] [ 24%] Built target bodyreader_msg__rosidl_typesupport_fastrtps_cpp
+[4.568s] [ 35%] Built target bodyreader_msg__rosidl_typesupport_cpp
+[4.597s] [ 47%] Built target bodyreader_msg__rosidl_typesupport_introspection_c
+[4.617s] [ 69%] Built target bodyreader_msg__rosidl_typesupport_introspection_cpp
+[4.617s] [ 70%] Built target bodyreader_msg__rosidl_typesupport_fastrtps_c
+[4.635s] [ 82%] Built target bodyreader_msg__rosidl_typesupport_c
+[4.747s] [ 82%] Built target bodyreader_msg
+[4.927s] [ 83%] Built target bodyreader_msg__py
+[5.016s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_generator_py[0m
+[5.181s] [ 93%] Built target bodyreader_msg__rosidl_generator_py
+[5.281s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.324s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_c__pyext[0m
+[5.324s] [35m[1mConsolidate compiler generated dependencies of target bodyreader_msg__rosidl_typesupport_introspection_c__pyext[0m
+[5.385s] [ 95%] Built target bodyreader_msg__rosidl_typesupport_fastrtps_c__pyext
+[5.405s] [ 97%] Built target bodyreader_msg__rosidl_typesupport_c__pyext
+[5.530s] [100%] Built target bodyreader_msg__rosidl_typesupport_introspection_c__pyext
+[5.640s] running egg_info
+[5.679s] writing bodyreader_msg.egg-info/PKG-INFO
+[5.679s] writing dependency_links to bodyreader_msg.egg-info/dependency_links.txt
+[5.680s] writing top-level names to bodyreader_msg.egg-info/top_level.txt
+[5.820s] reading manifest file 'bodyreader_msg.egg-info/SOURCES.txt'
+[5.822s] writing manifest file 'bodyreader_msg.egg-info/SOURCES.txt'
+[5.997s] [100%] Built target ament_cmake_python_build_bodyreader_msg_egg
+[6.091s] Invoked command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/bodyreader_msg -- -j8 -l8
+[6.096s] Invoking command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/bodyreader_msg
+[6.478s] -- Install configuration: ""
+[6.479s] -- Execute custom install script
+[6.479s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/ament_index/resource_index/rosidl_interfaces/bodyreader_msg
+[6.480s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/body.h
+[6.480s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/bodylist.h
+[6.480s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/bodyposture.h
+[6.480s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__functions.h
+[6.480s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__struct.h
+[6.499s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__type_support.h
+[6.499s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__functions.h
+[6.499s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__struct.h
+[6.500s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__type_support.h
+[6.500s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__functions.h
+[6.500s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__struct.h
+[6.500s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__type_support.h
+[6.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__functions.h
+[6.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__struct.h
+[6.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__type_support.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__functions.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__struct.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__type_support.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__functions.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__struct.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__type_support.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__functions.h
+[6.502s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__struct.h
+[6.503s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__type_support.h
+[6.503s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__functions.h
+[6.503s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__struct.h
+[6.505s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__type_support.h
+[6.507s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__functions.h
+[6.507s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__struct.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__type_support.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/joint.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/lockedcharrgb.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/lockedmaskwh.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/maskdata.h
+[6.508s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/rosidl_generator_c__visibility_control.h
+[6.510s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/vector2f.h
+[6.511s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/vector3f.h
+[6.512s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/library_path.sh
+[6.512s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/library_path.dsv
+[6.512s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__rosidl_typesupport_fastrtps_c.h
+[6.512s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__rosidl_typesupport_fastrtps_c.h
+[6.512s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__rosidl_typesupport_fastrtps_c.h
+[6.513s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__rosidl_typesupport_fastrtps_c.h
+[6.513s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__rosidl_typesupport_fastrtps_c.h
+[6.513s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__rosidl_typesupport_fastrtps_c.h
+[6.513s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__rosidl_typesupport_fastrtps_c.h
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__rosidl_typesupport_fastrtps_c.h
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__rosidl_typesupport_fastrtps_c.h
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/body.hpp
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/bodylist.hpp
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/bodyposture.hpp
+[6.514s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__builder.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__struct.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__traits.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__type_support.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__builder.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__struct.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__traits.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__type_support.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__builder.hpp
+[6.515s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__struct.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__traits.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__type_support.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__builder.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__struct.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__traits.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__type_support.hpp
+[6.516s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__builder.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__struct.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__traits.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__type_support.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__builder.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__struct.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__traits.hpp
+[6.517s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__type_support.hpp
+[6.518s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__builder.hpp
+[6.520s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__struct.hpp
+[6.521s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__traits.hpp
+[6.521s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__type_support.hpp
+[6.521s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__builder.hpp
+[6.522s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__struct.hpp
+[6.522s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__traits.hpp
+[6.522s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__type_support.hpp
+[6.522s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__builder.hpp
+[6.523s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__struct.hpp
+[6.523s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__traits.hpp
+[6.524s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__type_support.hpp
+[6.524s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/joint.hpp
+[6.524s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/lockedcharrgb.hpp
+[6.524s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/lockedmaskwh.hpp
+[6.524s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/maskdata.hpp
+[6.527s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.527s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/vector2f.hpp
+[6.527s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/vector3f.hpp
+[6.527s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__rosidl_typesupport_fastrtps_cpp.hpp
+[6.527s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__rosidl_typesupport_fastrtps_cpp.hpp
+[6.528s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__rosidl_typesupport_fastrtps_cpp.hpp
+[6.528s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__rosidl_typesupport_fastrtps_cpp.hpp
+[6.528s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__rosidl_typesupport_fastrtps_cpp.hpp
+[6.528s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__rosidl_typesupport_fastrtps_cpp.hpp
+[6.528s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__rosidl_typesupport_fastrtps_cpp.hpp
+[6.529s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__rosidl_typesupport_fastrtps_cpp.hpp
+[6.529s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__rosidl_typesupport_fastrtps_cpp.hpp
+[6.529s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.529s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__rosidl_typesupport_introspection_c.h
+[6.529s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__rosidl_typesupport_introspection_c.h
+[6.530s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__rosidl_typesupport_introspection_c.h
+[6.532s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__rosidl_typesupport_introspection_c.h
+[6.532s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__rosidl_typesupport_introspection_c.h
+[6.532s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__rosidl_typesupport_introspection_c.h
+[6.532s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__rosidl_typesupport_introspection_c.h
+[6.532s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__rosidl_typesupport_introspection_c.h
+[6.533s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__rosidl_typesupport_introspection_c.h
+[6.538s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.543s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/body__rosidl_typesupport_introspection_cpp.hpp
+[6.565s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodylist__rosidl_typesupport_introspection_cpp.hpp
+[6.566s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/bodyposture__rosidl_typesupport_introspection_cpp.hpp
+[6.567s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/joint__rosidl_typesupport_introspection_cpp.hpp
+[6.567s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedcharrgb__rosidl_typesupport_introspection_cpp.hpp
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/lockedmaskwh__rosidl_typesupport_introspection_cpp.hpp
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/maskdata__rosidl_typesupport_introspection_cpp.hpp
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector2f__rosidl_typesupport_introspection_cpp.hpp
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/include/bodyreader_msg/bodyreader_msg/msg/detail/vector3f__rosidl_typesupport_introspection_cpp.hpp
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/pythonpath.sh
+[6.568s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/pythonpath.dsv
+[6.569s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[6.569s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.570s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.570s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg-0.0.0-py3.10.egg-info/top_level.txt
+[6.571s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/__init__.py
+[6.571s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/_bodyreader_msg_s.ep.rosidl_typesupport_c.c
+[6.571s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/_bodyreader_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.571s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/_bodyreader_msg_s.ep.rosidl_typesupport_introspection_c.c
+[6.572s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.572s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.572s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.572s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/libbodyreader_msg__rosidl_generator_py.so
+[6.572s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/__init__.py
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_body.py
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_body_s.c
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_bodylist.py
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_bodylist_s.c
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_bodyposture.py
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_bodyposture_s.c
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_joint.py
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_joint_s.c
+[6.573s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_lockedcharrgb.py
+[6.574s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_lockedcharrgb_s.c
+[6.574s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_lockedmaskwh.py
+[6.574s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_lockedmaskwh_s.c
+[6.574s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_maskdata.py
+[6.574s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_maskdata_s.c
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_vector2f.py
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_vector2f_s.c
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_vector3f.py
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg/_vector3f_s.c
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[6.575s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/bodyreader_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Body.idl
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Bodylist.idl
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Bodyposture.idl
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Joint.idl
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Lockedcharrgb.idl
+[6.576s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Lockedmaskwh.idl
+[6.577s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Maskdata.idl
+[6.577s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Vector2f.idl
+[6.577s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Vector3f.idl
+[6.577s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Body.msg
+[6.577s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Bodylist.msg
+[6.579s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Bodyposture.msg
+[6.579s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Joint.msg
+[6.580s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Lockedcharrgb.msg
+[6.580s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Lockedmaskwh.msg
+[6.581s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Maskdata.msg
+[6.581s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Vector2f.msg
+[6.582s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/msg/Vector3f.msg
+[6.582s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/ament_index/resource_index/package_run_dependencies/bodyreader_msg
+[6.583s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/ament_index/resource_index/parent_prefix_path/bodyreader_msg
+[6.584s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/ament_prefix_path.sh
+[6.584s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/ament_prefix_path.dsv
+[6.585s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/path.sh
+[6.585s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/environment/path.dsv
+[6.585s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/local_setup.bash
+[6.585s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/local_setup.sh
+[6.586s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/local_setup.zsh
+[6.587s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/local_setup.dsv
+[6.587s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/package.dsv
+[6.590s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/ament_index/resource_index/packages/bodyreader_msg
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/rosidl_cmake-extras.cmake
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/ament_cmake_export_targets-extras.cmake
+[6.591s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.592s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.592s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msgConfig.cmake
+[6.592s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msgConfig-version.cmake
+[6.592s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/package.xml
+[6.592s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_generator_c.so
+[6.592s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_fastrtps_c.so
+[6.593s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_fastrtps_cpp.so
+[6.593s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_introspection_c.so
+[6.593s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_c.so
+[6.593s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_introspection_cpp.so
+[6.593s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_typesupport_cpp.so
+[6.639s] Listing '/home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg'...
+[6.639s] Compiling '/home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/__init__.py'...
+[6.640s] Listing '/home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages/bodyreader_msg/msg'...
+[6.714s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib/libbodyreader_msg__rosidl_generator_py.so
+[6.714s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_generator_cExport.cmake
+[6.714s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_generator_cExport-noconfig.cmake
+[6.714s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[6.714s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.715s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_generator_cppExport.cmake
+[6.715s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.717s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.717s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_introspection_cExport.cmake
+[6.717s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.718s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_cExport.cmake
+[6.718s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_cExport-noconfig.cmake
+[6.728s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_introspection_cppExport.cmake
+[6.729s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.729s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_cppExport.cmake
+[6.729s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/bodyreader_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[6.730s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_generator_pyExport.cmake
+[6.730s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/bodyreader_msg/share/bodyreader_msg/cmake/export_bodyreader_msg__rosidl_generator_pyExport-noconfig.cmake
+[6.730s] Invoked command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/bodyreader_msg

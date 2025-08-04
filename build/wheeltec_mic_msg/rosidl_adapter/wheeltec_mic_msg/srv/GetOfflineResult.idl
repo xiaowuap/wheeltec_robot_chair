@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wheeltec_mic_msg/srv/GetOfflineResult.srv
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module srv {
+    struct GetOfflineResult_Request {
+      int8 offline_recognise_start;
+
+      int8 confidence_threshold;
+
+      int8 time_per_order;
+    };
+    struct GetOfflineResult_Response {
+      string result;
+
+      string fail_reason;
+
+      string text;
+    };
+  };
+};

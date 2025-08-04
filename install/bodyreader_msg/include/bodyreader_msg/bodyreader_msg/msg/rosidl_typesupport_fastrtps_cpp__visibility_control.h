@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_typesupport_fastrtps_cpp/bodyreader_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h

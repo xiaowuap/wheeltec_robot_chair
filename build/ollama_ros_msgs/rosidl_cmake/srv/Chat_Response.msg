@@ -1,0 +1,5 @@
+
+# Response
+string content
+string model
+bool is_done

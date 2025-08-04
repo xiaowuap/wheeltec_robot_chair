@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/wheeltec_gps/nmea_msgs/msg/Gpgst.msg

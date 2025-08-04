@@ -1,0 +1,4 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/serial -- -j8 -l8
+Invoked command in '/home/wheeltec/wheeltec_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/serial -- -j8 -l8
+Invoking command in '/home/wheeltec/wheeltec_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/serial
+Invoked command in '/home/wheeltec/wheeltec_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/serial

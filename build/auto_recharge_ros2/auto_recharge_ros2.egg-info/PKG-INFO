@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: auto_recharge_ros2
+Version: 0.0.1
+Summary: Auto recharge functionality for Wheeltec robot
+Maintainer: wheeltec
+Maintainer-email: wheeltec@todo.todo
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

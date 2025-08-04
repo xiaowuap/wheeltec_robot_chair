@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ublox_serialization/ament_cmake_core/ublox_serializationConfig-version.cmake

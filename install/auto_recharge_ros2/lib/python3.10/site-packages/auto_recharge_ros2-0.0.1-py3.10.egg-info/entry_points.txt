@@ -1,0 +1,2 @@
+[console_scripts]
+auto_recharge = auto_recharge_ros2.auto_recharger:main

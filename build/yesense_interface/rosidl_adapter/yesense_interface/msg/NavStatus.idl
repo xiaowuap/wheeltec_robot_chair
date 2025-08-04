@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yesense_interface/msg/NavStatus.msg
+// generated code does not contain a copyright notice
+
+
+module yesense_interface {
+  module msg {
+    struct NavStatus {
+      uint8 fusion_status;
+
+      uint8 gnss_status;
+    };
+  };
+};

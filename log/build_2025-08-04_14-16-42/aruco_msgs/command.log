@@ -1,0 +1,6 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/aruco_msgs
+Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco_msgs -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/aruco_msgs
+Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco_msgs -- -j8 -l8
+Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco_msgs -- -j8 -l8
+Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco_msgs
+Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco_msgs

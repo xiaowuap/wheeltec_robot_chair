@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yesense_interface/msg/ImuDataTenAxis.msg
+// generated code does not contain a copyright notice
+
+#include "yesense_interface/msg/ImuData.idl"
+#include "yesense_interface/msg/Pressure.idl"
+#include "yesense_interface/msg/ThreeAxis.idl"
+
+module yesense_interface {
+  module msg {
+    struct ImuDataTenAxis {
+      yesense_interface::msg::ImuData imu_basic;
+
+      yesense_interface::msg::ThreeAxis mag_norm;
+
+      yesense_interface::msg::ThreeAxis mag_raw;
+
+      yesense_interface::msg::Pressure pressure;
+    };
+  };
+};

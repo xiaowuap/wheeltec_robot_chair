@@ -1,0 +1,4 @@
+Invoking command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/bodyreader_msg -- -j8 -l8
+Invoked command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/bodyreader_msg -- -j8 -l8
+Invoking command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/bodyreader_msg
+Invoked command in '/home/wheeltec/wheeltec_robot/build/bodyreader_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/bodyreader_msg

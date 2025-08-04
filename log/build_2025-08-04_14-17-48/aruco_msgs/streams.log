@@ -1,0 +1,137 @@
+[0.149s] Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco_msgs -- -j8 -l8
+[0.454s] [  0%] Built target ament_cmake_python_symlink_aruco_msgs
+[0.477s] [  2%] Built target aruco_msgs__cpp
+[0.563s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[0.613s] [ 23%] Built target aruco_msgs__rosidl_typesupport_cpp
+[0.670s] [ 33%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.763s] [ 43%] Built target aruco_msgs__rosidl_typesupport_c
+[0.847s] [ 53%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[1.336s] running egg_info
+[1.369s] writing aruco_msgs.egg-info/PKG-INFO
+[1.369s] writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+[1.371s] writing top-level names to aruco_msgs.egg-info/top_level.txt
+[1.479s] reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[1.479s] writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[1.586s] [ 53%] Built target ament_cmake_python_build_aruco_msgs_egg
+[1.705s] [ 64%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[1.831s] [ 74%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[1.930s] [ 74%] Built target aruco_msgs
+[2.036s] [ 76%] Built target aruco_msgs__py
+[2.119s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[2.214s] [ 89%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.404s] [ 94%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[2.570s] [100%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[2.610s] Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco_msgs -- -j8 -l8
+[2.611s] Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco_msgs
+[2.838s] -- Install configuration: ""
+[2.839s] -- Execute custom install script
+[2.839s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs
+[2.839s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h
+[2.839s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h
+[2.839s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h
+[2.839s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[2.840s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.hpp
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp
+[2.841s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.848s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[2.849s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[2.851s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.851s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[2.851s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[2.851s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.851s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/PKG-INFO
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/SOURCES.txt
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/dependency_links.txt
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/top_level.txt
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py
+[2.852s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py
+[2.853s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs
+[2.854s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/path.sh
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/environment/path.dsv
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/local_setup.bash
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/local_setup.sh
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/local_setup.zsh
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/local_setup.dsv
+[2.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/package.dsv
+[2.855s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs
+[2.856s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake
+[2.856s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.856s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.856s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.856s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.857s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.857s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.857s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake
+[2.857s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake
+[2.858s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/package.xml
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so
+[2.858s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so
+[2.882s] Listing '/home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...
+[2.882s] Listing '/home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...
+[2.899s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so
+[2.899s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake
+[2.900s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.900s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.900s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.900s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.901s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.902s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake
+[2.902s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.902s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake
+[2.902s] -- Up-to-date: /home/wheeltec/wheeltec_robot/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.924s] Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco_msgs

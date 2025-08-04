@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bodyreader_msg/msg/Joint.msg
+// generated code does not contain a copyright notice
+
+#include "bodyreader_msg/msg/Vector2f.idl"
+#include "bodyreader_msg/msg/Vector3f.idl"
+
+module bodyreader_msg {
+  module msg {
+    struct Joint {
+      int8 type;
+
+      bodyreader_msg::msg::Vector2f depthposition;
+
+      bodyreader_msg::msg::Vector3f worldposition;
+    };
+  };
+};

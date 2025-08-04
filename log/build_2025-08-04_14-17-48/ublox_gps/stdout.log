@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ublox_gps[0m
+[  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[ 81%] Built target ublox_gps
+[ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[ 95%] Built target ublox_gps_node
+[ 95%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[32m[1mLinking CXX executable ublox_logger[0m
+Built target ublox_logger

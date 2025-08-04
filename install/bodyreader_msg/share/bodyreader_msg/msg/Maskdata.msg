@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg/msg/Maskdata.msg

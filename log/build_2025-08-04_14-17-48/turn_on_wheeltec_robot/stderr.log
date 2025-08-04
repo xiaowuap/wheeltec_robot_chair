@@ -1,0 +1,7 @@
+[01m[K/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:734:70:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+  734 |   ("/set_charge",std::bind(&turn_on_robot::Set_Charge_Callback,this, \
+      |                                                                       
+[01m[K/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:[m[K In member function ‘[01m[Kbool turn_on_robot::Get_Sensor_Data()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot/src/wheeltec_robot.cpp:381:50:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KReceive_Data_Tr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  381 |   uint8_t Receive_Data_Pr[RECEIVE_DATA_SIZE]={0},[01;35m[KReceive_Data_Tr[m[K[temp]={0}; //Temporary variable to save the data of the lower machine //临时变量，保存下位机数据
+      |                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K

@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/ament_cmake_python/bodyreader_msg/bodyreader_msg.egg-info/dependency_links.txt

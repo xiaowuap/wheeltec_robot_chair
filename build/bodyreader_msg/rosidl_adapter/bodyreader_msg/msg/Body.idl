@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from bodyreader_msg/msg/Body.msg
+// generated code does not contain a copyright notice
+
+#include "bodyreader_msg/msg/Joint.idl"
+#include "bodyreader_msg/msg/Vector3f.idl"
+
+module bodyreader_msg {
+  module msg {
+    typedef bodyreader_msg::msg::Joint bodyreader_msg__msg__Joint;
+    typedef bodyreader_msg__msg__Joint bodyreader_msg__msg__Joint__19[19];
+    struct Body {
+      int16 bodyid;
+
+      bodyreader_msg::msg::Vector3f centerofmass;
+
+      bodyreader_msg__msg__Joint__19 joints;
+    };
+  };
+};

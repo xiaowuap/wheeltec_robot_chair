@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.001021] (-) JobUnselected: {'identifier': 'aruco'}
+[0.001205] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001278] (-) JobUnselected: {'identifier': 'aruco_ros'}
+[0.001404] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001466] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001501] (-) JobUnselected: {'identifier': 'bodyreader'}
+[0.001531] (-) JobUnselected: {'identifier': 'bodyreader_msg'}
+[0.001579] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001611] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001653] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001950] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.002006] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.002094] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002143] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002188] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002221] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002250] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002426] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.002480] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.002563] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.002612] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002645] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.002674] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.002704] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002732] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.002986] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003048] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003102] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003153] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003203] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003254] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003303] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.003353] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003395] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003454] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003486] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003542] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.003638] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003687] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003729] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003763] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003791] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.003959] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004003] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.004037] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004087] (-) JobUnselected: {'identifier': 'nav2_waypoint_cycle'}
+[0.004132] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004180] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004263] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004312] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004346] (-) JobUnselected: {'identifier': 'nmea_msgs'}
+[0.004405] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.004496] (-) JobUnselected: {'identifier': 'ollama_ros_chat'}
+[0.004560] (-) JobUnselected: {'identifier': 'ollama_ros_msgs'}
+[0.004601] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.004632] (-) JobUnselected: {'identifier': 'orb_slam2_ros'}
+[0.004661] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004710] (-) JobUnselected: {'identifier': 'serial'}
+[0.004792] (-) JobUnselected: {'identifier': 'simple_follower_ros2'}
+[0.004839] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.004873] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.004902] (-) JobUnselected: {'identifier': 'tts'}
+[0.004931] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.005149] (-) JobUnselected: {'identifier': 'ublox'}
+[0.005207] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.005259] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.005325] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.005373] (-) JobUnselected: {'identifier': 'ultralytics_ros2'}
+[0.005420] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.005475] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.005518] (-) JobUnselected: {'identifier': 'wheeltec_aiui'}
+[0.005565] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.005646] (-) JobUnselected: {'identifier': 'wheeltec_dual_rtk_driver'}
+[0.005692] (-) JobUnselected: {'identifier': 'wheeltec_gps_driver'}
+[0.005726] (-) JobUnselected: {'identifier': 'wheeltec_joy'}
+[0.005755] (-) JobUnselected: {'identifier': 'wheeltec_mic_msg'}
+[0.005797] (-) JobUnselected: {'identifier': 'wheeltec_mic_ros2'}
+[0.005828] (-) JobUnselected: {'identifier': 'wheeltec_multi'}
+[0.005858] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.005935] (-) JobUnselected: {'identifier': 'wheeltec_path_follow'}
+[0.005985] (-) JobUnselected: {'identifier': 'wheeltec_robot_kcf'}
+[0.006021] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.006048] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.006074] (-) JobUnselected: {'identifier': 'wheeltec_robot_rrt'}
+[0.006099] (-) JobUnselected: {'identifier': 'wheeltec_robot_rtab'}
+[0.006123] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.006148] (-) JobUnselected: {'identifier': 'wheeltec_rrt_msg'}
+[0.006173] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.006197] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.006221] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.006246] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.006313] (auto_recharge_ros2) JobQueued: {'identifier': 'auto_recharge_ros2', 'dependencies': OrderedDict()}
+[0.006354] (auto_recharge_ros2) JobStarted: {'identifier': 'auto_recharge_ros2'}
+[0.099357] (-) TimerEvent: {}
+[0.199837] (-) TimerEvent: {}
+[0.300308] (-) TimerEvent: {}
+[0.400788] (-) TimerEvent: {}
+[0.502748] (-) TimerEvent: {}
+[0.603253] (-) TimerEvent: {}
+[0.703737] (-) TimerEvent: {}
+[0.804209] (-) TimerEvent: {}
+[0.904692] (-) TimerEvent: {}
+[1.005189] (-) TimerEvent: {}
+[1.040906] (auto_recharge_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/auto_recharge_ros2', 'build', '--build-base', '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build', 'install', '--record', '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/wheeltec/wheeltec_robot/src/auto_recharge_ros2', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'wheeltec', 'SSH_CLIENT': '10.147.17.90 58174 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/wheeltec/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:', 'BROWSER': '/home/wheeltec/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/wheeltec', 'TERM_PROGRAM_VERSION': '1.102.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1001/vscode-ipc-158b3484-d512-42e8-9d5b-6b066e54220d.sock', 'JETSON_L4T': '36.4.4', 'ROS_PYTHON_VERSION': '3', 'JETSON_MODEL': 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super', 'VSCODE_GIT_ASKPASS_MAIN': '/home/wheeltec/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/wheeltec/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1001/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'wheeltec', 'JETSON_MODULE': '', 'JETSON_SERIAL_NUMBER': '1421024236192', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '20', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/cuda-12.6/bin:/home/wheeltec/.vscode-server/cli/servers/Stable-488a1f239235055e34e673291fb8d8c810886f81/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/wheeltec/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/1001', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/wheeltec/.vscode-server/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-8b6a8616ce177310.txt', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1001/vscode-git-e93e197c98.sock', 'TERM_PROGRAM': 'vscode', 'ROSDISTRO_INDEX_URL': 'https://mirrors.ustc.edu.cn/rosdistro/index-v4.yaml', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2', 'SSH_CONNECTION': '10.147.17.90 58174 10.147.17.145 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'JETSON_JETPACK': ''}, 'shell': False}
+[1.105304] (-) TimerEvent: {}
+[1.205762] (-) TimerEvent: {}
+[1.306218] (-) TimerEvent: {}
+[1.406664] (-) TimerEvent: {}
+[1.460413] (auto_recharge_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[1.487158] (auto_recharge_ros2) StdoutLine: {'line': b'creating ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info\n'}
+[1.487478] (auto_recharge_ros2) StdoutLine: {'line': b'writing ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/PKG-INFO\n'}
+[1.488230] (auto_recharge_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/dependency_links.txt\n'}
+[1.488584] (auto_recharge_ros2) StdoutLine: {'line': b'writing entry points to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/entry_points.txt\n'}
+[1.488873] (auto_recharge_ros2) StdoutLine: {'line': b'writing requirements to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/requires.txt\n'}
+[1.489051] (auto_recharge_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/top_level.txt\n'}
+[1.489294] (auto_recharge_ros2) StdoutLine: {'line': b"writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'\n"}
+[1.506736] (-) TimerEvent: {}
+[1.546384] (auto_recharge_ros2) StdoutLine: {'line': b"reading manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'\n"}
+[1.548078] (auto_recharge_ros2) StdoutLine: {'line': b"writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'\n"}
+[1.548343] (auto_recharge_ros2) StdoutLine: {'line': b'running build\n'}
+[1.548518] (auto_recharge_ros2) StdoutLine: {'line': b'running build_py\n'}
+[1.548851] (auto_recharge_ros2) StdoutLine: {'line': b'creating /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2\n'}
+[1.549250] (auto_recharge_ros2) StdoutLine: {'line': b'copying auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2\n'}
+[1.549606] (auto_recharge_ros2) StdoutLine: {'line': b'copying auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2\n'}
+[1.550077] (auto_recharge_ros2) StdoutLine: {'line': b'running install\n'}
+[1.556755] (auto_recharge_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[1.584607] (auto_recharge_ros2) StdoutLine: {'line': b'creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2\n'}
+[1.584860] (auto_recharge_ros2) StdoutLine: {'line': b'copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2\n'}
+[1.585122] (auto_recharge_ros2) StdoutLine: {'line': b'copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2\n'}
+[1.585993] (auto_recharge_ros2) StdoutLine: {'line': b'byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/auto_recharger.py to auto_recharger.cpython-310.pyc\n'}
+[1.591341] (auto_recharge_ros2) StdoutLine: {'line': b'byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/__init__.py to __init__.cpython-310.pyc\n'}
+[1.591671] (auto_recharge_ros2) StdoutLine: {'line': b'running install_data\n'}
+[1.592057] (auto_recharge_ros2) StdoutLine: {'line': b'creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages\n'}
+[1.592427] (auto_recharge_ros2) StdoutLine: {'line': b'copying resource/auto_recharge_ros2 -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages\n'}
+[1.592760] (auto_recharge_ros2) StdoutLine: {'line': b'copying package.xml -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/auto_recharge_ros2\n'}
+[1.592951] (auto_recharge_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.606816] (-) TimerEvent: {}
+[1.623269] (auto_recharge_ros2) StdoutLine: {'line': b'Copying ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2-0.0.1-py3.10.egg-info\n'}
+[1.625124] (auto_recharge_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[1.682459] (auto_recharge_ros2) StdoutLine: {'line': b'Installing auto_recharge script to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/auto_recharge_ros2\n'}
+[1.683166] (auto_recharge_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log'\n"}
+[1.706959] (-) TimerEvent: {}
+[1.730448] (auto_recharge_ros2) CommandEnded: {'returncode': 0}
+[1.745682] (auto_recharge_ros2) JobEnded: {'identifier': 'auto_recharge_ros2', 'rc': 0}
+[1.746652] (-) EventReactorShutdown: {}

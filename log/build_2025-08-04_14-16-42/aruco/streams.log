@@ -1,0 +1,58 @@
+[0.068s] Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/aruco
+[0.646s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.646s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.713s] -- Configuring done
+[0.733s] -- Generating done
+[0.739s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/aruco
+[0.756s] Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/aruco
+[0.757s] Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco -- -j8 -l8
+[0.846s] [35m[1mConsolidate compiler generated dependencies of target aruco[0m
+[0.903s] [100%] Built target aruco
+[0.933s] Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/aruco -- -j8 -l8
+[0.934s] Invoking command in '/home/wheeltec/wheeltec_robot/build/aruco': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco
+[0.960s] -- Install configuration: ""
+[0.962s] -- Execute custom install script
+[0.962s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/lib/libaruco.so
+[0.963s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/aruco.h
+[0.963s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/aruco_cvversioning.h
+[0.964s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/aruco_export.h
+[0.964s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/cameraparameters.h
+[0.965s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/cvdrawingutils.h
+[0.966s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/debug.h
+[0.967s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/dictionary.h
+[0.967s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/dictionary_based.h
+[0.967s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/fractaldetector.h
+[0.968s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+[0.968s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+[0.968s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/ippe.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/levmarq.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/marker.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/markerdetector.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/markerdetector_impl.h
+[0.969s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/markerlabeler.h
+[0.970s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/markermap.h
+[0.970s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/picoflann.h
+[0.971s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/posetracker.h
+[0.971s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/include/aruco/timers.h
+[0.972s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/library_path.sh
+[0.972s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/library_path.dsv
+[0.972s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+[0.972s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+[0.972s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/ament_prefix_path.sh
+[0.973s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+[0.975s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/path.sh
+[0.978s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/environment/path.dsv
+[0.978s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/local_setup.bash
+[0.980s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/local_setup.sh
+[0.981s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/local_setup.zsh
+[0.981s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/local_setup.dsv
+[0.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/package.dsv
+[1.002s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/ament_index/resource_index/packages/aruco
+[1.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.007s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+[1.008s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/cmake/arucoConfig.cmake
+[1.009s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+[1.009s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/aruco/share/aruco/package.xml
+[1.097s] Invoked command in '/home/wheeltec/wheeltec_robot/build/aruco' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/aruco

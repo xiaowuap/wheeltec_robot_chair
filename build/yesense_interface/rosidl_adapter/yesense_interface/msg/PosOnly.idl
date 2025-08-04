@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yesense_interface/msg/PosOnly.msg
+// generated code does not contain a copyright notice
+
+#include "yesense_interface/msg/GnssPos.idl"
+#include "yesense_interface/msg/NavStatus.idl"
+#include "yesense_interface/msg/Tid.idl"
+
+module yesense_interface {
+  module msg {
+    struct PosOnly {
+      yesense_interface::msg::Tid tid;
+
+      yesense_interface::msg::GnssPos pos;
+
+      yesense_interface::msg::NavStatus status;
+    };
+  };
+};

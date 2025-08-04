@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/dwb_msgs/rosidl_cmake/srv/GenerateTrajectory_Request.msg

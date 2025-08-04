@@ -1,0 +1,310 @@
+[0.097s] Invoking command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/lslidar_msgs
+[0.789s] -- The C compiler identification is GNU 11.4.0
+[0.789s] -- The CXX compiler identification is GNU 11.4.0
+[0.790s] -- Detecting C compiler ABI info
+[0.790s] -- Detecting C compiler ABI info - done
+[0.790s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.790s] -- Detecting C compile features
+[0.790s] -- Detecting C compile features - done
+[0.790s] -- Detecting CXX compiler ABI info
+[0.907s] -- Detecting CXX compiler ABI info - done
+[0.918s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.919s] -- Detecting CXX compile features
+[0.921s] -- Detecting CXX compile features - done
+[0.926s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.740s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.900s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.969s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.034s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.041s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.053s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.072s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.097s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.139s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.188s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.202s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.791s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.817s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.819s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.872s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.873s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.873s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.873s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.916s] -- Found PythonExtra: .so  
+[4.019s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.021s] -- Added test 'lint_cmake' to check CMake code style
+[4.023s] -- Added test 'xmllint' to check XML markup files
+[4.032s] -- Configuring done
+[4.096s] -- Generating done
+[4.115s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/lslidar_msgs
+[4.148s] Invoked command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/lslidar_msgs
+[4.151s] Invoking command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/lslidar_msgs -- -j8 -l8
+[22.132s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[22.132s] [  1%] Built target lslidar_msgs__cpp
+[22.133s] [  1%] Built target ament_cmake_python_symlink_lslidar_msgs
+[22.135s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.135s] [  4%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp.o[0m
+[22.135s] [  6%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp.o[0m
+[22.136s] [  7%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp.o[0m
+[22.136s] [  9%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp.o[0m
+[22.136s] [ 11%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp.o[0m
+[22.136s] [ 12%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.136s] [ 12%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[22.136s] running egg_info
+[22.136s] creating lslidar_msgs.egg-info
+[22.136s] writing lslidar_msgs.egg-info/PKG-INFO
+[22.136s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[22.136s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[22.137s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[22.137s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[22.137s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[22.137s] [ 12%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[22.137s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.137s] [ 15%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_difop__type_support.cpp.o[0m
+[22.137s] [ 17%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_sweep__type_support.cpp.o[0m
+[22.137s] [ 19%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_scan__type_support.cpp.o[0m
+[22.137s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_point__type_support.cpp.o[0m
+[22.137s] [ 22%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lslidar_msgs/msg/detail/dds_fastrtps/lslidar_packet__type_support.cpp.o[0m
+[22.137s] [ 23%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[22.138s] [ 23%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[22.138s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.138s] [ 26%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[22.138s] [ 28%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[22.138s] [ 30%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[22.138s] [ 31%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[22.138s] [ 33%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[22.138s] [ 34%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_cpp.so[0m
+[22.138s] [ 34%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[22.138s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[22.138s] [ 38%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_difop__functions.c.o[0m
+[22.139s] [ 39%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_sweep__functions.c.o[0m
+[22.170s] [ 41%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_scan__functions.c.o[0m
+[22.264s] [ 42%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_point__functions.c.o[0m
+[22.350s] [ 44%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_c.dir/rosidl_generator_c/lslidar_msgs/msg/detail/lslidar_packet__functions.c.o[0m
+[22.473s] [ 46%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_generator_c.so[0m
+[22.552s] [ 46%] Built target lslidar_msgs__rosidl_generator_c
+[22.585s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[23.457s] [ 49%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_difop__type_support_c.cpp.o[0m
+[24.027s] [ 50%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support_c.cpp.o[0m
+[24.597s] [ 52%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_scan__type_support_c.cpp.o[0m
+[25.154s] [ 53%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_point__type_support_c.cpp.o[0m
+[25.717s] [ 55%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lslidar_msgs/msg/detail/lslidar_packet__type_support_c.cpp.o[0m
+[26.281s] [ 57%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[26.421s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[26.437s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.107s] [ 60%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_difop__type_support.cpp.o[0m
+[27.153s] [ 61%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_sweep__type_support.cpp.o[0m
+[27.207s] [ 63%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_scan__type_support.cpp.o[0m
+[27.256s] [ 65%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_point__type_support.cpp.o[0m
+[27.306s] [ 66%] [32mBuilding CXX object CMakeFiles/lslidar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/lslidar_msgs/msg/lslidar_packet__type_support.cpp.o[0m
+[27.357s] [ 68%] [32m[1mLinking CXX shared library liblslidar_msgs__rosidl_typesupport_c.so[0m
+[27.424s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_c
+[27.441s] [ 69%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.296s] [ 71%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_difop__type_support.c.o[0m
+[28.349s] [ 73%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c.o[0m
+[28.434s] [ 74%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_scan__type_support.c.o[0m
+[28.498s] [ 76%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_point__type_support.c.o[0m
+[28.559s] [ 77%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lslidar_msgs/msg/detail/lslidar_packet__type_support.c.o[0m
+[28.615s] [ 79%] [32m[1mLinking C shared library liblslidar_msgs__rosidl_typesupport_introspection_c.so[0m
+[28.687s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[28.730s] [ 79%] Built target lslidar_msgs
+[28.763s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.548s] [ 80%] Built target lslidar_msgs__py
+[30.668s] [ 82%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_difop_s.c.o[0m
+[30.953s] [ 84%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_sweep_s.c.o[0m
+[31.274s] [ 85%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_scan_s.c.o[0m
+[31.511s] [ 87%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_point_s.c.o[0m
+[31.737s] [ 88%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_generator_py.dir/rosidl_generator_py/lslidar_msgs/msg/_lslidar_packet_s.c.o[0m
+[32.000s] [ 90%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so[0m
+[32.140s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[32.206s] [ 92%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[32.415s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[32.586s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[32.722s] [ 95%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[32.960s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.137s] [ 96%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[33.184s] [ 98%] [32mBuilding C object CMakeFiles/lslidar_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[33.428s] [100%] [32m[1mLinking C shared library rosidl_generator_py/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[33.571s] [100%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[33.631s] Invoked command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/lslidar_msgs -- -j8 -l8
+[33.635s] Invoking command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/lslidar_msgs
+[34.974s] -- Install configuration: ""
+[34.974s] -- Execute custom install script
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[34.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[34.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[34.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[34.979s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[34.979s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[34.979s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[34.979s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[34.980s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[34.980s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[34.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[34.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[34.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[34.987s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[35.015s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[35.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[35.053s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[35.098s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.126s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[35.154s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[35.175s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[35.192s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[35.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[35.241s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.274s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[35.305s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[35.349s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[35.387s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[35.414s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[35.451s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[35.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[35.552s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[35.574s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[35.665s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[35.680s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[35.710s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[35.735s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[35.754s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.792s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[35.820s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[35.835s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[35.859s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[35.877s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[35.893s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[35.921s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[35.947s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[35.987s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[36.036s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[36.071s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[36.102s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[36.116s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[36.131s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[36.148s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[36.163s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[36.186s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[36.186s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[36.187s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[36.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[36.201s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[36.219s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[36.234s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[36.250s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[36.272s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[36.288s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[36.302s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[36.316s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[36.332s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[36.351s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[36.368s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[36.403s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[36.417s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[36.440s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[36.455s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[36.477s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[36.504s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[36.522s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[36.547s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[36.560s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[36.582s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[36.595s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[36.607s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.623s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.641s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[36.655s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[36.668s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[36.681s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[36.697s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[36.712s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[36.726s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[36.741s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[36.742s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so" to ""
+[36.742s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[36.743s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[36.743s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[36.743s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[36.743s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[36.744s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so" to ""
+[36.744s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[36.745s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so" to ""
+[36.745s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[36.745s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[36.746s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[36.746s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so" to ""
+[36.819s] Listing '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[36.819s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py'...
+[36.819s] Listing '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py'...
+[36.820s] Compiling '/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py'...
+[36.838s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[36.839s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so" to ""
+[36.839s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[36.839s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[36.839s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[36.840s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[36.840s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[36.840s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[36.840s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[36.841s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[36.841s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[36.841s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[36.841s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[36.842s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[36.842s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[36.842s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[36.842s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[36.842s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[36.843s] -- Installing: /home/wheeltec/wheeltec_robot/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[36.853s] Invoked command in '/home/wheeltec/wheeltec_robot/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/lslidar_msgs

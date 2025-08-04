@@ -1,0 +1,29 @@
+[0.063s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ldlidar_sl_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar14 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2
+[0.640s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.640s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.684s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.691s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.718s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.000s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.003s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.386s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.520s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.594s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.038s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.038s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.040s] -- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar14/include;/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar14/include/ldlidar_driver/include
+[2.041s] -- Configured cppcheck exclude dirs and/or files: 
+[2.041s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.041s] -- Configured cpplint exclude dirs and/or files: 
+[2.042s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.044s] -- Added test 'lint_cmake' to check CMake code style
+[2.045s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.054s] -- Added test 'uncrustify' to check C / C++ code style
+[2.065s] -- Configured uncrustify additional arguments: 
+[2.066s] -- Added test 'xmllint' to check XML markup files
+[2.068s] -- Configuring done
+[2.125s] -- Generating done
+[2.152s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/ldlidar_sl_ros2

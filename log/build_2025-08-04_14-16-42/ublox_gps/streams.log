@@ -1,0 +1,77 @@
+[0.212s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ublox_gps': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ublox_gps
+[0.529s] -- The C compiler identification is GNU 11.4.0
+[0.787s] -- The CXX compiler identification is GNU 11.4.0
+[0.803s] -- Detecting C compiler ABI info
+[1.029s] -- Detecting C compiler ABI info - done
+[1.037s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.038s] -- Detecting C compile features
+[1.038s] -- Detecting C compile features - done
+[1.045s] -- Detecting CXX compiler ABI info
+[1.327s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.340s] -- Detecting CXX compile features
+[1.341s] -- Detecting CXX compile features - done
+[1.344s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.698s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.088s] -- Found asio: /usr/include  
+[3.090s] -- Found diagnostic_msgs: 4.9.0 (/opt/ros/humble/share/diagnostic_msgs/cmake)
+[3.184s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.194s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.209s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.229s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.372s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.474s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.479s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.787s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.020s] -- Looking for pthread.h
+[4.331s] -- Looking for pthread.h - found
+[4.333s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.816s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.818s] -- Found Threads: TRUE  
+[5.001s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.037s] -- Found nmea_msgs: 2.0.0 (/home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake)
+[5.085s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[5.254s] -- Found rtcm_msgs: 1.1.6 (/opt/ros/humble/share/rtcm_msgs/cmake)
+[5.325s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.387s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[5.399s] -- Found ublox_msgs: 2.3.0 (/home/wheeltec/wheeltec_robot/install/ublox_msgs/share/ublox_msgs/cmake)
+[5.689s] -- Configuring done
+[5.832s] -- Generating done
+[5.859s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/ublox_gps
+[5.902s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/ublox_gps
+[5.916s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ublox_gps': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ublox_gps -- -j8 -l8
+[6.079s] [  4%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/adr_udr_product.cpp.o[0m
+[6.151s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gps.cpp.o[0m
+[6.151s] [ 13%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hp_pos_rec_product.cpp.o[0m
+[6.166s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/gnss.cpp.o[0m
+[6.177s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_ref_product.cpp.o[0m
+[6.179s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/hpg_rov_product.cpp.o[0m
+[6.285s] [ 31%] [32mBuilding C object CMakeFiles/ublox_gps.dir/src/mkgmtime.c.o[0m
+[6.298s] [ 36%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/node.cpp.o[0m
+[6.512s] [ 40%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_pa.cpp.o[0m
+[7.990s] [ 45%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/raw_data_product.cpp.o[0m
+[57.713s] [ 50%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware9.cpp.o[0m
+[76.813s] [  9%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware8.cpp.o[0m
+[93.946s] [ 18%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware7.cpp.o[0m
+[108.058s] [ 22%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware6.cpp.o[0m
+[115.549s] [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_gps/src/ublox_firmware6.cpp:[m[K In member function ‘[01m[Kvirtual void ublox_node::UbloxFirmware6::fixDiagnostic(diagnostic_updater::DiagnosticStatusWrapper&)[m[K’:
+[115.549s] [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_gps/src/ublox_firmware6.cpp:167:18:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 2 has type ‘[01m[Kublox_msgs::msg::NavPOSLLH_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kint[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[115.549s]   167 |   printf("hb is [01;35m[K%f[m[K\n",[32m[Klast_nav_pos_.height[m[K);
+[115.549s]       |                 [01;35m[K~^[m[K    [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[115.549s]       |                  [01;35m[K|[m[K                  [32m[K|[m[K
+[115.550s]       |                  [01;35m[Kdouble[m[K             [32m[Kublox_msgs::msg::NavPOSLLH_<std::allocator<void> >::_height_type {aka int}[m[K
+[115.550s]       |                 [32m[K%d[m[K
+[125.895s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/ublox_firmware.cpp.o[0m
+[136.832s] [ 27%] [32mBuilding CXX object CMakeFiles/ublox_gps.dir/src/tim_product.cpp.o[0m
+[151.697s] [ 31%] [32m[1mLinking CXX shared library libublox_gps.so[0m
+[159.333s] [ 77%] Built target ublox_gps
+[159.370s] [ 81%] [32mBuilding CXX object CMakeFiles/ublox_gps_node.dir/src/node_main.cpp.o[0m
+[169.980s] [ 86%] [32m[1mLinking CXX executable ublox_gps_node[0m
+[173.076s] [ 86%] Built target ublox_gps_node
+[173.108s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/raw_data_pa.cpp.o[0m
+[173.108s] [ 95%] [32mBuilding CXX object CMakeFiles/ublox_logger.dir/src/logger_node_pa.cpp.o[0m
+[190.767s] [100%] [32m[1mLinking CXX executable ublox_logger[0m
+[191.759s] [100%] Built target ublox_logger

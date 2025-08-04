@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wheeltec_mic_msg/srv/SetMajorMic.srv
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module srv {
+    struct SetMajorMic_Request {
+      int8 mic_id;
+    };
+    struct SetMajorMic_Response {
+      string result;
+
+      string fail_reason;
+    };
+  };
+};

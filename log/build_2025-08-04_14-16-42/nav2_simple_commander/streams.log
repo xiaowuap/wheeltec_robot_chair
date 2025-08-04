@@ -1,0 +1,86 @@
+[2.716s] Invoking command in '/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_simple_commander': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build install --record /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[3.210s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[3.210s]   warnings.warn(msg)
+[3.526s] running egg_info
+[3.566s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[3.566s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[3.568s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[3.568s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[3.568s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[3.569s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[3.569s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.679s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.682s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.683s] running build
+[3.683s] running build_py
+[3.684s] creating /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.684s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.685s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.686s] copying nav2_simple_commander/demo_recoveries.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.686s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.686s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.687s] copying nav2_simple_commander/demo_picking.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.688s] copying nav2_simple_commander/demo_security.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.688s] copying nav2_simple_commander/robot_navigator.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.688s] copying nav2_simple_commander/costmap_2d.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.689s] copying nav2_simple_commander/__init__.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.689s] copying nav2_simple_commander/line_iterator.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.690s] copying nav2_simple_commander/example_follow_path.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.690s] copying nav2_simple_commander/demo_inspection.py -> /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.691s] running install
+[3.703s] running install_lib
+[3.791s] creating /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.791s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.791s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.791s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.792s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.792s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.803s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.804s] copying /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.808s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[3.808s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[3.809s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[3.810s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[3.812s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[3.812s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[3.822s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[3.822s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[3.828s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[3.830s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[3.830s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[3.831s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[3.832s] byte-compiling /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[3.843s] running install_data
+[3.843s] creating /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[3.845s] copying resource/nav2_simple_commander -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[3.846s] copying package.xml -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.846s] copying launch/recoveries_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.846s] copying launch/assisted_teleop_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.846s] copying launch/warehouse.world -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.862s] copying launch/picking_demo_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.862s] copying launch/security_demo_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.862s] copying launch/inspection_demo_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.863s] copying launch/follow_path_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.863s] copying launch/nav_through_poses_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.863s] copying launch/waypoint_follower_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.863s] copying launch/nav_to_pose_example_launch.py -> /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/share/nav2_simple_commander
+[3.863s] running install_egg_info
+[3.932s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[3.941s] running install_scripts
+[4.044s] Installing demo_inspection script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.044s] Installing demo_picking script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.044s] Installing demo_recoveries script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.044s] Installing demo_security script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.045s] Installing example_assisted_teleop script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.045s] Installing example_follow_path script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.045s] Installing example_nav_through_poses script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.045s] Installing example_nav_to_pose script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.046s] Installing example_waypoint_follower script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+[4.048s] writing list of installed files to '/home/wheeltec/wheeltec_robot/build/nav2_simple_commander/install.log'
+[4.138s] Invoked command in '/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common LD_LIBRARY_PATH=/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib:/usr/local/cuda-12.6/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/wheeltec/wheeltec_robot/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/build install --record /home/wheeltec/wheeltec_robot/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

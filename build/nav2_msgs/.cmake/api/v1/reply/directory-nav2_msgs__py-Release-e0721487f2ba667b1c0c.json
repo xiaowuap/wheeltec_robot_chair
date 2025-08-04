@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav2_msgs__py",
+		"source" : "/home/wheeltec/wheeltec_robot/build/nav2_msgs/nav2_msgs__py"
+	}
+}

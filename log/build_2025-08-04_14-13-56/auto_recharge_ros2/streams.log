@@ -1,0 +1,34 @@
+[1.036s] Invoking command in '/home/wheeltec/wheeltec_robot/src/auto_recharge_ros2': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_recharge_ros2 build --build-base /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build install --record /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log --single-version-externally-managed install_data
+[1.505s] running egg_info
+[1.533s] creating ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info
+[1.533s] writing ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/PKG-INFO
+[1.534s] writing dependency_links to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/dependency_links.txt
+[1.535s] writing entry points to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/entry_points.txt
+[1.535s] writing requirements to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/requires.txt
+[1.535s] writing top-level names to ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/top_level.txt
+[1.535s] writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+[1.595s] reading manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+[1.596s] reading manifest template 'MANIFEST.in'
+[1.598s] writing manifest file '../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info/SOURCES.txt'
+[1.598s] running build
+[1.598s] running build_py
+[1.598s] creating /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+[1.599s] copying auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+[1.599s] copying auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2
+[1.599s] running install
+[1.606s] running install_lib
+[1.635s] creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+[1.636s] copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/auto_recharger.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+[1.636s] copying /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build/lib/auto_recharge_ros2/__init__.py -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2
+[1.637s] byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/auto_recharger.py to auto_recharger.cpython-310.pyc
+[1.642s] byte-compiling /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2/__init__.py to __init__.cpython-310.pyc
+[1.642s] running install_data
+[1.643s] creating /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages
+[1.643s] copying resource/auto_recharge_ros2 -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/ament_index/resource_index/packages
+[1.643s] copying package.xml -> /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/share/auto_recharge_ros2
+[1.643s] running install_egg_info
+[1.675s] Copying ../../build/auto_recharge_ros2/auto_recharge_ros2.egg-info to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages/auto_recharge_ros2-0.0.1-py3.10.egg-info
+[1.677s] running install_scripts
+[1.737s] Installing auto_recharge script to /home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/auto_recharge_ros2
+[1.737s] writing list of installed files to '/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log'
+[1.787s] Invoked command in '/home/wheeltec/wheeltec_robot/src/auto_recharge_ros2' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/auto_recharge_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_recharge_ros2 build --build-base /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/build install --record /home/wheeltec/wheeltec_robot/build/auto_recharge_ros2/install.log --single-version-externally-managed install_data

@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000442] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.000804] (-) JobUnselected: {'identifier': 'aruco'}
+[0.001033] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001212] (-) JobUnselected: {'identifier': 'aruco_ros'}
+[0.001282] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001406] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001465] (-) JobUnselected: {'identifier': 'bodyreader'}
+[0.001524] (-) JobUnselected: {'identifier': 'bodyreader_msg'}
+[0.001557] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001600] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001900] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001955] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.002039] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.002088] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002119] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002160] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002191] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002224] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002402] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.002457] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.002540] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.002588] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.002619] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.002660] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.002691] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.002946] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.003007] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003061] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003113] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003163] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003212] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003261] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003320] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.003380] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003415] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003498] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003545] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003576] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.003615] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003646] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003674] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003703] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003884] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.003956] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.003997] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.004051] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004110] (-) JobUnselected: {'identifier': 'nav2_waypoint_cycle'}
+[0.004147] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004232] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004281] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004317] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004347] (-) JobUnselected: {'identifier': 'nmea_msgs'}
+[0.004376] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.004405] (-) JobUnselected: {'identifier': 'ollama_ros_chat'}
+[0.004491] (-) JobUnselected: {'identifier': 'ollama_ros_msgs'}
+[0.004538] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.004589] (-) JobUnselected: {'identifier': 'orb_slam2_ros'}
+[0.004622] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004651] (-) JobUnselected: {'identifier': 'serial'}
+[0.004680] (-) JobUnselected: {'identifier': 'simple_follower_ros2'}
+[0.004708] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.004758] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.004839] (-) JobUnselected: {'identifier': 'tts'}
+[0.004886] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.004940] (-) JobUnselected: {'identifier': 'ublox'}
+[0.005138] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.005197] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.005248] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.005314] (-) JobUnselected: {'identifier': 'ultralytics_ros2'}
+[0.005362] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.005410] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.005466] (-) JobUnselected: {'identifier': 'wheeltec_aiui'}
+[0.005511] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.005551] (-) JobUnselected: {'identifier': 'wheeltec_dual_rtk_driver'}
+[0.005589] (-) JobUnselected: {'identifier': 'wheeltec_gps_driver'}
+[0.005671] (-) JobUnselected: {'identifier': 'wheeltec_joy'}
+[0.005718] (-) JobUnselected: {'identifier': 'wheeltec_mic_msg'}
+[0.005772] (-) JobUnselected: {'identifier': 'wheeltec_mic_ros2'}
+[0.005806] (-) JobUnselected: {'identifier': 'wheeltec_multi'}
+[0.005850] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.005884] (-) JobUnselected: {'identifier': 'wheeltec_path_follow'}
+[0.005964] (-) JobUnselected: {'identifier': 'wheeltec_robot_kcf'}
+[0.006029] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.006065] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.006094] (-) JobUnselected: {'identifier': 'wheeltec_robot_rrt'}
+[0.006123] (-) JobUnselected: {'identifier': 'wheeltec_robot_rtab'}
+[0.006168] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.006213] (-) JobUnselected: {'identifier': 'wheeltec_rrt_msg'}
+[0.006260] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.006344] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.006392] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.006423] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.006458] (auto_recharge_ros2) JobQueued: {'identifier': 'auto_recharge_ros2', 'dependencies': OrderedDict()}
+[0.006510] (auto_recharge_ros2) JobStarted: {'identifier': 'auto_recharge_ros2'}
+[0.099381] (-) TimerEvent: {}
+[0.199860] (-) TimerEvent: {}
+[0.300346] (-) TimerEvent: {}
+[0.400851] (-) TimerEvent: {}
+[0.426890] (auto_recharge_ros2) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.427817] (auto_recharge_ros2) JobEnded: {'identifier': 'auto_recharge_ros2', 'rc': 1}
+[0.437712] (-) EventReactorShutdown: {}

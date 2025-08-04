@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_generator_py/bodyreader_msg/msg/_maskdata_s.c
