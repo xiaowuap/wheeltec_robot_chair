@@ -1,0 +1,114 @@
+[0.211s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.211s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbd6cc7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd8a92a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd8a92a0>>, mixin_verb=('build',))
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.285s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.286s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'dual_laser_merger'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.353s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.367s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 95 installed packages in /home/wheeltec/wheeltec_robot/install
+[0.369s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/humble
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'dual_laser_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger', 'merge_install': False, 'path': '/home/wheeltec/wheeltec_robot/src/dual_laser_merger', 'symlink_install': True, 'test_result_base': None}
+[0.451s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.453s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.453s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger' with build type 'ament_cmake'
+[0.454s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger'
+[0.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/dual_laser_merger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger
+[8.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/dual_laser_merger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger
+[8.449s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger -- -j8 -l8
+[44.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger -- -j8 -l8
+[44.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger
+[45.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_laser_merger)
+[45.008s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/dual_laser_merger/build/dual_laser_merger
+[45.012s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger' for CMake module files
+[45.033s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger' for CMake config files
+[45.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_laser_merger', 'cmake_prefix_path')
+[45.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.ps1'
+[45.035s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.dsv'
+[45.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.sh'
+[45.037s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib'
+[45.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_laser_merger', 'ld_library_path_lib')
+[45.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.ps1'
+[45.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.dsv'
+[45.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.sh'
+[45.040s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/bin'
+[45.040s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib/pkgconfig/dual_laser_merger.pc'
+[45.040s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib/python3.10/site-packages'
+[45.041s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/bin'
+[45.041s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.ps1'
+[45.042s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.dsv'
+[45.043s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.sh'
+[45.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.bash'
+[45.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.zsh'
+[45.046s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/colcon-core/packages/dual_laser_merger)
+[45.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_laser_merger)
+[45.048s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger' for CMake module files
+[45.049s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger' for CMake config files
+[45.050s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_laser_merger', 'cmake_prefix_path')
+[45.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.ps1'
+[45.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.dsv'
+[45.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/cmake_prefix_path.sh'
+[45.052s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib'
+[45.052s] Level 1:colcon.colcon_core.shell:create_environment_hook('dual_laser_merger', 'ld_library_path_lib')
+[45.052s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.ps1'
+[45.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.dsv'
+[45.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/hook/ld_library_path_lib.sh'
+[45.054s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/bin'
+[45.054s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib/pkgconfig/dual_laser_merger.pc'
+[45.054s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/lib/python3.10/site-packages'
+[45.055s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/bin'
+[45.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.ps1'
+[45.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.dsv'
+[45.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.sh'
+[45.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.bash'
+[45.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.zsh'
+[45.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/dual_laser_merger/share/colcon-core/packages/dual_laser_merger)
+[45.059s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[45.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[45.060s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[45.060s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[45.070s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[45.071s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[45.071s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[45.087s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[45.087s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/local_setup.ps1'
+[45.089s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/_local_setup_util_ps1.py'
+[45.091s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/setup.ps1'
+[45.099s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/local_setup.sh'
+[45.100s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/_local_setup_util_sh.py'
+[45.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/setup.sh'
+[45.108s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/local_setup.bash'
+[45.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/setup.bash'
+[45.116s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/local_setup.zsh'
+[45.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/src/dual_laser_merger/install/setup.zsh'
