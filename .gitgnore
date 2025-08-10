@@ -45,3 +45,14 @@ Thumbs.db
 # Ignore colcon build tools cache
 .colcon/
 .vscode/
+
+# Large binary files and datasets
+*.jet
+*.model
+*.weights
+*.bag
+*.db3
+
+# Backup files
+*.bak
+*.backup
