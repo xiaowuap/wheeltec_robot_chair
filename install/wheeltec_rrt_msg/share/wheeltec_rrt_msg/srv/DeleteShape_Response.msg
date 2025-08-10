@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_cmake/srv/DeleteShape_Response.msg

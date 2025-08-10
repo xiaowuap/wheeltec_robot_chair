@@ -1,0 +1,10 @@
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/jpeg_streamers.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/h264_streamer.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp9_streamer.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/png_streamers.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/multipart_stream.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp8_streamer.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/web_video_server.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/libav_streamer.h
+/home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/image_streamer.h

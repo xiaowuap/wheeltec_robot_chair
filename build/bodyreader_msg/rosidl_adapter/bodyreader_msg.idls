@@ -1,0 +1,9 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Body.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Bodylist.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Bodyposture.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Joint.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Lockedcharrgb.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Lockedmaskwh.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Maskdata.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Vector2f.idl
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_adapter/bodyreader_msg:msg/Vector3f.idl

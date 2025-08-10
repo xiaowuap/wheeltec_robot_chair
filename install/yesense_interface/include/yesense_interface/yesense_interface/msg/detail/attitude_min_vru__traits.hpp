@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/yesense_interface/rosidl_generator_cpp/yesense_interface/msg/detail/attitude_min_vru__traits.hpp

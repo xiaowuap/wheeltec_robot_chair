@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+launch/ollama_ros_chat.launch.py
+ollama_ros_chat/__init__.py
+ollama_ros_chat/ollama_client.py
+ollama_ros_chat/ollama_service.py
+ollama_ros_chat/ollama_topic_client.py
+ollama_ros_chat/ollama_topic_server.py
+ollama_ros_chat.egg-info/PKG-INFO
+ollama_ros_chat.egg-info/SOURCES.txt
+ollama_ros_chat.egg-info/dependency_links.txt
+ollama_ros_chat.egg-info/entry_points.txt
+ollama_ros_chat.egg-info/requires.txt
+ollama_ros_chat.egg-info/top_level.txt
+ollama_ros_chat.egg-info/zip-safe
+resource/ollama_ros_chat

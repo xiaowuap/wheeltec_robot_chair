@@ -1,0 +1,9 @@
+from bodyreader_msg.msg._body import Body  # noqa: F401
+from bodyreader_msg.msg._bodylist import Bodylist  # noqa: F401
+from bodyreader_msg.msg._bodyposture import Bodyposture  # noqa: F401
+from bodyreader_msg.msg._joint import Joint  # noqa: F401
+from bodyreader_msg.msg._lockedcharrgb import Lockedcharrgb  # noqa: F401
+from bodyreader_msg.msg._lockedmaskwh import Lockedmaskwh  # noqa: F401
+from bodyreader_msg.msg._maskdata import Maskdata  # noqa: F401
+from bodyreader_msg.msg._vector2f import Vector2f  # noqa: F401
+from bodyreader_msg.msg._vector3f import Vector3f  # noqa: F401

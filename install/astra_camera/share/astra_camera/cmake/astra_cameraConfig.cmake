@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/astra_camera/ament_cmake_core/astra_cameraConfig.cmake

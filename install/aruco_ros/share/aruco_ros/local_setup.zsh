@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/aruco_ros/ament_cmake_environment_hooks/local_setup.zsh

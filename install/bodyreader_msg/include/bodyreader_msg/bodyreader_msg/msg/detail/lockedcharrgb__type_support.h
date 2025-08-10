@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_generator_c/bodyreader_msg/msg/detail/lockedcharrgb__type_support.h

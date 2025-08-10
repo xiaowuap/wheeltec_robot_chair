@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_generator_cpp/bodyreader_msg/msg/detail/joint__traits.hpp

@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/smooth_path__struct.hpp

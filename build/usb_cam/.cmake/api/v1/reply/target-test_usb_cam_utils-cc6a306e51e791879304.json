@@ -1,0 +1,290 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_usb_cam_utils"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"_ament_add_gtest_executable",
+			"ament_add_gtest_executable",
+			"ament_add_gtest",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake",
+			"/opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 76,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 10,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/src/gtest_vendor/include"
+				},
+				{
+					"backtrace" : 7,
+					"isSystem" : true,
+					"path" : "/usr/include/opencv4"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 7,
+			"id" : "usb_cam::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "gtest::@0af4add9fe94340e763e"
+		},
+		{
+			"backtrace" : 5,
+			"id" : "gtest_main::@0af4add9fe94340e763e"
+		}
+	],
+	"id" : "test_usb_cam_utils::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/wheeltec/wheeltec_robot/build/usb_cam",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "gtest/libgtest_main.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "gtest/libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "libusb_cam.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavcodec",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lavutil",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lswscale",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_gapi.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_highgui.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_ml.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_objdetect.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_photo.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_stitching.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_video.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_calib3d.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_dnn.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_features2d.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_flann.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_videoio.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_imgcodecs.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_imgproc.so.4.8.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/libopencv_core.so.4.8.0",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_usb_cam_utils",
+	"nameOnDisk" : "test_usb_cam_utils",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_usb_cam_utils.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

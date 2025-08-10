@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_cmake/rosidl_cmake-extras.cmake

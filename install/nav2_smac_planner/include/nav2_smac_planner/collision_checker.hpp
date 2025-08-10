@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_smac_planner/include/nav2_smac_planner/collision_checker.hpp

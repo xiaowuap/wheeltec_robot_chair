@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "dwb_msgs__py",
+		"source" : "/home/wheeltec/wheeltec_robot/build/dwb_msgs/dwb_msgs__py"
+	}
+}

@@ -1,0 +1,312 @@
+[0.253s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-up-to', 'dual_laser_merger']
+[0.253s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=['dual_laser_merger'], packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa46edab0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa48befb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa48befb0>>, mixin_verb=('build',))
+[0.329s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.330s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/wheeltec/wheeltec_robot/install/dual_laser_merger'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'ros'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['cmake', 'python']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'cmake'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extensions ['python_setup_py']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include) by extension 'python_setup_py'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['colcon_pkg']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'colcon_pkg'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['colcon_meta']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'colcon_meta'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['ros']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'ros'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['cmake', 'python']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'cmake'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'python'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extensions ['python_setup_py']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include) by extension 'python_setup_py'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'ros'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['cmake', 'python']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'cmake'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'python'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extensions ['python_setup_py']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(include/dual_laser_merger/include/dual_laser_merger) by extension 'python_setup_py'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['colcon_meta']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'ros'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['cmake', 'python']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'cmake'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'python'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extensions ['python_setup_py']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib) by extension 'python_setup_py'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'ignore'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'ignore_ament_install'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['colcon_pkg']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'colcon_pkg'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['colcon_meta']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'colcon_meta'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['ros']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'ros'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(lib/dual_laser_merger) by extension 'python_setup_py'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['ignore', 'ignore_ament_install']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'ignore'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'ignore_ament_install'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['colcon_pkg']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'colcon_pkg'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['colcon_meta']
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'colcon_meta'
+[0.367s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['ros']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'ros'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['cmake', 'python']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'cmake'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'python'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extensions ['python_setup_py']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share) by extension 'python_setup_py'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'ignore'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'ignore_ament_install'
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['colcon_pkg']
+[0.368s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'colcon_pkg'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['colcon_meta']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'colcon_meta'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['ros']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'ros'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['cmake', 'python']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'cmake'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'python'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extensions ['python_setup_py']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index) by extension 'python_setup_py'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'ignore'
+[0.369s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'ignore_ament_install'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['colcon_pkg']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'colcon_pkg'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['colcon_meta']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'colcon_meta'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['ros']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'ros'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['cmake', 'python']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'cmake'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'python'
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extensions ['python_setup_py']
+[0.370s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index) by extension 'python_setup_py'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[0.371s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'ignore'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['ros']
+[0.372s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'ros'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'cmake'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'python'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[0.373s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[0.374s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['ignore', 'ignore_ament_install']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'ignore'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'ignore_ament_install'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['colcon_pkg']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'colcon_pkg'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['colcon_meta']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'colcon_meta'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['ros']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'ros'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['cmake', 'python']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'cmake'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'python'
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extensions ['python_setup_py']
+[0.375s] Level 1:colcon.colcon_core.package_identification:_identify(share/ament_index/resource_index/rclcpp_components) by extension 'python_setup_py'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['ignore', 'ignore_ament_install']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'ignore'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'ignore_ament_install'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['colcon_pkg']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'colcon_pkg'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['colcon_meta']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'colcon_meta'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['ros']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'ros'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['cmake', 'python']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'cmake'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'python'
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extensions ['python_setup_py']
+[0.376s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core) by extension 'python_setup_py'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['ignore', 'ignore_ament_install']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'ignore'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'ignore_ament_install'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['colcon_pkg']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'colcon_pkg'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['colcon_meta']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'colcon_meta'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['ros']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'ros'
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['cmake', 'python']
+[0.377s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'cmake'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'python'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extensions ['python_setup_py']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/colcon-core/packages) by extension 'python_setup_py'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extensions ['ignore', 'ignore_ament_install']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extension 'ignore'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extension 'ignore_ament_install'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extensions ['colcon_pkg']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extension 'colcon_pkg'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extensions ['colcon_meta']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extension 'colcon_meta'
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extensions ['ros']
+[0.378s] Level 1:colcon.colcon_core.package_identification:_identify(share/dual_laser_merger) by extension 'ros'
+[0.385s] DEBUG:colcon.colcon_core.package_identification:Package 'share/dual_laser_merger' with type 'ros.ament_cmake' and name 'dual_laser_merger'
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.385s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.429s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.443s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 95 installed packages in /home/wheeltec/wheeltec_robot/install
+[0.446s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 308 installed packages in /opt/ros/humble
+[0.448s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_target' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_clean_cache' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_clean_first' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'cmake_force_configure' from command line to 'False'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'ament_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'catkin_cmake_args' from command line to 'None'
+[0.530s] Level 5:colcon.colcon_core.verb:set package 'dual_laser_merger' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.530s] DEBUG:colcon.colcon_core.verb:Building package 'dual_laser_merger' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/build/dual_laser_merger', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger', 'merge_install': False, 'path': '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger', 'symlink_install': False, 'test_result_base': None}
+[0.531s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.532s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.533s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger' with build type 'ament_cmake'
+[0.533s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger'
+[0.540s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.580s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger
+[0.606s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dual_laser_merger)
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/build/dual_laser_merger' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger' for CMake module files
+[0.614s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger' for CMake config files
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/bin'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/lib/pkgconfig/dual_laser_merger.pc'
+[0.615s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/lib/python3.10/site-packages'
+[0.616s] Level 1:colcon.colcon_core.environment:checking '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/bin'
+[0.616s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.ps1'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.dsv'
+[0.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.sh'
+[0.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.bash'
+[0.620s] INFO:colcon.colcon_core.shell:Creating package script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/dual_laser_merger/package.zsh'
+[0.621s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/dual_laser_merger/share/colcon-core/packages/dual_laser_merger)
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[0.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.643s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.661s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.661s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/local_setup.ps1'
+[0.663s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/_local_setup_util_ps1.py'
+[0.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/setup.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/local_setup.sh'
+[0.674s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/_local_setup_util_sh.py'
+[0.675s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/setup.sh'
+[0.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/local_setup.bash'
+[0.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/setup.bash'
+[0.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/local_setup.zsh'
+[0.692s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/wheeltec/wheeltec_robot/install/dual_laser_merger/install/setup.zsh'

@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: multi_lidar_calibrator
+Version: 0.0.1
+Summary: Multi - LiDAR-to-LiDAR calibration framework for ROS 2 and non-ROS applications
+Maintainer: Andrii Chumak, Dominik Kulmer
+Maintainer-email: ge65wex@mytum.de, dominik.kulmer@tum.de
+License: LGPL-3.0 license
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

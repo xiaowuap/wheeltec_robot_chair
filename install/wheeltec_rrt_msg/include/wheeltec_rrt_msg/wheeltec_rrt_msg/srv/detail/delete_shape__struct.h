@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_generator_c/wheeltec_rrt_msg/srv/detail/delete_shape__struct.h

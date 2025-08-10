@@ -1,0 +1,4 @@
+source;share/dual_laser_merger/local_setup.bash
+source;share/dual_laser_merger/local_setup.dsv
+source;share/dual_laser_merger/local_setup.sh
+source;share/dual_laser_merger/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_simple_commander/launch/assisted_teleop_example_launch.py

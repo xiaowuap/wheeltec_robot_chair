@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/aruco_msgs/rosidl_typesupport_fastrtps_c/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h

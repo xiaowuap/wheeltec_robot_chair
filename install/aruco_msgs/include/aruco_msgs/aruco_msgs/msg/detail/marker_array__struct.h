@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/aruco_msgs/rosidl_generator_c/aruco_msgs/msg/detail/marker_array__struct.h

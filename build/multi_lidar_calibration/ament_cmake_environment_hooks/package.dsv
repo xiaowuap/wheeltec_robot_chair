@@ -1,0 +1,4 @@
+source;share/multi_lidar_calibration/local_setup.bash
+source;share/multi_lidar_calibration/local_setup.dsv
+source;share/multi_lidar_calibration/local_setup.sh
+source;share/multi_lidar_calibration/local_setup.zsh

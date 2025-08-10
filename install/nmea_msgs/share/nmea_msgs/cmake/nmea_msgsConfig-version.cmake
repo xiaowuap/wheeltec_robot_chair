@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/nmea_msgs/ament_cmake_core/nmea_msgsConfig-version.cmake

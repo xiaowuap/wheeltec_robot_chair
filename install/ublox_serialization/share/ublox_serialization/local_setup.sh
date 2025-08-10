@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ublox_serialization/ament_cmake_environment_hooks/local_setup.sh

@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/nav2_rotation_shim_controller/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake

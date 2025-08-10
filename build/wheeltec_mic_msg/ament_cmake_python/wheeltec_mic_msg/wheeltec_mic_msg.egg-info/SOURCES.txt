@@ -1,0 +1,15 @@
+setup.py
+wheeltec_mic_msg/__init__.py
+wheeltec_mic_msg.egg-info/PKG-INFO
+wheeltec_mic_msg.egg-info/SOURCES.txt
+wheeltec_mic_msg.egg-info/dependency_links.txt
+wheeltec_mic_msg.egg-info/top_level.txt
+wheeltec_mic_msg/msg/__init__.py
+wheeltec_mic_msg/msg/_motion_control.py
+wheeltec_mic_msg/msg/_pcm_msg.py
+wheeltec_mic_msg/srv/__init__.py
+wheeltec_mic_msg/srv/_get_device_type.py
+wheeltec_mic_msg/srv/_get_offline_result.py
+wheeltec_mic_msg/srv/_set_awake_word.py
+wheeltec_mic_msg/srv/_set_major_mic.py
+wheeltec_mic_msg/srv/_switch_mic.py

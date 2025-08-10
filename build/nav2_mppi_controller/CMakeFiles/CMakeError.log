@@ -1,0 +1,30 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_AVX2 failed with the following output:
+Change Dir: /home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b685c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b685c.dir/build.make CMakeFiles/cmTC_b685c.dir/build
+gmake[1]: Entering directory '/home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b685c.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_AVX2  -mavx2 -o CMakeFiles/cmTC_b685c.dir/src.cxx.o -c /home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-mavx2'
+gmake[1]: *** [CMakeFiles/cmTC_b685c.dir/build.make:78: CMakeFiles/cmTC_b685c.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b685c/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_FMA failed with the following output:
+Change Dir: /home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f085/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0f085.dir/build.make CMakeFiles/cmTC_0f085.dir/build
+gmake[1]: Entering directory '/home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f085.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORTS_FMA  -mfma -o CMakeFiles/cmTC_0f085.dir/src.cxx.o -c /home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-mfma'
+gmake[1]: *** [CMakeFiles/cmTC_0f085.dir/build.make:78: CMakeFiles/cmTC_0f085.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/wheeltec/wheeltec_robot/build/nav2_mppi_controller/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_0f085/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

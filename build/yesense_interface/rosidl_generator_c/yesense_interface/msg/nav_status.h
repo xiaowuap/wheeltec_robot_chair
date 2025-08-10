@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from yesense_interface:msg/NavStatus.idl
+// generated code does not contain a copyright notice
+
+#ifndef YESENSE_INTERFACE__MSG__NAV_STATUS_H_
+#define YESENSE_INTERFACE__MSG__NAV_STATUS_H_
+
+#include "yesense_interface/msg/detail/nav_status__struct.h"
+#include "yesense_interface/msg/detail/nav_status__functions.h"
+#include "yesense_interface/msg/detail/nav_status__type_support.h"
+
+#endif  // YESENSE_INTERFACE__MSG__NAV_STATUS_H_

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from wheeltec_mic_msg/srv/SetAwakeWord.srv
+// generated code does not contain a copyright notice
+
+
+module wheeltec_mic_msg {
+  module srv {
+    struct SetAwakeWord_Request {
+      string awake_word;
+
+      string threshold;
+    };
+    struct SetAwakeWord_Response {
+      boolean success;
+
+      string result;
+    };
+  };
+};

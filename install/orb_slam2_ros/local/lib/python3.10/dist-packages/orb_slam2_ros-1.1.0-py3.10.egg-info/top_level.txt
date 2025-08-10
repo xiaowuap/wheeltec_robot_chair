@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/orb_slam2_ros/ament_cmake_python/orb_slam2_ros/orb_slam2_ros.egg-info/top_level.txt

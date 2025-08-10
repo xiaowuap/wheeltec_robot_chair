@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/astra_camera_msgs/rosidl_generator_py/astra_camera_msgs/srv/_set_int32.py

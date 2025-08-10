@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/tf2_tools
+tf2_tools/__init__.py
+tf2_tools/view_frames.py
+tf2_tools.egg-info/PKG-INFO
+tf2_tools.egg-info/SOURCES.txt
+tf2_tools.egg-info/dependency_links.txt
+tf2_tools.egg-info/entry_points.txt
+tf2_tools.egg-info/requires.txt
+tf2_tools.egg-info/top_level.txt
+tf2_tools.egg-info/zip-safe

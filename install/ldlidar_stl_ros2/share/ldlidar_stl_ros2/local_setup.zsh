@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ldlidar_stl_ros2/ament_cmake_environment_hooks/local_setup.zsh

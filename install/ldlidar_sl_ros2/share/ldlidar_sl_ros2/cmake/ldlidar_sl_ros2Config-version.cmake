@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/ldlidar_sl_ros2/ament_cmake_core/ldlidar_sl_ros2Config-version.cmake

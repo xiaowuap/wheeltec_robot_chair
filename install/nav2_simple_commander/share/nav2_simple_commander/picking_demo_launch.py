@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/nav2_simple_commander/launch/picking_demo_launch.py

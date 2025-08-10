@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-eceafa336704df2fd41b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "turn_on_wheeltec_robot__py",
+					"jsonFile" : "directory-turn_on_wheeltec_robot__py-d5b6cda06263496af092.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wheeltec/wheeltec_robot/build/turn_on_wheeltec_robot/turn_on_wheeltec_robot__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turn_on_wheeltec_robot",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turn_on_wheeltec_robot_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turn_on_wheeltec_robot_egg-0843367a6d76bcfb0232.json",
+					"name" : "ament_cmake_python_build_turn_on_wheeltec_robot_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_turn_on_wheeltec_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_turn_on_wheeltec_robot-6ca09a626a67482b5f0a.json",
+					"name" : "ament_cmake_python_symlink_turn_on_wheeltec_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot-3f3e0c4a5e8971474284.json",
+					"name" : "turn_on_wheeltec_robot",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__cpp-d554642067725d879868.json",
+					"name" : "turn_on_wheeltec_robot__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turn_on_wheeltec_robot__py::@8c186bf2db82751ebd7f",
+					"jsonFile" : "target-turn_on_wheeltec_robot__py-2082737ff5aa32603354.json",
+					"name" : "turn_on_wheeltec_robot__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_generator_c-fe4a074faad5ac2bbb0a.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_generator_py-25f184702a98b786c677.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_c-ff995c3340b4f66f6dc4.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_c__pyext-57d27a8cd00206c143da.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_cpp-be7c69f549613ccadd95.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c-680116691c6e675fabf5.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext-097950109b3bfc04fb99.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp-2f35f3d75bafd5b07d79.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_introspection_c-3a09e4daaf7c843f1ab1.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext-58df85fef8b15d5d5222.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp-e850e0676b551ea267e1.json",
+					"name" : "turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turn_on_wheeltec_robot_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turn_on_wheeltec_robot_uninstall-08548a13a47b893c7117.json",
+					"name" : "turn_on_wheeltec_robot_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-99d98703ea0b99897532.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_robot_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_robot_node-94ca4c2d0c646fa29397.json",
+					"name" : "wheeltec_robot_node",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wheeltec/wheeltec_robot/build/turn_on_wheeltec_robot",
+		"source" : "/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,6 @@
+setup.py
+orb_slam2_ros/__init__.py
+orb_slam2_ros.egg-info/PKG-INFO
+orb_slam2_ros.egg-info/SOURCES.txt
+orb_slam2_ros.egg-info/dependency_links.txt
+orb_slam2_ros.egg-info/top_level.txt

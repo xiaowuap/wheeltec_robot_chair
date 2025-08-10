@@ -1,0 +1,10 @@
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/launch/tts_make.launch.py
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/tts/xiaoyan.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/tts/xiaofeng.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/tts/common.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/xtts/common_en.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/xtts/xiaoyan.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/xtts/xiaofeng.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/res/xtts/common.jet
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/bin/msc/msc.cfg
+/home/wheeltec/wheeltec_robot/install/tts/share/tts/config/tts_params.yaml

@@ -1,0 +1,4 @@
+source;share/web_video_server/local_setup.bash
+source;share/web_video_server/local_setup.dsv
+source;share/web_video_server/local_setup.sh
+source;share/web_video_server/local_setup.zsh

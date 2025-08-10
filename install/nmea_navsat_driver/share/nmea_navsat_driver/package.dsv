@@ -1,0 +1,9 @@
+source;share/nmea_navsat_driver/hook/pythonpath.ps1
+source;share/nmea_navsat_driver/hook/pythonpath.dsv
+source;share/nmea_navsat_driver/hook/pythonpath.sh
+source;share/nmea_navsat_driver/hook/ament_prefix_path.ps1
+source;share/nmea_navsat_driver/hook/ament_prefix_path.dsv
+source;share/nmea_navsat_driver/hook/ament_prefix_path.sh
+source;../../build/nmea_navsat_driver/src/share/nmea_navsat_driver/hook/pythonpath_develop.ps1
+source;../../build/nmea_navsat_driver/src/share/nmea_navsat_driver/hook/pythonpath_develop.dsv
+source;../../build/nmea_navsat_driver/src/share/nmea_navsat_driver/hook/pythonpath_develop.sh

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from wheeltec_robot_msg/msg/Supersonic.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module wheeltec_robot_msg {
+  module msg {
+    struct Supersonic {
+      std_msgs::msg::Header header;
+
+      float distance_a;
+
+      float distance_b;
+
+      float distance_c;
+
+      float distance_d;
+
+      float distance_e;
+
+      float distance_f;
+
+      float distance_g;
+
+      float distance_h;
+    };
+  };
+};

@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yesense_interface/msg/NavAll.msg
+// generated code does not contain a copyright notice
+
+#include "yesense_interface/msg/EulerAngle.idl"
+#include "yesense_interface/msg/GnssPos.idl"
+#include "yesense_interface/msg/NavStatus.idl"
+#include "yesense_interface/msg/Pressure.idl"
+#include "yesense_interface/msg/Quat.idl"
+#include "yesense_interface/msg/SensorTemp.idl"
+#include "yesense_interface/msg/ThreeAxis.idl"
+#include "yesense_interface/msg/Tid.idl"
+#include "yesense_interface/msg/Utc.idl"
+#include "yesense_interface/msg/Vel.idl"
+
+module yesense_interface {
+  module msg {
+    struct NavAll {
+      yesense_interface::msg::Tid tid;
+
+      yesense_interface::msg::ThreeAxis acc;
+
+      yesense_interface::msg::ThreeAxis gyro;
+
+      yesense_interface::msg::EulerAngle euler;
+
+      yesense_interface::msg::Quat quat;
+
+      yesense_interface::msg::SensorTemp temp;
+
+      yesense_interface::msg::GnssPos pos;
+
+      yesense_interface::msg::NavStatus status;
+
+      yesense_interface::msg::Vel vel;
+
+      yesense_interface::msg::Utc utc;
+
+      yesense_interface::msg::Pressure pressure;
+    };
+  };
+};

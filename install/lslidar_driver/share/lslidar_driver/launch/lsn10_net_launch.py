@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver/launch/lsn10_net_launch.py

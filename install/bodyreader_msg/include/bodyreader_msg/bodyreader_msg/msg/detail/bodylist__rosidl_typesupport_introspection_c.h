@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_typesupport_introspection_c/bodyreader_msg/msg/detail/bodylist__rosidl_typesupport_introspection_c.h

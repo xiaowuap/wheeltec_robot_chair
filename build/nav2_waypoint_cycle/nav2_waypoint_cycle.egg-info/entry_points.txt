@@ -1,0 +1,2 @@
+[console_scripts]
+nav2_waypoint_cycle = nav2_waypoint_cycle.waypoint_cycle:main

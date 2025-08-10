@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_behavior_tree/include/nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp

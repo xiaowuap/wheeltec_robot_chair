@@ -1,0 +1,124 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-31f83a3e1832794a468d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "wheeltec_mic_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "call_recognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-call_recognition-d7a631217e07ed2a9b43.json",
+					"name" : "call_recognition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "command_recognition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-command_recognition-720a9d469e246dd5b967.json",
+					"name" : "command_recognition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motion_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motion_control-003f797763f4466a81f4.json",
+					"name" : "motion_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "node_feedback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-node_feedback-2d4943abb93be7500d89.json",
+					"name" : "node_feedback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-de51bad2ea6cc403b308.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voice_control::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voice_control-338fd994e2f4d66356b2.json",
+					"name" : "voice_control",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic-5212270182139e8051bb.json",
+					"name" : "wheeltec_mic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_ros2_uninstall-b79733d6d8ce72d5a7ad.json",
+					"name" : "wheeltec_mic_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wheeltec/wheeltec_robot/build/wheeltec_mic_ros2",
+		"source" : "/home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
