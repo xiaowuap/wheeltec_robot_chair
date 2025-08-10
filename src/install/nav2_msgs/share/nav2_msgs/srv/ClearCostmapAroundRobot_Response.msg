@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/nav2_msgs/rosidl_cmake/srv/ClearCostmapAroundRobot_Response.msg

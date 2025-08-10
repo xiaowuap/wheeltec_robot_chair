@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/web_video_server.dir/build.make:132: CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/web_video_server.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

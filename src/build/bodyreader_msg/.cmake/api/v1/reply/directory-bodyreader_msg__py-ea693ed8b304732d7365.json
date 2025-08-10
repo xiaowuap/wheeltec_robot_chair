@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "bodyreader_msg__py",
+		"source" : "/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/bodyreader_msg__py"
+	}
+}

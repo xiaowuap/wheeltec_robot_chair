@@ -1,0 +1,42 @@
+[ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[ 14%] Built target nav2_rviz_plugins_autogen
+[35m[1mConsolidate compiler generated dependencies of target nav2_rviz_plugins[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[ 57%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[100%] Built target nav2_rviz_plugins
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins//plugins_description.xml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+-- Installing: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake

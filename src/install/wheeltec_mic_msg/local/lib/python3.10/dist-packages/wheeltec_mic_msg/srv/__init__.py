@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg/rosidl_generator_py/wheeltec_mic_msg/srv/__init__.py

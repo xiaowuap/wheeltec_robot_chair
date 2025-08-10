@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/aruco_msgs/rosidl_typesupport_introspection_c/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h

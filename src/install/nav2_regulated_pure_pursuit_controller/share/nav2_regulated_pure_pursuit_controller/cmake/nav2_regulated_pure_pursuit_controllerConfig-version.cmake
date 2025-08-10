@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/nav2_regulated_pure_pursuit_controller/ament_cmake_core/nav2_regulated_pure_pursuit_controllerConfig-version.cmake

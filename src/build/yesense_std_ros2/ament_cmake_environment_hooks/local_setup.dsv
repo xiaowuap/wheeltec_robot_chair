@@ -1,0 +1,2 @@
+source;share/yesense_std_ros2/environment/ament_prefix_path.sh
+source;share/yesense_std_ros2/environment/path.sh

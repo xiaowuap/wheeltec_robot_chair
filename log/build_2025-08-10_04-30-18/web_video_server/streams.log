@@ -1,0 +1,47 @@
+[0.031s] Invoking command in '/home/wheeltec/wheeltec_robot/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/web_video_server -- -j8 -l8
+[0.708s] [35m[1mConsolidate compiler generated dependencies of target web_video_server[0m
+[0.708s] [  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o[0m
+[14.083s] [ 18%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o[0m
+[28.142s] [ 27%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o[0m
+[41.806s] [ 36%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o[0m
+[55.247s] [ 45%] [32m[1mLinking CXX executable web_video_server[0m
+[55.862s] /usr/bin/ld: warning: libboost_filesystem.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_filesystem.so.1.75.0
+[55.863s] /usr/bin/ld: warning: libboost_thread.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_thread.so.1.75.0
+[55.880s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[55.882s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+[55.883s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[56.018s] /usr/bin/ld: warning: libavcodec.so.58, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavcodec.so.61
+[56.019s] /usr/bin/ld: warning: libavutil.so.56, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavutil.so.59
+[57.183s] [100%] Built target web_video_server
+[57.235s] Invoked command in '/home/wheeltec/wheeltec_robot/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/web_video_server -- -j8 -l8
+[57.236s] Invoking command in '/home/wheeltec/wheeltec_robot/build/web_video_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/web_video_server
+[57.251s] -- Install configuration: ""
+[57.254s] -- Execute custom install script
+[57.255s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/lib/web_video_server/web_video_server
+[57.275s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+[57.295s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+[57.332s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+[57.361s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+[57.382s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/path.sh
+[57.406s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/path.dsv
+[57.436s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.bash
+[57.459s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.sh
+[57.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.zsh
+[57.501s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.dsv
+[57.531s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/package.dsv
+[57.555s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+[57.578s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+[57.602s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+[57.628s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/package.xml
+[57.649s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server
+[57.650s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/jpeg_streamers.h
+[57.651s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/h264_streamer.h
+[57.652s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp9_streamer.h
+[57.653s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/png_streamers.h
+[57.654s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/multipart_stream.h
+[57.655s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp8_streamer.h
+[57.656s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/web_video_server.h
+[57.657s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+[57.658s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/libav_streamer.h
+[57.659s] -- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/image_streamer.h
+[57.687s] Invoked command in '/home/wheeltec/wheeltec_robot/build/web_video_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/web_video_server

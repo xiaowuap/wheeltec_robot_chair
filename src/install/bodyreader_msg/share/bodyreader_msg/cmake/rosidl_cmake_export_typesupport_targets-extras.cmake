@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake

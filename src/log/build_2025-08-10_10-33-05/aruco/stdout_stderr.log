@@ -1,0 +1,89 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found CUDA: /usr/local/cuda-12.6 (found suitable exact version "12.6") 
+-- Found OpenCV: /opt/opencv_410 (found suitable version "4.10.0", minimum required is "4.10") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/aruco
+[  5%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaruco.so[0m
+[100%] Built target aruco
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/lib/libaruco.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/aruco.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/aruco_cvversioning.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/aruco_export.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/cameraparameters.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/cvdrawingutils.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/debug.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/dictionary.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/dictionary_based.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/fractaldetector.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/ippe.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/levmarq.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/marker.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/markerdetector.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/markerdetector_impl.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/markerlabeler.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/markermap.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/picoflann.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/posetracker.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/include/aruco/timers.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/library_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/library_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/ament_index/resource_index/packages/aruco
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/cmake/arucoConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/aruco/share/aruco/package.xml

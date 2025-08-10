@@ -1,0 +1,46 @@
+[0.092s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/ublox_serialization
+[0.249s] -- The C compiler identification is GNU 11.4.0
+[0.372s] -- The CXX compiler identification is GNU 11.4.0
+[0.387s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.576s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.577s] -- Detecting C compile features
+[0.579s] -- Detecting C compile features - done
+[0.594s] -- Detecting CXX compiler ABI info
+[0.866s] -- Detecting CXX compiler ABI info - done
+[0.879s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.879s] -- Detecting CXX compile features
+[0.885s] -- Detecting CXX compile features - done
+[0.912s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.970s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.154s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.659s] -- Configuring done
+[2.694s] -- Generating done
+[2.701s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/ublox_serialization
+[2.734s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_serialization -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/ublox_serialization
+[2.735s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/ublox_serialization -- -j8 -l8
+[3.579s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/ublox_serialization -- -j8 -l8
+[3.581s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/ublox_serialization
+[5.478s] -- Install configuration: ""
+[5.478s] -- Execute custom install script
+[5.478s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/include/ublox_serialization/ublox_serialization/checksum.hpp
+[5.478s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/include/ublox_serialization/ublox_serialization/serialization.hpp
+[5.478s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ament_index/resource_index/package_run_dependencies/ublox_serialization
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ament_index/resource_index/parent_prefix_path/ublox_serialization
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.sh
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/environment/ament_prefix_path.dsv
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/environment/path.sh
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/environment/path.dsv
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/local_setup.bash
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/local_setup.sh
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/local_setup.zsh
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/local_setup.dsv
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/package.dsv
+[5.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ament_index/resource_index/packages/ublox_serialization
+[5.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/cmake/ament_cmake_export_targets-extras.cmake
+[5.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig.cmake
+[5.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/cmake/ublox_serializationConfig-version.cmake
+[5.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/package.xml
+[5.480s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/ublox_serialization/share/ublox_serialization/cmake/export_ublox_serializationExport.cmake
+[5.514s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/ublox_serialization

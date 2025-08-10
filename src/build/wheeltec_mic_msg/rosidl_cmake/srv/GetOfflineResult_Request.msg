@@ -1,0 +1,3 @@
+int8 offline_recognise_start
+int8 confidence_threshold 
+int8 time_per_order

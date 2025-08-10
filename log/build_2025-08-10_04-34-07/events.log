@@ -1,0 +1,2600 @@
+[0.000000] (-) TimerEvent: {}
+[0.000803] (-) JobUnselected: {'identifier': 'ackermann_msgs'}
+[0.001030] (-) JobUnselected: {'identifier': 'aruco'}
+[0.001212] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001281] (-) JobUnselected: {'identifier': 'aruco_ros'}
+[0.001393] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001450] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.001487] (-) JobUnselected: {'identifier': 'bodyreader'}
+[0.001517] (-) JobUnselected: {'identifier': 'bodyreader_msg'}
+[0.001559] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.001601] (-) JobUnselected: {'identifier': 'dual_laser_merger'}
+[0.001888] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001943] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.002045] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.002097] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.002129] (-) JobUnselected: {'identifier': 'ldlidar'}
+[0.002157] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002202] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002392] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.002446] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.002533] (-) JobUnselected: {'identifier': 'multi_lidar_calibration'}
+[0.002581] (-) JobUnselected: {'identifier': 'multi_lidar_calibrator'}
+[0.002614] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.002666] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.002948] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.003012] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.003066] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.003116] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.003166] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.003215] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.003264] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.003313] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.003362] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.003410] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.003457] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.003505] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.003554] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.003604] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.003653] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003700] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003749] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.003796] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003844] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003891] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003937] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003983] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.004039] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.004087] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.004133] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.004180] (-) JobUnselected: {'identifier': 'nav2_waypoint_cycle'}
+[0.004227] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.004275] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.004323] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004372] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004422] (-) JobUnselected: {'identifier': 'nmea_msgs'}
+[0.004470] (-) JobUnselected: {'identifier': 'nmea_navsat_driver'}
+[0.004518] (-) JobUnselected: {'identifier': 'ollama_ros_chat'}
+[0.004577] (-) JobUnselected: {'identifier': 'ollama_ros_msgs'}
+[0.004628] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.004669] (-) JobUnselected: {'identifier': 'orb_slam2_ros'}
+[0.004708] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004791] (-) JobUnselected: {'identifier': 'serial'}
+[0.004839] (-) JobUnselected: {'identifier': 'simple_follower_ros2'}
+[0.004874] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.004905] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.005005] (-) JobUnselected: {'identifier': 'tts'}
+[0.005079] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.005120] (-) JobUnselected: {'identifier': 'ublox'}
+[0.005151] (-) JobUnselected: {'identifier': 'ublox_gps'}
+[0.005182] (-) JobUnselected: {'identifier': 'ublox_msgs'}
+[0.005228] (-) JobUnselected: {'identifier': 'ublox_serialization'}
+[0.005271] (-) JobUnselected: {'identifier': 'ultralytics_ros2'}
+[0.005319] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.005401] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.005449] (-) JobUnselected: {'identifier': 'wheeltec_aiui'}
+[0.005482] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.005510] (-) JobUnselected: {'identifier': 'wheeltec_dual_rtk_driver'}
+[0.005539] (-) JobUnselected: {'identifier': 'wheeltec_gps_driver'}
+[0.005578] (-) JobUnselected: {'identifier': 'wheeltec_joy'}
+[0.005611] (-) JobUnselected: {'identifier': 'wheeltec_mic_msg'}
+[0.005690] (-) JobUnselected: {'identifier': 'wheeltec_mic_ros2'}
+[0.005736] (-) JobUnselected: {'identifier': 'wheeltec_multi'}
+[0.005786] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.005817] (-) JobUnselected: {'identifier': 'wheeltec_path_follow'}
+[0.005846] (-) JobUnselected: {'identifier': 'wheeltec_robot_kcf'}
+[0.005874] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.005922] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.006001] (-) JobUnselected: {'identifier': 'wheeltec_robot_rrt'}
+[0.006059] (-) JobUnselected: {'identifier': 'wheeltec_robot_rtab'}
+[0.006092] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.006123] (-) JobUnselected: {'identifier': 'wheeltec_rrt_msg'}
+[0.006153] (-) JobUnselected: {'identifier': 'wheeltec_rviz2'}
+[0.006181] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.006386] (-) JobUnselected: {'identifier': 'yesense_interface'}
+[0.006444] (-) JobUnselected: {'identifier': 'yesense_std_ros2'}
+[0.006499] (nav2_behavior_tree) JobQueued: {'identifier': 'nav2_behavior_tree', 'dependencies': OrderedDict([('nav2_common', '/home/wheeltec/wheeltec_robot/install/nav2_common'), ('nav2_msgs', '/home/wheeltec/wheeltec_robot/install/nav2_msgs'), ('nav2_util', '/home/wheeltec/wheeltec_robot/install/nav2_util')])}
+[0.006567] (nav2_behavior_tree) JobStarted: {'identifier': 'nav2_behavior_tree'}
+[0.039630] (nav2_behavior_tree) JobProgress: {'identifier': 'nav2_behavior_tree', 'progress': 'cmake'}
+[0.044580] (nav2_behavior_tree) JobProgress: {'identifier': 'nav2_behavior_tree', 'progress': 'build'}
+[0.047395] (nav2_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree', '--', '-j8', '-l8'], 'cwd': '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1001/default,193102,0'), ('USER', 'wheeltec'), ('SSH_CLIENT', '192.168.40.216 38859 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wheeltec/wheeltec_robot/install/nav2_util/lib:/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib:/home/wheeltec/wheeltec_robot/install/dual_laser_merger/lib:/usr/local/cuda-12.6/lib64:/home/wheeltec/wheeltec_robot/install/yesense_interface/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg/lib:/home/wheeltec/wheeltec_robot/install/usb_cam/lib:/home/wheeltec/wheeltec_robot/install/ublox_gps/lib:/home/wheeltec/wheeltec_robot/install/ublox_msgs/lib:/home/wheeltec/wheeltec_robot/install/serial/lib:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib:/home/wheeltec/wheeltec_robot/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav2_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_controller/lib:/home/wheeltec/wheeltec_robot/install/dwb_plugins/lib:/home/wheeltec/wheeltec_robot/install/dwb_critics/lib:/home/wheeltec/wheeltec_robot/install/dwb_core/lib:/home/wheeltec/wheeltec_robot/install/nav_2d_utils/lib:/home/wheeltec/wheeltec_robot/install/dwb_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower/lib:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator/lib:/home/wheeltec/wheeltec_robot/install/nav2_behaviors/lib:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor/lib:/home/wheeltec/wheeltec_robot/install/costmap_queue/lib:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d/lib:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/lib:/home/wheeltec/wheeltec_robot/install/nav2_map_server/lib:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager/lib:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib:/home/wheeltec/wheeltec_robot/install/nav2_amcl/lib:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration/lib:/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib:/home/wheeltec/wheeltec_robot/install/astra_camera/lib:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco_ros/lib:/home/wheeltec/wheeltec_robot/install/aruco_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco/lib:/home/wheeltec/wheeltec_robot/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wheeltec'), ('OLDPWD', '/home/wheeltec/wheeltec_robot/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/11'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wheeltec'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421024236192'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wheeltec/.local/bin:/usr/local/cuda-12.6/bin:/home/wheeltec/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('TERM_PROGRAM', 'tmux'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.ustc.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree'), ('SSH_CONNECTION', '192.168.40.216 38859 192.168.40.51 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wheeltec/wheeltec_robot/build/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/build/nav2_simple_commander:/home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator:/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/tf2_tools/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble')]), 'shell': False}
+[0.099412] (-) TimerEvent: {}
+[0.149044] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_behavior_tree\x1b[0m\n'}
+[0.158093] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_cancel_bt_node\x1b[0m\n'}
+[0.173767] (nav2_behavior_tree) StdoutLine: {'line': b'[  0%] \x1b[32mBuilding CXX object CMakeFiles/nav2_compute_path_through_poses_action_bt_node.dir/plugins/action/compute_path_through_poses_action.cpp.o\x1b[0m\n'}
+[0.174176] (nav2_behavior_tree) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_spin_cancel_bt_node.dir/plugins/action/spin_cancel_node.cpp.o\x1b[0m\n'}
+[0.174328] (nav2_behavior_tree) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_wait_cancel_bt_node.dir/plugins/action/wait_cancel_node.cpp.o\x1b[0m\n'}
+[0.175589] (nav2_behavior_tree) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_controller_cancel_bt_node.dir/plugins/action/controller_cancel_node.cpp.o\x1b[0m\n'}
+[0.179102] (nav2_behavior_tree) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_back_up_cancel_bt_node.dir/plugins/action/back_up_cancel_node.cpp.o\x1b[0m\n'}
+[0.192138] (nav2_behavior_tree) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object CMakeFiles/nav2_compute_path_to_pose_action_bt_node.dir/plugins/action/compute_path_to_pose_action.cpp.o\x1b[0m\n'}
+[0.195861] (nav2_behavior_tree) StdoutLine: {'line': b'[  2%] Built target nav2_behavior_tree\n'}
+[0.197866] (nav2_behavior_tree) StdoutLine: {'line': b'[  3%] Built target nav2_assisted_teleop_cancel_bt_node\n'}
+[0.199495] (-) TimerEvent: {}
+[0.225341] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_cancel_bt_node\x1b[0m\n'}
+[0.225714] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_smooth_path_action_bt_node\x1b[0m\n'}
+[0.274373] (nav2_behavior_tree) StdoutLine: {'line': b'[  4%] Built target nav2_smooth_path_action_bt_node\n'}
+[0.286488] (nav2_behavior_tree) StdoutLine: {'line': b'[  5%] Built target nav2_drive_on_heading_cancel_bt_node\n'}
+[0.299670] (-) TimerEvent: {}
+[0.300216] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_follow_path_action_bt_node\x1b[0m\n'}
+[0.344195] (nav2_behavior_tree) StdoutLine: {'line': b'[  6%] Built target nav2_follow_path_action_bt_node\n'}
+[0.362942] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_back_up_action_bt_node\x1b[0m\n'}
+[0.399856] (-) TimerEvent: {}
+[0.406323] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_bt_node\x1b[0m\n'}
+[0.441927] (nav2_behavior_tree) StdoutLine: {'line': b'[  7%] Built target nav2_back_up_action_bt_node\n'}
+[0.466823] (nav2_behavior_tree) StdoutLine: {'line': b'[  8%] Built target nav2_drive_on_heading_bt_node\n'}
+[0.485593] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_spin_action_bt_node\x1b[0m\n'}
+[0.500010] (-) TimerEvent: {}
+[0.534290] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_wait_action_bt_node\x1b[0m\n'}
+[0.558702] (nav2_behavior_tree) StdoutLine: {'line': b'[  9%] Built target nav2_spin_action_bt_node\n'}
+[0.595307] (nav2_behavior_tree) StdoutLine: {'line': b'[ 10%] Built target nav2_wait_action_bt_node\n'}
+[0.600170] (-) TimerEvent: {}
+[0.615787] (nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_action_bt_node\x1b[0m\n'}
+[0.662449] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] Built target nav2_assisted_teleop_action_bt_node\n'}
+[0.700341] (-) TimerEvent: {}
+[0.717618] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/nav2_is_stuck_condition_bt_node.dir/plugins/condition/is_stuck_condition.cpp.o\x1b[0m\n'}
+[0.739454] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o\x1b[0m\n'}
+[0.800539] (-) TimerEvent: {}
+[0.901164] (-) TimerEvent: {}
+[1.001777] (-) TimerEvent: {}
+[1.102351] (-) TimerEvent: {}
+[1.202921] (-) TimerEvent: {}
+[1.303515] (-) TimerEvent: {}
+[1.404346] (-) TimerEvent: {}
+[1.505142] (-) TimerEvent: {}
+[1.605980] (-) TimerEvent: {}
+[1.706629] (-) TimerEvent: {}
+[1.807179] (-) TimerEvent: {}
+[1.908017] (-) TimerEvent: {}
+[2.008871] (-) TimerEvent: {}
+[2.109724] (-) TimerEvent: {}
+[2.210568] (-) TimerEvent: {}
+[2.311778] (-) TimerEvent: {}
+[2.413094] (-) TimerEvent: {}
+[2.514370] (-) TimerEvent: {}
+[2.614976] (-) TimerEvent: {}
+[2.715538] (-) TimerEvent: {}
+[2.816156] (-) TimerEvent: {}
+[2.916963] (-) TimerEvent: {}
+[3.017795] (-) TimerEvent: {}
+[3.118603] (-) TimerEvent: {}
+[3.219606] (-) TimerEvent: {}
+[3.320210] (-) TimerEvent: {}
+[3.421071] (-) TimerEvent: {}
+[3.521910] (-) TimerEvent: {}
+[3.623178] (-) TimerEvent: {}
+[3.724565] (-) TimerEvent: {}
+[3.825324] (-) TimerEvent: {}
+[3.926262] (-) TimerEvent: {}
+[4.027040] (-) TimerEvent: {}
+[4.128036] (-) TimerEvent: {}
+[4.228872] (-) TimerEvent: {}
+[4.329702] (-) TimerEvent: {}
+[4.430522] (-) TimerEvent: {}
+[4.531514] (-) TimerEvent: {}
+[4.632337] (-) TimerEvent: {}
+[4.733317] (-) TimerEvent: {}
+[4.834396] (-) TimerEvent: {}
+[4.935391] (-) TimerEvent: {}
+[5.036376] (-) TimerEvent: {}
+[5.137388] (-) TimerEvent: {}
+[5.238384] (-) TimerEvent: {}
+[5.339375] (-) TimerEvent: {}
+[5.439947] (-) TimerEvent: {}
+[5.540948] (-) TimerEvent: {}
+[5.641944] (-) TimerEvent: {}
+[5.742944] (-) TimerEvent: {}
+[5.843632] (-) TimerEvent: {}
+[5.944217] (-) TimerEvent: {}
+[6.045057] (-) TimerEvent: {}
+[6.146397] (-) TimerEvent: {}
+[6.247379] (-) TimerEvent: {}
+[6.348218] (-) TimerEvent: {}
+[6.449003] (-) TimerEvent: {}
+[6.549837] (-) TimerEvent: {}
+[6.650742] (-) TimerEvent: {}
+[6.751566] (-) TimerEvent: {}
+[6.852158] (-) TimerEvent: {}
+[6.953171] (-) TimerEvent: {}
+[7.054059] (-) TimerEvent: {}
+[7.154868] (-) TimerEvent: {}
+[7.256146] (-) TimerEvent: {}
+[7.356967] (-) TimerEvent: {}
+[7.457789] (-) TimerEvent: {}
+[7.558602] (-) TimerEvent: {}
+[7.659404] (-) TimerEvent: {}
+[7.760012] (-) TimerEvent: {}
+[7.860833] (-) TimerEvent: {}
+[7.961832] (-) TimerEvent: {}
+[8.062702] (-) TimerEvent: {}
+[8.163553] (-) TimerEvent: {}
+[8.264821] (-) TimerEvent: {}
+[8.365637] (-) TimerEvent: {}
+[8.466441] (-) TimerEvent: {}
+[8.567256] (-) TimerEvent: {}
+[8.667873] (-) TimerEvent: {}
+[8.768953] (-) TimerEvent: {}
+[8.869586] (-) TimerEvent: {}
+[8.971393] (-) TimerEvent: {}
+[9.072418] (-) TimerEvent: {}
+[9.173440] (-) TimerEvent: {}
+[9.274668] (-) TimerEvent: {}
+[9.375478] (-) TimerEvent: {}
+[9.476305] (-) TimerEvent: {}
+[9.577131] (-) TimerEvent: {}
+[9.678106] (-) TimerEvent: {}
+[9.778984] (-) TimerEvent: {}
+[9.879852] (-) TimerEvent: {}
+[9.980471] (-) TimerEvent: {}
+[10.081073] (-) TimerEvent: {}
+[10.181660] (-) TimerEvent: {}
+[10.282295] (-) TimerEvent: {}
+[10.382890] (-) TimerEvent: {}
+[10.483477] (-) TimerEvent: {}
+[10.584084] (-) TimerEvent: {}
+[10.684689] (-) TimerEvent: {}
+[10.785276] (-) TimerEvent: {}
+[10.885844] (-) TimerEvent: {}
+[10.986698] (-) TimerEvent: {}
+[11.087289] (-) TimerEvent: {}
+[11.187884] (-) TimerEvent: {}
+[11.288494] (-) TimerEvent: {}
+[11.389098] (-) TimerEvent: {}
+[11.489711] (-) TimerEvent: {}
+[11.590303] (-) TimerEvent: {}
+[11.690902] (-) TimerEvent: {}
+[11.791529] (-) TimerEvent: {}
+[11.892118] (-) TimerEvent: {}
+[11.992710] (-) TimerEvent: {}
+[12.093302] (-) TimerEvent: {}
+[12.193907] (-) TimerEvent: {}
+[12.294468] (-) TimerEvent: {}
+[12.395036] (-) TimerEvent: {}
+[12.495642] (-) TimerEvent: {}
+[12.596258] (-) TimerEvent: {}
+[12.696878] (-) TimerEvent: {}
+[12.797476] (-) TimerEvent: {}
+[12.898111] (-) TimerEvent: {}
+[12.998702] (-) TimerEvent: {}
+[13.099300] (-) TimerEvent: {}
+[13.191831] (nav2_behavior_tree) StdoutLine: {'line': b'[ 11%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_wait_cancel_bt_node.so\x1b[0m\n'}
+[13.199486] (-) TimerEvent: {}
+[13.278606] (nav2_behavior_tree) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_controller_cancel_bt_node.so\x1b[0m\n'}
+[13.299647] (-) TimerEvent: {}
+[13.400652] (-) TimerEvent: {}
+[13.412827] (nav2_behavior_tree) StdoutLine: {'line': b'[ 13%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_spin_cancel_bt_node.so\x1b[0m\n'}
+[13.500857] (-) TimerEvent: {}
+[13.515783] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_back_up_cancel_bt_node.so\x1b[0m\n'}
+[13.601048] (-) TimerEvent: {}
+[13.657599] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] Built target nav2_wait_cancel_bt_node\n'}
+[13.701100] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] Built target nav2_controller_cancel_bt_node\n'}
+[13.701560] (-) TimerEvent: {}
+[13.801991] (-) TimerEvent: {}
+[13.803433] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_transform_available_condition_bt_node.dir/plugins/condition/transform_available_condition.cpp.o\x1b[0m\n'}
+[13.818739] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_goal_reached_condition_bt_node.dir/plugins/condition/goal_reached_condition.cpp.o\x1b[0m\n'}
+[13.835698] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] Built target nav2_spin_cancel_bt_node\n'}
+[13.902166] (-) TimerEvent: {}
+[13.934166] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] Built target nav2_back_up_cancel_bt_node\n'}
+[13.956560] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_globally_updated_goal_condition_bt_node.dir/plugins/condition/globally_updated_goal_condition.cpp.o\x1b[0m\n'}
+[14.002317] (-) TimerEvent: {}
+[14.102869] (-) TimerEvent: {}
+[14.114233] (nav2_behavior_tree) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/nav2_goal_updated_condition_bt_node.dir/plugins/condition/goal_updated_condition.cpp.o\x1b[0m\n'}
+[14.203050] (-) TimerEvent: {}
+[14.303647] (-) TimerEvent: {}
+[14.404235] (-) TimerEvent: {}
+[14.504862] (-) TimerEvent: {}
+[14.605480] (-) TimerEvent: {}
+[14.706095] (-) TimerEvent: {}
+[14.807464] (-) TimerEvent: {}
+[14.908821] (-) TimerEvent: {}
+[15.010181] (-) TimerEvent: {}
+[15.110807] (-) TimerEvent: {}
+[15.211429] (-) TimerEvent: {}
+[15.312352] (-) TimerEvent: {}
+[15.413344] (-) TimerEvent: {}
+[15.514466] (-) TimerEvent: {}
+[15.615529] (-) TimerEvent: {}
+[15.716909] (-) TimerEvent: {}
+[15.818336] (-) TimerEvent: {}
+[15.919718] (-) TimerEvent: {}
+[16.020337] (-) TimerEvent: {}
+[16.115640] (nav2_behavior_tree) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_compute_path_through_poses_action_bt_node.so\x1b[0m\n'}
+[16.120620] (-) TimerEvent: {}
+[16.221461] (-) TimerEvent: {}
+[16.322075] (-) TimerEvent: {}
+[16.368508] (nav2_behavior_tree) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_compute_path_to_pose_action_bt_node.so\x1b[0m\n'}
+[16.422228] (-) TimerEvent: {}
+[16.523592] (-) TimerEvent: {}
+[16.624914] (-) TimerEvent: {}
+[16.726154] (-) TimerEvent: {}
+[16.740519] (nav2_behavior_tree) StdoutLine: {'line': b'[ 16%] Built target nav2_compute_path_through_poses_action_bt_node\n'}
+[16.759575] (nav2_behavior_tree) StdoutLine: {'line': b'[ 16%] Built target nav2_compute_path_to_pose_action_bt_node\n'}
+[16.826321] (-) TimerEvent: {}
+[16.835956] (nav2_behavior_tree) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/nav2_is_path_valid_condition_bt_node.dir/plugins/condition/is_path_valid_condition.cpp.o\x1b[0m\n'}
+[16.854701] (nav2_behavior_tree) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/nav2_time_expired_condition_bt_node.dir/plugins/condition/time_expired_condition.cpp.o\x1b[0m\n'}
+[16.926480] (-) TimerEvent: {}
+[17.027070] (-) TimerEvent: {}
+[17.127867] (-) TimerEvent: {}
+[17.228633] (-) TimerEvent: {}
+[17.329398] (-) TimerEvent: {}
+[17.430220] (-) TimerEvent: {}
+[17.531042] (-) TimerEvent: {}
+[17.631881] (-) TimerEvent: {}
+[17.732679] (-) TimerEvent: {}
+[17.833501] (-) TimerEvent: {}
+[17.934134] (-) TimerEvent: {}
+[18.034712] (-) TimerEvent: {}
+[18.135282] (-) TimerEvent: {}
+[18.235836] (-) TimerEvent: {}
+[18.323355] (nav2_behavior_tree) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_clear_costmap_service_bt_node.so\x1b[0m\n'}
+[18.336028] (-) TimerEvent: {}
+[18.436652] (-) TimerEvent: {}
+[18.537206] (-) TimerEvent: {}
+[18.637857] (-) TimerEvent: {}
+[18.735140] (nav2_behavior_tree) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_goal_updated_condition_bt_node.so\x1b[0m\n'}
+[18.738042] (-) TimerEvent: {}
+[18.838852] (-) TimerEvent: {}
+[18.875807] (nav2_behavior_tree) StdoutLine: {'line': b'[ 18%] Built target nav2_clear_costmap_service_bt_node\n'}
+[18.939026] (-) TimerEvent: {}
+[19.032777] (nav2_behavior_tree) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nav2_path_expiring_timer_condition.dir/plugins/condition/path_expiring_timer_condition.cpp.o\x1b[0m\n'}
+[19.039200] (-) TimerEvent: {}
+[19.078151] (nav2_behavior_tree) StdoutLine: {'line': b'[ 18%] Built target nav2_goal_updated_condition_bt_node\n'}
+[19.139405] (-) TimerEvent: {}
+[19.219072] (nav2_behavior_tree) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/nav2_distance_traveled_condition_bt_node.dir/plugins/condition/distance_traveled_condition.cpp.o\x1b[0m\n'}
+[19.239582] (-) TimerEvent: {}
+[19.340194] (-) TimerEvent: {}
+[19.440794] (-) TimerEvent: {}
+[19.541424] (-) TimerEvent: {}
+[19.642576] (-) TimerEvent: {}
+[19.743166] (-) TimerEvent: {}
+[19.843786] (-) TimerEvent: {}
+[19.944365] (-) TimerEvent: {}
+[20.044918] (-) TimerEvent: {}
+[20.145972] (-) TimerEvent: {}
+[20.246998] (-) TimerEvent: {}
+[20.347611] (-) TimerEvent: {}
+[20.448209] (-) TimerEvent: {}
+[20.548846] (-) TimerEvent: {}
+[20.649416] (-) TimerEvent: {}
+[20.750010] (-) TimerEvent: {}
+[20.850614] (-) TimerEvent: {}
+[20.951218] (-) TimerEvent: {}
+[21.051818] (-) TimerEvent: {}
+[21.152659] (-) TimerEvent: {}
+[21.253259] (-) TimerEvent: {}
+[21.354489] (-) TimerEvent: {}
+[21.455742] (-) TimerEvent: {}
+[21.557220] (-) TimerEvent: {}
+[21.658523] (-) TimerEvent: {}
+[21.759859] (-) TimerEvent: {}
+[21.860481] (-) TimerEvent: {}
+[21.961088] (-) TimerEvent: {}
+[22.061708] (-) TimerEvent: {}
+[22.162318] (-) TimerEvent: {}
+[22.263127] (-) TimerEvent: {}
+[22.363729] (-) TimerEvent: {}
+[22.464342] (-) TimerEvent: {}
+[22.564967] (-) TimerEvent: {}
+[22.665800] (-) TimerEvent: {}
+[22.766401] (-) TimerEvent: {}
+[22.867489] (-) TimerEvent: {}
+[22.968110] (-) TimerEvent: {}
+[23.068735] (-) TimerEvent: {}
+[23.169337] (-) TimerEvent: {}
+[23.269953] (-) TimerEvent: {}
+[23.370610] (-) TimerEvent: {}
+[23.471222] (-) TimerEvent: {}
+[23.561325] (nav2_behavior_tree) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_globally_updated_goal_condition_bt_node.so\x1b[0m\n'}
+[23.562937] (nav2_behavior_tree) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_transform_available_condition_bt_node.so\x1b[0m\n'}
+[23.571407] (-) TimerEvent: {}
+[23.671997] (-) TimerEvent: {}
+[23.772620] (-) TimerEvent: {}
+[23.873225] (-) TimerEvent: {}
+[23.955480] (nav2_behavior_tree) StdoutLine: {'line': b'[ 20%] Built target nav2_transform_available_condition_bt_node\n'}
+[23.973420] (-) TimerEvent: {}
+[24.053858] (nav2_behavior_tree) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nav2_initial_pose_received_condition_bt_node.dir/plugins/condition/initial_pose_received_condition.cpp.o\x1b[0m\n'}
+[24.064037] (nav2_behavior_tree) StdoutLine: {'line': b'[ 20%] Built target nav2_globally_updated_goal_condition_bt_node\n'}
+[24.073611] (-) TimerEvent: {}
+[24.174180] (-) TimerEvent: {}
+[24.235035] (nav2_behavior_tree) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/nav2_is_battery_low_condition_bt_node.dir/plugins/condition/is_battery_low_condition.cpp.o\x1b[0m\n'}
+[24.274316] (-) TimerEvent: {}
+[24.374886] (-) TimerEvent: {}
+[24.475493] (-) TimerEvent: {}
+[24.576120] (-) TimerEvent: {}
+[24.676746] (-) TimerEvent: {}
+[24.777839] (-) TimerEvent: {}
+[24.878941] (-) TimerEvent: {}
+[24.980021] (-) TimerEvent: {}
+[25.081144] (-) TimerEvent: {}
+[25.182263] (-) TimerEvent: {}
+[25.282842] (-) TimerEvent: {}
+[25.383423] (-) TimerEvent: {}
+[25.484053] (-) TimerEvent: {}
+[25.584634] (-) TimerEvent: {}
+[25.685192] (-) TimerEvent: {}
+[25.739807] (nav2_behavior_tree) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_goal_reached_condition_bt_node.so\x1b[0m\n'}
+[25.778161] (nav2_behavior_tree) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_is_stuck_condition_bt_node.so\x1b[0m\n'}
+[25.785390] (-) TimerEvent: {}
+[25.885996] (-) TimerEvent: {}
+[25.986607] (-) TimerEvent: {}
+[26.087192] (-) TimerEvent: {}
+[26.148731] (nav2_behavior_tree) StdoutLine: {'line': b'[ 22%] Built target nav2_goal_reached_condition_bt_node\n'}
+[26.187364] (-) TimerEvent: {}
+[26.203165] (nav2_behavior_tree) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/nav2_reinitialize_global_localization_service_bt_node.dir/plugins/action/reinitialize_global_localization_service.cpp.o\x1b[0m\n'}
+[26.287557] (-) TimerEvent: {}
+[26.388658] (-) TimerEvent: {}
+[26.447229] (nav2_behavior_tree) StdoutLine: {'line': b'[ 22%] Built target nav2_is_stuck_condition_bt_node\n'}
+[26.488840] (-) TimerEvent: {}
+[26.589452] (-) TimerEvent: {}
+[26.595237] (nav2_behavior_tree) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/nav2_rate_controller_bt_node.dir/plugins/decorator/rate_controller.cpp.o\x1b[0m\n'}
+[26.689649] (-) TimerEvent: {}
+[26.790222] (-) TimerEvent: {}
+[26.890826] (-) TimerEvent: {}
+[26.991421] (-) TimerEvent: {}
+[27.092010] (-) TimerEvent: {}
+[27.192591] (-) TimerEvent: {}
+[27.293172] (-) TimerEvent: {}
+[27.393737] (-) TimerEvent: {}
+[27.414318] (nav2_behavior_tree) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_time_expired_condition_bt_node.so\x1b[0m\n'}
+[27.428909] (nav2_behavior_tree) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_initial_pose_received_condition_bt_node.so\x1b[0m\n'}
+[27.493920] (-) TimerEvent: {}
+[27.594972] (-) TimerEvent: {}
+[27.696161] (-) TimerEvent: {}
+[27.762854] (nav2_behavior_tree) StdoutLine: {'line': b'[ 24%] Built target nav2_initial_pose_received_condition_bt_node\n'}
+[27.796330] (-) TimerEvent: {}
+[27.829967] (nav2_behavior_tree) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/nav2_distance_controller_bt_node.dir/plugins/decorator/distance_controller.cpp.o\x1b[0m\n'}
+[27.850059] (nav2_behavior_tree) StdoutLine: {'line': b'[ 24%] Built target nav2_time_expired_condition_bt_node\n'}
+[27.896502] (-) TimerEvent: {}
+[27.997084] (-) TimerEvent: {}
+[28.031028] (nav2_behavior_tree) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/nav2_speed_controller_bt_node.dir/plugins/decorator/speed_controller.cpp.o\x1b[0m\n'}
+[28.097279] (-) TimerEvent: {}
+[28.197893] (-) TimerEvent: {}
+[28.298651] (-) TimerEvent: {}
+[28.399404] (-) TimerEvent: {}
+[28.499941] (-) TimerEvent: {}
+[28.600520] (-) TimerEvent: {}
+[28.701118] (-) TimerEvent: {}
+[28.727638] (nav2_behavior_tree) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_is_path_valid_condition_bt_node.so\x1b[0m\n'}
+[28.801293] (-) TimerEvent: {}
+[28.901852] (-) TimerEvent: {}
+[29.002460] (-) TimerEvent: {}
+[29.103060] (-) TimerEvent: {}
+[29.203655] (-) TimerEvent: {}
+[29.288340] (nav2_behavior_tree) StdoutLine: {'line': b'[ 25%] Built target nav2_is_path_valid_condition_bt_node\n'}
+[29.303845] (-) TimerEvent: {}
+[29.404476] (-) TimerEvent: {}
+[29.447583] (nav2_behavior_tree) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/nav2_truncate_path_action_bt_node.dir/plugins/action/truncate_path_action.cpp.o\x1b[0m\n'}
+[29.504669] (-) TimerEvent: {}
+[29.605241] (-) TimerEvent: {}
+[29.705847] (-) TimerEvent: {}
+[29.806454] (-) TimerEvent: {}
+[29.907056] (-) TimerEvent: {}
+[30.007663] (-) TimerEvent: {}
+[30.108252] (-) TimerEvent: {}
+[30.208877] (-) TimerEvent: {}
+[30.309476] (-) TimerEvent: {}
+[30.360071] (nav2_behavior_tree) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_path_expiring_timer_condition.so\x1b[0m\n'}
+[30.409670] (-) TimerEvent: {}
+[30.510269] (-) TimerEvent: {}
+[30.610838] (-) TimerEvent: {}
+[30.711450] (-) TimerEvent: {}
+[30.791716] (nav2_behavior_tree) StdoutLine: {'line': b'[ 27%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_rate_controller_bt_node.so\x1b[0m\n'}
+[30.811632] (-) TimerEvent: {}
+[30.894724] (nav2_behavior_tree) StdoutLine: {'line': b'[ 27%] Built target nav2_path_expiring_timer_condition\n'}
+[30.911795] (-) TimerEvent: {}
+[31.012392] (-) TimerEvent: {}
+[31.044416] (nav2_behavior_tree) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/nav2_truncate_path_local_action_bt_node.dir/plugins/action/truncate_path_local_action.cpp.o\x1b[0m\n'}
+[31.089431] (nav2_behavior_tree) StdoutLine: {'line': b'[ 28%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_distance_traveled_condition_bt_node.so\x1b[0m\n'}
+[31.112547] (-) TimerEvent: {}
+[31.139600] (nav2_behavior_tree) StdoutLine: {'line': b'[ 28%] Built target nav2_rate_controller_bt_node\n'}
+[31.212734] (-) TimerEvent: {}
+[31.288463] (nav2_behavior_tree) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nav2_goal_updater_node_bt_node.dir/plugins/decorator/goal_updater_node.cpp.o\x1b[0m\n'}
+[31.312924] (-) TimerEvent: {}
+[31.413531] (-) TimerEvent: {}
+[31.514159] (-) TimerEvent: {}
+[31.559659] (nav2_behavior_tree) StdoutLine: {'line': b'[ 28%] Built target nav2_distance_traveled_condition_bt_node\n'}
+[31.614317] (-) TimerEvent: {}
+[31.663491] (nav2_behavior_tree) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/nav2_path_longer_on_approach_bt_node.dir/plugins/decorator/path_longer_on_approach.cpp.o\x1b[0m\n'}
+[31.714481] (-) TimerEvent: {}
+[31.815069] (-) TimerEvent: {}
+[31.915632] (-) TimerEvent: {}
+[32.016215] (-) TimerEvent: {}
+[32.116834] (-) TimerEvent: {}
+[32.217431] (-) TimerEvent: {}
+[32.318049] (-) TimerEvent: {}
+[32.418607] (-) TimerEvent: {}
+[32.519192] (-) TimerEvent: {}
+[32.619783] (-) TimerEvent: {}
+[32.720397] (-) TimerEvent: {}
+[32.821002] (-) TimerEvent: {}
+[32.921620] (-) TimerEvent: {}
+[33.022193] (-) TimerEvent: {}
+[33.122769] (-) TimerEvent: {}
+[33.223360] (-) TimerEvent: {}
+[33.323928] (-) TimerEvent: {}
+[33.424523] (-) TimerEvent: {}
+[33.525132] (-) TimerEvent: {}
+[33.626170] (-) TimerEvent: {}
+[33.727128] (-) TimerEvent: {}
+[33.828143] (-) TimerEvent: {}
+[33.928701] (-) TimerEvent: {}
+[34.029304] (-) TimerEvent: {}
+[34.129892] (-) TimerEvent: {}
+[34.231223] (-) TimerEvent: {}
+[34.331814] (-) TimerEvent: {}
+[34.432834] (-) TimerEvent: {}
+[34.533437] (-) TimerEvent: {}
+[34.634017] (-) TimerEvent: {}
+[34.734609] (-) TimerEvent: {}
+[34.835204] (-) TimerEvent: {}
+[34.935811] (-) TimerEvent: {}
+[35.036410] (-) TimerEvent: {}
+[35.137021] (-) TimerEvent: {}
+[35.237616] (-) TimerEvent: {}
+[35.338178] (-) TimerEvent: {}
+[35.438750] (-) TimerEvent: {}
+[35.539337] (-) TimerEvent: {}
+[35.639938] (-) TimerEvent: {}
+[35.740534] (-) TimerEvent: {}
+[35.841154] (-) TimerEvent: {}
+[35.941755] (-) TimerEvent: {}
+[36.042819] (-) TimerEvent: {}
+[36.143927] (-) TimerEvent: {}
+[36.244940] (-) TimerEvent: {}
+[36.345954] (-) TimerEvent: {}
+[36.446544] (-) TimerEvent: {}
+[36.547089] (-) TimerEvent: {}
+[36.647657] (-) TimerEvent: {}
+[36.748261] (-) TimerEvent: {}
+[36.848868] (-) TimerEvent: {}
+[36.949474] (-) TimerEvent: {}
+[37.050098] (-) TimerEvent: {}
+[37.150652] (-) TimerEvent: {}
+[37.251235] (-) TimerEvent: {}
+[37.351813] (-) TimerEvent: {}
+[37.452436] (-) TimerEvent: {}
+[37.553040] (-) TimerEvent: {}
+[37.653664] (-) TimerEvent: {}
+[37.754269] (-) TimerEvent: {}
+[37.854863] (-) TimerEvent: {}
+[37.955469] (-) TimerEvent: {}
+[38.056343] (-) TimerEvent: {}
+[38.157696] (-) TimerEvent: {}
+[38.259062] (-) TimerEvent: {}
+[38.360443] (-) TimerEvent: {}
+[38.461832] (-) TimerEvent: {}
+[38.563306] (-) TimerEvent: {}
+[38.663923] (-) TimerEvent: {}
+[38.764551] (-) TimerEvent: {}
+[38.865943] (-) TimerEvent: {}
+[38.967306] (-) TimerEvent: {}
+[39.068649] (-) TimerEvent: {}
+[39.170006] (-) TimerEvent: {}
+[39.271314] (-) TimerEvent: {}
+[39.280242] (nav2_behavior_tree) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_reinitialize_global_localization_service_bt_node.so\x1b[0m\n'}
+[39.371493] (-) TimerEvent: {}
+[39.451391] (nav2_behavior_tree) StdoutLine: {'line': b'[ 30%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_distance_controller_bt_node.so\x1b[0m\n'}
+[39.471681] (-) TimerEvent: {}
+[39.572825] (-) TimerEvent: {}
+[39.674451] (-) TimerEvent: {}
+[39.775025] (-) TimerEvent: {}
+[39.800169] (nav2_behavior_tree) StdoutLine: {'line': b'[ 30%] Built target nav2_reinitialize_global_localization_service_bt_node\n'}
+[39.876474] (-) TimerEvent: {}
+[39.959982] (nav2_behavior_tree) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_recovery_node_bt_node.dir/plugins/control/recovery_node.cpp.o\x1b[0m\n'}
+[39.976658] (-) TimerEvent: {}
+[39.986229] (nav2_behavior_tree) StdoutLine: {'line': b'[ 30%] Built target nav2_distance_controller_bt_node\n'}
+[40.076846] (-) TimerEvent: {}
+[40.103831] (nav2_behavior_tree) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/nav2_navigate_to_pose_action_bt_node.dir/plugins/action/navigate_to_pose_action.cpp.o\x1b[0m\n'}
+[40.177041] (-) TimerEvent: {}
+[40.277621] (-) TimerEvent: {}
+[40.378175] (-) TimerEvent: {}
+[40.478727] (-) TimerEvent: {}
+[40.579563] (-) TimerEvent: {}
+[40.639562] (nav2_behavior_tree) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_speed_controller_bt_node.so\x1b[0m\n'}
+[40.679753] (-) TimerEvent: {}
+[40.780801] (-) TimerEvent: {}
+[40.881392] (-) TimerEvent: {}
+[40.962730] (nav2_behavior_tree) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_truncate_path_action_bt_node.so\x1b[0m\n'}
+[40.981590] (-) TimerEvent: {}
+[41.082995] (-) TimerEvent: {}
+[41.184404] (-) TimerEvent: {}
+[41.202899] (nav2_behavior_tree) StdoutLine: {'line': b'[ 32%] Built target nav2_speed_controller_bt_node\n'}
+[41.284588] (-) TimerEvent: {}
+[41.336190] (nav2_behavior_tree) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/nav2_navigate_through_poses_action_bt_node.dir/plugins/action/navigate_through_poses_action.cpp.o\x1b[0m\n'}
+[41.383411] (nav2_behavior_tree) StdoutLine: {'line': b'[ 32%] Built target nav2_truncate_path_action_bt_node\n'}
+[41.384728] (-) TimerEvent: {}
+[41.485801] (-) TimerEvent: {}
+[41.557468] (nav2_behavior_tree) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/nav2_remove_passed_goals_action_bt_node.dir/plugins/action/remove_passed_goals_action.cpp.o\x1b[0m\n'}
+[41.585977] (-) TimerEvent: {}
+[41.686578] (-) TimerEvent: {}
+[41.787172] (-) TimerEvent: {}
+[41.887779] (-) TimerEvent: {}
+[41.988393] (-) TimerEvent: {}
+[42.088993] (-) TimerEvent: {}
+[42.189576] (-) TimerEvent: {}
+[42.290194] (-) TimerEvent: {}
+[42.390789] (-) TimerEvent: {}
+[42.491389] (-) TimerEvent: {}
+[42.591977] (-) TimerEvent: {}
+[42.692582] (-) TimerEvent: {}
+[42.793185] (-) TimerEvent: {}
+[42.893815] (-) TimerEvent: {}
+[42.994412] (-) TimerEvent: {}
+[43.095023] (-) TimerEvent: {}
+[43.196063] (-) TimerEvent: {}
+[43.296644] (-) TimerEvent: {}
+[43.397239] (-) TimerEvent: {}
+[43.417135] (nav2_behavior_tree) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_path_longer_on_approach_bt_node.so\x1b[0m\n'}
+[43.497433] (-) TimerEvent: {}
+[43.598662] (-) TimerEvent: {}
+[43.698646] (nav2_behavior_tree) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_truncate_path_local_action_bt_node.so\x1b[0m\n'}
+[43.699038] (-) TimerEvent: {}
+[43.800312] (-) TimerEvent: {}
+[43.900163] (nav2_behavior_tree) StdoutLine: {'line': b'[ 34%] Built target nav2_path_longer_on_approach_bt_node\n'}
+[43.900642] (-) TimerEvent: {}
+[44.001381] (-) TimerEvent: {}
+[44.050682] (nav2_behavior_tree) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/nav2_pipeline_sequence_bt_node.dir/plugins/control/pipeline_sequence.cpp.o\x1b[0m\n'}
+[44.101575] (-) TimerEvent: {}
+[44.202464] (-) TimerEvent: {}
+[44.222451] (nav2_behavior_tree) StdoutLine: {'line': b'[ 34%] Built target nav2_truncate_path_local_action_bt_node\n'}
+[44.302621] (-) TimerEvent: {}
+[44.311433] (nav2_behavior_tree) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_recovery_node_bt_node.so\x1b[0m\n'}
+[44.354608] (nav2_behavior_tree) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nav2_round_robin_node_bt_node.dir/plugins/control/round_robin_node.cpp.o\x1b[0m\n'}
+[44.402776] (-) TimerEvent: {}
+[44.503807] (-) TimerEvent: {}
+[44.604867] (-) TimerEvent: {}
+[44.705909] (-) TimerEvent: {}
+[44.799382] (nav2_behavior_tree) StdoutLine: {'line': b'[ 35%] Built target nav2_recovery_node_bt_node\n'}
+[44.806129] (-) TimerEvent: {}
+[44.906736] (-) TimerEvent: {}
+[44.967132] (nav2_behavior_tree) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/nav2_single_trigger_bt_node.dir/plugins/decorator/single_trigger_node.cpp.o\x1b[0m\n'}
+[45.006913] (-) TimerEvent: {}
+[45.107472] (-) TimerEvent: {}
+[45.208058] (-) TimerEvent: {}
+[45.308673] (-) TimerEvent: {}
+[45.409298] (-) TimerEvent: {}
+[45.509938] (-) TimerEvent: {}
+[45.610554] (-) TimerEvent: {}
+[45.711172] (-) TimerEvent: {}
+[45.811731] (-) TimerEvent: {}
+[45.912797] (-) TimerEvent: {}
+[46.013833] (-) TimerEvent: {}
+[46.114430] (-) TimerEvent: {}
+[46.215049] (-) TimerEvent: {}
+[46.315656] (-) TimerEvent: {}
+[46.416267] (-) TimerEvent: {}
+[46.516876] (-) TimerEvent: {}
+[46.617461] (-) TimerEvent: {}
+[46.718068] (-) TimerEvent: {}
+[46.818623] (-) TimerEvent: {}
+[46.919198] (-) TimerEvent: {}
+[47.019806] (-) TimerEvent: {}
+[47.120401] (-) TimerEvent: {}
+[47.211388] (nav2_behavior_tree) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_pipeline_sequence_bt_node.so\x1b[0m\n'}
+[47.220591] (-) TimerEvent: {}
+[47.321165] (-) TimerEvent: {}
+[47.381662] (nav2_behavior_tree) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_round_robin_node_bt_node.so\x1b[0m\n'}
+[47.421348] (-) TimerEvent: {}
+[47.521941] (-) TimerEvent: {}
+[47.539687] (nav2_behavior_tree) StdoutLine: {'line': b'[ 37%] Built target nav2_pipeline_sequence_bt_node\n'}
+[47.622132] (-) TimerEvent: {}
+[47.701099] (nav2_behavior_tree) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/nav2_planner_selector_bt_node.dir/plugins/action/planner_selector_node.cpp.o\x1b[0m\n'}
+[47.722280] (-) TimerEvent: {}
+[47.751362] (nav2_behavior_tree) StdoutLine: {'line': b'[ 37%] Built target nav2_round_robin_node_bt_node\n'}
+[47.823434] (-) TimerEvent: {}
+[47.837358] (nav2_behavior_tree) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/nav2_controller_selector_bt_node.dir/plugins/action/controller_selector_node.cpp.o\x1b[0m\n'}
+[47.923606] (-) TimerEvent: {}
+[48.024185] (-) TimerEvent: {}
+[48.059772] (nav2_behavior_tree) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_single_trigger_bt_node.so\x1b[0m\n'}
+[48.124360] (-) TimerEvent: {}
+[48.224959] (-) TimerEvent: {}
+[48.325636] (-) TimerEvent: {}
+[48.426246] (-) TimerEvent: {}
+[48.458843] (nav2_behavior_tree) StdoutLine: {'line': b'[ 38%] Built target nav2_single_trigger_bt_node\n'}
+[48.526410] (-) TimerEvent: {}
+[48.558773] (nav2_behavior_tree) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/nav2_smoother_selector_bt_node.dir/plugins/action/smoother_selector_node.cpp.o\x1b[0m\n'}
+[48.626578] (-) TimerEvent: {}
+[48.727159] (-) TimerEvent: {}
+[48.827845] (-) TimerEvent: {}
+[48.929093] (-) TimerEvent: {}
+[49.030359] (-) TimerEvent: {}
+[49.131662] (-) TimerEvent: {}
+[49.232300] (-) TimerEvent: {}
+[49.332889] (-) TimerEvent: {}
+[49.433499] (-) TimerEvent: {}
+[49.534112] (-) TimerEvent: {}
+[49.635442] (-) TimerEvent: {}
+[49.736045] (-) TimerEvent: {}
+[49.836659] (-) TimerEvent: {}
+[49.937276] (-) TimerEvent: {}
+[50.037829] (-) TimerEvent: {}
+[50.138396] (-) TimerEvent: {}
+[50.238996] (-) TimerEvent: {}
+[50.340033] (-) TimerEvent: {}
+[50.441068] (-) TimerEvent: {}
+[50.542128] (-) TimerEvent: {}
+[50.643137] (-) TimerEvent: {}
+[50.743698] (-) TimerEvent: {}
+[50.844308] (-) TimerEvent: {}
+[50.945112] (-) TimerEvent: {}
+[51.046111] (-) TimerEvent: {}
+[51.119328] (nav2_behavior_tree) StdoutLine: {'line': b'[ 39%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_is_battery_low_condition_bt_node.so\x1b[0m\n'}
+[51.146266] (-) TimerEvent: {}
+[51.247284] (-) TimerEvent: {}
+[51.348334] (-) TimerEvent: {}
+[51.449353] (-) TimerEvent: {}
+[51.550163] (-) TimerEvent: {}
+[51.654250] (-) TimerEvent: {}
+[51.754815] (-) TimerEvent: {}
+[51.779356] (nav2_behavior_tree) StdoutLine: {'line': b'[ 39%] Built target nav2_is_battery_low_condition_bt_node\n'}
+[51.855040] (-) TimerEvent: {}
+[51.927040] (nav2_behavior_tree) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/nav2_goal_checker_selector_bt_node.dir/plugins/action/goal_checker_selector_node.cpp.o\x1b[0m\n'}
+[51.955225] (-) TimerEvent: {}
+[52.055861] (-) TimerEvent: {}
+[52.156520] (-) TimerEvent: {}
+[52.257109] (-) TimerEvent: {}
+[52.357734] (-) TimerEvent: {}
+[52.458341] (-) TimerEvent: {}
+[52.559473] (-) TimerEvent: {}
+[52.660563] (-) TimerEvent: {}
+[52.761186] (-) TimerEvent: {}
+[52.861803] (-) TimerEvent: {}
+[52.962639] (-) TimerEvent: {}
+[53.063480] (-) TimerEvent: {}
+[53.164321] (-) TimerEvent: {}
+[53.265346] (-) TimerEvent: {}
+[53.355655] (nav2_behavior_tree) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_remove_passed_goals_action_bt_node.so\x1b[0m\n'}
+[53.365617] (-) TimerEvent: {}
+[53.466431] (-) TimerEvent: {}
+[53.566993] (-) TimerEvent: {}
+[53.667609] (-) TimerEvent: {}
+[53.768238] (-) TimerEvent: {}
+[53.853870] (nav2_behavior_tree) StdoutLine: {'line': b'[ 40%] Built target nav2_remove_passed_goals_action_bt_node\n'}
+[53.868411] (-) TimerEvent: {}
+[53.906785] (nav2_behavior_tree) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/nav2_goal_updated_controller_bt_node.dir/plugins/decorator/goal_updated_controller.cpp.o\x1b[0m\n'}
+[53.968611] (-) TimerEvent: {}
+[54.069200] (-) TimerEvent: {}
+[54.170060] (-) TimerEvent: {}
+[54.270872] (-) TimerEvent: {}
+[54.371460] (-) TimerEvent: {}
+[54.472773] (-) TimerEvent: {}
+[54.574127] (-) TimerEvent: {}
+[54.674727] (-) TimerEvent: {}
+[54.775317] (-) TimerEvent: {}
+[54.876426] (-) TimerEvent: {}
+[54.977034] (-) TimerEvent: {}
+[55.077692] (-) TimerEvent: {}
+[55.178510] (-) TimerEvent: {}
+[55.280037] (-) TimerEvent: {}
+[55.380632] (-) TimerEvent: {}
+[55.481215] (-) TimerEvent: {}
+[55.581811] (-) TimerEvent: {}
+[55.682387] (-) TimerEvent: {}
+[55.783398] (-) TimerEvent: {}
+[55.879651] (nav2_behavior_tree) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_navigate_to_pose_action_bt_node.so\x1b[0m\n'}
+[55.883584] (-) TimerEvent: {}
+[55.984173] (-) TimerEvent: {}
+[56.084781] (-) TimerEvent: {}
+[56.185415] (-) TimerEvent: {}
+[56.286116] (-) TimerEvent: {}
+[56.386668] (-) TimerEvent: {}
+[56.399586] (nav2_behavior_tree) StdoutLine: {'line': b'[ 41%] Built target nav2_navigate_to_pose_action_bt_node\n'}
+[56.486848] (-) TimerEvent: {}
+[56.507707] (nav2_behavior_tree) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[56.586995] (-) TimerEvent: {}
+[56.687585] (-) TimerEvent: {}
+[56.788255] (-) TimerEvent: {}
+[56.888844] (-) TimerEvent: {}
+[56.963550] (nav2_behavior_tree) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_navigate_through_poses_action_bt_node.so\x1b[0m\n'}
+[56.989049] (-) TimerEvent: {}
+[57.089669] (-) TimerEvent: {}
+[57.190276] (-) TimerEvent: {}
+[57.290887] (-) TimerEvent: {}
+[57.391494] (-) TimerEvent: {}
+[57.492110] (-) TimerEvent: {}
+[57.551327] (nav2_behavior_tree) StdoutLine: {'line': b'[ 42%] Built target nav2_navigate_through_poses_action_bt_node\n'}
+[57.592279] (-) TimerEvent: {}
+[57.693283] (-) TimerEvent: {}
+[57.703640] (nav2_behavior_tree) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[57.793476] (-) TimerEvent: {}
+[57.894094] (-) TimerEvent: {}
+[57.994708] (-) TimerEvent: {}
+[58.095299] (-) TimerEvent: {}
+[58.195898] (-) TimerEvent: {}
+[58.296961] (-) TimerEvent: {}
+[58.397544] (-) TimerEvent: {}
+[58.427306] (nav2_behavior_tree) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[58.497722] (-) TimerEvent: {}
+[58.598340] (-) TimerEvent: {}
+[58.655498] (nav2_behavior_tree) StdoutLine: {'line': b'[ 43%] Built target gtest_main\n'}
+[58.698501] (-) TimerEvent: {}
+[58.799077] (-) TimerEvent: {}
+[58.899646] (-) TimerEvent: {}
+[59.000231] (-) TimerEvent: {}
+[59.100797] (-) TimerEvent: {}
+[59.201371] (-) TimerEvent: {}
+[59.234960] (nav2_behavior_tree) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_goal_updater_node_bt_node.so\x1b[0m\n'}
+[59.301616] (-) TimerEvent: {}
+[59.402188] (-) TimerEvent: {}
+[59.502772] (-) TimerEvent: {}
+[59.603291] (-) TimerEvent: {}
+[59.694246] (nav2_behavior_tree) StdoutLine: {'line': b'[ 44%] Built target nav2_goal_updater_node_bt_node\n'}
+[59.703458] (-) TimerEvent: {}
+[59.804026] (-) TimerEvent: {}
+[59.904589] (-) TimerEvent: {}
+[60.005156] (-) TimerEvent: {}
+[60.105784] (-) TimerEvent: {}
+[60.206366] (-) TimerEvent: {}
+[60.306938] (-) TimerEvent: {}
+[60.407504] (-) TimerEvent: {}
+[60.508095] (-) TimerEvent: {}
+[60.608670] (-) TimerEvent: {}
+[60.709251] (-) TimerEvent: {}
+[60.809889] (-) TimerEvent: {}
+[60.910465] (-) TimerEvent: {}
+[61.011027] (-) TimerEvent: {}
+[61.111595] (-) TimerEvent: {}
+[61.212164] (-) TimerEvent: {}
+[61.312760] (-) TimerEvent: {}
+[61.413338] (-) TimerEvent: {}
+[61.513978] (-) TimerEvent: {}
+[61.614565] (-) TimerEvent: {}
+[61.715128] (-) TimerEvent: {}
+[61.815700] (-) TimerEvent: {}
+[61.887670] (nav2_behavior_tree) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_goal_updated_controller_bt_node.so\x1b[0m\n'}
+[61.915854] (-) TimerEvent: {}
+[62.016597] (-) TimerEvent: {}
+[62.117845] (-) TimerEvent: {}
+[62.142082] (nav2_behavior_tree) StdoutLine: {'line': b'[ 45%] Built target nav2_goal_updated_controller_bt_node\n'}
+[62.218156] (-) TimerEvent: {}
+[62.319414] (-) TimerEvent: {}
+[62.420704] (-) TimerEvent: {}
+[62.521986] (-) TimerEvent: {}
+[62.623274] (-) TimerEvent: {}
+[62.724569] (-) TimerEvent: {}
+[62.825841] (-) TimerEvent: {}
+[62.927170] (-) TimerEvent: {}
+[63.028470] (-) TimerEvent: {}
+[63.129720] (-) TimerEvent: {}
+[63.230842] (-) TimerEvent: {}
+[63.331915] (-) TimerEvent: {}
+[63.432952] (-) TimerEvent: {}
+[63.534048] (-) TimerEvent: {}
+[63.635121] (-) TimerEvent: {}
+[63.736202] (-) TimerEvent: {}
+[63.837273] (-) TimerEvent: {}
+[63.938330] (-) TimerEvent: {}
+[64.039430] (-) TimerEvent: {}
+[64.140504] (-) TimerEvent: {}
+[64.241070] (-) TimerEvent: {}
+[64.341618] (-) TimerEvent: {}
+[64.442153] (-) TimerEvent: {}
+[64.542701] (-) TimerEvent: {}
+[64.643284] (-) TimerEvent: {}
+[64.743841] (-) TimerEvent: {}
+[64.844416] (-) TimerEvent: {}
+[64.944986] (-) TimerEvent: {}
+[65.045551] (-) TimerEvent: {}
+[65.146125] (-) TimerEvent: {}
+[65.246674] (-) TimerEvent: {}
+[65.347217] (-) TimerEvent: {}
+[65.447738] (-) TimerEvent: {}
+[65.548288] (-) TimerEvent: {}
+[65.648819] (-) TimerEvent: {}
+[65.749376] (-) TimerEvent: {}
+[65.849929] (-) TimerEvent: {}
+[65.950534] (-) TimerEvent: {}
+[66.051086] (-) TimerEvent: {}
+[66.151608] (-) TimerEvent: {}
+[66.252153] (-) TimerEvent: {}
+[66.352710] (-) TimerEvent: {}
+[66.453296] (-) TimerEvent: {}
+[66.553879] (-) TimerEvent: {}
+[66.654456] (-) TimerEvent: {}
+[66.755016] (-) TimerEvent: {}
+[66.855567] (-) TimerEvent: {}
+[66.956129] (-) TimerEvent: {}
+[67.056706] (-) TimerEvent: {}
+[67.157263] (-) TimerEvent: {}
+[67.257831] (-) TimerEvent: {}
+[67.358452] (-) TimerEvent: {}
+[67.459028] (-) TimerEvent: {}
+[67.559578] (-) TimerEvent: {}
+[67.660106] (-) TimerEvent: {}
+[67.760646] (-) TimerEvent: {}
+[67.861224] (-) TimerEvent: {}
+[67.961790] (-) TimerEvent: {}
+[68.062369] (-) TimerEvent: {}
+[68.162933] (-) TimerEvent: {}
+[68.263499] (-) TimerEvent: {}
+[68.364037] (-) TimerEvent: {}
+[68.464600] (-) TimerEvent: {}
+[68.565137] (-) TimerEvent: {}
+[68.665683] (-) TimerEvent: {}
+[68.766311] (-) TimerEvent: {}
+[68.866877] (-) TimerEvent: {}
+[68.967417] (-) TimerEvent: {}
+[69.067971] (-) TimerEvent: {}
+[69.169274] (-) TimerEvent: {}
+[69.270599] (-) TimerEvent: {}
+[69.371855] (-) TimerEvent: {}
+[69.472432] (-) TimerEvent: {}
+[69.573011] (-) TimerEvent: {}
+[69.673803] (-) TimerEvent: {}
+[69.774431] (-) TimerEvent: {}
+[69.874984] (-) TimerEvent: {}
+[69.975549] (-) TimerEvent: {}
+[70.076080] (-) TimerEvent: {}
+[70.176641] (-) TimerEvent: {}
+[70.277213] (-) TimerEvent: {}
+[70.377792] (-) TimerEvent: {}
+[70.478394] (-) TimerEvent: {}
+[70.578917] (-) TimerEvent: {}
+[70.679466] (-) TimerEvent: {}
+[70.780053] (-) TimerEvent: {}
+[70.880622] (-) TimerEvent: {}
+[70.981201] (-) TimerEvent: {}
+[71.081751] (-) TimerEvent: {}
+[71.182410] (-) TimerEvent: {}
+[71.282949] (-) TimerEvent: {}
+[71.383516] (-) TimerEvent: {}
+[71.484088] (-) TimerEvent: {}
+[71.584669] (-) TimerEvent: {}
+[71.685246] (-) TimerEvent: {}
+[71.785808] (-) TimerEvent: {}
+[71.886392] (-) TimerEvent: {}
+[71.971835] (nav2_behavior_tree) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_controller_selector_bt_node.so\x1b[0m\n'}
+[71.986546] (-) TimerEvent: {}
+[72.087328] (-) TimerEvent: {}
+[72.188660] (-) TimerEvent: {}
+[72.289998] (-) TimerEvent: {}
+[72.361156] (nav2_behavior_tree) StdoutLine: {'line': b'[ 46%] Built target nav2_controller_selector_bt_node\n'}
+[72.390158] (-) TimerEvent: {}
+[72.445410] (nav2_behavior_tree) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_planner_selector_bt_node.so\x1b[0m\n'}
+[72.490313] (-) TimerEvent: {}
+[72.502860] (nav2_behavior_tree) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[72.590472] (-) TimerEvent: {}
+[72.592991] (nav2_behavior_tree) StdoutLine: {'line': b'[ 48%] Built target gtest\n'}
+[72.646361] (nav2_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object test/CMakeFiles/test_bt_conversions.dir/test_bt_conversions.cpp.o\x1b[0m\n'}
+[72.647411] (nav2_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_time_expired.dir/test_time_expired.cpp.o\x1b[0m\n'}
+[72.652366] (nav2_behavior_tree) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_distance_traveled.dir/test_distance_traveled.cpp.o\x1b[0m\n'}
+[72.690629] (-) TimerEvent: {}
+[72.791183] (-) TimerEvent: {}
+[72.834575] (nav2_behavior_tree) StdoutLine: {'line': b'[ 51%] Built target nav2_planner_selector_bt_node\n'}
+[72.886364] (nav2_behavior_tree) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_reached.dir/test_goal_reached.cpp.o\x1b[0m\n'}
+[72.891343] (-) TimerEvent: {}
+[72.991890] (-) TimerEvent: {}
+[73.092455] (-) TimerEvent: {}
+[73.114922] (nav2_behavior_tree) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_smoother_selector_bt_node.so\x1b[0m\n'}
+[73.192629] (-) TimerEvent: {}
+[73.293209] (-) TimerEvent: {}
+[73.393781] (-) TimerEvent: {}
+[73.494346] (-) TimerEvent: {}
+[73.546426] (nav2_behavior_tree) StdoutLine: {'line': b'[ 53%] Built target nav2_smoother_selector_bt_node\n'}
+[73.594511] (-) TimerEvent: {}
+[73.617063] (nav2_behavior_tree) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_path_expiring_timer.dir/test_path_expiring_timer.cpp.o\x1b[0m\n'}
+[73.617500] (nav2_behavior_tree) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_goal_updated.dir/test_goal_updated.cpp.o\x1b[0m\n'}
+[73.645138] (nav2_behavior_tree) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_globally_updated_goal.dir/test_globally_updated_goal.cpp.o\x1b[0m\n'}
+[73.694672] (-) TimerEvent: {}
+[73.795776] (-) TimerEvent: {}
+[73.896848] (-) TimerEvent: {}
+[73.997995] (-) TimerEvent: {}
+[74.099087] (-) TimerEvent: {}
+[74.200267] (-) TimerEvent: {}
+[74.301481] (-) TimerEvent: {}
+[74.402737] (-) TimerEvent: {}
+[74.504245] (-) TimerEvent: {}
+[74.604919] (-) TimerEvent: {}
+[74.705579] (-) TimerEvent: {}
+[74.806177] (-) TimerEvent: {}
+[74.906779] (-) TimerEvent: {}
+[75.007385] (-) TimerEvent: {}
+[75.108221] (-) TimerEvent: {}
+[75.209324] (-) TimerEvent: {}
+[75.310498] (-) TimerEvent: {}
+[75.411664] (-) TimerEvent: {}
+[75.512845] (-) TimerEvent: {}
+[75.613989] (-) TimerEvent: {}
+[75.714916] (-) TimerEvent: {}
+[75.815823] (-) TimerEvent: {}
+[75.916676] (-) TimerEvent: {}
+[76.017539] (-) TimerEvent: {}
+[76.118672] (-) TimerEvent: {}
+[76.219785] (-) TimerEvent: {}
+[76.320868] (-) TimerEvent: {}
+[76.421944] (-) TimerEvent: {}
+[76.523074] (-) TimerEvent: {}
+[76.623687] (-) TimerEvent: {}
+[76.724311] (-) TimerEvent: {}
+[76.825128] (-) TimerEvent: {}
+[76.925724] (-) TimerEvent: {}
+[77.026642] (-) TimerEvent: {}
+[77.127248] (-) TimerEvent: {}
+[77.227849] (-) TimerEvent: {}
+[77.310690] (nav2_behavior_tree) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_goal_checker_selector_bt_node.so\x1b[0m\n'}
+[77.328036] (-) TimerEvent: {}
+[77.429312] (-) TimerEvent: {}
+[77.530671] (-) TimerEvent: {}
+[77.632144] (-) TimerEvent: {}
+[77.732767] (-) TimerEvent: {}
+[77.833376] (-) TimerEvent: {}
+[77.934436] (-) TimerEvent: {}
+[77.949617] (nav2_behavior_tree) StdoutLine: {'line': b'[ 57%] Built target nav2_goal_checker_selector_bt_node\n'}
+[78.034615] (-) TimerEvent: {}
+[78.054237] (nav2_behavior_tree) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_initial_pose_received.dir/test_initial_pose_received.cpp.o\x1b[0m\n'}
+[78.134800] (-) TimerEvent: {}
+[78.235630] (-) TimerEvent: {}
+[78.336621] (-) TimerEvent: {}
+[78.437204] (-) TimerEvent: {}
+[78.538244] (-) TimerEvent: {}
+[78.638868] (-) TimerEvent: {}
+[78.739465] (-) TimerEvent: {}
+[78.840063] (-) TimerEvent: {}
+[78.940697] (-) TimerEvent: {}
+[79.041277] (-) TimerEvent: {}
+[79.141878] (-) TimerEvent: {}
+[79.242609] (-) TimerEvent: {}
+[79.343203] (-) TimerEvent: {}
+[79.444032] (-) TimerEvent: {}
+[79.544642] (-) TimerEvent: {}
+[79.645921] (-) TimerEvent: {}
+[79.746484] (-) TimerEvent: {}
+[79.847142] (-) TimerEvent: {}
+[79.949713] (-) TimerEvent: {}
+[80.050244] (-) TimerEvent: {}
+[80.150839] (-) TimerEvent: {}
+[80.251428] (-) TimerEvent: {}
+[80.352032] (-) TimerEvent: {}
+[80.452643] (-) TimerEvent: {}
+[80.553701] (-) TimerEvent: {}
+[80.654299] (-) TimerEvent: {}
+[80.754891] (-) TimerEvent: {}
+[80.855492] (-) TimerEvent: {}
+[80.956111] (-) TimerEvent: {}
+[81.056711] (-) TimerEvent: {}
+[81.157318] (-) TimerEvent: {}
+[81.257913] (-) TimerEvent: {}
+[81.358727] (-) TimerEvent: {}
+[81.459335] (-) TimerEvent: {}
+[81.559951] (-) TimerEvent: {}
+[81.660558] (-) TimerEvent: {}
+[81.761190] (-) TimerEvent: {}
+[81.861803] (-) TimerEvent: {}
+[81.962426] (-) TimerEvent: {}
+[82.063035] (-) TimerEvent: {}
+[82.164063] (-) TimerEvent: {}
+[82.265081] (-) TimerEvent: {}
+[82.366127] (-) TimerEvent: {}
+[82.467121] (-) TimerEvent: {}
+[82.568169] (-) TimerEvent: {}
+[82.668777] (-) TimerEvent: {}
+[82.769530] (-) TimerEvent: {}
+[82.870112] (-) TimerEvent: {}
+[82.915381] (nav2_behavior_tree) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable test_bt_conversions\x1b[0m\n'}
+[82.970268] (-) TimerEvent: {}
+[83.070820] (-) TimerEvent: {}
+[83.171402] (-) TimerEvent: {}
+[83.275359] (-) TimerEvent: {}
+[83.375911] (-) TimerEvent: {}
+[83.476503] (-) TimerEvent: {}
+[83.564338] (nav2_behavior_tree) StdoutLine: {'line': b'[ 58%] Built target test_bt_conversions\n'}
+[83.576695] (-) TimerEvent: {}
+[83.677364] (-) TimerEvent: {}
+[83.712072] (nav2_behavior_tree) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o\x1b[0m\n'}
+[83.777552] (-) TimerEvent: {}
+[83.878866] (-) TimerEvent: {}
+[83.980135] (-) TimerEvent: {}
+[84.080742] (-) TimerEvent: {}
+[84.181417] (-) TimerEvent: {}
+[84.282244] (-) TimerEvent: {}
+[84.383161] (-) TimerEvent: {}
+[84.484144] (-) TimerEvent: {}
+[84.585202] (-) TimerEvent: {}
+[84.686261] (-) TimerEvent: {}
+[84.787300] (-) TimerEvent: {}
+[84.887888] (-) TimerEvent: {}
+[84.988881] (-) TimerEvent: {}
+[85.089908] (-) TimerEvent: {}
+[85.190921] (-) TimerEvent: {}
+[85.291948] (-) TimerEvent: {}
+[85.393322] (-) TimerEvent: {}
+[85.494580] (-) TimerEvent: {}
+[85.595842] (-) TimerEvent: {}
+[85.697130] (-) TimerEvent: {}
+[85.798420] (-) TimerEvent: {}
+[85.899764] (-) TimerEvent: {}
+[86.001080] (-) TimerEvent: {}
+[86.102401] (-) TimerEvent: {}
+[86.203675] (-) TimerEvent: {}
+[86.305009] (-) TimerEvent: {}
+[86.406423] (-) TimerEvent: {}
+[86.507772] (-) TimerEvent: {}
+[86.609083] (-) TimerEvent: {}
+[86.710440] (-) TimerEvent: {}
+[86.811773] (-) TimerEvent: {}
+[86.912358] (-) TimerEvent: {}
+[87.013178] (-) TimerEvent: {}
+[87.114096] (-) TimerEvent: {}
+[87.215091] (-) TimerEvent: {}
+[87.316112] (-) TimerEvent: {}
+[87.417149] (-) TimerEvent: {}
+[87.518180] (-) TimerEvent: {}
+[87.619193] (-) TimerEvent: {}
+[87.719747] (-) TimerEvent: {}
+[87.820331] (-) TimerEvent: {}
+[87.920914] (-) TimerEvent: {}
+[88.021490] (-) TimerEvent: {}
+[88.122282] (-) TimerEvent: {}
+[88.223503] (-) TimerEvent: {}
+[88.328084] (-) TimerEvent: {}
+[88.429678] (-) TimerEvent: {}
+[88.530991] (-) TimerEvent: {}
+[88.632213] (-) TimerEvent: {}
+[88.733376] (-) TimerEvent: {}
+[88.833924] (-) TimerEvent: {}
+[88.934544] (-) TimerEvent: {}
+[89.035173] (-) TimerEvent: {}
+[89.135800] (-) TimerEvent: {}
+[89.236902] (-) TimerEvent: {}
+[89.338113] (-) TimerEvent: {}
+[89.439115] (-) TimerEvent: {}
+[89.540140] (-) TimerEvent: {}
+[89.641228] (-) TimerEvent: {}
+[89.742405] (-) TimerEvent: {}
+[89.769463] (nav2_behavior_tree) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable test_condition_distance_traveled\x1b[0m\n'}
+[89.842570] (-) TimerEvent: {}
+[89.943388] (-) TimerEvent: {}
+[90.000155] (nav2_behavior_tree) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable test_condition_time_expired\x1b[0m\n'}
+[90.043573] (-) TimerEvent: {}
+[90.144854] (-) TimerEvent: {}
+[90.245726] (-) TimerEvent: {}
+[90.346375] (-) TimerEvent: {}
+[90.446953] (-) TimerEvent: {}
+[90.547549] (-) TimerEvent: {}
+[90.648135] (-) TimerEvent: {}
+[90.706039] (nav2_behavior_tree) StdoutLine: {'line': b'[ 59%] Built target test_condition_distance_traveled\n'}
+[90.748323] (-) TimerEvent: {}
+[90.752442] (nav2_behavior_tree) StdoutLine: {'line': b'[ 59%] Built target test_condition_time_expired\n'}
+[90.762174] (nav2_behavior_tree) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o\x1b[0m\n'}
+[90.848517] (-) TimerEvent: {}
+[90.901347] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o\x1b[0m\n'}
+[90.948709] (-) TimerEvent: {}
+[91.049730] (-) TimerEvent: {}
+[91.150516] (-) TimerEvent: {}
+[91.253094] (-) TimerEvent: {}
+[91.307321] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable test_condition_goal_updated\x1b[0m\n'}
+[91.353285] (-) TimerEvent: {}
+[91.367646] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable test_condition_globally_updated_goal\x1b[0m\n'}
+[91.453430] (-) TimerEvent: {}
+[91.554020] (-) TimerEvent: {}
+[91.654624] (-) TimerEvent: {}
+[91.696133] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable test_condition_path_expiring_timer\x1b[0m\n'}
+[91.754780] (-) TimerEvent: {}
+[91.855352] (-) TimerEvent: {}
+[91.954853] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] Built target test_condition_goal_updated\n'}
+[91.955709] (-) TimerEvent: {}
+[92.000006] (nav2_behavior_tree) StdoutLine: {'line': b'[ 61%] Built target test_condition_globally_updated_goal\n'}
+[92.024137] (nav2_behavior_tree) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o\x1b[0m\n'}
+[92.051122] (nav2_behavior_tree) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable test_condition_goal_reached\x1b[0m\n'}
+[92.055894] (-) TimerEvent: {}
+[92.100743] (nav2_behavior_tree) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o\x1b[0m\n'}
+[92.156081] (-) TimerEvent: {}
+[92.256934] (-) TimerEvent: {}
+[92.358178] (-) TimerEvent: {}
+[92.427334] (nav2_behavior_tree) StdoutLine: {'line': b'[ 63%] Built target test_condition_path_expiring_timer\n'}
+[92.458334] (-) TimerEvent: {}
+[92.479130] (nav2_behavior_tree) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o\x1b[0m\n'}
+[92.558490] (-) TimerEvent: {}
+[92.659256] (-) TimerEvent: {}
+[92.675388] (nav2_behavior_tree) StdoutLine: {'line': b'[ 64%] Built target test_condition_goal_reached\n'}
+[92.759426] (-) TimerEvent: {}
+[92.860234] (-) TimerEvent: {}
+[92.872368] (nav2_behavior_tree) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o\x1b[0m\n'}
+[92.960399] (-) TimerEvent: {}
+[93.061687] (-) TimerEvent: {}
+[93.164006] (-) TimerEvent: {}
+[93.265225] (-) TimerEvent: {}
+[93.366542] (-) TimerEvent: {}
+[93.467859] (-) TimerEvent: {}
+[93.569127] (-) TimerEvent: {}
+[93.670520] (-) TimerEvent: {}
+[93.771910] (-) TimerEvent: {}
+[93.873164] (-) TimerEvent: {}
+[93.974564] (-) TimerEvent: {}
+[94.075927] (-) TimerEvent: {}
+[94.177351] (-) TimerEvent: {}
+[94.278752] (-) TimerEvent: {}
+[94.380198] (-) TimerEvent: {}
+[94.481528] (-) TimerEvent: {}
+[94.582371] (-) TimerEvent: {}
+[94.683237] (-) TimerEvent: {}
+[94.784044] (-) TimerEvent: {}
+[94.884679] (-) TimerEvent: {}
+[94.985351] (-) TimerEvent: {}
+[95.086041] (-) TimerEvent: {}
+[95.186605] (-) TimerEvent: {}
+[95.287189] (-) TimerEvent: {}
+[95.387825] (-) TimerEvent: {}
+[95.488456] (-) TimerEvent: {}
+[95.490747] (nav2_behavior_tree) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable test_condition_initial_pose_received\x1b[0m\n'}
+[95.588638] (-) TimerEvent: {}
+[95.689260] (-) TimerEvent: {}
+[95.790102] (-) TimerEvent: {}
+[95.890892] (-) TimerEvent: {}
+[95.992283] (-) TimerEvent: {}
+[96.093665] (-) TimerEvent: {}
+[96.194941] (-) TimerEvent: {}
+[96.296120] (-) TimerEvent: {}
+[96.328501] (nav2_behavior_tree) StdoutLine: {'line': b'[ 65%] Built target test_condition_initial_pose_received\n'}
+[96.396328] (-) TimerEvent: {}
+[96.496134] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o\x1b[0m\n'}
+[96.496547] (-) TimerEvent: {}
+[96.597937] (-) TimerEvent: {}
+[96.699169] (-) TimerEvent: {}
+[96.800476] (-) TimerEvent: {}
+[96.901710] (-) TimerEvent: {}
+[97.002557] (-) TimerEvent: {}
+[97.103934] (-) TimerEvent: {}
+[97.205311] (-) TimerEvent: {}
+[97.306546] (-) TimerEvent: {}
+[97.407849] (-) TimerEvent: {}
+[97.509086] (-) TimerEvent: {}
+[97.610560] (-) TimerEvent: {}
+[97.711851] (-) TimerEvent: {}
+[97.813287] (-) TimerEvent: {}
+[97.913874] (-) TimerEvent: {}
+[98.015240] (-) TimerEvent: {}
+[98.116540] (-) TimerEvent: {}
+[98.217923] (-) TimerEvent: {}
+[98.319280] (-) TimerEvent: {}
+[98.420551] (-) TimerEvent: {}
+[98.522078] (-) TimerEvent: {}
+[98.623363] (-) TimerEvent: {}
+[98.724703] (-) TimerEvent: {}
+[98.826166] (-) TimerEvent: {}
+[98.928177] (-) TimerEvent: {}
+[99.028815] (-) TimerEvent: {}
+[99.129882] (-) TimerEvent: {}
+[99.231292] (-) TimerEvent: {}
+[99.332620] (-) TimerEvent: {}
+[99.434064] (-) TimerEvent: {}
+[99.535234] (-) TimerEvent: {}
+[99.636539] (-) TimerEvent: {}
+[99.737843] (-) TimerEvent: {}
+[99.839078] (-) TimerEvent: {}
+[99.940388] (-) TimerEvent: {}
+[100.040979] (-) TimerEvent: {}
+[100.142353] (-) TimerEvent: {}
+[100.243706] (-) TimerEvent: {}
+[100.344918] (-) TimerEvent: {}
+[100.446220] (-) TimerEvent: {}
+[100.547537] (-) TimerEvent: {}
+[100.648949] (-) TimerEvent: {}
+[100.750279] (-) TimerEvent: {}
+[100.851574] (-) TimerEvent: {}
+[100.952871] (-) TimerEvent: {}
+[101.053457] (-) TimerEvent: {}
+[101.154273] (-) TimerEvent: {}
+[101.255604] (-) TimerEvent: {}
+[101.356906] (-) TimerEvent: {}
+[101.458167] (-) TimerEvent: {}
+[101.559482] (-) TimerEvent: {}
+[101.660728] (-) TimerEvent: {}
+[101.762089] (-) TimerEvent: {}
+[101.863381] (-) TimerEvent: {}
+[101.964587] (-) TimerEvent: {}
+[102.065857] (-) TimerEvent: {}
+[102.167171] (-) TimerEvent: {}
+[102.268444] (-) TimerEvent: {}
+[102.369717] (-) TimerEvent: {}
+[102.471031] (-) TimerEvent: {}
+[102.572425] (-) TimerEvent: {}
+[102.673830] (-) TimerEvent: {}
+[102.774967] (-) TimerEvent: {}
+[102.876096] (-) TimerEvent: {}
+[102.927037] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_condition_transform_available\x1b[0m\n'}
+[102.976271] (-) TimerEvent: {}
+[103.076839] (-) TimerEvent: {}
+[103.177496] (-) TimerEvent: {}
+[103.278976] (-) TimerEvent: {}
+[103.380328] (-) TimerEvent: {}
+[103.481750] (-) TimerEvent: {}
+[103.583088] (-) TimerEvent: {}
+[103.684424] (-) TimerEvent: {}
+[103.785506] (-) TimerEvent: {}
+[103.795636] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] Built target test_condition_transform_available\n'}
+[103.885699] (-) TimerEvent: {}
+[103.987085] (-) TimerEvent: {}
+[104.088439] (-) TimerEvent: {}
+[104.189778] (-) TimerEvent: {}
+[104.291162] (-) TimerEvent: {}
+[104.392589] (-) TimerEvent: {}
+[104.494093] (-) TimerEvent: {}
+[104.595500] (-) TimerEvent: {}
+[104.696900] (-) TimerEvent: {}
+[104.798267] (-) TimerEvent: {}
+[104.899660] (-) TimerEvent: {}
+[105.001127] (-) TimerEvent: {}
+[105.102605] (-) TimerEvent: {}
+[105.203908] (-) TimerEvent: {}
+[105.305292] (-) TimerEvent: {}
+[105.406627] (-) TimerEvent: {}
+[105.507943] (-) TimerEvent: {}
+[105.609305] (-) TimerEvent: {}
+[105.710679] (-) TimerEvent: {}
+[105.812015] (-) TimerEvent: {}
+[105.914123] (-) TimerEvent: {}
+[106.015415] (-) TimerEvent: {}
+[106.116753] (-) TimerEvent: {}
+[106.218185] (-) TimerEvent: {}
+[106.319520] (-) TimerEvent: {}
+[106.420975] (-) TimerEvent: {}
+[106.522453] (-) TimerEvent: {}
+[106.623815] (-) TimerEvent: {}
+[106.725085] (-) TimerEvent: {}
+[106.825728] (-) TimerEvent: {}
+[106.926343] (-) TimerEvent: {}
+[107.026943] (-) TimerEvent: {}
+[107.127526] (-) TimerEvent: {}
+[107.228079] (-) TimerEvent: {}
+[107.328623] (-) TimerEvent: {}
+[107.429286] (-) TimerEvent: {}
+[107.530122] (-) TimerEvent: {}
+[107.630969] (-) TimerEvent: {}
+[107.731834] (-) TimerEvent: {}
+[107.832674] (-) TimerEvent: {}
+[107.933523] (-) TimerEvent: {}
+[108.034364] (-) TimerEvent: {}
+[108.135285] (-) TimerEvent: {}
+[108.235880] (-) TimerEvent: {}
+[108.319226] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_decorator_distance_controller\x1b[0m\n'}
+[108.336079] (-) TimerEvent: {}
+[108.429299] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_condition_is_path_valid\x1b[0m\n'}
+[108.436280] (-) TimerEvent: {}
+[108.536888] (-) TimerEvent: {}
+[108.637532] (-) TimerEvent: {}
+[108.738178] (-) TimerEvent: {}
+[108.838767] (-) TimerEvent: {}
+[108.939390] (-) TimerEvent: {}
+[108.943104] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] Built target test_decorator_distance_controller\n'}
+[108.952885] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] Built target test_condition_is_path_valid\n'}
+[109.039561] (-) TimerEvent: {}
+[109.140116] (-) TimerEvent: {}
+[109.240668] (-) TimerEvent: {}
+[109.341236] (-) TimerEvent: {}
+[109.441773] (-) TimerEvent: {}
+[109.542197] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_decorator_rate_controller\x1b[0m\n'}
+[109.542732] (-) TimerEvent: {}
+[109.593866] (nav2_behavior_tree) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable test_condition_is_battery_low\x1b[0m\n'}
+[109.642921] (-) TimerEvent: {}
+[109.744297] (-) TimerEvent: {}
+[109.845802] (-) TimerEvent: {}
+[109.946888] (-) TimerEvent: {}
+[110.010286] (nav2_behavior_tree) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o\x1b[0m\n'}
+[110.036240] (nav2_behavior_tree) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable test_condition_is_stuck\x1b[0m\n'}
+[110.047052] (-) TimerEvent: {}
+[110.065519] (nav2_behavior_tree) StdoutLine: {'line': b'[ 67%] Built target test_decorator_rate_controller\n'}
+[110.077320] (nav2_behavior_tree) StdoutLine: {'line': b'[ 67%] Built target test_condition_is_battery_low\n'}
+[110.117102] (nav2_behavior_tree) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o\x1b[0m\n'}
+[110.130103] (nav2_behavior_tree) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o\x1b[0m\n'}
+[110.147208] (-) TimerEvent: {}
+[110.247719] (-) TimerEvent: {}
+[110.348253] (-) TimerEvent: {}
+[110.449018] (-) TimerEvent: {}
+[110.549562] (-) TimerEvent: {}
+[110.571607] (nav2_behavior_tree) StdoutLine: {'line': b'[ 69%] Built target test_condition_is_stuck\n'}
+[110.649715] (-) TimerEvent: {}
+[110.751025] (-) TimerEvent: {}
+[110.852101] (-) TimerEvent: {}
+[110.953240] (-) TimerEvent: {}
+[111.054367] (-) TimerEvent: {}
+[111.155456] (-) TimerEvent: {}
+[111.256491] (-) TimerEvent: {}
+[111.358205] (-) TimerEvent: {}
+[111.458945] (-) TimerEvent: {}
+[111.560008] (-) TimerEvent: {}
+[111.630947] (nav2_behavior_tree) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o\x1b[0m\n'}
+[111.660196] (-) TimerEvent: {}
+[111.760775] (-) TimerEvent: {}
+[111.832698] (nav2_behavior_tree) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable test_decorator_speed_controller\x1b[0m\n'}
+[111.860955] (-) TimerEvent: {}
+[111.962472] (-) TimerEvent: {}
+[112.063805] (-) TimerEvent: {}
+[112.164386] (-) TimerEvent: {}
+[112.264970] (-) TimerEvent: {}
+[112.365561] (-) TimerEvent: {}
+[112.422537] (nav2_behavior_tree) StdoutLine: {'line': b'[ 70%] Built target test_decorator_speed_controller\n'}
+[112.465725] (-) TimerEvent: {}
+[112.478614] (nav2_behavior_tree) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o\x1b[0m\n'}
+[112.565907] (-) TimerEvent: {}
+[112.667124] (-) TimerEvent: {}
+[112.768375] (-) TimerEvent: {}
+[112.869686] (-) TimerEvent: {}
+[112.970886] (-) TimerEvent: {}
+[113.074262] (-) TimerEvent: {}
+[113.175525] (-) TimerEvent: {}
+[113.187625] (nav2_behavior_tree) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable test_goal_updater_node\x1b[0m\n'}
+[113.275716] (-) TimerEvent: {}
+[113.376351] (-) TimerEvent: {}
+[113.476997] (-) TimerEvent: {}
+[113.577600] (-) TimerEvent: {}
+[113.678168] (-) TimerEvent: {}
+[113.699059] (nav2_behavior_tree) StdoutLine: {'line': b'[ 71%] Built target test_goal_updater_node\n'}
+[113.778339] (-) TimerEvent: {}
+[113.879411] (-) TimerEvent: {}
+[113.980577] (-) TimerEvent: {}
+[114.081658] (-) TimerEvent: {}
+[114.182754] (-) TimerEvent: {}
+[114.283842] (-) TimerEvent: {}
+[114.384903] (-) TimerEvent: {}
+[114.485999] (-) TimerEvent: {}
+[114.587111] (-) TimerEvent: {}
+[114.688196] (-) TimerEvent: {}
+[114.757123] (nav2_behavior_tree) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o\x1b[0m\n'}
+[114.788372] (-) TimerEvent: {}
+[114.889716] (-) TimerEvent: {}
+[114.991068] (-) TimerEvent: {}
+[115.092396] (-) TimerEvent: {}
+[115.193671] (-) TimerEvent: {}
+[115.295095] (-) TimerEvent: {}
+[115.396373] (-) TimerEvent: {}
+[115.497684] (-) TimerEvent: {}
+[115.599009] (-) TimerEvent: {}
+[115.700185] (-) TimerEvent: {}
+[115.788733] (nav2_behavior_tree) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o\x1b[0m\n'}
+[115.800350] (-) TimerEvent: {}
+[115.901349] (-) TimerEvent: {}
+[116.001977] (-) TimerEvent: {}
+[116.102568] (-) TimerEvent: {}
+[116.203154] (-) TimerEvent: {}
+[116.303771] (-) TimerEvent: {}
+[116.404401] (-) TimerEvent: {}
+[116.504994] (-) TimerEvent: {}
+[116.605585] (-) TimerEvent: {}
+[116.706174] (-) TimerEvent: {}
+[116.806734] (-) TimerEvent: {}
+[116.907294] (-) TimerEvent: {}
+[116.928292] (nav2_behavior_tree) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o\x1b[0m\n'}
+[117.007484] (-) TimerEvent: {}
+[117.108080] (-) TimerEvent: {}
+[117.208674] (-) TimerEvent: {}
+[117.309264] (-) TimerEvent: {}
+[117.409838] (-) TimerEvent: {}
+[117.510658] (-) TimerEvent: {}
+[117.611482] (-) TimerEvent: {}
+[117.712078] (-) TimerEvent: {}
+[117.812711] (-) TimerEvent: {}
+[117.913322] (-) TimerEvent: {}
+[118.014199] (-) TimerEvent: {}
+[118.114814] (-) TimerEvent: {}
+[118.215485] (-) TimerEvent: {}
+[118.316084] (-) TimerEvent: {}
+[118.416702] (-) TimerEvent: {}
+[118.517277] (-) TimerEvent: {}
+[118.617867] (-) TimerEvent: {}
+[118.718478] (-) TimerEvent: {}
+[118.819064] (-) TimerEvent: {}
+[118.922167] (-) TimerEvent: {}
+[119.022708] (-) TimerEvent: {}
+[119.123277] (-) TimerEvent: {}
+[119.224372] (-) TimerEvent: {}
+[119.325434] (-) TimerEvent: {}
+[119.426679] (-) TimerEvent: {}
+[119.527257] (-) TimerEvent: {}
+[119.627850] (-) TimerEvent: {}
+[119.728443] (-) TimerEvent: {}
+[119.829708] (-) TimerEvent: {}
+[119.931018] (-) TimerEvent: {}
+[120.032292] (-) TimerEvent: {}
+[120.132875] (-) TimerEvent: {}
+[120.233797] (-) TimerEvent: {}
+[120.334947] (-) TimerEvent: {}
+[120.435556] (-) TimerEvent: {}
+[120.536142] (-) TimerEvent: {}
+[120.636810] (-) TimerEvent: {}
+[120.737389] (-) TimerEvent: {}
+[120.837948] (-) TimerEvent: {}
+[120.938665] (-) TimerEvent: {}
+[121.039251] (-) TimerEvent: {}
+[121.139841] (-) TimerEvent: {}
+[121.240448] (-) TimerEvent: {}
+[121.341028] (-) TimerEvent: {}
+[121.441625] (-) TimerEvent: {}
+[121.542193] (-) TimerEvent: {}
+[121.642772] (-) TimerEvent: {}
+[121.743782] (-) TimerEvent: {}
+[121.844366] (-) TimerEvent: {}
+[121.944987] (-) TimerEvent: {}
+[122.045548] (-) TimerEvent: {}
+[122.146124] (-) TimerEvent: {}
+[122.247116] (-) TimerEvent: {}
+[122.348074] (-) TimerEvent: {}
+[122.448661] (-) TimerEvent: {}
+[122.549255] (-) TimerEvent: {}
+[122.649833] (-) TimerEvent: {}
+[122.750420] (-) TimerEvent: {}
+[122.850964] (-) TimerEvent: {}
+[122.951555] (-) TimerEvent: {}
+[123.052147] (-) TimerEvent: {}
+[123.152738] (-) TimerEvent: {}
+[123.253306] (-) TimerEvent: {}
+[123.353885] (-) TimerEvent: {}
+[123.454455] (-) TimerEvent: {}
+[123.555066] (-) TimerEvent: {}
+[123.655669] (-) TimerEvent: {}
+[123.756412] (-) TimerEvent: {}
+[123.856976] (-) TimerEvent: {}
+[123.957533] (-) TimerEvent: {}
+[124.058127] (-) TimerEvent: {}
+[124.158689] (-) TimerEvent: {}
+[124.259270] (-) TimerEvent: {}
+[124.359868] (-) TimerEvent: {}
+[124.455670] (nav2_behavior_tree) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable test_decorator_path_longer_on_approach\x1b[0m\n'}
+[124.460049] (-) TimerEvent: {}
+[124.560626] (-) TimerEvent: {}
+[124.661207] (-) TimerEvent: {}
+[124.761811] (-) TimerEvent: {}
+[124.862419] (-) TimerEvent: {}
+[124.963044] (-) TimerEvent: {}
+[125.063665] (-) TimerEvent: {}
+[125.107086] (nav2_behavior_tree) StdoutLine: {'line': b'[ 74%] Built target test_decorator_path_longer_on_approach\n'}
+[125.163855] (-) TimerEvent: {}
+[125.264461] (-) TimerEvent: {}
+[125.284039] (nav2_behavior_tree) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o\x1b[0m\n'}
+[125.364627] (-) TimerEvent: {}
+[125.465195] (-) TimerEvent: {}
+[125.565772] (-) TimerEvent: {}
+[125.666324] (-) TimerEvent: {}
+[125.766923] (-) TimerEvent: {}
+[125.867488] (-) TimerEvent: {}
+[125.968079] (-) TimerEvent: {}
+[126.069130] (-) TimerEvent: {}
+[126.170182] (-) TimerEvent: {}
+[126.270769] (-) TimerEvent: {}
+[126.371311] (-) TimerEvent: {}
+[126.472369] (-) TimerEvent: {}
+[126.572940] (-) TimerEvent: {}
+[126.674047] (-) TimerEvent: {}
+[126.775054] (-) TimerEvent: {}
+[126.875681] (-) TimerEvent: {}
+[126.931104] (nav2_behavior_tree) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_control_recovery_node\x1b[0m\n'}
+[126.964448] (nav2_behavior_tree) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable test_goal_updated_controller\x1b[0m\n'}
+[126.975870] (-) TimerEvent: {}
+[127.077156] (-) TimerEvent: {}
+[127.178509] (-) TimerEvent: {}
+[127.279267] (-) TimerEvent: {}
+[127.379923] (-) TimerEvent: {}
+[127.480466] (-) TimerEvent: {}
+[127.581057] (-) TimerEvent: {}
+[127.636150] (nav2_behavior_tree) StdoutLine: {'line': b'[ 75%] Built target test_control_recovery_node\n'}
+[127.681266] (-) TimerEvent: {}
+[127.782202] (-) TimerEvent: {}
+[127.782727] (nav2_behavior_tree) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o\x1b[0m\n'}
+[127.835264] (nav2_behavior_tree) StdoutLine: {'line': b'[ 76%] Built target test_goal_updated_controller\n'}
+[127.882363] (-) TimerEvent: {}
+[127.960587] (nav2_behavior_tree) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o\x1b[0m\n'}
+[127.982518] (-) TimerEvent: {}
+[128.083137] (-) TimerEvent: {}
+[128.183777] (-) TimerEvent: {}
+[128.284403] (-) TimerEvent: {}
+[128.385969] (-) TimerEvent: {}
+[128.486561] (-) TimerEvent: {}
+[128.587145] (-) TimerEvent: {}
+[128.647194] (nav2_behavior_tree) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable test_control_round_robin_node\x1b[0m\n'}
+[128.687341] (-) TimerEvent: {}
+[128.787965] (-) TimerEvent: {}
+[128.889139] (-) TimerEvent: {}
+[128.990370] (-) TimerEvent: {}
+[129.091427] (-) TimerEvent: {}
+[129.192518] (-) TimerEvent: {}
+[129.293587] (-) TimerEvent: {}
+[129.394470] (-) TimerEvent: {}
+[129.495253] (-) TimerEvent: {}
+[129.587985] (nav2_behavior_tree) StdoutLine: {'line': b'[ 77%] Built target test_control_round_robin_node\n'}
+[129.595428] (-) TimerEvent: {}
+[129.696043] (-) TimerEvent: {}
+[129.706534] (nav2_behavior_tree) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX executable test_control_pipeline_sequence\x1b[0m\n'}
+[129.752213] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o\x1b[0m\n'}
+[129.796216] (-) TimerEvent: {}
+[129.896866] (-) TimerEvent: {}
+[129.997492] (-) TimerEvent: {}
+[130.098566] (-) TimerEvent: {}
+[130.199127] (-) TimerEvent: {}
+[130.299658] (-) TimerEvent: {}
+[130.324808] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_control_pipeline_sequence\n'}
+[130.399852] (-) TimerEvent: {}
+[130.500415] (-) TimerEvent: {}
+[130.601059] (-) TimerEvent: {}
+[130.701674] (-) TimerEvent: {}
+[130.802265] (-) TimerEvent: {}
+[130.903231] (-) TimerEvent: {}
+[131.003822] (-) TimerEvent: {}
+[131.104416] (-) TimerEvent: {}
+[131.205073] (-) TimerEvent: {}
+[131.305704] (-) TimerEvent: {}
+[131.406309] (-) TimerEvent: {}
+[131.506933] (-) TimerEvent: {}
+[131.607566] (-) TimerEvent: {}
+[131.708226] (-) TimerEvent: {}
+[131.808871] (-) TimerEvent: {}
+[131.909493] (-) TimerEvent: {}
+[132.010188] (-) TimerEvent: {}
+[132.110791] (-) TimerEvent: {}
+[132.211443] (-) TimerEvent: {}
+[132.312076] (-) TimerEvent: {}
+[132.412700] (-) TimerEvent: {}
+[132.513373] (-) TimerEvent: {}
+[132.614052] (-) TimerEvent: {}
+[132.714667] (-) TimerEvent: {}
+[132.815296] (-) TimerEvent: {}
+[132.915955] (-) TimerEvent: {}
+[133.016614] (-) TimerEvent: {}
+[133.117238] (-) TimerEvent: {}
+[133.217925] (-) TimerEvent: {}
+[133.318539] (-) TimerEvent: {}
+[133.419133] (-) TimerEvent: {}
+[133.519791] (-) TimerEvent: {}
+[133.590858] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_action_spin_action\x1b[0m\n'}
+[133.619954] (-) TimerEvent: {}
+[133.720725] (-) TimerEvent: {}
+[133.821607] (-) TimerEvent: {}
+[133.922414] (-) TimerEvent: {}
+[134.023178] (-) TimerEvent: {}
+[134.099988] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_single_trigger_node\x1b[0m\n'}
+[134.122193] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_action_spin_action\n'}
+[134.123280] (-) TimerEvent: {}
+[134.223798] (-) TimerEvent: {}
+[134.324439] (-) TimerEvent: {}
+[134.425094] (-) TimerEvent: {}
+[134.525708] (-) TimerEvent: {}
+[134.626324] (-) TimerEvent: {}
+[134.652247] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_single_trigger_node\n'}
+[134.726491] (-) TimerEvent: {}
+[134.827150] (-) TimerEvent: {}
+[134.928095] (-) TimerEvent: {}
+[135.028645] (-) TimerEvent: {}
+[135.129305] (-) TimerEvent: {}
+[135.229838] (-) TimerEvent: {}
+[135.330396] (-) TimerEvent: {}
+[135.430918] (-) TimerEvent: {}
+[135.531463] (-) TimerEvent: {}
+[135.632010] (-) TimerEvent: {}
+[135.732556] (-) TimerEvent: {}
+[135.833109] (-) TimerEvent: {}
+[135.933657] (-) TimerEvent: {}
+[136.034231] (-) TimerEvent: {}
+[136.134795] (-) TimerEvent: {}
+[136.235337] (-) TimerEvent: {}
+[136.335872] (-) TimerEvent: {}
+[136.436410] (-) TimerEvent: {}
+[136.536980] (-) TimerEvent: {}
+[136.637531] (-) TimerEvent: {}
+[136.738098] (-) TimerEvent: {}
+[136.838634] (-) TimerEvent: {}
+[136.939173] (-) TimerEvent: {}
+[137.039738] (-) TimerEvent: {}
+[137.140292] (-) TimerEvent: {}
+[137.241363] (-) TimerEvent: {}
+[137.341930] (-) TimerEvent: {}
+[137.442496] (-) TimerEvent: {}
+[137.543045] (-) TimerEvent: {}
+[137.643600] (-) TimerEvent: {}
+[137.744182] (-) TimerEvent: {}
+[137.844755] (-) TimerEvent: {}
+[137.945313] (-) TimerEvent: {}
+[138.045888] (-) TimerEvent: {}
+[138.146461] (-) TimerEvent: {}
+[138.247020] (-) TimerEvent: {}
+[138.347578] (-) TimerEvent: {}
+[138.448152] (-) TimerEvent: {}
+[138.548707] (-) TimerEvent: {}
+[138.649265] (-) TimerEvent: {}
+[138.749815] (-) TimerEvent: {}
+[138.850421] (-) TimerEvent: {}
+[138.951013] (-) TimerEvent: {}
+[139.051587] (-) TimerEvent: {}
+[139.152257] (-) TimerEvent: {}
+[139.252796] (-) TimerEvent: {}
+[139.338246] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_bt_action_node\x1b[0m\n'}
+[139.352952] (-) TimerEvent: {}
+[139.454242] (-) TimerEvent: {}
+[139.555552] (-) TimerEvent: {}
+[139.656791] (-) TimerEvent: {}
+[139.757853] (-) TimerEvent: {}
+[139.826764] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_bt_action_node\n'}
+[139.858002] (-) TimerEvent: {}
+[139.958825] (-) TimerEvent: {}
+[140.059893] (-) TimerEvent: {}
+[140.160961] (-) TimerEvent: {}
+[140.261764] (-) TimerEvent: {}
+[140.362553] (-) TimerEvent: {}
+[140.463348] (-) TimerEvent: {}
+[140.563928] (-) TimerEvent: {}
+[140.664509] (-) TimerEvent: {}
+[140.765063] (-) TimerEvent: {}
+[140.865646] (-) TimerEvent: {}
+[140.966214] (-) TimerEvent: {}
+[141.066730] (-) TimerEvent: {}
+[141.167193] (-) TimerEvent: {}
+[141.267764] (-) TimerEvent: {}
+[141.368279] (-) TimerEvent: {}
+[141.468811] (-) TimerEvent: {}
+[141.569357] (-) TimerEvent: {}
+[141.669910] (-) TimerEvent: {}
+[141.770475] (-) TimerEvent: {}
+[141.871030] (-) TimerEvent: {}
+[141.971548] (-) TimerEvent: {}
+[142.072095] (-) TimerEvent: {}
+[142.172651] (-) TimerEvent: {}
+[142.273227] (-) TimerEvent: {}
+[142.373777] (-) TimerEvent: {}
+[142.474344] (-) TimerEvent: {}
+[142.574924] (-) TimerEvent: {}
+[142.675501] (-) TimerEvent: {}
+[142.776031] (-) TimerEvent: {}
+[142.811255] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_action_back_up_action\x1b[0m\n'}
+[142.876189] (-) TimerEvent: {}
+[142.977285] (-) TimerEvent: {}
+[143.078374] (-) TimerEvent: {}
+[143.179442] (-) TimerEvent: {}
+[143.239178] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_action_back_up_action\n'}
+[143.279563] (-) TimerEvent: {}
+[143.380064] (-) TimerEvent: {}
+[143.480578] (-) TimerEvent: {}
+[143.581132] (-) TimerEvent: {}
+[143.681640] (-) TimerEvent: {}
+[143.782153] (-) TimerEvent: {}
+[143.882664] (-) TimerEvent: {}
+[143.983171] (-) TimerEvent: {}
+[144.083670] (-) TimerEvent: {}
+[144.184197] (-) TimerEvent: {}
+[144.255451] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_action_drive_on_heading\x1b[0m\n'}
+[144.284345] (-) TimerEvent: {}
+[144.385340] (-) TimerEvent: {}
+[144.404769] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable test_action_wait_action\x1b[0m\n'}
+[144.485485] (-) TimerEvent: {}
+[144.586060] (-) TimerEvent: {}
+[144.686602] (-) TimerEvent: {}
+[144.699686] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_action_drive_on_heading\n'}
+[144.786756] (-) TimerEvent: {}
+[144.840634] (nav2_behavior_tree) StdoutLine: {'line': b'[ 78%] Built target test_action_wait_action\n'}
+[144.886886] (-) TimerEvent: {}
+[144.888757] (nav2_behavior_tree) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o\x1b[0m\n'}
+[144.987032] (-) TimerEvent: {}
+[145.087556] (-) TimerEvent: {}
+[145.188081] (-) TimerEvent: {}
+[145.288615] (-) TimerEvent: {}
+[145.389136] (-) TimerEvent: {}
+[145.489662] (-) TimerEvent: {}
+[145.590248] (-) TimerEvent: {}
+[145.690768] (-) TimerEvent: {}
+[145.791271] (-) TimerEvent: {}
+[145.891802] (-) TimerEvent: {}
+[145.914329] (nav2_behavior_tree) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o\x1b[0m\n'}
+[145.991954] (-) TimerEvent: {}
+[146.092512] (-) TimerEvent: {}
+[146.193099] (-) TimerEvent: {}
+[146.293641] (-) TimerEvent: {}
+[146.394170] (-) TimerEvent: {}
+[146.428343] (nav2_behavior_tree) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable test_action_assisted_teleop_action\x1b[0m\n'}
+[146.494318] (-) TimerEvent: {}
+[146.594897] (-) TimerEvent: {}
+[146.695464] (-) TimerEvent: {}
+[146.795998] (-) TimerEvent: {}
+[146.865933] (nav2_behavior_tree) StdoutLine: {'line': b'[ 80%] Built target test_action_assisted_teleop_action\n'}
+[146.895988] (nav2_behavior_tree) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o\x1b[0m\n'}
+[146.896390] (-) TimerEvent: {}
+[146.916759] (nav2_behavior_tree) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o\x1b[0m\n'}
+[146.996575] (-) TimerEvent: {}
+[147.097536] (-) TimerEvent: {}
+[147.198307] (-) TimerEvent: {}
+[147.299033] (-) TimerEvent: {}
+[147.402165] (-) TimerEvent: {}
+[147.502706] (-) TimerEvent: {}
+[147.603387] (-) TimerEvent: {}
+[147.703941] (-) TimerEvent: {}
+[147.804486] (-) TimerEvent: {}
+[147.905278] (-) TimerEvent: {}
+[147.944123] (nav2_behavior_tree) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o\x1b[0m\n'}
+[148.005442] (-) TimerEvent: {}
+[148.106599] (-) TimerEvent: {}
+[148.207169] (-) TimerEvent: {}
+[148.307880] (-) TimerEvent: {}
+[148.408403] (-) TimerEvent: {}
+[148.508981] (-) TimerEvent: {}
+[148.609577] (-) TimerEvent: {}
+[148.710156] (-) TimerEvent: {}
+[148.810696] (-) TimerEvent: {}
+[148.911267] (-) TimerEvent: {}
+[148.977097] (nav2_behavior_tree) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o\x1b[0m\n'}
+[149.011437] (-) TimerEvent: {}
+[149.112464] (-) TimerEvent: {}
+[149.213458] (-) TimerEvent: {}
+[149.314675] (-) TimerEvent: {}
+[149.415882] (-) TimerEvent: {}
+[149.517244] (-) TimerEvent: {}
+[149.618685] (-) TimerEvent: {}
+[149.720050] (-) TimerEvent: {}
+[149.821410] (-) TimerEvent: {}
+[149.922649] (-) TimerEvent: {}
+[150.007959] (nav2_behavior_tree) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o\x1b[0m\n'}
+[150.022813] (-) TimerEvent: {}
+[150.124078] (-) TimerEvent: {}
+[150.224669] (-) TimerEvent: {}
+[150.325260] (-) TimerEvent: {}
+[150.425881] (-) TimerEvent: {}
+[150.526500] (-) TimerEvent: {}
+[150.627077] (-) TimerEvent: {}
+[150.729574] (-) TimerEvent: {}
+[150.830169] (-) TimerEvent: {}
+[150.930754] (-) TimerEvent: {}
+[151.031341] (-) TimerEvent: {}
+[151.131955] (-) TimerEvent: {}
+[151.141224] (nav2_behavior_tree) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o\x1b[0m\n'}
+[151.232160] (-) TimerEvent: {}
+[151.333510] (-) TimerEvent: {}
+[151.434748] (-) TimerEvent: {}
+[151.535350] (-) TimerEvent: {}
+[151.635922] (-) TimerEvent: {}
+[151.736505] (-) TimerEvent: {}
+[151.837080] (-) TimerEvent: {}
+[151.937633] (-) TimerEvent: {}
+[152.038196] (-) TimerEvent: {}
+[152.139010] (-) TimerEvent: {}
+[152.239815] (-) TimerEvent: {}
+[152.340964] (-) TimerEvent: {}
+[152.442293] (-) TimerEvent: {}
+[152.543592] (-) TimerEvent: {}
+[152.644177] (-) TimerEvent: {}
+[152.744783] (-) TimerEvent: {}
+[152.846138] (-) TimerEvent: {}
+[152.947361] (-) TimerEvent: {}
+[153.048587] (-) TimerEvent: {}
+[153.149819] (-) TimerEvent: {}
+[153.251114] (-) TimerEvent: {}
+[153.352380] (-) TimerEvent: {}
+[153.453597] (-) TimerEvent: {}
+[153.554885] (-) TimerEvent: {}
+[153.655477] (-) TimerEvent: {}
+[153.756090] (-) TimerEvent: {}
+[153.857345] (-) TimerEvent: {}
+[153.958562] (-) TimerEvent: {}
+[154.059939] (-) TimerEvent: {}
+[154.161304] (-) TimerEvent: {}
+[154.261863] (-) TimerEvent: {}
+[154.362428] (-) TimerEvent: {}
+[154.462997] (-) TimerEvent: {}
+[154.563570] (-) TimerEvent: {}
+[154.664146] (-) TimerEvent: {}
+[154.765146] (-) TimerEvent: {}
+[154.866185] (-) TimerEvent: {}
+[154.967202] (-) TimerEvent: {}
+[155.068215] (-) TimerEvent: {}
+[155.169235] (-) TimerEvent: {}
+[155.270573] (-) TimerEvent: {}
+[155.371919] (-) TimerEvent: {}
+[155.473285] (-) TimerEvent: {}
+[155.574763] (-) TimerEvent: {}
+[155.675999] (-) TimerEvent: {}
+[155.776566] (-) TimerEvent: {}
+[155.877178] (-) TimerEvent: {}
+[155.978014] (-) TimerEvent: {}
+[156.078638] (-) TimerEvent: {}
+[156.179217] (-) TimerEvent: {}
+[156.280060] (-) TimerEvent: {}
+[156.380845] (-) TimerEvent: {}
+[156.481658] (-) TimerEvent: {}
+[156.582458] (-) TimerEvent: {}
+[156.683050] (-) TimerEvent: {}
+[156.784354] (-) TimerEvent: {}
+[156.885603] (-) TimerEvent: {}
+[156.987063] (-) TimerEvent: {}
+[157.088430] (-) TimerEvent: {}
+[157.189702] (-) TimerEvent: {}
+[157.291006] (-) TimerEvent: {}
+[157.392315] (-) TimerEvent: {}
+[157.493602] (-) TimerEvent: {}
+[157.594894] (-) TimerEvent: {}
+[157.696404] (-) TimerEvent: {}
+[157.797913] (-) TimerEvent: {}
+[157.899189] (-) TimerEvent: {}
+[158.000441] (-) TimerEvent: {}
+[158.101798] (-) TimerEvent: {}
+[158.203246] (-) TimerEvent: {}
+[158.304491] (-) TimerEvent: {}
+[158.405791] (-) TimerEvent: {}
+[158.507127] (-) TimerEvent: {}
+[158.608376] (-) TimerEvent: {}
+[158.709659] (-) TimerEvent: {}
+[158.810222] (-) TimerEvent: {}
+[158.911185] (-) TimerEvent: {}
+[159.012169] (-) TimerEvent: {}
+[159.113251] (-) TimerEvent: {}
+[159.214331] (-) TimerEvent: {}
+[159.315395] (-) TimerEvent: {}
+[159.416410] (-) TimerEvent: {}
+[159.517436] (-) TimerEvent: {}
+[159.617992] (-) TimerEvent: {}
+[159.718566] (-) TimerEvent: {}
+[159.819129] (-) TimerEvent: {}
+[159.919947] (-) TimerEvent: {}
+[160.020756] (-) TimerEvent: {}
+[160.122107] (-) TimerEvent: {}
+[160.223337] (-) TimerEvent: {}
+[160.324794] (-) TimerEvent: {}
+[160.426148] (-) TimerEvent: {}
+[160.527404] (-) TimerEvent: {}
+[160.628639] (-) TimerEvent: {}
+[160.729494] (-) TimerEvent: {}
+[160.830305] (-) TimerEvent: {}
+[160.931090] (-) TimerEvent: {}
+[161.032344] (-) TimerEvent: {}
+[161.133614] (-) TimerEvent: {}
+[161.234410] (-) TimerEvent: {}
+[161.335189] (-) TimerEvent: {}
+[161.435755] (-) TimerEvent: {}
+[161.536355] (-) TimerEvent: {}
+[161.637188] (-) TimerEvent: {}
+[161.737788] (-) TimerEvent: {}
+[161.838579] (-) TimerEvent: {}
+[161.939113] (-) TimerEvent: {}
+[162.039702] (-) TimerEvent: {}
+[162.140309] (-) TimerEvent: {}
+[162.240894] (-) TimerEvent: {}
+[162.341437] (-) TimerEvent: {}
+[162.435242] (nav2_behavior_tree) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX executable test_action_reinitialize_global_localization_service\x1b[0m\n'}
+[162.441639] (-) TimerEvent: {}
+[162.542458] (-) TimerEvent: {}
+[162.645305] (-) TimerEvent: {}
+[162.746173] (-) TimerEvent: {}
+[162.847343] (-) TimerEvent: {}
+[162.947930] (-) TimerEvent: {}
+[163.048517] (-) TimerEvent: {}
+[163.149401] (-) TimerEvent: {}
+[163.177808] (nav2_behavior_tree) StdoutLine: {'line': b'[ 86%] Built target test_action_reinitialize_global_localization_service\n'}
+[163.249574] (-) TimerEvent: {}
+[163.330735] (nav2_behavior_tree) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o\x1b[0m\n'}
+[163.349738] (-) TimerEvent: {}
+[163.375740] (nav2_behavior_tree) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable test_action_drive_on_heading_cancel_action\x1b[0m\n'}
+[163.449929] (-) TimerEvent: {}
+[163.550528] (-) TimerEvent: {}
+[163.651134] (-) TimerEvent: {}
+[163.752195] (-) TimerEvent: {}
+[163.853232] (-) TimerEvent: {}
+[163.954311] (-) TimerEvent: {}
+[164.055429] (-) TimerEvent: {}
+[164.072019] (nav2_behavior_tree) StdoutLine: {'line': b'[ 87%] Built target test_action_drive_on_heading_cancel_action\n'}
+[164.155602] (-) TimerEvent: {}
+[164.231245] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o\x1b[0m\n'}
+[164.255806] (-) TimerEvent: {}
+[164.356939] (-) TimerEvent: {}
+[164.458080] (-) TimerEvent: {}
+[164.559110] (-) TimerEvent: {}
+[164.660174] (-) TimerEvent: {}
+[164.761307] (-) TimerEvent: {}
+[164.827055] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_action_clear_costmap_service\x1b[0m\n'}
+[164.861512] (-) TimerEvent: {}
+[164.962062] (-) TimerEvent: {}
+[164.992138] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_action_back_up_cancel_action\x1b[0m\n'}
+[165.062175] (-) TimerEvent: {}
+[165.162776] (-) TimerEvent: {}
+[165.263402] (-) TimerEvent: {}
+[165.364031] (-) TimerEvent: {}
+[165.464640] (-) TimerEvent: {}
+[165.565485] (-) TimerEvent: {}
+[165.591930] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] Built target test_action_back_up_cancel_action\n'}
+[165.635189] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] Built target test_action_clear_costmap_service\n'}
+[165.655022] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_action_assisted_teleop_cancel_action\x1b[0m\n'}
+[165.665662] (-) TimerEvent: {}
+[165.766541] (-) TimerEvent: {}
+[165.867176] (-) TimerEvent: {}
+[165.967808] (-) TimerEvent: {}
+[166.068366] (-) TimerEvent: {}
+[166.168988] (-) TimerEvent: {}
+[166.174782] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] Built target test_action_assisted_teleop_cancel_action\n'}
+[166.269157] (-) TimerEvent: {}
+[166.369763] (-) TimerEvent: {}
+[166.470370] (-) TimerEvent: {}
+[166.570913] (-) TimerEvent: {}
+[166.671461] (-) TimerEvent: {}
+[166.772051] (-) TimerEvent: {}
+[166.872620] (-) TimerEvent: {}
+[166.973177] (-) TimerEvent: {}
+[167.073748] (-) TimerEvent: {}
+[167.167041] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_action_spin_cancel_action\x1b[0m\n'}
+[167.173861] (-) TimerEvent: {}
+[167.274417] (-) TimerEvent: {}
+[167.375005] (-) TimerEvent: {}
+[167.475598] (-) TimerEvent: {}
+[167.576511] (-) TimerEvent: {}
+[167.675746] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] Built target test_action_spin_cancel_action\n'}
+[167.676596] (-) TimerEvent: {}
+[167.777119] (-) TimerEvent: {}
+[167.877693] (-) TimerEvent: {}
+[167.978267] (-) TimerEvent: {}
+[168.078810] (-) TimerEvent: {}
+[168.179356] (-) TimerEvent: {}
+[168.279911] (-) TimerEvent: {}
+[168.380464] (-) TimerEvent: {}
+[168.481020] (-) TimerEvent: {}
+[168.581578] (-) TimerEvent: {}
+[168.682140] (-) TimerEvent: {}
+[168.782708] (-) TimerEvent: {}
+[168.883263] (-) TimerEvent: {}
+[168.983806] (-) TimerEvent: {}
+[169.084360] (-) TimerEvent: {}
+[169.184925] (-) TimerEvent: {}
+[169.285490] (-) TimerEvent: {}
+[169.379800] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable test_action_wait_cancel_action\x1b[0m\n'}
+[169.385641] (-) TimerEvent: {}
+[169.486222] (-) TimerEvent: {}
+[169.586818] (-) TimerEvent: {}
+[169.687563] (-) TimerEvent: {}
+[169.788159] (-) TimerEvent: {}
+[169.828812] (nav2_behavior_tree) StdoutLine: {'line': b'[ 88%] Built target test_action_wait_cancel_action\n'}
+[169.881532] (nav2_behavior_tree) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o\x1b[0m\n'}
+[169.888286] (-) TimerEvent: {}
+[169.988799] (-) TimerEvent: {}
+[170.037376] (nav2_behavior_tree) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable test_action_controller_cancel_action\x1b[0m\n'}
+[170.088947] (-) TimerEvent: {}
+[170.189536] (-) TimerEvent: {}
+[170.290689] (-) TimerEvent: {}
+[170.391706] (-) TimerEvent: {}
+[170.487603] (nav2_behavior_tree) StdoutLine: {'line': b'[ 89%] Built target test_action_controller_cancel_action\n'}
+[170.491806] (-) TimerEvent: {}
+[170.538637] (nav2_behavior_tree) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o\x1b[0m\n'}
+[170.591962] (-) TimerEvent: {}
+[170.692508] (-) TimerEvent: {}
+[170.793054] (-) TimerEvent: {}
+[170.893589] (-) TimerEvent: {}
+[170.994130] (-) TimerEvent: {}
+[171.094677] (-) TimerEvent: {}
+[171.195231] (-) TimerEvent: {}
+[171.295769] (-) TimerEvent: {}
+[171.396300] (-) TimerEvent: {}
+[171.496840] (-) TimerEvent: {}
+[171.570180] (nav2_behavior_tree) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o\x1b[0m\n'}
+[171.596995] (-) TimerEvent: {}
+[171.598469] (nav2_behavior_tree) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o\x1b[0m\n'}
+[171.697161] (-) TimerEvent: {}
+[171.798411] (-) TimerEvent: {}
+[171.899687] (-) TimerEvent: {}
+[172.000972] (-) TimerEvent: {}
+[172.102179] (-) TimerEvent: {}
+[172.203466] (-) TimerEvent: {}
+[172.304735] (-) TimerEvent: {}
+[172.405951] (-) TimerEvent: {}
+[172.507176] (-) TimerEvent: {}
+[172.608476] (-) TimerEvent: {}
+[172.639951] (nav2_behavior_tree) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o\x1b[0m\n'}
+[172.708644] (-) TimerEvent: {}
+[172.809210] (-) TimerEvent: {}
+[172.909781] (-) TimerEvent: {}
+[173.010340] (-) TimerEvent: {}
+[173.110907] (-) TimerEvent: {}
+[173.211489] (-) TimerEvent: {}
+[173.312080] (-) TimerEvent: {}
+[173.412693] (-) TimerEvent: {}
+[173.513280] (-) TimerEvent: {}
+[173.613841] (-) TimerEvent: {}
+[173.714406] (-) TimerEvent: {}
+[173.775406] (nav2_behavior_tree) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o\x1b[0m\n'}
+[173.814579] (-) TimerEvent: {}
+[173.915199] (-) TimerEvent: {}
+[174.015790] (-) TimerEvent: {}
+[174.116399] (-) TimerEvent: {}
+[174.217042] (-) TimerEvent: {}
+[174.317661] (-) TimerEvent: {}
+[174.419082] (-) TimerEvent: {}
+[174.519719] (-) TimerEvent: {}
+[174.620303] (-) TimerEvent: {}
+[174.720898] (-) TimerEvent: {}
+[174.821899] (-) TimerEvent: {}
+[174.922882] (-) TimerEvent: {}
+[175.023485] (-) TimerEvent: {}
+[175.124104] (-) TimerEvent: {}
+[175.224715] (-) TimerEvent: {}
+[175.325313] (-) TimerEvent: {}
+[175.426343] (-) TimerEvent: {}
+[175.527369] (-) TimerEvent: {}
+[175.628401] (-) TimerEvent: {}
+[175.729403] (-) TimerEvent: {}
+[175.830434] (-) TimerEvent: {}
+[175.931463] (-) TimerEvent: {}
+[176.032480] (-) TimerEvent: {}
+[176.133627] (-) TimerEvent: {}
+[176.234666] (-) TimerEvent: {}
+[176.335276] (-) TimerEvent: {}
+[176.435867] (-) TimerEvent: {}
+[176.536453] (-) TimerEvent: {}
+[176.637058] (-) TimerEvent: {}
+[176.737642] (-) TimerEvent: {}
+[176.838187] (-) TimerEvent: {}
+[176.939165] (-) TimerEvent: {}
+[177.040203] (-) TimerEvent: {}
+[177.140810] (-) TimerEvent: {}
+[177.241580] (-) TimerEvent: {}
+[177.342416] (-) TimerEvent: {}
+[177.442967] (-) TimerEvent: {}
+[177.543540] (-) TimerEvent: {}
+[177.644110] (-) TimerEvent: {}
+[177.744691] (-) TimerEvent: {}
+[177.845221] (-) TimerEvent: {}
+[177.945787] (-) TimerEvent: {}
+[178.046822] (-) TimerEvent: {}
+[178.147795] (-) TimerEvent: {}
+[178.248367] (-) TimerEvent: {}
+[178.348948] (-) TimerEvent: {}
+[178.449469] (-) TimerEvent: {}
+[178.550485] (-) TimerEvent: {}
+[178.651517] (-) TimerEvent: {}
+[178.752579] (-) TimerEvent: {}
+[178.853569] (-) TimerEvent: {}
+[178.954164] (-) TimerEvent: {}
+[179.054716] (-) TimerEvent: {}
+[179.155324] (-) TimerEvent: {}
+[179.255918] (-) TimerEvent: {}
+[179.356537] (-) TimerEvent: {}
+[179.457579] (-) TimerEvent: {}
+[179.558589] (-) TimerEvent: {}
+[179.659642] (-) TimerEvent: {}
+[179.760241] (-) TimerEvent: {}
+[179.860838] (-) TimerEvent: {}
+[179.961421] (-) TimerEvent: {}
+[180.062405] (-) TimerEvent: {}
+[180.163395] (-) TimerEvent: {}
+[180.263995] (-) TimerEvent: {}
+[180.364582] (-) TimerEvent: {}
+[180.465141] (-) TimerEvent: {}
+[180.565892] (-) TimerEvent: {}
+[180.666658] (-) TimerEvent: {}
+[180.767426] (-) TimerEvent: {}
+[180.868208] (-) TimerEvent: {}
+[180.968798] (-) TimerEvent: {}
+[181.069397] (-) TimerEvent: {}
+[181.169958] (-) TimerEvent: {}
+[181.270539] (-) TimerEvent: {}
+[181.371085] (-) TimerEvent: {}
+[181.471673] (-) TimerEvent: {}
+[181.572256] (-) TimerEvent: {}
+[181.672862] (-) TimerEvent: {}
+[181.773456] (-) TimerEvent: {}
+[181.874081] (-) TimerEvent: {}
+[181.974647] (-) TimerEvent: {}
+[182.075261] (-) TimerEvent: {}
+[182.175835] (-) TimerEvent: {}
+[182.276422] (-) TimerEvent: {}
+[182.376978] (-) TimerEvent: {}
+[182.477579] (-) TimerEvent: {}
+[182.578163] (-) TimerEvent: {}
+[182.678762] (-) TimerEvent: {}
+[182.779326] (-) TimerEvent: {}
+[182.879979] (-) TimerEvent: {}
+[182.979226] (nav2_behavior_tree) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test_action_compute_path_to_pose_action\x1b[0m\n'}
+[182.980081] (-) TimerEvent: {}
+[183.081068] (-) TimerEvent: {}
+[183.182309] (-) TimerEvent: {}
+[183.283572] (-) TimerEvent: {}
+[183.384683] (-) TimerEvent: {}
+[183.485819] (-) TimerEvent: {}
+[183.503513] (nav2_behavior_tree) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable test_action_compute_path_through_poses_action\x1b[0m\n'}
+[183.585990] (-) TimerEvent: {}
+[183.686767] (-) TimerEvent: {}
+[183.787619] (-) TimerEvent: {}
+[183.864693] (nav2_behavior_tree) StdoutLine: {'line': b'[ 94%] Built target test_action_compute_path_to_pose_action\n'}
+[183.887822] (-) TimerEvent: {}
+[183.988667] (-) TimerEvent: {}
+[184.020552] (nav2_behavior_tree) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o\x1b[0m\n'}
+[184.088853] (-) TimerEvent: {}
+[184.189447] (-) TimerEvent: {}
+[184.227047] (nav2_behavior_tree) StdoutLine: {'line': b'[ 95%] Built target test_action_compute_path_through_poses_action\n'}
+[184.289630] (-) TimerEvent: {}
+[184.367528] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o\x1b[0m\n'}
+[184.389804] (-) TimerEvent: {}
+[184.490398] (-) TimerEvent: {}
+[184.514819] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable test_truncate_path_action\x1b[0m\n'}
+[184.590549] (-) TimerEvent: {}
+[184.691100] (-) TimerEvent: {}
+[184.791644] (-) TimerEvent: {}
+[184.892408] (-) TimerEvent: {}
+[184.993019] (-) TimerEvent: {}
+[185.093851] (-) TimerEvent: {}
+[185.195166] (-) TimerEvent: {}
+[185.249321] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] Built target test_truncate_path_action\n'}
+[185.295361] (-) TimerEvent: {}
+[185.396207] (-) TimerEvent: {}
+[185.497089] (-) TimerEvent: {}
+[185.597951] (-) TimerEvent: {}
+[185.698828] (-) TimerEvent: {}
+[185.799944] (-) TimerEvent: {}
+[185.900836] (-) TimerEvent: {}
+[186.001492] (-) TimerEvent: {}
+[186.102470] (-) TimerEvent: {}
+[186.203362] (-) TimerEvent: {}
+[186.304251] (-) TimerEvent: {}
+[186.405078] (-) TimerEvent: {}
+[186.506180] (-) TimerEvent: {}
+[186.606736] (-) TimerEvent: {}
+[186.707597] (-) TimerEvent: {}
+[186.808653] (-) TimerEvent: {}
+[186.909506] (-) TimerEvent: {}
+[187.010148] (-) TimerEvent: {}
+[187.111195] (-) TimerEvent: {}
+[187.212246] (-) TimerEvent: {}
+[187.313085] (-) TimerEvent: {}
+[187.413894] (-) TimerEvent: {}
+[187.514689] (-) TimerEvent: {}
+[187.615474] (-) TimerEvent: {}
+[187.631414] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable test_action_navigate_through_poses_action\x1b[0m\n'}
+[187.715427] (-) TimerEvent: {}
+[187.816031] (-) TimerEvent: {}
+[187.916659] (-) TimerEvent: {}
+[188.017260] (-) TimerEvent: {}
+[188.117858] (-) TimerEvent: {}
+[188.156139] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] Built target test_action_navigate_through_poses_action\n'}
+[188.218064] (-) TimerEvent: {}
+[188.318631] (-) TimerEvent: {}
+[188.419203] (-) TimerEvent: {}
+[188.519774] (-) TimerEvent: {}
+[188.620330] (-) TimerEvent: {}
+[188.720918] (-) TimerEvent: {}
+[188.821461] (-) TimerEvent: {}
+[188.922062] (-) TimerEvent: {}
+[189.022642] (-) TimerEvent: {}
+[189.123221] (-) TimerEvent: {}
+[189.223810] (-) TimerEvent: {}
+[189.324409] (-) TimerEvent: {}
+[189.369423] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable test_action_navigate_to_pose_action\x1b[0m\n'}
+[189.424594] (-) TimerEvent: {}
+[189.525179] (-) TimerEvent: {}
+[189.625724] (-) TimerEvent: {}
+[189.726342] (-) TimerEvent: {}
+[189.826943] (-) TimerEvent: {}
+[189.852706] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] Built target test_action_navigate_to_pose_action\n'}
+[189.927094] (-) TimerEvent: {}
+[190.027636] (-) TimerEvent: {}
+[190.128990] (-) TimerEvent: {}
+[190.230333] (-) TimerEvent: {}
+[190.331577] (-) TimerEvent: {}
+[190.432897] (-) TimerEvent: {}
+[190.534138] (-) TimerEvent: {}
+[190.637831] (-) TimerEvent: {}
+[190.738926] (-) TimerEvent: {}
+[190.839977] (-) TimerEvent: {}
+[190.941028] (-) TimerEvent: {}
+[191.041611] (-) TimerEvent: {}
+[191.126635] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable test_action_follow_path_action\x1b[0m\n'}
+[191.141737] (-) TimerEvent: {}
+[191.242301] (-) TimerEvent: {}
+[191.342893] (-) TimerEvent: {}
+[191.443496] (-) TimerEvent: {}
+[191.544599] (-) TimerEvent: {}
+[191.590749] (nav2_behavior_tree) StdoutLine: {'line': b'[ 96%] Built target test_action_follow_path_action\n'}
+[191.643317] (nav2_behavior_tree) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o\x1b[0m\n'}
+[191.644687] (-) TimerEvent: {}
+[191.745620] (-) TimerEvent: {}
+[191.760895] (nav2_behavior_tree) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable test_action_smooth_path_action\x1b[0m\n'}
+[191.845773] (-) TimerEvent: {}
+[191.915505] (nav2_behavior_tree) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable test_truncate_path_local_action\x1b[0m\n'}
+[191.945918] (-) TimerEvent: {}
+[192.047014] (-) TimerEvent: {}
+[192.148252] (-) TimerEvent: {}
+[192.228326] (nav2_behavior_tree) StdoutLine: {'line': b'[ 98%] Built target test_action_smooth_path_action\n'}
+[192.248398] (-) TimerEvent: {}
+[192.282159] (nav2_behavior_tree) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o\x1b[0m\n'}
+[192.348553] (-) TimerEvent: {}
+[192.418116] (nav2_behavior_tree) StdoutLine: {'line': b'[ 99%] Built target test_truncate_path_local_action\n'}
+[192.448692] (-) TimerEvent: {}
+[192.474156] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o\x1b[0m\n'}
+[192.548850] (-) TimerEvent: {}
+[192.649920] (-) TimerEvent: {}
+[192.751026] (-) TimerEvent: {}
+[192.852083] (-) TimerEvent: {}
+[192.953132] (-) TimerEvent: {}
+[193.054176] (-) TimerEvent: {}
+[193.155235] (-) TimerEvent: {}
+[193.256275] (-) TimerEvent: {}
+[193.357304] (-) TimerEvent: {}
+[193.458345] (-) TimerEvent: {}
+[193.558917] (-) TimerEvent: {}
+[193.659494] (-) TimerEvent: {}
+[193.760076] (-) TimerEvent: {}
+[193.860657] (-) TimerEvent: {}
+[193.961241] (-) TimerEvent: {}
+[194.061863] (-) TimerEvent: {}
+[194.162482] (-) TimerEvent: {}
+[194.263056] (-) TimerEvent: {}
+[194.363634] (-) TimerEvent: {}
+[194.464565] (-) TimerEvent: {}
+[194.565653] (-) TimerEvent: {}
+[194.666792] (-) TimerEvent: {}
+[194.767864] (-) TimerEvent: {}
+[194.868928] (-) TimerEvent: {}
+[194.970019] (-) TimerEvent: {}
+[195.071109] (-) TimerEvent: {}
+[195.172209] (-) TimerEvent: {}
+[195.273253] (-) TimerEvent: {}
+[195.374341] (-) TimerEvent: {}
+[195.475353] (-) TimerEvent: {}
+[195.576420] (-) TimerEvent: {}
+[195.677514] (-) TimerEvent: {}
+[195.778820] (-) TimerEvent: {}
+[195.880080] (-) TimerEvent: {}
+[195.981469] (-) TimerEvent: {}
+[196.082147] (-) TimerEvent: {}
+[196.182690] (-) TimerEvent: {}
+[196.283232] (-) TimerEvent: {}
+[196.383784] (-) TimerEvent: {}
+[196.484386] (-) TimerEvent: {}
+[196.584959] (-) TimerEvent: {}
+[196.685545] (-) TimerEvent: {}
+[196.786125] (-) TimerEvent: {}
+[196.886657] (-) TimerEvent: {}
+[196.987200] (-) TimerEvent: {}
+[197.087786] (-) TimerEvent: {}
+[197.189139] (-) TimerEvent: {}
+[197.289695] (-) TimerEvent: {}
+[197.391056] (-) TimerEvent: {}
+[197.492455] (-) TimerEvent: {}
+[197.593848] (-) TimerEvent: {}
+[197.694439] (-) TimerEvent: {}
+[197.795272] (-) TimerEvent: {}
+[197.896061] (-) TimerEvent: {}
+[197.996863] (-) TimerEvent: {}
+[198.097644] (-) TimerEvent: {}
+[198.198503] (-) TimerEvent: {}
+[198.299282] (-) TimerEvent: {}
+[198.400149] (-) TimerEvent: {}
+[198.500962] (-) TimerEvent: {}
+[198.601573] (-) TimerEvent: {}
+[198.702656] (-) TimerEvent: {}
+[198.803674] (-) TimerEvent: {}
+[198.904692] (-) TimerEvent: {}
+[199.005774] (-) TimerEvent: {}
+[199.106864] (-) TimerEvent: {}
+[199.207973] (-) TimerEvent: {}
+[199.309030] (-) TimerEvent: {}
+[199.410142] (-) TimerEvent: {}
+[199.510746] (-) TimerEvent: {}
+[199.611322] (-) TimerEvent: {}
+[199.627677] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_planner_selector_node\x1b[0m\n'}
+[199.711482] (-) TimerEvent: {}
+[199.812594] (-) TimerEvent: {}
+[199.913736] (-) TimerEvent: {}
+[200.014873] (-) TimerEvent: {}
+[200.115946] (-) TimerEvent: {}
+[200.122105] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target test_planner_selector_node\n'}
+[200.216109] (-) TimerEvent: {}
+[200.316679] (-) TimerEvent: {}
+[200.417242] (-) TimerEvent: {}
+[200.517772] (-) TimerEvent: {}
+[200.587529] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_remove_passed_goals_action\x1b[0m\n'}
+[200.617906] (-) TimerEvent: {}
+[200.718478] (-) TimerEvent: {}
+[200.819056] (-) TimerEvent: {}
+[200.919626] (-) TimerEvent: {}
+[201.020175] (-) TimerEvent: {}
+[201.064256] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target test_remove_passed_goals_action\n'}
+[201.120323] (-) TimerEvent: {}
+[201.220887] (-) TimerEvent: {}
+[201.321473] (-) TimerEvent: {}
+[201.422015] (-) TimerEvent: {}
+[201.522571] (-) TimerEvent: {}
+[201.623110] (-) TimerEvent: {}
+[201.723644] (-) TimerEvent: {}
+[201.824170] (-) TimerEvent: {}
+[201.924691] (-) TimerEvent: {}
+[202.025268] (-) TimerEvent: {}
+[202.125796] (-) TimerEvent: {}
+[202.226358] (-) TimerEvent: {}
+[202.326892] (-) TimerEvent: {}
+[202.427434] (-) TimerEvent: {}
+[202.527953] (-) TimerEvent: {}
+[202.628498] (-) TimerEvent: {}
+[202.729036] (-) TimerEvent: {}
+[202.829564] (-) TimerEvent: {}
+[202.930151] (-) TimerEvent: {}
+[203.030674] (-) TimerEvent: {}
+[203.131202] (-) TimerEvent: {}
+[203.231716] (-) TimerEvent: {}
+[203.332232] (-) TimerEvent: {}
+[203.432743] (-) TimerEvent: {}
+[203.533273] (-) TimerEvent: {}
+[203.633810] (-) TimerEvent: {}
+[203.734360] (-) TimerEvent: {}
+[203.834884] (-) TimerEvent: {}
+[203.935413] (-) TimerEvent: {}
+[204.035976] (-) TimerEvent: {}
+[204.136489] (-) TimerEvent: {}
+[204.237004] (-) TimerEvent: {}
+[204.337529] (-) TimerEvent: {}
+[204.438067] (-) TimerEvent: {}
+[204.538587] (-) TimerEvent: {}
+[204.639112] (-) TimerEvent: {}
+[204.739649] (-) TimerEvent: {}
+[204.840202] (-) TimerEvent: {}
+[204.940709] (-) TimerEvent: {}
+[205.041245] (-) TimerEvent: {}
+[205.141796] (-) TimerEvent: {}
+[205.242353] (-) TimerEvent: {}
+[205.342880] (-) TimerEvent: {}
+[205.443414] (-) TimerEvent: {}
+[205.543947] (-) TimerEvent: {}
+[205.644490] (-) TimerEvent: {}
+[205.745038] (-) TimerEvent: {}
+[205.845573] (-) TimerEvent: {}
+[205.946152] (-) TimerEvent: {}
+[206.047126] (-) TimerEvent: {}
+[206.147704] (-) TimerEvent: {}
+[206.248263] (-) TimerEvent: {}
+[206.348825] (-) TimerEvent: {}
+[206.449353] (-) TimerEvent: {}
+[206.486042] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_goal_checker_selector_node\x1b[0m\n'}
+[206.549504] (-) TimerEvent: {}
+[206.650155] (-) TimerEvent: {}
+[206.750750] (-) TimerEvent: {}
+[206.851283] (-) TimerEvent: {}
+[206.892745] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_smoother_selector_node\x1b[0m\n'}
+[206.921986] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target test_goal_checker_selector_node\n'}
+[206.951419] (-) TimerEvent: {}
+[207.051942] (-) TimerEvent: {}
+[207.136666] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_controller_selector_node\x1b[0m\n'}
+[207.152083] (-) TimerEvent: {}
+[207.252788] (-) TimerEvent: {}
+[207.321620] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target test_smoother_selector_node\n'}
+[207.352911] (-) TimerEvent: {}
+[207.453411] (-) TimerEvent: {}
+[207.550484] (nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target test_controller_selector_node\n'}
+[207.553490] (-) TimerEvent: {}
+[207.576682] (nav2_behavior_tree) CommandEnded: {'returncode': 0}
+[207.578298] (nav2_behavior_tree) JobProgress: {'identifier': 'nav2_behavior_tree', 'progress': 'install'}
+[207.598190] (nav2_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree'], 'cwd': '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('TMUX', '/tmp/tmux-1001/default,193102,0'), ('USER', 'wheeltec'), ('SSH_CLIENT', '192.168.40.216 38859 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/wheeltec/wheeltec_robot/install/nav2_util/lib:/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib:/home/wheeltec/wheeltec_robot/install/dual_laser_merger/lib:/usr/local/cuda-12.6/lib64:/home/wheeltec/wheeltec_robot/install/yesense_interface/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg/lib:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg/lib:/home/wheeltec/wheeltec_robot/install/usb_cam/lib:/home/wheeltec/wheeltec_robot/install/ublox_gps/lib:/home/wheeltec/wheeltec_robot/install/ublox_msgs/lib:/home/wheeltec/wheeltec_robot/install/serial/lib:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib:/home/wheeltec/wheeltec_robot/install/openslam_gmapping/lib:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/lib:/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav2_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_controller/lib:/home/wheeltec/wheeltec_robot/install/dwb_plugins/lib:/home/wheeltec/wheeltec_robot/install/dwb_critics/lib:/home/wheeltec/wheeltec_robot/install/dwb_core/lib:/home/wheeltec/wheeltec_robot/install/nav_2d_utils/lib:/home/wheeltec/wheeltec_robot/install/dwb_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/lib:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower/lib:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner/lib:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller/lib:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator/lib:/home/wheeltec/wheeltec_robot/install/nav2_behaviors/lib:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor/lib:/home/wheeltec/wheeltec_robot/install/costmap_queue/lib:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d/lib:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid/lib:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother/lib:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins/lib:/home/wheeltec/wheeltec_robot/install/nav2_map_server/lib:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager/lib:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib:/home/wheeltec/wheeltec_robot/install/nav2_amcl/lib:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration/lib:/home/wheeltec/wheeltec_robot/install/lslidar_msgs/lib:/home/wheeltec/wheeltec_robot/install/bodyreader_msg/lib:/home/wheeltec/wheeltec_robot/install/astra_camera/lib:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco_ros/lib:/home/wheeltec/wheeltec_robot/install/aruco_msgs/lib:/home/wheeltec/wheeltec_robot/install/aruco/lib:/home/wheeltec/wheeltec_robot/install/ackermann_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/wheeltec'), ('OLDPWD', '/home/wheeltec/wheeltec_robot/src'), ('TERM_PROGRAM_VERSION', '3.2a'), ('SSH_TTY', '/dev/pts/11'), ('JETSON_L4T', '36.4.4'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Orin NX Engineering Reference Developer Kit Super'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('COLCON_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'wheeltec'), ('JETSON_MODULE', ''), ('JETSON_SERIAL_NUMBER', '1421024236192'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'screen'), ('XDG_SESSION_ID', '31'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/wheeltec/.local/bin:/usr/local/cuda-12.6/bin:/home/wheeltec/.local/bin:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('DISPLAY', 'localhost:11.0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('TERM_PROGRAM', 'tmux'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.ustc.edu.cn/rosdistro/index-v4.yaml'), ('AMENT_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/wheeltec/wheeltec_robot/build/nav2_behavior_tree'), ('SSH_CONNECTION', '192.168.40.216 38859 192.168.40.51 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/wheeltec/wheeltec_robot/build/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/build/nav2_simple_commander:/home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator:/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ublox_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/tf2_tools/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/python3.10/site-packages:/home/wheeltec/wheeltec_robot/install/lslidar_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/bodyreader_msg/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/aruco_msgs/local/lib/python3.10/dist-packages:/home/wheeltec/wheeltec_robot/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('TMUX_PANE', '%0'), ('JETSON_JETPACK', ''), ('CMAKE_PREFIX_PATH', '/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble')]), 'shell': False}
+[207.614599] (nav2_behavior_tree) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[207.615280] (nav2_behavior_tree) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[207.616349] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so\n'}
+[207.634247] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so\n'}
+[207.651424] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so\n'}
+[207.653585] (-) TimerEvent: {}
+[207.668646] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so\n'}
+[207.686249] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so\n'}
+[207.702800] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so\n'}
+[207.720346] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so\n'}
+[207.737362] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so\n'}
+[207.753694] (-) TimerEvent: {}
+[207.755070] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so\n'}
+[207.771947] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so\n'}
+[207.788900] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so\n'}
+[207.805760] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so\n'}
+[207.822233] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so\n'}
+[207.838473] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so\n'}
+[207.853809] (-) TimerEvent: {}
+[207.855838] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so\n'}
+[207.873151] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so\n'}
+[207.889931] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so\n'}
+[207.906668] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so\n'}
+[207.923260] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so\n'}
+[207.939694] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so\n'}
+[207.953922] (-) TimerEvent: {}
+[207.956125] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so\n'}
+[207.972677] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so\n'}
+[207.989627] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so\n'}
+[208.006664] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so\n'}
+[208.023859] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so\n'}
+[208.040531] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so\n'}
+[208.054041] (-) TimerEvent: {}
+[208.057049] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so\n'}
+[208.073807] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so\n'}
+[208.090118] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so\n'}
+[208.106627] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so\n'}
+[208.122969] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so\n'}
+[208.139197] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so\n'}
+[208.154108] (-) TimerEvent: {}
+[208.156043] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so\n'}
+[208.172753] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so\n'}
+[208.189181] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so\n'}
+[208.205738] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so\n'}
+[208.221889] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so\n'}
+[208.238312] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so\n'}
+[208.254198] (-) TimerEvent: {}
+[208.254548] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so\n'}
+[208.271184] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so\n'}
+[208.287197] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so\n'}
+[208.303450] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so\n'}
+[208.319849] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so\n'}
+[208.336119] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so\n'}
+[208.352694] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so\n'}
+[208.354266] (-) TimerEvent: {}
+[208.369583] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so\n'}
+[208.386392] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so\n'}
+[208.403285] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so\n'}
+[208.421987] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp\n'}
+[208.438451] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp\n'}
+[208.454387] (-) TimerEvent: {}
+[208.454748] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp\n'}
+[208.471815] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp\n'}
+[208.489245] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp\n'}
+[208.505719] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp\n'}
+[208.522385] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp\n'}
+[208.539820] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp\n'}
+[208.554485] (-) TimerEvent: {}
+[208.556441] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp\n'}
+[208.572743] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp\n'}
+[208.589103] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp\n'}
+[208.605389] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp\n'}
+[208.622341] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp\n'}
+[208.638770] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp\n'}
+[208.654593] (-) TimerEvent: {}
+[208.655181] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp\n'}
+[208.672382] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp\n'}
+[208.688692] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp\n'}
+[208.705532] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp\n'}
+[208.721660] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp\n'}
+[208.738164] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp\n'}
+[208.754690] (-) TimerEvent: {}
+[208.755130] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp\n'}
+[208.772127] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp\n'}
+[208.788625] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp\n'}
+[208.804915] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp\n'}
+[208.821443] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp\n'}
+[208.838064] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp\n'}
+[208.854443] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp\n'}
+[208.854735] (-) TimerEvent: {}
+[208.871352] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp\n'}
+[208.887762] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp\n'}
+[208.905197] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp\n'}
+[208.922059] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp\n'}
+[208.938141] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp\n'}
+[208.954877] (-) TimerEvent: {}
+[208.955195] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp\n'}
+[208.971264] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp\n'}
+[208.988012] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp\n'}
+[209.004886] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp\n'}
+[209.021138] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp\n'}
+[209.037659] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp\n'}
+[209.053983] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp\n'}
+[209.054933] (-) TimerEvent: {}
+[209.070517] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp\n'}
+[209.086786] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp\n'}
+[209.103194] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp\n'}
+[209.120267] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp\n'}
+[209.136275] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp\n'}
+[209.152807] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp\n'}
+[209.155014] (-) TimerEvent: {}
+[209.169232] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp\n'}
+[209.185694] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp\n'}
+[209.202091] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp\n'}
+[209.218176] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp\n'}
+[209.234856] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp\n'}
+[209.251844] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp\n'}
+[209.255100] (-) TimerEvent: {}
+[209.268543] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp\n'}
+[209.285032] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp\n'}
+[209.301258] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp\n'}
+[209.317997] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp\n'}
+[209.334559] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml\n'}
+[209.351269] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh\n'}
+[209.355193] (-) TimerEvent: {}
+[209.367907] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv\n'}
+[209.384814] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree\n'}
+[209.401320] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree\n'}
+[209.417425] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh\n'}
+[209.434125] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv\n'}
+[209.451771] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh\n'}
+[209.455286] (-) TimerEvent: {}
+[209.468411] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv\n'}
+[209.485619] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash\n'}
+[209.503155] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh\n'}
+[209.520012] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh\n'}
+[209.537656] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv\n'}
+[209.554382] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv\n'}
+[209.555353] (-) TimerEvent: {}
+[209.571290] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree\n'}
+[209.587651] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[209.604504] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[209.620816] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[209.637102] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake\n'}
+[209.654347] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake\n'}
+[209.655434] (-) TimerEvent: {}
+[209.671517] (nav2_behavior_tree) StdoutLine: {'line': b'-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml\n'}
+[209.691668] (nav2_behavior_tree) CommandEnded: {'returncode': 0}
+[209.726465] (nav2_behavior_tree) JobEnded: {'identifier': 'nav2_behavior_tree', 'rc': 0}
+[209.727982] (-) EventReactorShutdown: {}

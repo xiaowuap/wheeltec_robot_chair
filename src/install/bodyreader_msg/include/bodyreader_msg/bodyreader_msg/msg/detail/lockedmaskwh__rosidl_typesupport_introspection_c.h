@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/rosidl_typesupport_introspection_c/bodyreader_msg/msg/detail/lockedmaskwh__rosidl_typesupport_introspection_c.h

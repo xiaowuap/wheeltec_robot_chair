@@ -1,0 +1,71 @@
+[0.047s] Invoking command in '/home/wheeltec/wheeltec_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/depend/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/serial
+[0.160s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.288s] -- Detecting C compiler ABI info
+[0.438s] -- Detecting C compiler ABI info - done
+[0.446s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.447s] -- Detecting C compile features
+[0.447s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.614s] -- Detecting CXX compiler ABI info - done
+[0.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.635s] -- Detecting CXX compile features
+[0.635s] -- Detecting CXX compile features - done
+[0.635s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.642s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[1.399s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.564s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.575s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.695s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.877s] -- Configuring done
+[1.886s] -- Generating done
+[1.891s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/serial
+[1.912s] Invoked command in '/home/wheeltec/wheeltec_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/depend/serial_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/serial
+[1.913s] Invoking command in '/home/wheeltec/wheeltec_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/serial -- -j8 -l8
+[2.179s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[2.179s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[2.179s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[2.499s] [01m[K/home/wheeltec/wheeltec_robot/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[2.499s] [01m[K/home/wheeltec/wheeltec_robot/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.499s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[2.499s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.499s] [01m[K/home/wheeltec/wheeltec_robot/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.499s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[2.499s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[2.505s] [01m[K/home/wheeltec/wheeltec_robot/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[2.505s] [01m[K/home/wheeltec/wheeltec_robot/src/depend/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.505s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[2.505s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.876s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[2.943s] [100%] Built target serial
+[2.973s] Invoked command in '/home/wheeltec/wheeltec_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/serial -- -j8 -l8
+[2.974s] Invoking command in '/home/wheeltec/wheeltec_robot/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/serial
+[3.096s] -- Install configuration: ""
+[3.096s] -- Execute custom install script
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/lib/libserial.a
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/library_path.sh
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/library_path.dsv
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/include/serial/impl/unix.h
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/include/serial/impl/win.h
+[3.096s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/include/serial/serial.h
+[3.097s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/include/serial/v8stdint.h
+[3.103s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.119s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.136s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.154s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.169s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/path.sh
+[3.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/environment/path.dsv
+[3.201s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/local_setup.bash
+[3.219s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/local_setup.sh
+[3.243s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/local_setup.zsh
+[3.255s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/local_setup.dsv
+[3.276s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/package.dsv
+[3.293s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/ament_index/resource_index/packages/serial
+[3.310s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.326s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.343s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.366s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/cmake/serialConfig.cmake
+[3.384s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.401s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/serial/share/serial/package.xml
+[3.434s] Invoked command in '/home/wheeltec/wheeltec_robot/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/serial

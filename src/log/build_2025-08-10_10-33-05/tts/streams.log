@@ -1,0 +1,91 @@
+[0.093s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/tts_make_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/tts
+[6.318s] -- The C compiler identification is GNU 11.4.0
+[6.319s] -- The CXX compiler identification is GNU 11.4.0
+[6.319s] -- Detecting C compiler ABI info
+[6.319s] -- Detecting C compiler ABI info - done
+[6.319s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.320s] -- Detecting C compile features
+[6.320s] -- Detecting C compile features - done
+[6.320s] -- Detecting CXX compiler ABI info
+[6.320s] -- Detecting CXX compiler ABI info - done
+[6.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.320s] -- Detecting CXX compile features
+[6.320s] -- Detecting CXX compile features - done
+[6.321s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.321s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.321s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.321s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[6.321s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.321s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.321s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.321s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.321s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.321s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.321s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.322s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.322s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.371s] -- Looking for pthread.h
+[6.760s] -- Looking for pthread.h - found
+[6.761s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[7.223s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[7.225s] -- Found Threads: TRUE  
+[7.557s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.222s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.231s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.234s] -- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/tts_make_ros2/include
+[8.234s] -- Configured cppcheck exclude dirs and/or files: 
+[8.244s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.245s] -- Configured cpplint exclude dirs and/or files: 
+[8.251s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.257s] -- Added test 'lint_cmake' to check CMake code style
+[8.265s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.273s] -- Added test 'uncrustify' to check C / C++ code style
+[8.273s] -- Configured uncrustify additional arguments: 
+[8.279s] -- Added test 'xmllint' to check XML markup files
+[8.292s] -- Configuring done
+[8.337s] -- Generating done
+[8.353s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/tts
+[8.420s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/tts_make_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/tts
+[8.422s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/tts -- -j8 -l8
+[9.171s] [ 50%] [32mBuilding CXX object CMakeFiles/tts_node.dir/src/tts_make.cpp.o[0m
+[17.981s] [100%] [32m[1mLinking CXX executable tts_node[0m
+[19.215s] [100%] Built target tts_node
+[19.302s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/tts -- -j8 -l8
+[19.303s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/tts
+[79.526s] -- Install configuration: ""
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/launch
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/launch/tts_make.launch.py
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res
+[79.526s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/tts
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/tts/xiaoyan.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/tts/xiaofeng.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/tts/common.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/xtts
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/xtts/common_en.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/xtts/xiaoyan.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/xtts/xiaofeng.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/res/xtts/common.jet
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/bin/msc/msc.cfg
+[79.527s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/config/tts_params.yaml
+[79.528s] -- Execute custom install script
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/lib/tts/tts_node
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/ament_index/resource_index/package_run_dependencies/tts
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/ament_index/resource_index/parent_prefix_path/tts
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/environment/ament_prefix_path.sh
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/environment/ament_prefix_path.dsv
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/environment/path.sh
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/environment/path.dsv
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/local_setup.bash
+[79.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/local_setup.sh
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/local_setup.zsh
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/local_setup.dsv
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/package.dsv
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/ament_index/resource_index/packages/tts
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/cmake/ttsConfig.cmake
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/cmake/ttsConfig-version.cmake
+[79.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/tts/share/tts/package.xml
+[79.553s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/tts

@@ -1,0 +1,35 @@
+running develop
+running egg_info
+creating tf2_tools.egg-info
+writing tf2_tools.egg-info/PKG-INFO
+writing dependency_links to tf2_tools.egg-info/dependency_links.txt
+writing entry points to tf2_tools.egg-info/entry_points.txt
+writing requirements to tf2_tools.egg-info/requires.txt
+writing top-level names to tf2_tools.egg-info/top_level.txt
+writing manifest file 'tf2_tools.egg-info/SOURCES.txt'
+reading manifest file 'tf2_tools.egg-info/SOURCES.txt'
+writing manifest file 'tf2_tools.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/python3.10/site-packages/tf2-tools.egg-link (link to .)
+Installing view_frames script to /home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/tf2_tools
+
+Installed /home/wheeltec/wheeltec_robot/src/build/tf2_tools
+running symlink_data
+creating /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/src/build/tf2_tools/resource/tf2_tools -> /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/src/build/tf2_tools/package.xml -> /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/tf2_tools
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+!!
+
+        ********************************************************************************
+        Please consider removing the following classifiers in favor of a SPDX license expression:
+
+        License :: OSI Approved :: Apache Software License
+
+        See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+        ********************************************************************************
+
+!!
+  self._finalize_license_expression()

@@ -1,0 +1,67 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target map_io[0m
+[  5%] Built target gtest
+[ 19%] Built target gtest_main
+[ 19%] Built target map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_cli[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_io[0m
+[ 27%] Built target test_map_saver_cli
+[ 38%] Built target map_server_core
+[ 47%] Built target test_map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server[0m
+[ 55%] Built target test_map_saver_publisher
+[ 58%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[ 63%] Built target map_server
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_server_node[0m
+[ 72%] Built target test_map_saver_node
+[ 80%] Built target test_map_server_node
+[ 83%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[ 86%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable map_saver_cli[0m
+[ 91%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[ 91%] Built target map_saver_cli
+[ 91%] Built target costmap_filter_info_server
+[ 94%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[ 94%] Built target test_costmap_filter_info_server
+[ 97%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[100%] [32m[1mLinking CXX executable map_saver_server[0m
+[100%] Built target map_saver_server
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/libmap_server_core.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/libmap_io.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_map_server/share/nav2_map_server/package.xml

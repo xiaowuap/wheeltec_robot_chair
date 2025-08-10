@@ -1,0 +1,4 @@
+source;share/bodyreader_msg/local_setup.bash
+source;share/bodyreader_msg/local_setup.dsv
+source;share/bodyreader_msg/local_setup.sh
+source;share/bodyreader_msg/local_setup.zsh

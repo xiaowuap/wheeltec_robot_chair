@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/dwb_msgs/rosidl_cmake/srv/ScoreTrajectory_Request.msg

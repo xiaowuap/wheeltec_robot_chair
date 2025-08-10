@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/nav2_simple_commander/launch/inspection_demo_launch.py

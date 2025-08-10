@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating multi_lidar_calibrator.egg-info
+writing multi_lidar_calibrator.egg-info/PKG-INFO
+writing dependency_links to multi_lidar_calibrator.egg-info/dependency_links.txt
+writing entry points to multi_lidar_calibrator.egg-info/entry_points.txt
+writing requirements to multi_lidar_calibrator.egg-info/requires.txt
+writing top-level names to multi_lidar_calibrator.egg-info/top_level.txt
+writing manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+reading manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+writing manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/python3.10/site-packages/multi-lidar-calibrator.egg-link (link to .)
+Installing multi_lidar_calibrator script to /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/multi_lidar_calibrator
+
+Installed /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator
+running symlink_data
+creating /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator/resource/multi_lidar_calibrator -> /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator/package.xml -> /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator
+creating /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+symbolically linking /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator/launch/calibration.launch.py -> /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+creating /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config
+symbolically linking /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator/config/params.yaml -> /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config
+symbolically linking /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator/config/demo.yaml -> /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config

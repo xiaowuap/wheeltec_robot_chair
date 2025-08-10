@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_rrt_msg/rosidl_generator_cpp/wheeltec_rrt_msg/action/pick_coloured_box.hpp

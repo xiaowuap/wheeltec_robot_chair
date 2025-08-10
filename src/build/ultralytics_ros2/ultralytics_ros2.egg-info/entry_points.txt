@@ -1,0 +1,2 @@
+[console_scripts]
+detection_node = ultralytics_ros2.detection_node:main

@@ -1,0 +1,17 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running develop
+running egg_info
+writing wheeltec_robot_keyboard.egg-info/PKG-INFO
+writing dependency_links to wheeltec_robot_keyboard.egg-info/dependency_links.txt
+writing entry points to wheeltec_robot_keyboard.egg-info/entry_points.txt
+writing requirements to wheeltec_robot_keyboard.egg-info/requires.txt
+writing top-level names to wheeltec_robot_keyboard.egg-info/top_level.txt
+reading manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+writing manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec-robot-keyboard.egg-link (link to .)
+Installing wheeltec_keyboard script to /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard
+
+Installed /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard
+running symlink_data

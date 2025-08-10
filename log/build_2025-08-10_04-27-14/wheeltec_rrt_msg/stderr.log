@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/ament_cmake_python/wheeltec_rrt_msg/wheeltec_rrt_msg' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_wheeltec_rrt_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_wheeltec_rrt_msg] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_wheeltec_rrt_msg.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

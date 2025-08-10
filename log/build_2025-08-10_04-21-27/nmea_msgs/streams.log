@@ -1,0 +1,355 @@
+[0.046s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/nmea_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nmea_msgs
+[0.167s] -- The C compiler identification is GNU 11.4.0
+[0.274s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.428s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.450s] -- Detecting C compile features
+[0.451s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.616s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.630s] -- Detecting CXX compile features
+[0.630s] -- Detecting CXX compile features - done
+[0.636s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.461s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.590s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.632s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.669s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.743s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.793s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.488s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.989s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.593s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.654s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.654s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.654s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.654s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[3.706s] -- Found PythonExtra: .so  
+[3.943s] -- Configuring done
+[4.018s] -- Generating done
+[4.040s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/nmea_msgs
+[4.073s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/nmea_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nmea_msgs
+[4.074s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nmea_msgs -- -j8 -l8
+[4.466s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.467s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.467s] [  2%] Built target ament_cmake_python_symlink_nmea_msgs
+[5.657s] running egg_info
+[5.787s] creating nmea_msgs.egg-info
+[5.787s] writing nmea_msgs.egg-info/PKG-INFO
+[5.788s] writing dependency_links to nmea_msgs.egg-info/dependency_links.txt
+[5.788s] writing top-level names to nmea_msgs.egg-info/top_level.txt
+[5.788s] writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[6.184s] reading manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[6.189s] writing manifest file 'nmea_msgs.egg-info/SOURCES.txt'
+[6.506s] [  2%] Built target ament_cmake_python_build_nmea_msgs_egg
+[8.803s] [  2%] Built target nmea_msgs__cpp
+[8.957s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.969s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.972s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.335s] [  7%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/sentence__functions.c.o[0m
+[9.371s] [  8%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgga__functions.c.o[0m
+[9.377s] [ 10%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsa__functions.c.o[0m
+[9.749s] [ 11%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv__functions.c.o[0m
+[9.826s] [ 12%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgsv_satellite__functions.c.o[0m
+[9.841s] [ 13%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gprmc__functions.c.o[0m
+[10.107s] [ 15%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_c.dir/rosidl_generator_c/nmea_msgs/msg/detail/gpgst__functions.c.o[0m
+[10.581s] [ 16%] [32m[1mLinking C shared library libnmea_msgs__rosidl_generator_c.so[0m
+[10.945s] [ 16%] Built target nmea_msgs__rosidl_generator_c
+[11.015s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.055s] [ 18%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[12.933s] [ 20%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/sentence__type_support.cpp.o[0m
+[12.974s] [ 21%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgga__type_support.cpp.o[0m
+[13.183s] [ 22%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsa__type_support.cpp.o[0m
+[13.280s] [ 24%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/sentence__type_support.cpp.o[0m
+[14.379s] [ 25%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/sentence__type_support.cpp.o[0m
+[14.604s] [ 26%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgga__type_support.cpp.o[0m
+[14.722s] [ 27%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsv__type_support.cpp.o[0m
+[14.846s] [ 29%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsa__type_support.cpp.o[0m
+[14.903s] [ 30%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/sentence__type_support.cpp.o[0m
+[15.029s] [ 31%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgst__type_support.cpp.o[0m
+[15.137s] [ 34%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgga__type_support.cpp.o[0m
+[15.139s] [ 34%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsv__type_support.cpp.o[0m
+[15.318s] [ 35%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gpgsv_satellite__type_support.cpp.o[0m
+[15.335s] [ 36%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/sentence__type_support.c.o[0m
+[15.443s] [ 37%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nmea_msgs/msg/gprmc__type_support.cpp.o[0m
+[15.595s] [ 39%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgga__type_support.c.o[0m
+[15.608s] [ 40%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_c.so[0m
+[15.757s] [ 41%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsa__type_support.c.o[0m
+[15.823s] [ 43%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgsv_satellite__type_support.cpp.o[0m
+[15.845s] [ 43%] Built target nmea_msgs__rosidl_typesupport_c
+[15.875s] [ 44%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgst__type_support.c.o[0m
+[16.060s] [ 45%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsv__type_support.c.o[0m
+[16.290s] [ 46%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gpgsv_satellite__type_support.c.o[0m
+[16.499s] [ 48%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nmea_msgs/msg/detail/gprmc__type_support.c.o[0m
+[16.512s] [ 49%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgga__type_support.cpp.o[0m
+[16.533s] [ 50%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsa__type_support.cpp.o[0m
+[16.597s] [ 51%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gprmc__type_support.cpp.o[0m
+[16.694s] [ 53%] [32m[1mLinking C shared library libnmea_msgs__rosidl_typesupport_introspection_c.so[0m
+[16.941s] [ 53%] Built target nmea_msgs__rosidl_typesupport_introspection_c
+[17.616s] [ 54%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nmea_msgs/msg/gpgst__type_support.cpp.o[0m
+[17.690s] [ 55%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsv__type_support.cpp.o[0m
+[17.908s] [ 56%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsv__type_support.cpp.o[0m
+[18.649s] [ 58%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_cpp.so[0m
+[18.817s] [ 58%] Built target nmea_msgs__rosidl_typesupport_cpp
+[19.067s] [ 59%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gprmc__type_support.cpp.o[0m
+[19.678s] [ 60%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsv_satellite__type_support.cpp.o[0m
+[20.233s] [ 62%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgsv_satellite__type_support.cpp.o[0m
+[20.632s] [ 63%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gprmc__type_support.cpp.o[0m
+[21.306s] [ 64%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nmea_msgs/msg/detail/gpgst__type_support.cpp.o[0m
+[22.050s] [ 65%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgst__type_support.cpp.o[0m
+[22.504s] [ 67%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.888s] [ 67%] Built target nmea_msgs__rosidl_typesupport_introspection_cpp
+[23.188s] [ 68%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nmea_msgs/msg/detail/dds_fastrtps/gpgsa__type_support.cpp.o[0m
+[24.203s] [ 69%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[24.385s] [ 69%] Built target nmea_msgs__rosidl_typesupport_fastrtps_cpp
+[24.423s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[26.434s] [ 72%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/sentence__type_support_c.cpp.o[0m
+[27.231s] [ 73%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gprmc__type_support_c.cpp.o[0m
+[28.358s] [ 74%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsv_satellite__type_support_c.cpp.o[0m
+[29.186s] [ 75%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsv__type_support_c.cpp.o[0m
+[29.849s] [ 77%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgst__type_support_c.cpp.o[0m
+[30.500s] [ 78%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgsa__type_support_c.cpp.o[0m
+[31.149s] [ 79%] [32mBuilding CXX object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nmea_msgs/msg/detail/gpgga__type_support_c.cpp.o[0m
+[31.895s] [ 81%] [32m[1mLinking CXX shared library libnmea_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[32.079s] [ 81%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c
+[32.180s] [ 81%] Built target nmea_msgs
+[32.237s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[35.098s] [ 82%] Built target nmea_msgs__py
+[35.260s] [ 83%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_sentence_s.c.o[0m
+[35.523s] [ 84%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gprmc_s.c.o[0m
+[35.730s] [ 86%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsv_satellite_s.c.o[0m
+[35.905s] [ 87%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsv_s.c.o[0m
+[36.092s] [ 88%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgst_s.c.o[0m
+[36.280s] [ 89%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgsa_s.c.o[0m
+[36.481s] [ 91%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_generator_py.dir/rosidl_generator_py/nmea_msgs/msg/_gpgga_s.c.o[0m
+[36.680s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/libnmea_msgs__rosidl_generator_py.so[0m
+[36.760s] [ 92%] Built target nmea_msgs__rosidl_generator_py
+[36.809s] [ 93%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[37.012s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[37.085s] [ 94%] Built target nmea_msgs__rosidl_typesupport_fastrtps_c__pyext
+[37.125s] [ 96%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[37.328s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[37.400s] [ 97%] Built target nmea_msgs__rosidl_typesupport_c__pyext
+[37.442s] [ 98%] [32mBuilding C object CMakeFiles/nmea_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[37.644s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[37.717s] [100%] Built target nmea_msgs__rosidl_typesupport_introspection_c__pyext
+[37.747s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nmea_msgs -- -j8 -l8
+[37.748s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nmea_msgs
+[44.028s] -- Install configuration: ""
+[44.029s] -- Execute custom install script
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/ament_index/resource_index/rosidl_interfaces/nmea_msgs
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__functions.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__struct.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__type_support.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__functions.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__struct.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__type_support.h
+[44.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__functions.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__struct.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__type_support.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__functions.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__struct.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__type_support.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__functions.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__struct.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__type_support.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__functions.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__struct.h
+[44.030s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__type_support.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__functions.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgga.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsa.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgst.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv_satellite.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gprmc.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_c__visibility_control.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.h
+[44.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/library_path.sh
+[44.032s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/library_path.dsv
+[44.032s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_introspection_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_introspection_c.h
+[44.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_introspection_c.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_introspection_c.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_introspection_c.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_introspection_c.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_c.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__builder.hpp
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__struct.hpp
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__traits.hpp
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__type_support.hpp
+[44.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__builder.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__struct.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__traits.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__type_support.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__builder.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__struct.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__traits.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__type_support.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__builder.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__struct.hpp
+[44.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__traits.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__type_support.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__builder.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__struct.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__traits.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__type_support.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__builder.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__struct.hpp
+[44.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__traits.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__type_support.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__builder.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__struct.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__traits.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__type_support.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgga.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsa.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgst.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv.hpp
+[44.041s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gpgsv_satellite.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/gprmc.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/sentence.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_fastrtps_cpp.hpp
+[44.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgga__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsa__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgst__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gpgsv_satellite__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/gprmc__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/include/nmea_msgs/nmea_msgs/msg/detail/sentence__rosidl_typesupport_introspection_cpp.hpp
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.sh
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/pythonpath.dsv
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/PKG-INFO
+[44.043s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/SOURCES.txt
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/dependency_links.txt
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs-2.0.0-py3.10.egg-info/top_level.txt
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/__init__.py
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_c.c
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/_nmea_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/libnmea_msgs__rosidl_generator_py.so
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/__init__.py
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgga.py
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgga_s.c
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsa.py
+[44.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsa_s.c
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgst.py
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgst_s.c
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv.py
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv_s.c
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv_satellite.py
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv_satellite_s.c
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gprmc.py
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gprmc_s.c
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence.py
+[44.045s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence_s.c
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/nmea_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Sentence.idl
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgga.idl
+[44.046s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgsa.idl
+[44.047s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgst.idl
+[44.047s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgsv.idl
+[44.047s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/GpgsvSatellite.idl
+[44.047s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gprmc.idl
+[44.047s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Sentence.msg
+[44.065s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgga.msg
+[44.083s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgsa.msg
+[44.100s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgst.msg
+[44.117s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gpgsv.msg
+[44.135s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/GpgsvSatellite.msg
+[44.152s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/msg/Gprmc.msg
+[44.174s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/ament_index/resource_index/package_run_dependencies/nmea_msgs
+[44.189s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/ament_index/resource_index/parent_prefix_path/nmea_msgs
+[44.206s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.sh
+[44.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/ament_prefix_path.dsv
+[44.238s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/path.sh
+[44.254s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/environment/path.dsv
+[44.271s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/local_setup.bash
+[44.288s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/local_setup.sh
+[44.305s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/local_setup.zsh
+[44.321s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/local_setup.dsv
+[44.338s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/package.dsv
+[44.358s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/ament_index/resource_index/packages/nmea_msgs
+[44.378s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake-extras.cmake
+[44.397s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.416s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.433s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[44.452s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[44.472s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.490s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.506s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig.cmake
+[44.523s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgsConfig-version.cmake
+[44.539s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/package.xml
+[44.554s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so
+[44.556s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_c.so" to ""
+[44.556s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so
+[44.557s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[44.558s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so
+[44.559s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_c.so" to ""
+[44.560s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so
+[44.564s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_c.so" to ""
+[44.565s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so
+[44.567s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.567s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so
+[44.568s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[44.569s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so
+[44.570s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_typesupport_cpp.so" to ""
+[44.656s] Listing '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/__init__.py'...
+[44.656s] Listing '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/__init__.py'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgga.py'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsa.py'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgst.py'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv.py'...
+[44.656s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gpgsv_satellite.py'...
+[44.657s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_gprmc.py'...
+[44.657s] Compiling '/home/wheeltec/wheeltec_robot/install/nmea_msgs/local/lib/python3.10/dist-packages/nmea_msgs/msg/_sentence.py'...
+[44.667s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so
+[44.667s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nmea_msgs/lib/libnmea_msgs__rosidl_generator_py.so" to ""
+[44.667s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport.cmake
+[44.668s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cExport-noconfig.cmake
+[44.668s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[44.668s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[44.668s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport.cmake
+[44.669s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[44.669s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport.cmake
+[44.669s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[44.669s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_cppExport.cmake
+[44.670s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[44.670s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[44.670s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[44.670s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[44.671s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport.cmake
+[44.671s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/nmea_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[44.671s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport.cmake
+[44.671s] -- Installing: /home/wheeltec/wheeltec_robot/install/nmea_msgs/share/nmea_msgs/cmake/export_nmea_msgs__rosidl_generator_pyExport-noconfig.cmake
+[44.696s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nmea_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nmea_msgs

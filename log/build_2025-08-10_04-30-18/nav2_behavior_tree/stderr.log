@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/nav2_clear_costmap_service_bt_node.dir/build.make:76: CMakeFiles/nav2_clear_costmap_service_bt_node.dir/plugins/action/clear_costmap_service.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:842: CMakeFiles/nav2_clear_costmap_service_bt_node.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

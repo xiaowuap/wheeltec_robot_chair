@@ -1,0 +1,23 @@
+[2.187s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/build --no-deps symlink_data
+[9.079s] running develop
+[9.079s] running egg_info
+[9.079s] creating wheeltec_robot_keyboard.egg-info
+[9.079s] writing wheeltec_robot_keyboard.egg-info/PKG-INFO
+[9.079s] writing dependency_links to wheeltec_robot_keyboard.egg-info/dependency_links.txt
+[9.079s] writing entry points to wheeltec_robot_keyboard.egg-info/entry_points.txt
+[9.079s] writing requirements to wheeltec_robot_keyboard.egg-info/requires.txt
+[9.079s] writing top-level names to wheeltec_robot_keyboard.egg-info/top_level.txt
+[9.081s] writing manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[9.081s] reading manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[9.081s] writing manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[9.081s] running build_ext
+[9.081s] Creating /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec-robot-keyboard.egg-link (link to .)
+[9.082s] Installing wheeltec_keyboard script to /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard
+[9.082s] 
+[9.082s] Installed /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard
+[9.082s] running symlink_data
+[9.082s] creating /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages
+[9.082s] symbolically linking /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/resource/wheeltec_robot_keyboard -> /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages
+[9.082s] symbolically linking /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/package.xml -> /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/share/wheeltec_robot_keyboard
+[9.083s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[9.083s]   warnings.warn(msg)

@@ -1,0 +1,60 @@
+[0.050s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nav2_common
+[0.095s] -- Found ament_cmake_core: 1.3.12 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.891s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.018s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.022s] -- Found ament_cmake_python: 1.3.12 (/opt/ros/humble/share/ament_cmake_python/cmake)
+[1.323s] -- Configuring done
+[1.343s] -- Generating done
+[1.346s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/nav2_common
+[1.355s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nav2_common
+[1.356s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_common -- -j8 -l8
+[1.922s] Built target ament_cmake_python_symlink_nav2_common
+[1.922s] running egg_info
+[1.945s] creating nav2_common.egg-info
+[1.946s] writing nav2_common.egg-info/PKG-INFO
+[1.947s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[1.948s] writing top-level names to nav2_common.egg-info/top_level.txt
+[1.948s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.055s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.058s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[2.147s] Built target ament_cmake_python_build_nav2_common_egg
+[2.170s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_common -- -j8 -l8
+[2.226s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nav2_common
+[2.979s] -- Install configuration: ""
+[2.980s] -- Execute custom install script
+[2.980s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[2.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[2.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/PKG-INFO
+[2.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/SOURCES.txt
+[2.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/dependency_links.txt
+[2.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.6-py3.10.egg-info/top_level.txt
+[2.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[2.982s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[2.983s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/path.sh
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/environment/path.dsv
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/local_setup.bash
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/local_setup.sh
+[2.984s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/local_setup.zsh
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/local_setup.dsv
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/package.dsv
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[2.985s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[2.987s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/package.xml
+[3.002s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[3.083s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[3.083s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py'...
+[3.083s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[3.083s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py'...
+[3.084s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py'...
+[3.084s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py'...
+[3.084s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py'...
+[3.107s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nav2_common

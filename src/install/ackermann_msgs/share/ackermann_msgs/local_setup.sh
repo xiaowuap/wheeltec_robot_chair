@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/ackermann_msgs/ament_cmake_environment_hooks/local_setup.sh

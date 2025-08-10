@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "orb_slam2_ros__py",
+		"source" : "/home/wheeltec/wheeltec_robot/src/build/orb_slam2_ros/orb_slam2_ros__py"
+	}
+}

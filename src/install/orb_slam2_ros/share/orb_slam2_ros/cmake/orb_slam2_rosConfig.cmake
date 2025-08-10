@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/orb_slam2_ros/ament_cmake_core/orb_slam2_rosConfig.cmake

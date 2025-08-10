@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg/rosidl_generator_cpp/wheeltec_mic_msg/srv/get_device_type.hpp

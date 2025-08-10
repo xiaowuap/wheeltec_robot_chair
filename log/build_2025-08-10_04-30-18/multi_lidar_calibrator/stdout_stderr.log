@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing multi_lidar_calibrator.egg-info/PKG-INFO
+writing dependency_links to multi_lidar_calibrator.egg-info/dependency_links.txt
+writing entry points to multi_lidar_calibrator.egg-info/entry_points.txt
+writing requirements to multi_lidar_calibrator.egg-info/requires.txt
+writing top-level names to multi_lidar_calibrator.egg-info/top_level.txt
+reading manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+writing manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/python3.10/site-packages/multi-lidar-calibrator.egg-link (link to .)
+Installing multi_lidar_calibrator script to /home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator/lib/multi_lidar_calibrator
+
+Installed /home/wheeltec/wheeltec_robot/build/multi_lidar_calibrator
+running symlink_data

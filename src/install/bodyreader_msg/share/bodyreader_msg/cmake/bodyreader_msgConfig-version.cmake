@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/ament_cmake_core/bodyreader_msgConfig-version.cmake

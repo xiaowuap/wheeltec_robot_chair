@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/rosidl_typesupport_fastrtps_c/bodyreader_msg/msg/detail/vector3f__rosidl_typesupport_fastrtps_c.h

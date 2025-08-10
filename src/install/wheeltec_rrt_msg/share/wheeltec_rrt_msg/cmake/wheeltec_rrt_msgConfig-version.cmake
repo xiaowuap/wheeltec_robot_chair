@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_rrt_msg/ament_cmake_core/wheeltec_rrt_msgConfig-version.cmake

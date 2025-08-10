@@ -1,0 +1,25 @@
+[0.090s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_robot_rtab': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_robot_rtab -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab
+[0.996s] -- The C compiler identification is GNU 11.4.0
+[0.997s] -- The CXX compiler identification is GNU 11.4.0
+[0.997s] -- Detecting C compiler ABI info
+[0.997s] -- Detecting C compiler ABI info - done
+[0.997s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.997s] -- Detecting C compile features
+[0.997s] -- Detecting C compile features - done
+[0.997s] -- Detecting CXX compiler ABI info
+[0.997s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.998s] -- Detecting CXX compile features
+[0.998s] -- Detecting CXX compile features - done
+[0.998s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.802s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.957s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.107s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.390s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.397s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.403s] -- Added test 'lint_cmake' to check CMake code style
+[2.407s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.412s] -- Added test 'xmllint' to check XML markup files
+[2.424s] -- Configuring done
+[2.442s] -- Generating done
+[2.449s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/wheeltec_robot_rtab

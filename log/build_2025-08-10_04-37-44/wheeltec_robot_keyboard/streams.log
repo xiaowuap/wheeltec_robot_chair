@@ -1,0 +1,19 @@
+[2.011s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/build --no-deps symlink_data
+[2.560s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.560s]   warnings.warn(msg)
+[2.768s] running develop
+[3.310s] running egg_info
+[3.344s] writing wheeltec_robot_keyboard.egg-info/PKG-INFO
+[3.346s] writing dependency_links to wheeltec_robot_keyboard.egg-info/dependency_links.txt
+[3.346s] writing entry points to wheeltec_robot_keyboard.egg-info/entry_points.txt
+[3.347s] writing requirements to wheeltec_robot_keyboard.egg-info/requires.txt
+[3.347s] writing top-level names to wheeltec_robot_keyboard.egg-info/top_level.txt
+[3.433s] reading manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[3.435s] writing manifest file 'wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[3.497s] running build_ext
+[3.497s] Creating /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec-robot-keyboard.egg-link (link to .)
+[3.499s] Installing wheeltec_keyboard script to /home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard
+[3.500s] 
+[3.500s] Installed /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard
+[3.500s] running symlink_data
+[3.612s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/wheeltec_robot_keyboard/build --no-deps symlink_data

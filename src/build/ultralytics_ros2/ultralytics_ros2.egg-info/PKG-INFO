@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: ultralytics_ros2
+Version: 0.0.0
+Summary: YOLOv8 object detection package for ROS2
+Maintainer: Your Name
+Maintainer-email: your@email.com
+License: Apache License 2.0
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,6 @@
+{
+  "package_name": "turn_on_wheeltec_robot",
+  "non_idl_tuples": [
+    "/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot:msg/Position.msg"
+  ]
+}

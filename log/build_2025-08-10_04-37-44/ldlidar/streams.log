@@ -1,0 +1,36 @@
+[0.049s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ldlidar -- -j8 -l8
+[0.295s] [100%] Built target ldlidar
+[0.430s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/ldlidar -- -j8 -l8
+[0.431s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ldlidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ldlidar
+[0.451s] -- Install configuration: ""
+[0.453s] -- Execute custom install script
+[0.454s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/lib/ldlidar/ldlidar
+[0.455s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/ld06.launch.py
+[0.455s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/ld19.launch.py
+[0.455s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/stl06n.launch.py
+[0.456s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/stl06p.launch.py
+[0.456s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/stl26.launch.py
+[0.457s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/stl27l.launch.py
+[0.457s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_ld06.launch.py
+[0.458s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_ld19.launch.py
+[0.458s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_stl06n.launch.py
+[0.459s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_stl06p.launch.py
+[0.459s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_stl26.launch.py
+[0.459s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//launch/viewer_stl27l.launch.py
+[0.461s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar//rviz2/ldlidar.rviz
+[0.462s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ament_index/resource_index/package_run_dependencies/ldlidar
+[0.462s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ament_index/resource_index/parent_prefix_path/ldlidar
+[0.463s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/environment/ament_prefix_path.sh
+[0.464s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/environment/ament_prefix_path.dsv
+[0.464s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/environment/path.sh
+[0.465s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/environment/path.dsv
+[0.465s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/local_setup.bash
+[0.466s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/local_setup.sh
+[0.466s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/local_setup.zsh
+[0.467s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/local_setup.dsv
+[0.467s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/package.dsv
+[0.495s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ament_index/resource_index/packages/ldlidar
+[0.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/cmake/ldlidarConfig.cmake
+[0.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/cmake/ldlidarConfig-version.cmake
+[0.501s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/ldlidar/share/ldlidar/package.xml
+[0.528s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ldlidar' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/ldlidar

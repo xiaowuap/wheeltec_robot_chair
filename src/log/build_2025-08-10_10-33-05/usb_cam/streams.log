@@ -1,0 +1,152 @@
+[0.086s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/usb_cam-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/usb_cam
+[22.230s] -- The C compiler identification is GNU 11.4.0
+[22.231s] -- The CXX compiler identification is GNU 11.4.0
+[22.231s] -- Detecting C compiler ABI info
+[22.231s] -- Detecting C compiler ABI info - done
+[22.231s] -- Check for working C compiler: /usr/bin/cc - skipped
+[22.231s] -- Detecting C compile features
+[22.231s] -- Detecting C compile features - done
+[22.231s] -- Detecting CXX compiler ABI info
+[22.231s] -- Detecting CXX compiler ABI info - done
+[22.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.231s] -- Detecting CXX compile features
+[22.232s] -- Detecting CXX compile features - done
+[22.232s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[22.232s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.232s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[22.232s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[22.232s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[22.233s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[22.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[22.233s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.233s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[22.233s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[22.233s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[22.233s] -- Found FastRTPS: /opt/ros/humble/include  
+[22.233s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[22.233s] -- Looking for pthread.h
+[22.233s] -- Looking for pthread.h - found
+[22.233s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[22.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[22.234s] -- Found Threads: TRUE  
+[22.234s] -- Found OpenCV: /usr (found version "4.8.0") 
+[22.234s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[22.234s] -- Checking for module 'libavcodec'
+[22.234s] --   Found libavcodec, version 61.19.100
+[22.234s] -- Checking for module 'libavutil'
+[22.234s] --   Found libavutil, version 59.39.100
+[22.235s] -- Checking for module 'libswscale'
+[22.235s] --   Found libswscale, version 8.3.100
+[22.235s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[22.235s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[22.240s] -- Added test 'copyright' to check source files copyright and LICENSE
+[22.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[22.242s] -- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include
+[22.242s] -- Configured cppcheck exclude dirs and/or files: 
+[22.242s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[22.243s] -- Configured cpplint exclude dirs and/or files: 
+[22.243s] -- Added test 'flake8' to check Python code syntax and style conventions
+[22.243s] -- Added test 'lint_cmake' to check CMake code style
+[22.243s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[22.243s] -- Added test 'uncrustify' to check C / C++ code style
+[22.243s] -- Configured uncrustify additional arguments: 
+[22.243s] -- Added test 'xmllint' to check XML markup files
+[22.243s] -- Configuring done
+[22.243s] -- Generating done
+[22.244s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/usb_cam
+[22.244s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/usb_cam` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[22.393s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/usb_cam-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/usb_cam
+[22.394s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/usb_cam -- -j8 -l8
+[22.857s] [  7%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[25.310s] In file included from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam.hpp:48[m[K,
+[25.310s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/src/usb_cam.cpp:49[m[K:
+[25.310s] [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/formats/mjpeg.hpp:[m[K In destructor ‘[01m[Kusb_cam::formats::MJPEG2RGB::~MJPEG2RGB()[m[K’:
+[25.311s] [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/formats/mjpeg.hpp:149:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avcodec_close(AVCodecContext*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.311s]   149 |       [01;35m[Kavcodec_close(m_avcodec_context)[m[K;
+[25.311s]       |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[25.311s] In file included from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam.hpp:34[m[K,
+[25.311s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/src/usb_cam.cpp:49[m[K:
+[25.311s] [01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:2398:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.311s]  2398 | int [01;36m[Kavcodec_close[m[K(AVCodecContext *avctx);
+[25.311s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[27.181s] [ 14%] [32m[1mLinking CXX shared library libusb_cam.so[0m
+[27.790s] [ 14%] Built target usb_cam
+[27.999s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[36.358s] [ 28%] [32m[1mLinking CXX static library libgtest.a[0m
+[36.776s] [ 28%] Built target gtest
+[36.978s] [ 35%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o[0m
+[43.083s] In file included from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam.hpp:48[m[K,
+[43.083s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam_node.hpp:44[m[K,
+[43.084s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/src/usb_cam_node.cpp:34[m[K:
+[43.084s] [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/formats/mjpeg.hpp:[m[K In destructor ‘[01m[Kusb_cam::formats::MJPEG2RGB::~MJPEG2RGB()[m[K’:
+[43.084s] [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/formats/mjpeg.hpp:149:20:[m[K [01;35m[Kwarning: [m[K‘[01m[Kint avcodec_close(AVCodecContext*)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[43.084s]   149 |       [01;35m[Kavcodec_close(m_avcodec_context)[m[K;
+[43.085s]       |       [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[43.085s] In file included from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam.hpp:34[m[K,
+[43.085s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/include/usb_cam/usb_cam_node.hpp:44[m[K,
+[43.086s]                  from [01m[K/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/src/usb_cam_node.cpp:34[m[K:
+[43.086s] [01m[K/usr/include/aarch64-linux-gnu/libavcodec/avcodec.h:2398:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[43.086s]  2398 | int [01;36m[Kavcodec_close[m[K(AVCodecContext *avctx);
+[43.086s]       |     [01;36m[K^~~~~~~~~~~~~[m[K
+[50.480s] [ 42%] [32m[1mLinking CXX shared library libusb_cam_node.so[0m
+[51.321s] [ 42%] Built target usb_cam_node
+[51.494s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[52.868s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[53.099s] [ 57%] Built target gtest_main
+[53.274s] [ 64%] [32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o[0m
+[61.472s] [ 71%] [32m[1mLinking CXX executable usb_cam_node_exe[0m
+[62.065s] [ 71%] Built target usb_cam_node_exe
+[62.193s] [ 78%] [32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o[0m
+[64.084s] [ 85%] [32m[1mLinking CXX executable test_pixel_formats[0m
+[64.452s] [ 85%] Built target test_pixel_formats
+[64.632s] [ 92%] [32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o[0m
+[66.975s] [100%] [32m[1mLinking CXX executable test_usb_cam_utils[0m
+[67.398s] [100%] Built target test_usb_cam_utils
+[67.474s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/usb_cam -- -j8 -l8
+[67.497s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/usb_cam
+[67.536s] -- Install configuration: ""
+[67.537s] -- Execute custom install script
+[67.538s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/library_path.sh
+[67.606s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/library_path.dsv
+[67.651s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/lib/usb_cam/usb_cam_node_exe
+[67.727s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/lib/usb_cam/show_image.py
+[67.786s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/lib/libusb_cam.so
+[67.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/lib/libusb_cam_node.so
+[67.937s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/constants.hpp
+[67.999s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/conversions.hpp
+[68.044s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/m420.hpp
+[68.103s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/mjpeg.hpp
+[68.142s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/mono.hpp
+[68.171s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp
+[68.197s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/rgb.hpp
+[68.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/utils.hpp
+[68.248s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/uyvy.hpp
+[68.284s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/formats/yuyv.hpp
+[68.311s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/usb_cam.hpp
+[68.340s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/usb_cam_node.hpp
+[68.367s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/include/usb_cam/utils.hpp
+[68.393s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/src/install/usb_cam/lib/libusb_cam_node.so
+[68.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/launch/demo.launch.py
+[68.431s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/launch/usb_cam_launch.py
+[68.458s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/config/camera_info.yaml
+[68.508s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/config/params.yaml
+[68.538s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam
+[68.576s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam
+[68.632s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh
+[68.697s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv
+[68.776s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/path.sh
+[68.845s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/environment/path.dsv
+[68.916s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/local_setup.bash
+[68.970s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/local_setup.sh
+[69.035s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/local_setup.zsh
+[69.093s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/local_setup.dsv
+[69.156s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/package.dsv
+[69.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/ament_index/resource_index/packages/usb_cam
+[69.282s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam
+[69.350s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake
+[69.427s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake
+[69.497s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake
+[69.547s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+[69.612s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake
+[69.651s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/usb_cam/share/usb_cam/package.xml
+[69.721s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/usb_cam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/usb_cam

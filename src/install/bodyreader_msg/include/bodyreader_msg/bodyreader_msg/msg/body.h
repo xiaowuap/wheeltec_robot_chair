@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/rosidl_generator_c/bodyreader_msg/msg/body.h

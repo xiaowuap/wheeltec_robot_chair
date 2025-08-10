@@ -1,0 +1,400 @@
+[  1%] Built target orb_slam2_ros__cpp
+[ 31%] Built target g2o
+[ 35%] Built target orb_slam2_ros__rosidl_typesupport_introspection_cpp
+[ 39%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_cpp
+[ 43%] Built target orb_slam2_ros__rosidl_typesupport_cpp
+[ 51%] Built target DBoW2
+[ 51%] Built target ament_cmake_python_symlink_orb_slam2_ros
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros_core[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Tracking.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:[m[K In constructor ‘[01m[KORB_SLAM2::Tracking::Tracking(ORB_SLAM2::System*, ORB_SLAM2::ORBVocabulary*, ORB_SLAM2::FrameDrawer*, ORB_SLAM2::Map*, std::shared_ptr<ORB_SLAM2::PointCloudMapping>, ORB_SLAM2::KeyFrameDatabase*, int, ORB_SLAM2::ORBParameters&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:248:35:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM2::Tracking::mpPointCloudMapping[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  248 |     shared_ptr<PointCloudMapping> [01;35m[KmpPointCloudMapping[m[K;
+      |                                   [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:186:23:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KORB_SLAM2::KeyFrameDatabase* ORB_SLAM2::Tracking::mpKeyFrameDB[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |     KeyFrameDatabase* [01;35m[KmpKeyFrameDB[m[K;
+      |                       [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:46:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   46 | [01;35m[KTracking[m[K::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
+      | [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:229:18:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM2::Tracking::mnLastRelocFrameId[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  229 |     unsigned int [01;35m[KmnLastRelocFrameId[m[K;
+      |                  [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:174:9:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint ORB_SLAM2::Tracking::mnMinimumKeyFrames[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  174 |     int [01;35m[KmnMinimumKeyFrames[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:46:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   46 | [01;35m[KTracking[m[K::Tracking(System *pSys, ORBVocabulary* pVoc, FrameDrawer *pFrameDrawer,
+      | [01;35m[K^~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kcv::Mat ORB_SLAM2::Tracking::GrabImageStereo(const cv::Mat&, const cv::Mat&, const double&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:181:137:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  181 |     mCurrentFrame = Frame(mImGray,imGrayRight,timestamp,mpORBextractorLeft,mpORBextractorRight,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth[01;35m[K)[m[K;
+      |                                                                                                                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kcv::Mat ORB_SLAM2::Tracking::GrabImageRGBD(const cv::Mat&, const cv::Mat&, const double&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:213:114:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  213 |     mCurrentFrame = Frame(mImGray,mImDepth,timestamp,mpORBextractorLeft,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth[01;35m[K)[m[K;
+      |                                                                                                                  [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kcv::Mat ORB_SLAM2::Tracking::GrabImageMonocular(const cv::Mat&, const double&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:241:108:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  241 |         mCurrentFrame = Frame(mImGray,timestamp,mpIniORBextractor,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth[01;35m[K)[m[K;
+      |                                                                                                            [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:243:109:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  243 |         mCurrentFrame = Frame(mImGray,timestamp,mpORBextractorLeft,mpORBVocabulary,mK,mDistCoef,mbf,mThDepth[01;35m[K)[m[K;
+      |                                                                                                             [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM2::Tracking::Track()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:457:39:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  457 |             if([01;35m[KmpMap->KeyFramesInMap()<=mnMinimumKeyFrames[m[K)
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:468:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  468 |         mLastFrame = Frame(mCurrentFrame[01;35m[K)[m[K;
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM2::Tracking::StereoInitialization()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:526:41:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  526 |         mLastFrame = Frame(mCurrentFrame[01;35m[K)[m[K;
+      |                                         [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM2::Tracking::MonocularInitialization()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:553:48:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  553 |             mInitialFrame = Frame(mCurrentFrame[01;35m[K)[m[K;
+      |                                                [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:554:45:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  554 |             mLastFrame = Frame(mCurrentFrame[01;35m[K)[m[K;
+      |                                             [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM2::Tracking::CreateInitialMapMonocular()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:710:37:[m[K [01;35m[Kwarning: [m[Kimplicitly-declared ‘[01m[KORB_SLAM2::Frame& ORB_SLAM2::Frame::operator=(const ORB_SLAM2::Frame&)[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-copy-Wdeprecated-copy]8;;[m[K]
+  710 |     mLastFrame = Frame(mCurrentFrame[01;35m[K)[m[K;
+      |                                     [01;35m[K^[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/KeyFrame.h:29[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/MapPoint.h:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/FrameDrawer.h:25[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Tracking.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Tracking.cc:22[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/Frame.h:49:5:[m[K [01;36m[Knote: [m[Kbecause ‘[01m[KORB_SLAM2::Frame[m[K’ has user-provided ‘[01m[KORB_SLAM2::Frame::Frame(const ORB_SLAM2::Frame&)[m[K’
+   49 |     [01;36m[KFrame[m[K(const Frame &frame);
+      |     [01;36m[K^~~~~[m[K
+[ 53%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Map.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Optimizer.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/block_solver.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/Optimizer.cc:23[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 55%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/PnPsolver.cc.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Frame.cc.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/KeyFrameDatabase.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Sim3Solver.cc.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Initializer.cc.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/pointcloudmapping.cc.o[0m
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/pointcloudmapping.cc:[m[K In member function ‘[01m[Kvoid ORB_SLAM2::PointCloudMapping::updatecloud()[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/pointcloudmapping.cc:202:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM2::KeyFrame*>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  202 |                 for (int i=0;[01;35m[Ki<currentvpKFs.size()[m[K;i++)
+      |                              [01;35m[K~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/pointcloudmapping.cc:204:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<ORB_SLAM2::CloudPoint>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  204 |                     for (int j=0;[01;35m[Kj<pointcloud.size()[m[K;j++)
+      |                                  [01;35m[K~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/pointcloudmapping.cc:206:54:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  206 |                                 if(pointcloud[j].pcID==currentvpKFs[i]->mnFrameId)
+[ 61%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/KeyFrame.cc.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/FrameDrawer.cc.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/LoopClosing.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/LoopClosing.cc:21[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/LoopClosing.h:[m[K In constructor ‘[01m[KORB_SLAM2::LoopClosing::LoopClosing(ORB_SLAM2::Map*, ORB_SLAM2::KeyFrameDatabase*, ORB_SLAM2::ORBVocabulary*, bool, std::shared_ptr<ORB_SLAM2::PointCloudMapping>)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/LoopClosing.h:107:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM2::LoopClosing::mpMap[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  107 |     Map* [01;35m[KmpMap[m[K;
+      |          [01;35m[K^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/LoopClosing.h:69:36:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::shared_ptr<ORB_SLAM2::PointCloudMapping> ORB_SLAM2::LoopClosing::mpPointCloudMapping[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   69 |     shared_ptr<PointCloudMapping>  [01;35m[KmpPointCloudMapping[m[K;
+      |                                    [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/LoopClosing.cc:40:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   40 | [01;35m[KLoopClosing[m[K::LoopClosing(Map *pMap, KeyFrameDatabase *pDB, ORBVocabulary *pVoc, const bool bFixScale,shared_ptr<PointCloudMapping> pPointCloud):
+      | [01;35m[K^~~~~~~~~~~[m[K
+[ 64%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/LocalMapping.cc.o[0m
+[ 65%] [32m[1mLinking CXX shared library /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/lib/liborb_slam2_ros_core.so[0m
+[ 70%] Built target orb_slam2_ros_core
+running egg_info
+writing orb_slam2_ros.egg-info/PKG-INFO
+writing dependency_links to orb_slam2_ros.egg-info/dependency_links.txt
+writing top-level names to orb_slam2_ros.egg-info/top_level.txt
+reading manifest file 'orb_slam2_ros.egg-info/SOURCES.txt'
+writing manifest file 'orb_slam2_ros.egg-info/SOURCES.txt'
+[ 70%] Built target ament_cmake_python_build_orb_slam2_ros_egg
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros__rosidl_generator_c[0m
+[ 74%] Built target orb_slam2_ros__rosidl_generator_c
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros__rosidl_typesupport_fastrtps_c[0m
+[ 78%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_c
+[ 79%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/orb_slam2_ros/srv/save_map__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/orb_slam2_ros/srv/save_cloud__type_support.cpp.o[0m
+[ 82%] [32m[1mLinking CXX shared library liborb_slam2_ros__rosidl_typesupport_c.so[0m
+[ 82%] Built target orb_slam2_ros__rosidl_typesupport_c
+[ 83%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 84%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orb_slam2_ros/srv/detail/save_map__type_support.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/orb_slam2_ros/srv/detail/save_cloud__type_support.c.o[0m
+[ 86%] [32m[1mLinking C shared library liborb_slam2_ros__rosidl_typesupport_introspection_c.so[0m
+[ 86%] Built target orb_slam2_ros__rosidl_typesupport_introspection_c
+[ 86%] Built target orb_slam2_ros
+[ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 87%] Built target orb_slam2_ros__py
+[ 88%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_rgbd.dir/ros/src/RGBDNode.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include/Node.hpp:50[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include/RGBDNode.hpp:43[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/src/RGBDNode.cc:21[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include/RGBDNode.hpp:28[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/src/RGBDNode.cc:21[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[ 89%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_rgbd.dir/ros/src/Node.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include/Node.hpp:50[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/src/Node.cc:21[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include/Node.hpp:24[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/src/Node.cc:21[m[K:
+[01m[K/opt/ros/humble/include/image_transport/image_transport/image_transport.h:32:89:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: Warning: This header is deprecated. Use 'image_transport.hpp' instead[m[K’
+   32 | #pragma message ("Warning: This header is deprecated. Use 'image_transport.hpp' instead"[01;36m[K)[m[K
+      |                                                                                         [01;36m[K^[m[K
+[ 90%] [32m[1mLinking CXX executable orb_slam2_ros_rgbd[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+[ 90%] Built target orb_slam2_ros_rgbd
+[ 92%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_generator_py.dir/rosidl_generator_py/orb_slam2_ros/srv/_save_cloud_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_generator_py.dir/rosidl_generator_py/orb_slam2_ros/srv/_save_map_s.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/orb_slam2_ros/liborb_slam2_ros__rosidl_generator_py.so[0m
+[ 93%] Built target orb_slam2_ros__rosidl_generator_py
+[ 94%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[ 98%] [32m[1mLinking C shared library rosidl_generator_py/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[100%] Built target orb_slam2_ros__rosidl_typesupport_c__pyext
+[100%] Built target orb_slam2_ros__rosidl_typesupport_introspection_c__pyext
+[100%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/ament_index/resource_index/rosidl_interfaces/orb_slam2_ros
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__functions.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__struct.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__type_support.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__functions.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__struct.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__type_support.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/save_cloud.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/save_map.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/library_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/library_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__builder.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__struct.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__traits.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__type_support.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__builder.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__struct.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__traits.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__type_support.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/save_cloud.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/save_map.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_cloud__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/include/orb_slam2_ros/orb_slam2_ros/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/pythonpath.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/pythonpath.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros-1.1.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros-1.1.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros-1.1.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros-1.1.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/__init__.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/_orb_slam2_ros_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/liborb_slam2_ros__rosidl_generator_py.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/__init__.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_cloud.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_cloud_s.c
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_map.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_map_s.c
+-- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+-- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/orb_slam2_ros_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveMap.idl
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveCloud.idl
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveMap.srv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveMap_Request.msg
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveMap_Response.msg
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveCloud.srv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveCloud_Request.msg
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/srv/SaveCloud_Response.msg
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/orb_slam2_ros/orb_slam2_ros_rgbd
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros_core.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/libDBoW2.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/libg2o.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/launch/orb_slam2_Astra_rgbd_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/launch/orb_slam2_d435_mono_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/launch/orb_slam2_d435_rgbd_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/launch/orb_slam2_t265_mono_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/launch/orb_slam2_t265_stereo_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/octomap_server.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/params_Astra_rgbd.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/params_d435_mono.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/params_d435_rgbd.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/params_t265_mono.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/params_t265_stereo.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/ros/config/rviz_config.rviz
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/orb_slam2/Vocabulary/ORBvoc.txt.bin
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/orb_slam2/Vocabulary/ORBvoc.txt.tar.gz
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/ament_index/resource_index/package_run_dependencies/orb_slam2_ros
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/ament_index/resource_index/parent_prefix_path/orb_slam2_ros
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/ament_index/resource_index/packages/orb_slam2_ros
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_rosConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_rosConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/package.xml
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_generator_c.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_generator_c.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_c.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_c.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_typesupport_cpp.so" to ""
+Listing '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros'...
+Compiling '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/__init__.py'...
+Listing '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv'...
+Compiling '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/__init__.py'...
+Compiling '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_cloud.py'...
+Compiling '/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/local/lib/python3.10/dist-packages/orb_slam2_ros/srv/_save_map.py'...
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_generator_py.so
+-- Set runtime path of "/home/wheeltec/wheeltec_robot/install/orb_slam2_ros/lib/liborb_slam2_ros__rosidl_generator_py.so" to ""
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_generator_cExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_generator_cExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_typesupport_fastrtps_cExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_generator_cppExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_typesupport_fastrtps_cppExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_introspection_cExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_cExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_cExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_introspection_cppExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/orb_slam2_ros__rosidl_typesupport_cppExport-release.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_generator_pyExport.cmake
+-- Installing: /home/wheeltec/wheeltec_robot/install/orb_slam2_ros/share/orb_slam2_ros/cmake/export_orb_slam2_ros__rosidl_generator_pyExport-release.cmake

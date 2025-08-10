@@ -1,0 +1,6 @@
+setup.py
+ollama_ros_msgs/__init__.py
+ollama_ros_msgs.egg-info/PKG-INFO
+ollama_ros_msgs.egg-info/SOURCES.txt
+ollama_ros_msgs.egg-info/dependency_links.txt
+ollama_ros_msgs.egg-info/top_level.txt

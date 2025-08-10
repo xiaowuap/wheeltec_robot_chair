@@ -1,0 +1,1006 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found image_common: 3.1.12 (/opt/ros/humble/share/image_common/cmake)
+-- Found image_transport: 3.1.12 (/opt/ros/humble/share/image_transport/cmake)
+-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.4.0
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+-- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.25
+-- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+-- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+-- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+-- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+-- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+-- Found PCL_2D: /usr/include/pcl-1.12  
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+-- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+-- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+-- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+-- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+-- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+-- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+-- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+-- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+-- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+-- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+-- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+-- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+-- Found PCL_MODELER: /usr/include/pcl-1.12  
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+-- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+-- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+-- Found pcl_ros: 2.4.5 (/opt/ros/humble/share/pcl_ros/cmake)
+-- Found Boost: /usr/local/lib/cmake/Boost-1.75.0/BoostConfig.cmake (found version "1.75.0")  
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Compile With map save/load function
+[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces()
+Call Stack (most recent call first):
+  CMakeLists.txt:170 (rosidl_target_interfaces)
+
+[0m
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/include;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/include;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types;/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/stuff
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wheeltec/wheeltec_robot/build/orb_slam2_ros
+[  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  1%] Built target orb_slam2_ros__cpp
+[  2%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_sba.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[  3%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:[m[K In member function ‘[01m[Kvirtual bool g2o::EdgeSE3ProjectXYZ::read(std::istream&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:82:26:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+   82 |       is >> [01;35m[Kinformation()(i,j)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_six_dof_expmap.cpp:81:20:[m[K [01;36m[Knote: [m[Kwithin this loop
+   81 |     for (int j=i; [01;36m[Kj<2[m[K; j++) {
+      |                   [01;36m[K~^~[m[K
+[  4%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/../core/base_vertex.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:34[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:[m[K In member function ‘[01m[Kvirtual bool g2o::EdgeSim3ProjectXYZ::read(std::istream&)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:139:22:[m[K [01;35m[Kwarning: [m[Kiteration 2 invokes undefined behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waggressive-loop-optimizations-Waggressive-loop-optimizations]8;;[m[K]
+  139 |   is >> [01;35m[Kinformation()(i,j)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.cpp:138:22:[m[K [01;36m[Knote: [m[Kwithin this loop
+  138 |       for (int j=i; [01;36m[Kj<2[m[K; j++) {
+      |                     [01;36m[K~^~[m[K
+[  5%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph_action.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[  6%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_graph.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.h:31[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/marginal_covariance_cholesky.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[  8%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/matrix_structure.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/batch_stats.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 12%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:33[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:31[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:37[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:341[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::trmv_selector<Mode, 1>::run(const Lhs&, const Rhs&, Dest&, const typename Dest::Scalar&) [with Lhs = Eigen::Transpose<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, -1, false> >; Rhs = Eigen::Transpose<const Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, 1, -1> >, const Eigen::Transpose<const Eigen::Block<const Eigen::Block<const Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>, -1, 1, true>, -1, 1, false> > > >; Dest = Eigen::Transpose<Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1, 1, -1, -1>, 1, -1, true>, 1, -1, false> >; int Mode = 6][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:332:12:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  327 |     [01;35m[Kinternal::triangular_matrix_vector_product[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  328 | [01;35m[K      <Index,Mode,[m[K
+      |       [01;35m[K~~~~~~~~~~~~[m[K
+  329 | [01;35m[K       LhsScalar, LhsBlasTraits::NeedToConjugate,[m[K
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  330 | [01;35m[K       RhsScalar, RhsBlasTraits::NeedToConjugate,[m[K
+      |        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  331 | [01;35m[K       RowMajor>[m[K
+      |        [01;35m[K~~~~~~~~~[m[K
+  332 | [01;35m[K      ::run(actualLhs.rows(),actualLhs.cols(),[m[K
+      |       [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  333 | [01;35m[K            actualLhs.data(),actualLhs.outerStride(),[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  334 | [01;35m[K            actualRhsPtr,1,[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~[m[K
+  335 | [01;35m[K            dest.data(),dest.innerStride(),[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  336 | [01;35m[K            actualAlpha)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/TriangularMatrixVector.h:105:24:[m[K [01;36m[Knote: [m[Kby argument 5 of type ‘[01m[Kconst double*[m[K’ to ‘[01m[Kstatic void Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::run(Index, Index, const LhsScalar*, Index, const RhsScalar*, Index, Eigen::internal::triangular_matrix_vector_product<Index, Mode, LhsScalar, ConjLhs, RhsScalar, ConjRhs, 1, Version>::ResScalar*, Index, const ResScalar&) [with Index = long int; int Mode = 6; LhsScalar = double; bool ConjLhs = false; RhsScalar = double; bool ConjRhs = false; int Version = 0][m[K’ declared here
+  105 | EIGEN_DONT_INLINE void [01;36m[Ktriangular_matrix_vector_product<Index,Mode,LhsScalar,ConjLhs,RhsScalar,ConjRhs,RowMajor,Version>[m[K
+      |                        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:337[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:[m[K In function ‘[01m[Kstatic void Eigen::internal::selfadjoint_product_impl<Lhs, LhsMode, false, Rhs, 0, true>::run(Dest&, const Lhs&, const Rhs&, const Scalar&) [with Dest = Eigen::Block<Eigen::Matrix<double, -1, 1>, -1, 1, false>; Lhs = Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, -1, false>; int LhsMode = 17; Rhs = Eigen::CwiseBinaryOp<Eigen::internal::scalar_product_op<double, double>, const Eigen::CwiseNullaryOp<Eigen::internal::scalar_constant_op<double>, const Eigen::Matrix<double, -1, 1> >, const Eigen::Block<Eigen::Block<Eigen::Matrix<double, -1, -1>, -1, 1, true>, -1, 1, false> >][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:229:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kresult[m[K’ may be used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmaybe-uninitialized-Wmaybe-uninitialized]8;;[m[K]
+  227 |     [01;35m[Kinternal::selfadjoint_matrix_vector_product<Scalar, Index, (internal::traits<ActualLhsTypeCleaned>::Flags&RowMajorBit) ? RowMajor : ColMajor,[m[K
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  228 | [01;35m[K                                                int(LhsUpLo), bool(LhsBlasTraits::NeedToConjugate), bool(RhsBlasTraits::NeedToConjugate)>::run[m[K
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  229 | [01;35m[K      ([m[K
+      |       [01;35m[K^[m[K
+  230 | [01;35m[K        lhs.rows(),                             // size[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  231 | [01;35m[K        &lhs.coeffRef(0,0),  lhs.outerStride(), // lhs info[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  232 | [01;35m[K        actualRhsPtr,                           // rhs info[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  233 | [01;35m[K        actualDestPtr,                          // result info[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  234 | [01;35m[K        actualAlpha                             // scale factor[m[K
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  235 | [01;35m[K      )[m[K;
+      |       [01;35m[K~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixVector.h:41:6:[m[K [01;36m[Knote: [m[Kby argument 4 of type ‘[01m[Kconst double*[m[K’ to ‘[01m[Kstatic void Eigen::internal::selfadjoint_matrix_vector_product<Scalar, Index, StorageOrder, UpLo, ConjugateLhs, ConjugateRhs, Version>::run(Index, const Scalar*, Index, const Scalar*, Scalar*, Scalar) [with Scalar = double; Index = long int; int StorageOrder = 0; int UpLo = 1; bool ConjugateLhs = false; bool ConjugateRhs = false; int Version = 0][m[K’ declared here
+   41 | void [01;36m[Kselfadjoint_matrix_vector_product<Scalar,Index,StorageOrder,UpLo,ConjugateLhs,ConjugateRhs,Version>[m[K::run(
+      |      [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[ 13%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/solver.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 14%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_factory.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:33[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.h:31[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/estimate_propagator.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 16%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/cache.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/factory.cpp:31[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 17%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimizable_graph.h:41[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:32[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.h:33[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_optimizer.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 18%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/hyper_dijkstra.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/parameter_container.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 21%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.cpp:27[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 22%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:36[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp:30[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.h:229[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm.h:37[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_with_hessian.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/optimization_algorithm_levenberg.cpp:30[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kg2o::SparseBlockMatrix<MatrixType>* g2o::SparseBlockMatrix<MatrixType>::slice(int, int, int, int, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:328:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KrowIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  328 |     int [01;35m[KrowIdx[m[K [m];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:334:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KcolIdx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  334 |     int [01;35m[KcolIdx[m[K [n];
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:[m[K In member function ‘[01m[Kbool g2o::SparseBlockMatrix<MatrixType>::symmPermutation(g2o::SparseBlockMatrix<MatrixType>*&, const int*, bool) const[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:404:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KblockSizes[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  404 |     int [01;35m[KblockSizes[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/sparse_block_matrix.hpp:410:9:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[KpBlockIndices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+  410 |     int [01;35m[KpBlockIndices[m[K[_rowBlockIndices.size()];
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[ 23%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/jacobian_workspace.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 24%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 25%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_factory.cpp:28[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 26%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp.o[0m
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::pload(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1671:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1671 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:214[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:[m[K In function ‘[01m[KPacket Eigen::internal::ploadu(const typename Eigen::internal::unpacket_traits<T>::type*) [with Packet = Eigen::internal::eigen_packet_wrapper<int, 2>; typename Eigen::internal::unpacket_traits<T>::type = signed char][m[K’:
+[01m[K/usr/include/eigen3/Eigen/src/Core/arch/NEON/PacketMath.h:1716:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid* memcpy(void*, const void*, size_t)[m[K’ copying an object of non-trivial type ‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} from an array of ‘[01m[Kconst int8_t[m[K’ {aka ‘[01m[Kconst signed char[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wclass-memaccess-Wclass-memaccess]8;;[m[K]
+ 1716 |   [01;35m[Kmemcpy(&res, from, sizeof(Packet4c))[m[K;
+      |   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:172[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel.h:35[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.h:30[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/g2o/core/robust_kernel_impl.cpp:27[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/GenericPacketMath.h:159:8:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::internal::Packet4c[m[K’ {aka ‘[01m[Kstruct Eigen::internal::eigen_packet_wrapper<int, 2>[m[K’} declared here
+  159 | struct [01;36m[Keigen_packet_wrapper[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[ 27%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/timeutil.cpp.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/os_specific.c.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/string_tools.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/g2o.dir/orb_slam2/Thirdparty/g2o/g2o/stuff/property.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/g2o/lib/libg2o.so[0m
+[ 31%] Built target g2o
+[ 32%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orb_slam2_ros/srv/detail/save_map__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/orb_slam2_ros/srv/detail/save_cloud__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library liborb_slam2_ros__rosidl_typesupport_introspection_cpp.so[0m
+[ 35%] Built target orb_slam2_ros__rosidl_typesupport_introspection_cpp
+[ 36%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orb_slam2_ros/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/orb_slam2_ros/srv/detail/dds_fastrtps/save_cloud__type_support.cpp.o[0m
+[ 39%] [32m[1mLinking CXX shared library liborb_slam2_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 39%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_cpp
+[ 40%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orb_slam2_ros/srv/save_map__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/orb_slam2_ros/srv/save_cloud__type_support.cpp.o[0m
+[ 43%] [32m[1mLinking CXX shared library liborb_slam2_ros__rosidl_typesupport_cpp.so[0m
+[ 43%] Built target orb_slam2_ros__rosidl_typesupport_cpp
+[ 44%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/BowVector.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Timestamp.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DUtils/Random.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/ScoringObject.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FeatureVector.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/DBoW2.dir/orb_slam2/Thirdparty/DBoW2/DBoW2/FORB.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/Thirdparty/DBoW2/lib/libDBoW2.so[0m
+[ 51%] Built target DBoW2
+[ 52%] [34m[1mGenerating C code for ROS interfaces[0m
+[ 52%] Built target ament_cmake_python_symlink_orb_slam2_ros
+[ 54%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/System.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Tracking.cc.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_generator_c.dir/rosidl_generator_c/orb_slam2_ros/srv/detail/save_map__functions.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/orb_slam2_ros__rosidl_generator_c.dir/rosidl_generator_c/orb_slam2_ros/srv/detail/save_cloud__functions.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/ORBmatcher.cc.o[0m
+[ 58%] [32m[1mLinking C shared library liborb_slam2_ros__rosidl_generator_c.so[0m
+[ 58%] Built target orb_slam2_ros__rosidl_generator_c
+running egg_info
+creating orb_slam2_ros.egg-info
+writing orb_slam2_ros.egg-info/PKG-INFO
+writing dependency_links to orb_slam2_ros.egg-info/dependency_links.txt
+writing top-level names to orb_slam2_ros.egg-info/top_level.txt
+writing manifest file 'orb_slam2_ros.egg-info/SOURCES.txt'
+reading manifest file 'orb_slam2_ros.egg-info/SOURCES.txt'
+writing manifest file 'orb_slam2_ros.egg-info/SOURCES.txt'
+[ 58%] Built target ament_cmake_python_build_orb_slam2_ros_egg
+[ 59%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/FrameDrawer.cc.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orb_slam2_ros/srv/detail/save_map__type_support_c.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/ORBextractor.cc.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/orb_slam2_ros/srv/detail/save_cloud__type_support_c.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library liborb_slam2_ros__rosidl_typesupport_fastrtps_c.so[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/LoopClosing.cc.o[0m
+[ 65%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_c
+gmake[2]: *** [CMakeFiles/orb_slam2_ros_core.dir/build.make:76: CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/System.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/orb_slam2_ros_core.dir/build.make:90: CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Tracking.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/orb_slam2_ros_core.dir/build.make:160: CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/FrameDrawer.cc.o] Interrupt
+gmake[2]: *** [CMakeFiles/orb_slam2_ros_core.dir/build.make:118: CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/LoopClosing.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/orb_slam2_ros_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

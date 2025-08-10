@@ -1,0 +1,20 @@
+[2.153s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver/build --no-deps symlink_data
+[2.616s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[2.617s]   warnings.warn(msg)
+[3.027s] running develop
+[3.569s] running egg_info
+[3.604s] writing wheeltec_dual_rtk_driver.egg-info/PKG-INFO
+[3.606s] writing dependency_links to wheeltec_dual_rtk_driver.egg-info/dependency_links.txt
+[3.607s] writing entry points to wheeltec_dual_rtk_driver.egg-info/entry_points.txt
+[3.609s] writing requirements to wheeltec_dual_rtk_driver.egg-info/requires.txt
+[3.609s] writing top-level names to wheeltec_dual_rtk_driver.egg-info/top_level.txt
+[3.691s] reading manifest file 'wheeltec_dual_rtk_driver.egg-info/SOURCES.txt'
+[3.694s] writing manifest file 'wheeltec_dual_rtk_driver.egg-info/SOURCES.txt'
+[3.756s] running build_ext
+[3.756s] Creating /home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/python3.10/site-packages/wheeltec-dual-rtk-driver.egg-link (link to .)
+[3.759s] Installing dual_rtk_driver_node script to /home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/wheeltec_dual_rtk_driver
+[3.760s] Installing serial_demo_node script to /home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/wheeltec_dual_rtk_driver
+[3.762s] 
+[3.762s] Installed /home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver
+[3.762s] running symlink_data
+[3.868s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/wheeltec_dual_rtk_driver/build --no-deps symlink_data

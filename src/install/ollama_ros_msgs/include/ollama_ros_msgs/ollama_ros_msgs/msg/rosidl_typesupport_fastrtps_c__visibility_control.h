@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/ollama_ros_msgs/rosidl_typesupport_fastrtps_c/ollama_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

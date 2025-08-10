@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/nav2_smac_planner/ament_cmake_core/nav2_smac_plannerConfig-version.cmake

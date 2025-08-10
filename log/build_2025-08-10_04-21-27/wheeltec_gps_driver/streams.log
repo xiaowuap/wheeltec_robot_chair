@@ -1,0 +1,91 @@
+[0.079s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/wheeltec_gps_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver
+[0.243s] -- The C compiler identification is GNU 11.4.0
+[0.394s] -- The CXX compiler identification is GNU 11.4.0
+[0.429s] -- Detecting C compiler ABI info
+[0.662s] -- Detecting C compiler ABI info - done
+[0.672s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.672s] -- Detecting C compile features
+[0.688s] -- Detecting C compile features - done
+[0.704s] -- Detecting CXX compiler ABI info
+[0.984s] -- Detecting CXX compiler ABI info - done
+[1.004s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.004s] -- Detecting CXX compile features
+[1.004s] -- Detecting CXX compile features - done
+[1.013s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.148s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.388s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.505s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.633s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.650s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.675s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.849s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.975s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[3.088s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.105s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.446s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.524s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.685s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.723s] -- Looking for pthread.h
+[4.098s] -- Looking for pthread.h - found
+[4.098s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.536s] -- Found Threads: TRUE  
+[4.621s] -- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+[4.629s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.663s] -- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.707s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.710s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.711s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.914s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.131s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.132s] -- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/wheeltec_gps/wheeltec_gps_driver/include
+[5.132s] -- Configured cppcheck exclude dirs and/or files: 
+[5.136s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.141s] -- Added test 'lint_cmake' to check CMake code style
+[5.145s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.150s] -- Added test 'uncrustify' to check C / C++ code style
+[5.150s] -- Configured uncrustify additional arguments: 
+[5.155s] -- Added test 'xmllint' to check XML markup files
+[5.163s] -- Configuring done
+[5.189s] -- Generating done
+[5.198s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver
+[5.255s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_gps/wheeltec_gps_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver
+[5.256s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver -- -j8 -l8
+[5.446s] [ 50%] [32mBuilding CXX object CMakeFiles/gps_path.dir/src/gps_path.cpp.o[0m
+[25.370s] [100%] [32m[1mLinking CXX executable gps_path[0m
+[26.318s] [100%] Built target gps_path
+[26.389s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver -- -j8 -l8
+[26.393s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver
+[26.480s] -- Install configuration: ""
+[26.480s] -- Execute custom install script
+[26.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/lib/wheeltec_gps_driver/gps_path
+[26.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/nmea_gps_path.launch.py
+[26.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/nmea_gps_path_dualrtk.launch.py
+[26.481s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/ublox_gps_path.launch.py
+[26.504s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/unicore_gps_path_dualrtk.launch.py
+[26.505s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/wheeltec_dual_rtk_driver_nmea.launch.py
+[26.541s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/wheeltec_dual_rtk_driver_unicore.launch.py
+[26.560s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/wheeltec_nmea_driver.launch.py
+[26.585s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/launch/wheeltec_ublox_driver.launch.py
+[26.607s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/config/nmea_serial_driver.yaml
+[26.640s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/config/path.rviz
+[26.663s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/config/ublox_serial_driver.yaml
+[26.700s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/config/wheeltec_dual_rtk_nmea_serial_driver.yaml
+[26.730s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/ament_index/resource_index/package_run_dependencies/wheeltec_gps_driver
+[26.751s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/ament_index/resource_index/parent_prefix_path/wheeltec_gps_driver
+[26.773s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/environment/ament_prefix_path.sh
+[26.811s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/environment/ament_prefix_path.dsv
+[26.851s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/environment/path.sh
+[26.872s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/environment/path.dsv
+[26.893s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/local_setup.bash
+[26.915s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/local_setup.sh
+[26.935s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/local_setup.zsh
+[26.956s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/local_setup.dsv
+[26.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/package.dsv
+[26.997s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/ament_index/resource_index/packages/wheeltec_gps_driver
+[27.019s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/cmake/wheeltec_gps_driverConfig.cmake
+[27.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/cmake/wheeltec_gps_driverConfig-version.cmake
+[27.077s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver/share/wheeltec_gps_driver/package.xml
+[27.129s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_gps_driver

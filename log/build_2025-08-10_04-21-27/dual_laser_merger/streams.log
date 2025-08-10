@@ -1,0 +1,123 @@
+[0.032s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/dual_laser_merger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dual_laser_merger
+[4.636s] -- The C compiler identification is GNU 11.4.0
+[4.637s] -- The CXX compiler identification is GNU 11.4.0
+[4.637s] -- Detecting C compiler ABI info
+[4.637s] -- Detecting C compiler ABI info - done
+[4.637s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.637s] -- Detecting C compile features
+[4.637s] -- Detecting C compile features - done
+[4.637s] -- Detecting CXX compiler ABI info
+[4.637s] -- Detecting CXX compiler ABI info - done
+[4.637s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.638s] -- Detecting CXX compile features
+[4.638s] -- Detecting CXX compile features - done
+[4.638s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[4.638s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.638s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.638s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.638s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.638s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.638s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.638s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.638s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.639s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.639s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.639s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.639s] -- Looking for pthread.h
+[4.639s] -- Looking for pthread.h - found
+[4.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.639s] -- Found Threads: TRUE  
+[4.639s] -- Checking for module 'eigen3'
+[4.639s] --   Found eigen3, version 3.4.0
+[4.640s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.640s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.640s] -- Checking for module 'flann'
+[4.640s] --   Found flann, version 1.9.1
+[4.640s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[4.640s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[7.874s] -- Checking for module 'libusb-1.0'
+[7.938s] --   Found libusb-1.0, version 1.0.25
+[8.076s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[8.078s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.325s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[8.654s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.668s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.682s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.018s] -- Found Qhull version 8.0.2
+[9.362s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.704s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[9.707s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[9.709s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[9.712s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[9.716s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[9.719s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[9.720s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.722s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.725s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[9.730s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[9.733s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[9.737s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[9.741s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[9.744s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[9.747s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[9.750s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[9.753s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[9.756s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[9.759s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[9.762s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[9.765s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[9.766s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[9.767s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[9.770s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[9.774s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[9.842s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[9.845s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[9.846s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[10.205s] [0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/dual_laser_merger` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.[0m
+[10.242s] -- Configuring done
+[10.354s] -- Generating done
+[10.385s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/dual_laser_merger
+[10.435s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/dual_laser_merger -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/dual_laser_merger
+[10.441s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/dual_laser_merger -- -j8 -l8
+[11.968s] [ 25%] [32mBuilding CXX object CMakeFiles/dual_laser_merger.dir/src/dual_laser_merger.cpp.o[0m
+[52.256s] [ 50%] [32m[1mLinking CXX shared library libdual_laser_merger.so[0m
+[56.424s] [ 50%] Built target dual_laser_merger
+[56.502s] [ 75%] [32mBuilding CXX object CMakeFiles/dual_laser_merger_node.dir/rclcpp_components/node_main_dual_laser_merger_node.cpp.o[0m
+[63.218s] [100%] [32m[1mLinking CXX executable dual_laser_merger_node[0m
+[63.469s] [100%] Built target dual_laser_merger_node
+[63.510s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/dual_laser_merger -- -j8 -l8
+[63.511s] Invoking command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/dual_laser_merger
+[106.185s] -- Install configuration: ""
+[106.185s] -- Execute custom install script
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/lib/dual_laser_merger/dual_laser_merger_node
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include/dual_laser_merger/include/dual_laser_merger/dual_laser_merger.hpp
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/demo_laser_merger.launch.py
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/bag/dual_lidar/dual_lidar_0.db3
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/bag/dual_lidar/metadata.yaml
+[106.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/config/rviz_config.rviz
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include/dual_laser_merger/dual_laser_merger.hpp
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/library_path.sh
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/library_path.dsv
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/lib/libdual_laser_merger.so
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/ament_index/resource_index/package_run_dependencies/dual_laser_merger
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/ament_index/resource_index/parent_prefix_path/dual_laser_merger
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/ament_prefix_path.sh
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/ament_prefix_path.dsv
+[106.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/path.sh
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/environment/path.dsv
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/local_setup.bash
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/local_setup.sh
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/local_setup.zsh
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/local_setup.dsv
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/package.dsv
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/ament_index/resource_index/packages/dual_laser_merger
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/ament_index/resource_index/rclcpp_components/dual_laser_merger
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.187s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/cmake/ament_cmake_export_libraries-extras.cmake
+[106.188s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/cmake/dual_laser_mergerConfig.cmake
+[106.188s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/cmake/dual_laser_mergerConfig-version.cmake
+[106.188s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/package.xml
+[106.209s] Invoked command in '/home/wheeltec/wheeltec_robot/build/dual_laser_merger' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/dual_laser_merger

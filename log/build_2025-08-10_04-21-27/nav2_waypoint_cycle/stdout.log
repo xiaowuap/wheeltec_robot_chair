@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating nav2_waypoint_cycle.egg-info
+writing nav2_waypoint_cycle.egg-info/PKG-INFO
+writing dependency_links to nav2_waypoint_cycle.egg-info/dependency_links.txt
+writing entry points to nav2_waypoint_cycle.egg-info/entry_points.txt
+writing requirements to nav2_waypoint_cycle.egg-info/requires.txt
+writing top-level names to nav2_waypoint_cycle.egg-info/top_level.txt
+writing manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'
+reading manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'
+writing manifest file 'nav2_waypoint_cycle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/lib/python3.10/site-packages/nav2-waypoint-cycle.egg-link (link to .)
+Installing nav2_waypoint_cycle script to /home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/lib/nav2_waypoint_cycle
+
+Installed /home/wheeltec/wheeltec_robot/build/nav2_waypoint_cycle
+running symlink_data
+creating /home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/build/nav2_waypoint_cycle/resource/nav2_waypoint_cycle -> /home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/share/ament_index/resource_index/packages
+symbolically linking /home/wheeltec/wheeltec_robot/build/nav2_waypoint_cycle/package.xml -> /home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle/share/nav2_waypoint_cycle

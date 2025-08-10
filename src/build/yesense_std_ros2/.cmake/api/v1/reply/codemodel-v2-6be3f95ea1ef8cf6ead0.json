@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-3f03937b1eb744e69a0e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yesense_std_ros2",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-4cb005a7ee88c80c9e9c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_node_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_node_publisher-fe8ff21b2ab812b70a9a.json",
+					"name" : "yesense_node_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_node_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_node_subscriber-80e87ec20bdd76f61efd.json",
+					"name" : "yesense_node_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yesense_std_ros2_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yesense_std_ros2_uninstall-7185670c798dc9b3005e.json",
+					"name" : "yesense_std_ros2_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wheeltec/wheeltec_robot/src/build/yesense_std_ros2",
+		"source" : "/home/wheeltec/wheeltec_robot/src/wheeltec_imu/yesense_ros2/yesense_std_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

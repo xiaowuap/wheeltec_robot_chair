@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibration/multi_lidar_calibration_icp_node" "/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibration/multi_lidar_calibration_ndt_node" "TARGETS" "multi_lidar_calibration_icp_node" "multi_lidar_calibration_ndt_node" "DESTINATION" "lib/multi_lidar_calibration")

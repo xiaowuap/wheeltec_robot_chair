@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/dwb_msgs/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__type_support.h

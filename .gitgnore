@@ -1,0 +1,47 @@
+# ROS build files
+build/
+devel/
+install/
+log/
+logs/
+
+# ROS log files
+*.log
+
+# ROS generated files
+CATKIN_IGNORE
+*.catkin
+
+# General temporary files
+*~
+*.pyc
+*.swp
+*.bak
+*.orig
+
+# IDE and editor files
+.vscode/
+.idea/
+*.project
+*.pydevproject
+*.cproject
+
+# System generated files
+.DS_Store
+Thumbs.db
+
+
+# Other build artifacts
+*.o
+*.so
+*.a
+*.dll
+*.exe
+
+# Ignore catkin build tools cache
+.catkin_tools/
+.catkin_workspace
+
+# Ignore colcon build tools cache
+.colcon/
+.vscode/

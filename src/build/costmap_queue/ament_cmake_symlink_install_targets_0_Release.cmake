@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/src/build/costmap_queue/libcostmap_queue.a" "TARGETS" "costmap_queue" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

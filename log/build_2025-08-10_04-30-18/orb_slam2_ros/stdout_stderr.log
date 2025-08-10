@@ -1,0 +1,41 @@
+[  1%] Built target orb_slam2_ros__cpp
+[35m[1mConsolidate compiler generated dependencies of target g2o[0m
+[ 31%] Built target g2o
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros__rosidl_typesupport_introspection_cpp[0m
+[ 35%] Built target orb_slam2_ros__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros__rosidl_typesupport_fastrtps_cpp[0m
+[ 39%] Built target orb_slam2_ros__rosidl_typesupport_fastrtps_cpp
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros__rosidl_typesupport_cpp[0m
+[ 43%] Built target orb_slam2_ros__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target DBoW2[0m
+[ 51%] Built target DBoW2
+[ 51%] Built target ament_cmake_python_symlink_orb_slam2_ros
+[35m[1mConsolidate compiler generated dependencies of target orb_slam2_ros_core[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/System.cc.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/System.cc:23[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/System.h:[m[K In constructor ‘[01m[KORB_SLAM2::System::System(std::string, ORB_SLAM2::System::eSensor, ORB_SLAM2::ORBParameters&, const string&, bool)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/System.h:208:10:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM2::System::mbDeactivateLocalizationMode[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  208 |     bool [01;35m[KmbDeactivateLocalizationMode[m[K;
+      |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/System.h:168:17:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kstd::string ORB_SLAM2::System::map_file[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  168 |     std::string [01;35m[Kmap_file[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/System.cc:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 | [01;35m[KSystem[m[K::System(const string strVocFile, const eSensor sensor, ORBParameters& parameters,
+      | [01;35m[K^~~~~~[m[K
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/System.cc:23[m[K:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/System.h:168:17:[m[K [01;35m[Kwarning: [m[K‘[01m[KORB_SLAM2::System::map_file[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  168 |     std::string [01;35m[Kmap_file[m[K;
+      |                 [01;35m[K^~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/include/System.h:166:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kbool ORB_SLAM2::System::load_map[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  166 |     bool [01;35m[Kload_map[m[K;
+      |          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/orb_slam2/src/System.cc:31:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   31 | [01;35m[KSystem[m[K::System(const string strVocFile, const eSensor sensor, ORBParameters& parameters,
+      | [01;35m[K^~~~~~[m[K
+[ 53%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/Converter.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/MapPoint.cc.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/KeyFrame.cc.o[0m
+gmake[2]: *** [CMakeFiles/orb_slam2_ros_core.dir/build.make:202: CMakeFiles/orb_slam2_ros_core.dir/orb_slam2/src/KeyFrame.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:651: CMakeFiles/orb_slam2_ros_core.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

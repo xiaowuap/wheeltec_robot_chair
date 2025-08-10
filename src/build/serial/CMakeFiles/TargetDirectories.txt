@@ -1,0 +1,10 @@
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/uninstall.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/serial_uninstall.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/serial.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/test.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/edit_cache.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/rebuild_cache.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/list_install_components.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/install.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/install/local.dir
+/home/wheeltec/wheeltec_robot/src/build/serial/CMakeFiles/install/strip.dir

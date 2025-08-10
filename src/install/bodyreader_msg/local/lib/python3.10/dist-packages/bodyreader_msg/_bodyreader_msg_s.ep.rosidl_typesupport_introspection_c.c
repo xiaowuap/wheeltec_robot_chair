@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/bodyreader_msg/rosidl_generator_py/bodyreader_msg/_bodyreader_msg_s.ep.rosidl_typesupport_introspection_c.c

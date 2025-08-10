@@ -1,0 +1,26 @@
+[2.466s] Invoking command in '/home/wheeltec/wheeltec_robot/build/ultralytics_ros2': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/ultralytics_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/ultralytics_ros2/build --no-deps symlink_data
+[12.987s] running develop
+[12.987s] running egg_info
+[12.987s] creating ultralytics_ros2.egg-info
+[12.987s] writing ultralytics_ros2.egg-info/PKG-INFO
+[12.987s] writing dependency_links to ultralytics_ros2.egg-info/dependency_links.txt
+[12.987s] writing entry points to ultralytics_ros2.egg-info/entry_points.txt
+[12.987s] writing requirements to ultralytics_ros2.egg-info/requires.txt
+[12.987s] writing top-level names to ultralytics_ros2.egg-info/top_level.txt
+[12.987s] writing manifest file 'ultralytics_ros2.egg-info/SOURCES.txt'
+[12.987s] reading manifest file 'ultralytics_ros2.egg-info/SOURCES.txt'
+[12.988s] writing manifest file 'ultralytics_ros2.egg-info/SOURCES.txt'
+[12.988s] running build_ext
+[12.988s] Creating /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/python3.10/site-packages/ultralytics-ros2.egg-link (link to .)
+[12.988s] Installing detection_node script to /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/ultralytics_ros2
+[12.988s] 
+[12.988s] Installed /home/wheeltec/wheeltec_robot/build/ultralytics_ros2
+[12.988s] running symlink_data
+[12.988s] creating /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/share/ament_index/resource_index/packages
+[12.988s] symbolically linking /home/wheeltec/wheeltec_robot/build/ultralytics_ros2/resource/ultralytics_ros2 -> /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/share/ament_index/resource_index/packages
+[12.988s] symbolically linking /home/wheeltec/wheeltec_robot/build/ultralytics_ros2/package.xml -> /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/share/ultralytics_ros2
+[12.989s] creating /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/share/ultralytics_ros2/launch
+[12.989s] symbolically linking /home/wheeltec/wheeltec_robot/build/ultralytics_ros2/launch/yolo.launch.py -> /home/wheeltec/wheeltec_robot/install/ultralytics_ros2/share/ultralytics_ros2/launch
+[12.991s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[12.991s]   warnings.warn(msg)
+[13.039s] Invoked command in '/home/wheeltec/wheeltec_robot/build/ultralytics_ros2' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/build/ultralytics_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/build/ultralytics_ros2/build --no-deps symlink_data

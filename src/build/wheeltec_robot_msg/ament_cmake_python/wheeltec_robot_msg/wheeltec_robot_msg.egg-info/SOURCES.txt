@@ -1,0 +1,6 @@
+setup.py
+wheeltec_robot_msg/__init__.py
+wheeltec_robot_msg.egg-info/PKG-INFO
+wheeltec_robot_msg.egg-info/SOURCES.txt
+wheeltec_robot_msg.egg-info/dependency_links.txt
+wheeltec_robot_msg.egg-info/top_level.txt

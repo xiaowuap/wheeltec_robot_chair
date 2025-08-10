@@ -1,0 +1,980 @@
+[0.052s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nav2_msgs
+[0.296s] -- The C compiler identification is GNU 11.4.0
+[0.296s] -- The CXX compiler identification is GNU 11.4.0
+[0.297s] -- Detecting C compiler ABI info
+[0.437s] -- Detecting C compiler ABI info - done
+[0.450s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.451s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.459s] -- Detecting CXX compiler ABI info
+[0.637s] -- Detecting CXX compiler ABI info - done
+[0.647s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.648s] -- Detecting CXX compile features
+[0.649s] -- Detecting CXX compile features - done
+[0.653s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.793s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.164s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.246s] -- Found nav2_common: 1.1.6 (/home/wheeltec/wheeltec_robot/install/nav2_common/share/nav2_common/cmake)
+[2.248s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[2.380s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.411s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.435s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.562s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.645s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.912s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.022s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[3.140s] -- Setting build type to Release as none was specified.
+[7.260s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.517s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.520s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.673s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.673s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.673s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.673s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.829s] -- Found PythonExtra: .so  
+[12.725s] -- Configuring done
+[13.079s] -- Generating done
+[13.149s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/nav2_msgs
+[13.185s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_msgs' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/nav2_msgs
+[13.201s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_msgs -- -j8 -l8
+[15.933s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[28.480s] [  0%] Built target nav2_msgs__cpp
+[28.626s] [  0%] Built target ament_cmake_python_symlink_nav2_msgs
+[28.689s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35.397s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap__type_support.cpp.o[0m
+[36.232s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/speed_limit__type_support.cpp.o[0m
+[36.981s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/voxel_grid__type_support.cpp.o[0m
+[37.809s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.cpp.o[0m
+[38.543s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/behavior_tree_log__type_support.cpp.o[0m
+[39.434s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/particle__type_support.cpp.o[0m
+[40.145s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/particle_cloud__type_support.cpp.o[0m
+[40.978s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/get_costmap__type_support.cpp.o[0m
+[41.800s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/is_path_valid__type_support.cpp.o[0m
+[42.715s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.cpp.o[0m
+[43.473s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.cpp.o[0m
+[44.217s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/clear_entire_costmap__type_support.cpp.o[0m
+[45.004s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.cpp.o[0m
+[45.765s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[46.577s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/srv/detail/save_map__type_support.cpp.o[0m
+[47.356s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/assisted_teleop__type_support.cpp.o[0m
+[48.544s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/back_up__type_support.cpp.o[0m
+[49.694s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_to_pose__type_support.cpp.o[0m
+[50.970s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp.o[0m
+[52.349s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/drive_on_heading__type_support.cpp.o[0m
+[53.545s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/smooth_path__type_support.cpp.o[0m
+[54.845s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_path__type_support.cpp.o[0m
+[56.096s] [  9%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_to_pose__type_support.cpp.o[0m
+[57.333s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_through_poses__type_support.cpp.o[0m
+[58.689s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/wait__type_support.cpp.o[0m
+[59.839s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/spin__type_support.cpp.o[0m
+[60.990s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/dummy_behavior__type_support.cpp.o[0m
+[62.182s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_waypoints__type_support.cpp.o[0m
+[63.591s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap_filter_info__type_support.cpp.o[0m
+[64.349s] [ 12%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/msg/detail/costmap_meta_data__type_support.cpp.o[0m
+[65.100s] [ 13%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[65.483s] [ 13%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[66.210s] running egg_info
+[66.248s] creating nav2_msgs.egg-info
+[66.249s] writing nav2_msgs.egg-info/PKG-INFO
+[66.250s] writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+[66.252s] writing top-level names to nav2_msgs.egg-info/top_level.txt
+[66.252s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[66.363s] reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[66.365s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[66.469s] [ 13%] Built target ament_cmake_python_build_nav2_msgs_egg
+[66.518s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[75.740s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap__type_support.cpp.o[0m
+[76.651s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/behavior_tree_status_change__type_support.cpp.o[0m
+[77.577s] [ 14%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/behavior_tree_log__type_support.cpp.o[0m
+[78.541s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/particle__type_support.cpp.o[0m
+[79.383s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/particle_cloud__type_support.cpp.o[0m
+[80.271s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/get_costmap__type_support.cpp.o[0m
+[81.131s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/is_path_valid__type_support.cpp.o[0m
+[82.162s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_costmap_except_region__type_support.cpp.o[0m
+[83.054s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_costmap_around_robot__type_support.cpp.o[0m
+[84.019s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/clear_entire_costmap__type_support.cpp.o[0m
+[84.872s] [ 17%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/manage_lifecycle_nodes__type_support.cpp.o[0m
+[85.716s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[86.669s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[87.602s] [ 18%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/assisted_teleop__type_support.cpp.o[0m
+[88.987s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/back_up__type_support.cpp.o[0m
+[90.241s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_to_pose__type_support.cpp.o[0m
+[91.596s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp.o[0m
+[93.067s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/drive_on_heading__type_support.cpp.o[0m
+[94.353s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/smooth_path__type_support.cpp.o[0m
+[95.758s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_path__type_support.cpp.o[0m
+[97.098s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_to_pose__type_support.cpp.o[0m
+[98.444s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_through_poses__type_support.cpp.o[0m
+[99.998s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/wait__type_support.cpp.o[0m
+[101.376s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/spin__type_support.cpp.o[0m
+[102.799s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/dummy_behavior__type_support.cpp.o[0m
+[104.130s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_waypoints__type_support.cpp.o[0m
+[105.778s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/voxel_grid__type_support.cpp.o[0m
+[106.755s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/speed_limit__type_support.cpp.o[0m
+[107.605s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap_filter_info__type_support.cpp.o[0m
+[108.702s] [ 25%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/msg/detail/dds_fastrtps/costmap_meta_data__type_support.cpp.o[0m
+[109.744s] [ 25%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[109.951s] [ 25%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[109.994s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[115.317s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap__type_support.cpp.o[0m
+[115.914s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/behavior_tree_log__type_support.cpp.o[0m
+[116.520s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/particle__type_support.cpp.o[0m
+[117.093s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/particle_cloud__type_support.cpp.o[0m
+[117.643s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/get_costmap__type_support.cpp.o[0m
+[118.182s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/is_path_valid__type_support.cpp.o[0m
+[118.725s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_costmap_except_region__type_support.cpp.o[0m
+[119.263s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_costmap_around_robot__type_support.cpp.o[0m
+[119.785s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/clear_entire_costmap__type_support.cpp.o[0m
+[120.316s] [ 29%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/manage_lifecycle_nodes__type_support.cpp.o[0m
+[120.867s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/load_map__type_support.cpp.o[0m
+[121.421s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/srv/save_map__type_support.cpp.o[0m
+[122.035s] [ 30%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/assisted_teleop__type_support.cpp.o[0m
+[123.064s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/back_up__type_support.cpp.o[0m
+[124.247s] [ 31%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_to_pose__type_support.cpp.o[0m
+[125.345s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[126.287s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[127.262s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[128.358s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[129.631s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[130.681s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[131.985s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/wait__type_support.cpp.o[0m
+[133.128s] [ 34%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/spin__type_support.cpp.o[0m
+[134.337s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+[135.486s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[136.711s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/behavior_tree_status_change__type_support.cpp.o[0m
+[137.441s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/voxel_grid__type_support.cpp.o[0m
+[138.080s] [ 36%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/speed_limit__type_support.cpp.o[0m
+[138.845s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap_filter_info__type_support.cpp.o[0m
+[139.535s] [ 37%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/msg/costmap_meta_data__type_support.cpp.o[0m
+[140.215s] [ 37%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_cpp.so[0m
+[140.388s] [ 37%] Built target nav2_msgs__rosidl_typesupport_cpp
+[140.415s] [ 38%] [34m[1mGenerating C code for ROS interfaces[0m
+[151.293s] [ 38%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap__functions.c.o[0m
+[151.492s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/particle__functions.c.o[0m
+[151.676s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/particle_cloud__functions.c.o[0m
+[151.864s] [ 39%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/get_costmap__functions.c.o[0m
+[152.143s] [ 40%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/is_path_valid__functions.c.o[0m
+[152.421s] [ 40%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_costmap_except_region__functions.c.o[0m
+[152.681s] [ 41%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.c.o[0m
+[152.946s] [ 41%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/clear_entire_costmap__functions.c.o[0m
+[153.222s] [ 41%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.c.o[0m
+[153.482s] [ 42%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/load_map__functions.c.o[0m
+[153.768s] [ 42%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/srv/detail/save_map__functions.c.o[0m
+[154.052s] [ 42%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/assisted_teleop__functions.c.o[0m
+[154.909s] [ 43%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/back_up__functions.c.o[0m
+[155.765s] [ 43%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_to_pose__functions.c.o[0m
+[156.678s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c.o[0m
+[157.549s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/drive_on_heading__functions.c.o[0m
+[158.407s] [ 44%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/smooth_path__functions.c.o[0m
+[159.266s] [ 45%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/follow_path__functions.c.o[0m
+[160.145s] [ 45%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_to_pose__functions.c.o[0m
+[161.031s] [ 46%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c.o[0m
+[161.907s] [ 46%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/wait__functions.c.o[0m
+[162.768s] [ 46%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/spin__functions.c.o[0m
+[163.619s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/dummy_behavior__functions.c.o[0m
+[164.462s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/follow_waypoints__functions.c.o[0m
+[165.317s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_log__functions.c.o[0m
+[165.498s] [ 47%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/behavior_tree_status_change__functions.c.o[0m
+[165.686s] [ 48%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/voxel_grid__functions.c.o[0m
+[165.893s] [ 48%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/speed_limit__functions.c.o[0m
+[166.085s] [ 49%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap_filter_info__functions.c.o[0m
+[166.286s] [ 49%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/msg/detail/costmap_meta_data__functions.c.o[0m
+[166.488s] [ 49%] [32m[1mLinking C shared library libnav2_msgs__rosidl_generator_c.so[0m
+[166.590s] [ 49%] Built target nav2_msgs__rosidl_generator_c
+[166.617s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[174.169s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap__type_support_c.cpp.o[0m
+[174.857s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support_c.cpp.o[0m
+[175.633s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_log__type_support_c.cpp.o[0m
+[176.318s] [ 51%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle__type_support_c.cpp.o[0m
+[177.004s] [ 51%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle_cloud__type_support_c.cpp.o[0m
+[177.708s] [ 51%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/get_costmap__type_support_c.cpp.o[0m
+[178.402s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/is_path_valid__type_support_c.cpp.o[0m
+[179.141s] [ 52%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support_c.cpp.o[0m
+[179.877s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support_c.cpp.o[0m
+[180.659s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support_c.cpp.o[0m
+[181.394s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support_c.cpp.o[0m
+[182.109s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[182.866s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[183.702s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/assisted_teleop__type_support_c.cpp.o[0m
+[184.730s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/back_up__type_support_c.cpp.o[0m
+[185.675s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_to_pose__type_support_c.cpp.o[0m
+[186.836s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_through_poses__type_support_c.cpp.o[0m
+[188.134s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/drive_on_heading__type_support_c.cpp.o[0m
+[189.583s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/smooth_path__type_support_c.cpp.o[0m
+[190.900s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_path__type_support_c.cpp.o[0m
+[192.507s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_to_pose__type_support_c.cpp.o[0m
+[193.738s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_through_poses__type_support_c.cpp.o[0m
+[194.983s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/wait__type_support_c.cpp.o[0m
+[196.237s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/spin__type_support_c.cpp.o[0m
+[197.357s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/dummy_behavior__type_support_c.cpp.o[0m
+[198.374s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_waypoints__type_support_c.cpp.o[0m
+[199.336s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/voxel_grid__type_support_c.cpp.o[0m
+[200.112s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/speed_limit__type_support_c.cpp.o[0m
+[200.882s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_filter_info__type_support_c.cpp.o[0m
+[201.685s] [ 61%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_meta_data__type_support_c.cpp.o[0m
+[202.487s] [ 61%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[202.695s] [ 61%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[202.723s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[207.520s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap__type_support.cpp.o[0m
+[207.620s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_log__type_support.cpp.o[0m
+[207.687s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle__type_support.cpp.o[0m
+[207.757s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle_cloud__type_support.cpp.o[0m
+[207.841s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/get_costmap__type_support.cpp.o[0m
+[207.916s] [ 64%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/is_path_valid__type_support.cpp.o[0m
+[207.994s] [ 64%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_except_region__type_support.cpp.o[0m
+[208.069s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_around_robot__type_support.cpp.o[0m
+[208.147s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_entire_costmap__type_support.cpp.o[0m
+[208.223s] [ 65%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/manage_lifecycle_nodes__type_support.cpp.o[0m
+[208.299s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/load_map__type_support.cpp.o[0m
+[208.376s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/save_map__type_support.cpp.o[0m
+[208.450s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/assisted_teleop__type_support.cpp.o[0m
+[208.565s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/back_up__type_support.cpp.o[0m
+[208.682s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_to_pose__type_support.cpp.o[0m
+[208.804s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[208.923s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[209.041s] [ 68%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[209.163s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[209.285s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[209.406s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[209.525s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/wait__type_support.cpp.o[0m
+[209.641s] [ 70%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/spin__type_support.cpp.o[0m
+[209.757s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+[209.879s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[210.001s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_status_change__type_support.cpp.o[0m
+[210.068s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/voxel_grid__type_support.cpp.o[0m
+[210.136s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/speed_limit__type_support.cpp.o[0m
+[210.205s] [ 73%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_filter_info__type_support.cpp.o[0m
+[210.280s] [ 73%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_meta_data__type_support.cpp.o[0m
+[210.349s] [ 73%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_c.so[0m
+[210.451s] [ 73%] Built target nav2_msgs__rosidl_typesupport_c
+[210.478s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[217.491s] [ 74%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap__type_support.c.o[0m
+[217.603s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle__type_support.c.o[0m
+[217.685s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle_cloud__type_support.c.o[0m
+[217.785s] [ 76%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/get_costmap__type_support.c.o[0m
+[217.892s] [ 76%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/is_path_valid__type_support.c.o[0m
+[218.004s] [ 76%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.c.o[0m
+[218.103s] [ 77%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.c.o[0m
+[218.201s] [ 77%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support.c.o[0m
+[218.306s] [ 77%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.c.o[0m
+[218.400s] [ 78%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/load_map__type_support.c.o[0m
+[218.507s] [ 78%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/save_map__type_support.c.o[0m
+[218.604s] [ 79%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/assisted_teleop__type_support.c.o[0m
+[218.755s] [ 79%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/back_up__type_support.c.o[0m
+[218.912s] [ 79%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_to_pose__type_support.c.o[0m
+[219.077s] [ 80%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_through_poses__type_support.c.o[0m
+[219.259s] [ 80%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/drive_on_heading__type_support.c.o[0m
+[219.414s] [ 81%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/smooth_path__type_support.c.o[0m
+[219.566s] [ 81%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_path__type_support.c.o[0m
+[219.715s] [ 81%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_to_pose__type_support.c.o[0m
+[219.867s] [ 82%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_through_poses__type_support.c.o[0m
+[220.032s] [ 82%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/wait__type_support.c.o[0m
+[220.179s] [ 82%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/spin__type_support.c.o[0m
+[220.328s] [ 83%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/dummy_behavior__type_support.c.o[0m
+[220.478s] [ 83%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_waypoints__type_support.c.o[0m
+[220.660s] [ 83%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_log__type_support.c.o[0m
+[220.757s] [ 83%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.c.o[0m
+[220.840s] [ 84%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/voxel_grid__type_support.c.o[0m
+[220.939s] [ 84%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/speed_limit__type_support.c.o[0m
+[221.025s] [ 84%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_filter_info__type_support.c.o[0m
+[221.109s] [ 85%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_meta_data__type_support.c.o[0m
+[221.194s] [ 86%] [32m[1mLinking C shared library libnav2_msgs__rosidl_typesupport_introspection_c.so[0m
+[221.291s] [ 86%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[221.344s] [ 86%] Built target nav2_msgs
+[221.400s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[239.540s] [ 86%] Built target nav2_msgs__py
+[239.683s] [ 87%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_s.c.o[0m
+[239.992s] [ 87%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_s.c.o[0m
+[240.262s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_cloud_s.c.o[0m
+[240.565s] [ 88%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_get_costmap_s.c.o[0m
+[241.092s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_is_path_valid_s.c.o[0m
+[241.428s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_except_region_s.c.o[0m
+[241.691s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_around_robot_s.c.o[0m
+[241.984s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_entire_costmap_s.c.o[0m
+[242.242s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_manage_lifecycle_nodes_s.c.o[0m
+[242.549s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_load_map_s.c.o[0m
+[242.924s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_save_map_s.c.o[0m
+[243.300s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_assisted_teleop_s.c.o[0m
+[243.869s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_back_up_s.c.o[0m
+[244.399s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_to_pose_s.c.o[0m
+[244.982s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_through_poses_s.c.o[0m
+[245.672s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_drive_on_heading_s.c.o[0m
+[246.491s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_smooth_path_s.c.o[0m
+[247.240s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_path_s.c.o[0m
+[247.891s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_to_pose_s.c.o[0m
+[248.663s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_through_poses_s.c.o[0m
+[249.363s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_wait_s.c.o[0m
+[250.148s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_spin_s.c.o[0m
+[250.885s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_dummy_behavior_s.c.o[0m
+[251.620s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_waypoints_s.c.o[0m
+[252.348s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_log_s.c.o[0m
+[252.707s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_status_change_s.c.o[0m
+[253.138s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_voxel_grid_s.c.o[0m
+[253.590s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_speed_limit_s.c.o[0m
+[254.131s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_filter_info_s.c.o[0m
+[254.547s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_meta_data_s.c.o[0m
+[254.877s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/libnav2_msgs__rosidl_generator_py.so[0m
+[255.172s] [ 98%] Built target nav2_msgs__rosidl_generator_py
+[255.315s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[259.836s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[260.006s] [ 99%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[260.069s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[264.157s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[264.273s] [100%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[264.325s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[268.022s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[268.195s] [100%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[268.258s] Invoked command in '/home/wheeltec/wheeltec_robot/build/nav2_msgs' returned '0': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/nav2_msgs -- -j8 -l8
+[268.265s] Invoking command in '/home/wheeltec/wheeltec_robot/build/nav2_msgs': CMAKE_PREFIX_PATH=/home/wheeltec/wheeltec_robot/install/nav2_common:/home/wheeltec/wheeltec_robot/install/dual_laser_merger:/home/wheeltec/wheeltec_robot/install/yesense_std_ros2:/home/wheeltec/wheeltec_robot/install/yesense_interface:/home/wheeltec/wheeltec_robot/install/wheeltec_slam_toolbox:/home/wheeltec/wheeltec_robot/install/wheeltec_rviz2:/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_urdf:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rtab:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt:/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_kcf:/home/wheeltec/wheeltec_robot/install/wheeltec_path_follow:/home/wheeltec/wheeltec_robot/install/wheeltec_nav2:/home/wheeltec/wheeltec_robot/install/wheeltec_multi:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_mic_msg:/home/wheeltec/wheeltec_robot/install/wheeltec_joy:/home/wheeltec/wheeltec_robot/install/wheeltec_gps_driver:/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer:/home/wheeltec/wheeltec_robot/install/wheeltec_aiui:/home/wheeltec/wheeltec_robot/install/web_video_server:/home/wheeltec/wheeltec_robot/install/usb_cam:/home/wheeltec/wheeltec_robot/install/ublox:/home/wheeltec/wheeltec_robot/install/ublox_gps:/home/wheeltec/wheeltec_robot/install/ublox_msgs:/home/wheeltec/wheeltec_robot/install/ublox_serialization:/home/wheeltec/wheeltec_robot/install/tts:/home/wheeltec/wheeltec_robot/install/slam_gmapping:/home/wheeltec/wheeltec_robot/install/bodyreader:/home/wheeltec/wheeltec_robot/install/serial:/home/wheeltec/wheeltec_robot/install/rplidar_ros:/home/wheeltec/wheeltec_robot/install/orb_slam2_ros:/home/wheeltec/wheeltec_robot/install/openslam_gmapping:/home/wheeltec/wheeltec_robot/install/ollama_ros_msgs:/home/wheeltec/wheeltec_robot/install/nmea_msgs:/home/wheeltec/wheeltec_robot/install/nav2_bringup:/home/wheeltec/wheeltec_robot/install/navigation2:/home/wheeltec/wheeltec_robot/install/nav2_smoother:/home/wheeltec/wheeltec_robot/install/nav2_dwb_controller:/home/wheeltec/wheeltec_robot/install/nav2_controller:/home/wheeltec/wheeltec_robot/install/dwb_plugins:/home/wheeltec/wheeltec_robot/install/dwb_critics:/home/wheeltec/wheeltec_robot/install/dwb_core:/home/wheeltec/wheeltec_robot/install/nav_2d_utils:/home/wheeltec/wheeltec_robot/install/dwb_msgs:/home/wheeltec/wheeltec_robot/install/nav_2d_msgs:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_follower:/home/wheeltec/wheeltec_robot/install/nav2_theta_star_planner:/home/wheeltec/wheeltec_robot/install/nav2_smac_planner:/home/wheeltec/wheeltec_robot/install/nav2_rotation_shim_controller:/home/wheeltec/wheeltec_robot/install/nav2_regulated_pure_pursuit_controller:/home/wheeltec/wheeltec_robot/install/nav2_planner:/home/wheeltec/wheeltec_robot/install/nav2_navfn_planner:/home/wheeltec/wheeltec_robot/install/nav2_mppi_controller:/home/wheeltec/wheeltec_robot/install/nav2_constrained_smoother:/home/wheeltec/wheeltec_robot/install/nav2_bt_navigator:/home/wheeltec/wheeltec_robot/install/nav2_behaviors:/home/wheeltec/wheeltec_robot/install/nav2_core:/home/wheeltec/wheeltec_robot/install/nav2_collision_monitor:/home/wheeltec/wheeltec_robot/install/costmap_queue:/home/wheeltec/wheeltec_robot/install/nav2_costmap_2d:/home/wheeltec/wheeltec_robot/install/nav2_voxel_grid:/home/wheeltec/wheeltec_robot/install/nav2_velocity_smoother:/home/wheeltec/wheeltec_robot/install/nav2_rviz_plugins:/home/wheeltec/wheeltec_robot/install/nav2_map_server:/home/wheeltec/wheeltec_robot/install/nav2_lifecycle_manager:/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree:/home/wheeltec/wheeltec_robot/install/nav2_amcl:/home/wheeltec/wheeltec_robot/install/nav2_util:/home/wheeltec/wheeltec_robot/install/nav2_msgs:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibration:/home/wheeltec/wheeltec_robot/install/lslidar_driver:/home/wheeltec/wheeltec_robot/install/lslidar_msgs:/home/wheeltec/wheeltec_robot/install/ldlidar_stl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar_sl_ros2:/home/wheeltec/wheeltec_robot/install/ldlidar:/home/wheeltec/wheeltec_robot/install/bodyreader_msg:/home/wheeltec/wheeltec_robot/install/astra_camera:/home/wheeltec/wheeltec_robot/install/astra_camera_msgs:/home/wheeltec/wheeltec_robot/install/aruco_ros:/home/wheeltec/wheeltec_robot/install/aruco_msgs:/home/wheeltec/wheeltec_robot/install/aruco:/home/wheeltec/wheeltec_robot/install/ackermann_msgs:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/nav2_msgs
+[271.219s] -- Install configuration: "Release"
+[271.219s] -- Execute custom install script
+[271.219s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/ament_index/resource_index/rosidl_interfaces/nav2_msgs
+[271.219s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.h
+[271.219s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__functions.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__functions.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__functions.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.h
+[271.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__functions.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__functions.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__functions.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__functions.h
+[271.221s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__functions.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__functions.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__functions.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.h
+[271.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__functions.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__functions.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__functions.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.h
+[271.223s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.h
+[271.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__functions.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__functions.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__functions.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.h
+[271.225s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__functions.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__functions.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__functions.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__functions.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.h
+[271.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__functions.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__functions.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_c__visibility_control.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.h
+[271.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.h
+[271.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__functions.h
+[271.237s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.h
+[271.260s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.h
+[271.280s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__functions.h
+[271.300s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.h
+[271.319s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.h
+[271.339s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__functions.h
+[271.358s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.h
+[271.377s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.h
+[271.397s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__functions.h
+[271.416s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.h
+[271.436s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.h
+[271.458s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__functions.h
+[271.478s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.h
+[271.497s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.h
+[271.518s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.h
+[271.537s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.h
+[271.556s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.h
+[271.576s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__functions.h
+[271.595s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.h
+[271.615s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.h
+[271.635s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.h
+[271.655s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.h
+[271.675s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.h
+[271.695s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.h
+[271.714s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.h
+[271.733s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/library_path.sh
+[271.756s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/library_path.dsv
+[271.776s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_c.h
+[271.796s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_c.h
+[271.814s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_c.h
+[271.834s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_c.h
+[271.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_c.h
+[271.874s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_c.h
+[271.894s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_c.h
+[271.913s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_c.h
+[271.933s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_c.h
+[271.953s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_c.h
+[271.973s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_c.h
+[271.993s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_c.h
+[272.013s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_c.h
+[272.032s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_c.h
+[272.051s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_c.h
+[272.072s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_c.h
+[272.091s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_c.h
+[272.110s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_c.h
+[272.129s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_c.h
+[272.148s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_c.h
+[272.167s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_c.h
+[272.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_c.h
+[272.205s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[272.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_c.h
+[272.246s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_c.h
+[272.266s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_c.h
+[272.290s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_c.h
+[272.311s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_c.h
+[272.331s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[272.351s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_c.h
+[272.374s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[272.397s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.hpp
+[272.417s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.hpp
+[272.437s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.hpp
+[272.457s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.hpp
+[272.481s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__builder.hpp
+[272.503s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.hpp
+[272.522s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__traits.hpp
+[272.542s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.hpp
+[272.563s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__builder.hpp
+[272.584s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.hpp
+[272.603s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__traits.hpp
+[272.624s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.hpp
+[272.644s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__builder.hpp
+[272.664s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp
+[272.684s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__traits.hpp
+[272.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.hpp
+[272.724s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__builder.hpp
+[272.747s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.hpp
+[272.766s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__traits.hpp
+[272.788s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.hpp
+[272.808s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__builder.hpp
+[272.827s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.hpp
+[272.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__traits.hpp
+[272.868s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.hpp
+[272.888s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__builder.hpp
+[272.907s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.hpp
+[272.929s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__traits.hpp
+[272.950s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.hpp
+[272.970s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp
+[272.989s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp
+[273.009s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp
+[273.028s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.hpp
+[273.051s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp
+[273.072s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp
+[273.093s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp
+[273.124s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.hpp
+[273.144s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp
+[273.168s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp
+[273.188s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp
+[273.210s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.hpp
+[273.232s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp
+[273.253s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp
+[273.278s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp
+[273.300s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.hpp
+[273.326s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__builder.hpp
+[273.346s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.hpp
+[273.372s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__traits.hpp
+[273.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.hpp
+[273.415s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__builder.hpp
+[273.435s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.hpp
+[273.456s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__traits.hpp
+[273.480s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.hpp
+[273.501s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__builder.hpp
+[273.522s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.hpp
+[273.541s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__traits.hpp
+[273.561s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.hpp
+[273.581s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.hpp
+[273.603s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.hpp
+[273.624s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp
+[273.645s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp
+[273.665s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp
+[273.686s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp
+[273.706s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.hpp
+[273.727s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.hpp
+[273.748s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.hpp
+[273.769s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.hpp
+[273.789s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.hpp
+[273.810s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
+[273.831s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.hpp
+[273.851s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.hpp
+[273.871s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__builder.hpp
+[273.891s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.hpp
+[273.912s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__traits.hpp
+[273.934s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.hpp
+[273.955s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__builder.hpp
+[273.975s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.hpp
+[273.995s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__traits.hpp
+[274.016s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.hpp
+[274.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
+[274.057s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp
+[274.078s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp
+[274.099s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.hpp
+[274.120s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__builder.hpp
+[274.141s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.hpp
+[274.163s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__traits.hpp
+[274.184s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.hpp
+[274.205s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__builder.hpp
+[274.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp
+[274.246s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp
+[274.267s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.hpp
+[274.287s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__builder.hpp
+[274.307s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp
+[274.328s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp
+[274.347s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.hpp
+[274.372s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp
+[274.387s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp
+[274.405s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp
+[274.424s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.hpp
+[274.443s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__builder.hpp
+[274.462s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.hpp
+[274.481s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__traits.hpp
+[274.500s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.hpp
+[274.519s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__builder.hpp
+[274.539s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.hpp
+[274.559s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__traits.hpp
+[274.579s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.hpp
+[274.609s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.hpp
+[274.630s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp
+[274.650s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[274.671s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.hpp
+[274.691s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.hpp
+[274.711s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp
+[274.732s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp
+[274.754s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp
+[274.774s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp
+[274.799s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp
+[274.820s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp
+[274.841s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.hpp
+[274.861s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp
+[274.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp
+[274.902s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp
+[274.923s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.hpp
+[274.946s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp
+[274.966s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp
+[274.986s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp
+[275.007s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.hpp
+[275.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp
+[275.049s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp
+[275.069s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp
+[275.091s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.hpp
+[275.111s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__builder.hpp
+[275.129s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.hpp
+[275.155s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__traits.hpp
+[275.176s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.hpp
+[275.194s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__builder.hpp
+[275.218s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.hpp
+[275.237s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__traits.hpp
+[275.257s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.hpp
+[275.275s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp
+[275.295s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp
+[275.316s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp
+[275.335s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.hpp
+[275.357s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__builder.hpp
+[275.379s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.hpp
+[275.400s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__traits.hpp
+[275.424s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.hpp
+[275.444s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp
+[275.467s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.hpp
+[275.484s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.hpp
+[275.502s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp
+[275.521s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.hpp
+[275.541s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_cpp.hpp
+[275.559s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_cpp.hpp
+[275.578s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[275.597s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[275.615s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_cpp.hpp
+[275.641s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[275.659s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_cpp.hpp
+[275.678s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[275.696s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[275.715s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[275.733s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_cpp.hpp
+[275.752s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_cpp.hpp
+[275.770s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_cpp.hpp
+[275.788s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_cpp.hpp
+[275.807s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_cpp.hpp
+[275.825s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[275.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_cpp.hpp
+[275.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[275.885s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_cpp.hpp
+[275.904s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[275.922s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[275.940s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[275.958s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[275.977s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[275.995s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_cpp.hpp
+[276.013s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[276.032s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[276.055s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_cpp.hpp
+[276.073s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[276.091s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[276.110s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[276.129s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_c.h
+[276.148s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_c.h
+[276.168s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_c.h
+[276.185s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_c.h
+[276.204s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_c.h
+[276.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_c.h
+[276.240s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_c.h
+[276.265s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_c.h
+[276.283s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_c.h
+[276.302s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_c.h
+[276.319s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_c.h
+[276.338s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_c.h
+[276.356s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_c.h
+[276.376s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_c.h
+[276.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_c.h
+[276.413s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_c.h
+[276.432s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_c.h
+[276.449s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_c.h
+[276.469s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_c.h
+[276.487s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_c.h
+[276.506s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_c.h
+[276.525s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_c.h
+[276.544s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[276.563s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_c.h
+[276.582s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_c.h
+[276.601s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_c.h
+[276.621s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_c.h
+[276.639s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_c.h
+[276.658s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[276.677s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_c.h
+[276.697s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[276.718s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_cpp.hpp
+[276.737s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_cpp.hpp
+[276.755s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[276.775s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[276.793s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_cpp.hpp
+[276.825s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_cpp.hpp
+[276.845s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp
+[276.864s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[276.885s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[276.904s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[276.923s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_cpp.hpp
+[276.943s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_cpp.hpp
+[276.962s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_cpp.hpp
+[276.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_cpp.hpp
+[277.000s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_cpp.hpp
+[277.020s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_cpp.hpp
+[277.039s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_cpp.hpp
+[277.058s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[277.077s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_cpp.hpp
+[277.097s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_cpp.hpp
+[277.116s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_cpp.hpp
+[277.135s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_cpp.hpp
+[277.154s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_cpp.hpp
+[277.174s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_cpp.hpp
+[277.193s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_cpp.hpp
+[277.212s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_cpp.hpp
+[277.230s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_cpp.hpp
+[277.249s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[277.269s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_cpp.hpp
+[277.287s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[277.305s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.sh
+[277.324s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.dsv
+[277.344s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.6-py3.10.egg-info/PKG-INFO
+[277.363s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.6-py3.10.egg-info/SOURCES.txt
+[277.383s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.6-py3.10.egg-info/dependency_links.txt
+[277.402s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.1.6-py3.10.egg-info/top_level.txt
+[277.424s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py
+[277.443s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c
+[277.462s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[277.481s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[277.509s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py
+[277.529s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py
+[277.547s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop_s.c
+[277.566s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py
+[277.584s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up_s.c
+[277.602s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py
+[277.621s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses_s.c
+[277.638s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py
+[277.657s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose_s.c
+[277.675s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py
+[277.693s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading_s.c
+[277.713s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py
+[277.731s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior_s.c
+[277.749s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py
+[277.767s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path_s.c
+[277.784s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py
+[277.802s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints_s.c
+[277.819s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py
+[277.837s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses_s.c
+[277.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py
+[277.871s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose_s.c
+[277.890s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py
+[277.908s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path_s.c
+[277.926s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py
+[277.945s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin_s.c
+[277.962s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py
+[277.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait_s.c
+[277.999s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/libnav2_msgs__rosidl_generator_py.so
+[278.017s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py
+[278.035s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py
+[278.053s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log_s.c
+[278.071s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py
+[278.089s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change_s.c
+[278.106s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py
+[278.129s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py
+[278.147s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info_s.c
+[278.165s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py
+[278.183s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data_s.c
+[278.201s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_s.c
+[278.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py
+[278.239s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py
+[278.257s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud_s.c
+[278.275s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_s.c
+[278.293s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py
+[278.312s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit_s.c
+[278.331s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py
+[278.354s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid_s.c
+[278.376s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[278.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[278.412s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[278.430s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py
+[278.450s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py
+[278.468s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot_s.c
+[278.486s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py
+[278.504s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region_s.c
+[278.523s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py
+[278.544s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap_s.c
+[278.562s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py
+[278.580s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap_s.c
+[278.599s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py
+[278.617s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid_s.c
+[278.636s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py
+[278.654s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map_s.c
+[278.673s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py
+[278.691s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes_s.c
+[278.709s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py
+[278.728s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map_s.c
+[278.751s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[278.751s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[278.752s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[278.753s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/Costmap.idl
+[278.772s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.idl
+[278.790s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.idl
+[278.809s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.idl
+[278.827s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.idl
+[278.845s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.idl
+[278.864s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.idl
+[278.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/Particle.idl
+[278.901s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.idl
+[278.922s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.idl
+[278.941s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.idl
+[278.960s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.idl
+[278.979s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.idl
+[278.997s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.idl
+[279.016s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.idl
+[279.034s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.idl
+[279.053s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.idl
+[279.072s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.idl
+[279.090s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/BackUp.idl
+[279.108s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.idl
+[279.127s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.idl
+[279.145s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.idl
+[279.166s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.idl
+[279.184s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/FollowPath.idl
+[279.203s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.idl
+[279.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.idl
+[279.240s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/Wait.idl
+[279.257s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/Spin.idl
+[279.276s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.idl
+[279.295s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.idl
+[279.314s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/Costmap.msg
+[279.332s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.msg
+[279.352s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.msg
+[279.377s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.msg
+[279.395s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.msg
+[279.414s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.msg
+[279.432s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.msg
+[279.450s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/Particle.msg
+[279.470s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.msg
+[279.488s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.srv
+[279.506s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Request.msg
+[279.525s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Response.msg
+[279.544s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.srv
+[279.561s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Request.msg
+[279.581s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Response.msg
+[279.599s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.srv
+[279.618s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Request.msg
+[279.636s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Response.msg
+[279.655s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.srv
+[279.673s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Request.msg
+[279.691s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Response.msg
+[279.709s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.srv
+[279.728s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Request.msg
+[279.745s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Response.msg
+[279.763s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.srv
+[279.782s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Request.msg
+[279.802s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Response.msg
+[279.821s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.srv
+[279.839s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Request.msg
+[279.859s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Response.msg
+[279.878s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.srv
+[279.898s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Request.msg
+[279.918s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Response.msg
+[279.937s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.action
+[279.956s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/BackUp.action
+[279.974s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.action
+[279.996s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.action
+[280.015s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.action
+[280.034s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.action
+[280.053s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/FollowPath.action
+[280.073s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.action
+[280.092s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.action
+[280.111s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/Wait.action
+[280.130s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/Spin.action
+[280.148s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.action
+[280.167s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.action
+[280.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/ament_index/resource_index/package_run_dependencies/nav2_msgs
+[280.207s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/ament_index/resource_index/parent_prefix_path/nav2_msgs
+[280.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.sh
+[280.248s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.dsv
+[280.267s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/path.sh
+[280.285s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/environment/path.dsv
+[280.304s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/local_setup.bash
+[280.323s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/local_setup.sh
+[280.343s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/local_setup.zsh
+[280.362s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/local_setup.dsv
+[280.382s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/package.dsv
+[280.401s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/ament_index/resource_index/packages/nav2_msgs
+[280.421s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake-extras.cmake
+[280.441s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[280.460s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[280.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[280.498s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[280.516s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[280.535s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[280.554s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig.cmake
+[280.573s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig-version.cmake
+[280.591s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/package.xml
+[280.610s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+[280.612s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so" to ""
+[280.614s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+[280.614s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[280.614s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[280.616s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[280.616s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+[280.617s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[280.617s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+[280.618s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so" to ""
+[280.618s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+[280.620s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[280.620s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+[280.621s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so" to ""
+[280.863s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py'...
+[280.864s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py'...
+[280.864s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py'...
+[280.865s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py'...
+[280.865s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py'...
+[280.866s] Listing '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py'...
+[280.866s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py'...
+[280.867s] Compiling '/home/wheeltec/wheeltec_robot/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py'...
+[280.874s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+[280.874s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so" to ""
+[280.875s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport.cmake
+[280.875s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport-release.cmake
+[280.875s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[280.875s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[280.876s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cppExport.cmake
+[280.876s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[280.876s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[280.876s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[280.877s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[280.877s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport.cmake
+[280.877s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport-release.cmake
+[280.877s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[280.878s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[280.878s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport.cmake
+[280.878s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport-release.cmake
+[280.878s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport.cmake
+[280.879s] -- Installing: /home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport-release.cmake

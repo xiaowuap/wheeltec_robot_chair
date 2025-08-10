@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found nav2_msgs: 1.1.6 (/home/wheeltec/wheeltec_robot/src/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found rclpy: 3.3.17 (/opt/ros/humble/share/rclpy/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found turn_on_wheeltec_robot: 0.0.0 (/home/wheeltec/wheeltec_robot/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/wheeltec_multi/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/wheeltec_multi
+[ 25%] [32mBuilding CXX object CMakeFiles/multi_slave.dir/src/slave_tf_listener.cpp.o[0m
+In file included from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:19[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:68:72:[m[K [01;35m[Kwarning: [m[K‘[01m[Kstd_msgs::msg::Float32MultiArray_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   68 | void vel_Callback(const std_msgs::msg::Float32MultiArray::ConstPtr& msg[01;35m[K)[m[K
+      |                                                                        [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/float32_multi_array.hpp:7[m[K,
+                 from [01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:20[m[K:
+[01m[K/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/float32_multi_array__struct.hpp:111:5:[m[K [01;36m[Knote: [m[Kdeclared here
+  111 |     [01;36m[KConstPtr[m[K;
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:161:38:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass tf2::TransformException[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+  161 |       catch (tf2::TransformException [01;35m[Kex[m[K)
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:185:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kangular_z1[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+  185 |       double [01;35m[Kangular_z1[m[K ;
+      |              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:258:38:[m[K [01;35m[Kwarning: [m[Kcatching polymorphic type ‘[01m[Kclass tf2::TransformException[m[K’ by value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcatch-value=-Wcatch-value=]8;;[m[K]
+  258 |       catch (tf2::TransformException [01;35m[Kex[m[K)
+      |                                      [01;35m[K^~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:128:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ke_angular_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  128 |   double [01;35m[Ke_angular_x[m[K = 0;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/slave_tf_listener.cpp:129:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ke_angular_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  129 |   double [01;35m[Ke_angular_y[m[K = 0;
+      |          [01;35m[K^~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable multi_slave[0m
+[ 50%] Built target multi_slave
+[ 75%] [32mBuilding CXX object CMakeFiles/multi_avoidance.dir/src/multi_avoidance.cpp.o[0m
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/multi_avoidance.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/wheeltec/wheeltec_robot/src/wheeltec_multi/src/multi_avoidance.cpp:68:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ktemp_count[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   68 |         int [01;35m[Ktemp_count[m[K = 0;    //计数变量
+      |             [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable multi_avoidance[0m
+[100%] Built target multi_avoidance
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/multi_slave
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/multi_avoidance
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/launch/navigation.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/launch/wheeltec_slave.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/listen_tfodom.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/send_tfodom.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/set_pose.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/lib/wheeltec_multi/wheeltec_keyboard.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/ament_index/resource_index/package_run_dependencies/wheeltec_multi
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/ament_index/resource_index/parent_prefix_path/wheeltec_multi
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/ament_index/resource_index/packages/wheeltec_multi
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/cmake/wheeltec_multiConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/cmake/wheeltec_multiConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_multi/share/wheeltec_multi/package.xml

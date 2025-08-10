@@ -1,0 +1,380 @@
+[0.053s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg
+[11.683s] -- The C compiler identification is GNU 11.4.0
+[11.684s] -- The CXX compiler identification is GNU 11.4.0
+[11.684s] -- Detecting C compiler ABI info
+[11.685s] -- Detecting C compiler ABI info - done
+[11.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.685s] -- Detecting C compile features
+[11.685s] -- Detecting C compile features - done
+[11.685s] -- Detecting CXX compiler ABI info
+[11.685s] -- Detecting CXX compiler ABI info - done
+[11.685s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.685s] -- Detecting CXX compile features
+[11.686s] -- Detecting CXX compile features - done
+[11.686s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[11.686s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.687s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[11.687s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[11.687s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.687s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[11.687s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[11.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.688s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.688s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[11.689s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.689s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.689s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.689s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.689s] -- Looking for pthread.h
+[11.689s] -- Looking for pthread.h - found
+[11.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.690s] -- Found Threads: TRUE  
+[11.690s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[11.690s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[11.690s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.691s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.691s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.691s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.691s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.691s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.691s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.691s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[11.692s] -- Found PythonExtra: .so  
+[11.692s] -- Configuring done
+[11.694s] -- Generating done
+[11.694s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg
+[11.856s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg
+[11.873s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg -- -j8 -l8
+[16.733s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[16.734s] [  1%] Built target wheeltec_mic_msg__cpp
+[16.734s] [  1%] Built target ament_cmake_python_symlink_wheeltec_mic_msg
+[16.734s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.299s] [  3%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.cpp.o[0m
+[19.610s] [  5%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.cpp.o[0m
+[20.790s] [  6%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.cpp.o[0m
+[22.045s] [  7%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.cpp.o[0m
+[22.939s] [  8%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/switch_mic__type_support.cpp.o[0m
+[23.904s] [ 10%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_device_type__type_support.cpp.o[0m
+[25.041s] [ 11%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/motion_control__type_support.cpp.o[0m
+[26.349s] [ 12%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so[0m
+[26.709s] [ 12%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_cpp
+[27.546s] running egg_info
+[27.614s] creating wheeltec_mic_msg.egg-info
+[27.629s] writing wheeltec_mic_msg.egg-info/PKG-INFO
+[27.631s] writing dependency_links to wheeltec_mic_msg.egg-info/dependency_links.txt
+[27.632s] writing top-level names to wheeltec_mic_msg.egg-info/top_level.txt
+[27.632s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[27.775s] reading manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[27.784s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[27.931s] [ 12%] Built target ament_cmake_python_build_wheeltec_mic_msg_egg
+[28.035s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.258s] [ 15%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/pcm_msg__type_support.cpp.o[0m
+[31.247s] [ 16%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_major_mic__type_support.cpp.o[0m
+[32.133s] [ 17%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/switch_mic__type_support.cpp.o[0m
+[33.227s] [ 18%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_awake_word__type_support.cpp.o[0m
+[34.685s] [ 20%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_offline_result__type_support.cpp.o[0m
+[35.738s] [ 21%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_device_type__type_support.cpp.o[0m
+[36.823s] [ 22%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/motion_control__type_support.cpp.o[0m
+[37.963s] [ 24%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[38.318s] [ 24%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp
+[38.368s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[39.931s] [ 26%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[40.787s] [ 27%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[41.732s] [ 29%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[42.574s] [ 30%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[43.144s] [ 31%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[43.836s] [ 32%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[44.481s] [ 34%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/motion_control__type_support.cpp.o[0m
+[45.267s] [ 35%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_cpp.so[0m
+[45.532s] [ 35%] Built target wheeltec_mic_msg__rosidl_typesupport_cpp
+[45.638s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[49.043s] [ 37%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/pcm_msg__functions.c.o[0m
+[49.413s] [ 39%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/switch_mic__functions.c.o[0m
+[49.857s] [ 40%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_major_mic__functions.c.o[0m
+[50.175s] [ 41%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_awake_word__functions.c.o[0m
+[50.499s] [ 43%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_offline_result__functions.c.o[0m
+[50.813s] [ 44%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_device_type__functions.c.o[0m
+[51.063s] [ 45%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/motion_control__functions.c.o[0m
+[51.327s] [ 46%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_generator_c.so[0m
+[51.530s] [ 46%] Built target wheeltec_mic_msg__rosidl_generator_c
+[51.593s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[53.927s] [ 49%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support_c.cpp.o[0m
+[54.937s] [ 50%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support_c.cpp.o[0m
+[55.955s] [ 51%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support_c.cpp.o[0m
+[57.117s] [ 53%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support_c.cpp.o[0m
+[57.943s] [ 54%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support_c.cpp.o[0m
+[58.745s] [ 55%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support_c.cpp.o[0m
+[59.502s] [ 56%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/motion_control__type_support_c.cpp.o[0m
+[60.248s] [ 58%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so[0m
+[60.461s] [ 58%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c
+[60.570s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[62.130s] [ 60%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[62.284s] [ 62%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[62.485s] [ 63%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[62.591s] [ 64%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[62.700s] [ 65%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[62.882s] [ 67%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[63.095s] [ 68%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/motion_control__type_support.cpp.o[0m
+[63.255s] [ 69%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_c.so[0m
+[63.512s] [ 69%] Built target wheeltec_mic_msg__rosidl_typesupport_c
+[63.598s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[65.545s] [ 72%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.c.o[0m
+[65.708s] [ 73%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support.c.o[0m
+[65.911s] [ 74%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.c.o[0m
+[66.054s] [ 75%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.c.o[0m
+[66.210s] [ 77%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.c.o[0m
+[66.448s] [ 78%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support.c.o[0m
+[66.700s] [ 79%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/motion_control__type_support.c.o[0m
+[66.926s] [ 81%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so[0m
+[67.091s] [ 81%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c
+[67.264s] [ 81%] Built target wheeltec_mic_msg
+[67.444s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[71.518s] [ 82%] Built target wheeltec_mic_msg__py
+[71.720s] [ 83%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_pcm_msg_s.c.o[0m
+[72.172s] [ 84%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_switch_mic_s.c.o[0m
+[72.625s] [ 86%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_major_mic_s.c.o[0m
+[72.996s] [ 87%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_awake_word_s.c.o[0m
+[73.526s] [ 88%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_offline_result_s.c.o[0m
+[74.058s] [ 89%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_device_type_s.c.o[0m
+[74.398s] [ 91%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_motion_control_s.c.o[0m
+[74.779s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/libwheeltec_mic_msg__rosidl_generator_py.so[0m
+[75.068s] [ 92%] Built target wheeltec_mic_msg__rosidl_generator_py
+[75.245s] [ 93%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[75.758s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[75.972s] [ 94%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext
+[76.185s] [ 96%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[76.743s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[76.951s] [ 97%] Built target wheeltec_mic_msg__rosidl_typesupport_c__pyext
+[77.151s] [ 98%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[77.789s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[78.046s] [100%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext
+[78.182s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg -- -j8 -l8
+[78.186s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg
+[85.851s] -- Install configuration: ""
+[85.851s] -- Execute custom install script
+[85.851s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/ament_index/resource_index/rosidl_interfaces/wheeltec_mic_msg
+[85.851s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__functions.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__struct.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__type_support.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__functions.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__struct.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/motion_control.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/pcm_msg.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_generator_c__visibility_control.h
+[85.852s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__functions.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__struct.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__type_support.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__functions.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__struct.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__functions.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__struct.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__functions.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__struct.h
+[85.853s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__functions.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__struct.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__type_support.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_device_type.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_offline_result.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_awake_word.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_major_mic.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/switch_mic.h
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/library_path.sh
+[85.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/library_path.dsv
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_fastrtps_c.h
+[85.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_fastrtps_c.h
+[85.866s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__builder.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__struct.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__traits.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__type_support.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__builder.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__struct.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__traits.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.hpp
+[85.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/motion_control.hpp
+[85.868s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/pcm_msg.hpp
+[85.868s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[85.868s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__builder.hpp
+[85.869s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__struct.hpp
+[85.869s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__traits.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__type_support.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__builder.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__struct.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__traits.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__builder.hpp
+[85.870s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__struct.hpp
+[85.872s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__traits.hpp
+[85.872s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.hpp
+[85.874s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__builder.hpp
+[85.875s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__struct.hpp
+[85.875s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__traits.hpp
+[85.875s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.hpp
+[85.875s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__builder.hpp
+[85.876s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__struct.hpp
+[85.876s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__traits.hpp
+[85.876s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__type_support.hpp
+[85.876s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_device_type.hpp
+[85.877s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_offline_result.hpp
+[85.877s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_awake_word.hpp
+[85.878s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_major_mic.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/switch_mic.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__rosidl_typesupport_fastrtps_cpp.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_fastrtps_cpp.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_cpp.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_fastrtps_cpp.hpp
+[85.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_fastrtps_cpp.hpp
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_fastrtps_cpp.hpp
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_introspection_c.h
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/motion_control__rosidl_typesupport_introspection_cpp.hpp
+[85.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_introspection_cpp.hpp
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/pythonpath.sh
+[85.881s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/pythonpath.dsv
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/top_level.txt
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/__init__.py
+[85.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_c.c
+[85.922s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[85.968s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_introspection_c.c
+[86.027s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/libwheeltec_mic_msg__rosidl_generator_py.so
+[86.083s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/__init__.py
+[86.138s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_motion_control.py
+[86.210s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_motion_control_s.c
+[86.294s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg.py
+[86.341s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg_s.c
+[86.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/__init__.py
+[86.459s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type.py
+[86.520s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type_s.c
+[86.595s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result.py
+[86.645s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result_s.c
+[86.735s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word.py
+[86.800s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word_s.c
+[86.854s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic.py
+[86.907s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic_s.c
+[86.962s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic.py
+[86.995s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic_s.c
+[87.024s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[87.089s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[87.143s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[87.195s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[87.195s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[87.196s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[87.196s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/PcmMsg.idl
+[87.220s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/MotionControl.idl
+[87.245s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType.idl
+[87.277s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult.idl
+[87.338s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord.idl
+[87.397s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic.idl
+[87.458s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic.idl
+[87.514s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/PcmMsg.msg
+[87.576s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/MotionControl.msg
+[87.624s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType.srv
+[87.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType_Request.msg
+[87.768s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType_Response.msg
+[87.831s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult.srv
+[87.893s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult_Request.msg
+[87.957s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult_Response.msg
+[88.011s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord.srv
+[88.066s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord_Request.msg
+[88.125s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord_Response.msg
+[88.177s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic.srv
+[88.235s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic_Request.msg
+[88.298s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic_Response.msg
+[88.362s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic.srv
+[88.430s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic_Request.msg
+[88.495s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic_Response.msg
+[88.576s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/ament_index/resource_index/package_run_dependencies/wheeltec_mic_msg
+[88.627s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/ament_index/resource_index/parent_prefix_path/wheeltec_mic_msg
+[88.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/ament_prefix_path.sh
+[88.763s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/ament_prefix_path.dsv
+[88.829s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/path.sh
+[88.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/path.dsv
+[88.931s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.bash
+[89.003s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.sh
+[89.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.zsh
+[89.106s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.dsv
+[89.164s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.dsv
+[89.242s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/ament_index/resource_index/packages/wheeltec_mic_msg
+[89.312s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake-extras.cmake
+[89.377s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[89.420s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[89.454s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[89.521s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_targets-extras.cmake
+[89.596s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[89.649s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[89.720s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msgConfig.cmake
+[89.779s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msgConfig-version.cmake
+[89.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.xml
+[89.907s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_c.so
+[89.907s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_c.so" to ""
+[89.908s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so
+[89.908s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[89.908s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so
+[89.909s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[89.909s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so
+[89.910s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so" to ""
+[89.910s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_c.so
+[89.911s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_c.so" to ""
+[89.911s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so
+[89.911s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[89.912s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_cpp.so
+[89.912s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_cpp.so" to ""
+[90.166s] Listing '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg'...
+[90.166s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/__init__.py'...
+[90.166s] Listing '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg'...
+[90.166s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/__init__.py'...
+[90.166s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_motion_control.py'...
+[90.166s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg.py'...
+[90.167s] Listing '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/__init__.py'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type.py'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result.py'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word.py'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic.py'...
+[90.167s] Compiling '/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic.py'...
+[90.203s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_py.so
+[90.204s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_py.so" to ""
+[90.204s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cExport.cmake
+[90.204s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cExport-noconfig.cmake
+[90.204s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[90.204s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[90.205s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cppExport.cmake
+[90.205s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[90.205s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[90.205s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cExport.cmake
+[90.206s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[90.206s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cExport.cmake
+[90.206s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cExport-noconfig.cmake
+[90.206s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cppExport.cmake
+[90.207s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[90.207s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cppExport.cmake
+[90.207s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[90.207s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_pyExport.cmake
+[90.207s] -- Installing: /home/wheeltec/wheeltec_robot/src/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_pyExport-noconfig.cmake
+[90.213s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg

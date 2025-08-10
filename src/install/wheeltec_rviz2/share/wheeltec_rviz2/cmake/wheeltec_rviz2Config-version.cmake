@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2/ament_cmake_core/wheeltec_rviz2Config-version.cmake

@@ -1,0 +1,138 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found filters: 2.2.1 (/opt/ros/humble/share/filters/cmake)
+-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found wheeltec_rrt_msg: 0.0.0 (/home/wheeltec/wheeltec_robot/install/wheeltec_rrt_msg/share/wheeltec_rrt_msg/cmake)
+-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.15 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found nav2_msgs: 1.1.6 (/home/wheeltec/wheeltec_robot/install/nav2_msgs/share/nav2_msgs/cmake)
+-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found nav2_behavior_tree: 1.1.6 (/home/wheeltec/wheeltec_robot/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/wheeltec/wheeltec_robot/src/wheeltec_robot_rrt2/src/rrt_exploration/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wheeltec/wheeltec_robot/build/wheeltec_robot_rrt
+[  3%] [32mBuilding CXX object CMakeFiles/find_coloured_box.dir/src/bt_plugins/find_coloured_box.cpp.o[0m
+[  6%] [32m[1mLinking CXX shared library libfind_coloured_box.so[0m
+[  6%] Built target find_coloured_box
+[  9%] [32mBuilding CXX object CMakeFiles/utils.dir/src/rrt_exploration/utils.cpp.o[0m
+[ 12%] [32m[1mLinking CXX shared library libutils.so[0m
+[ 12%] Built target utils
+[ 15%] [32mBuilding CXX object CMakeFiles/mtrand.dir/src/rrt_exploration/mtrand.cpp.o[0m
+[ 18%] [32m[1mLinking CXX shared library libmtrand.so[0m
+[ 18%] Built target mtrand
+[ 21%] [32mBuilding CXX object CMakeFiles/mean_shift.dir/src/rrt_exploration/mean_shift.cpp.o[0m
+[ 25%] [32m[1mLinking CXX shared library libmean_shift.so[0m
+[ 25%] Built target mean_shift
+[ 28%] [32mBuilding CXX object CMakeFiles/robot.dir/src/rrt_exploration/robot.cpp.o[0m
+[ 31%] [32m[1mLinking CXX shared library librobot.so[0m
+[ 31%] Built target robot
+[ 34%] [32mBuilding CXX object CMakeFiles/local_rrt.dir/src/rrt_exploration/local_rrt.cpp.o[0m
+[ 37%] [32m[1mLinking CXX executable local_rrt[0m
+[ 37%] Built target local_rrt
+[ 40%] [32mBuilding CXX object CMakeFiles/global_rrt.dir/src/rrt_exploration/global_rrt.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable global_rrt[0m
+[ 43%] Built target global_rrt
+[ 46%] [32mBuilding CXX object CMakeFiles/filter.dir/src/rrt_exploration/filter.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable filter[0m
+[ 50%] Built target filter
+[ 53%] [32mBuilding CXX object CMakeFiles/assigner.dir/src/rrt_exploration/assigner.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable assigner[0m
+[ 56%] Built target assigner
+[ 59%] [32mBuilding CXX object CMakeFiles/robot_pose_publisher.dir/src/robot_pose_publisher.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable robot_pose_publisher[0m
+[ 62%] Built target robot_pose_publisher
+[ 65%] [32mBuilding CXX object CMakeFiles/wait_for_fin.dir/src/rrt_exploration/wait_for_fin.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable wait_for_fin[0m
+[ 68%] Built target wait_for_fin
+[ 71%] [32mBuilding CXX object CMakeFiles/pick_robot_action_server.dir/src/pick_robot_action_server.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable pick_robot_action_server[0m
+[ 75%] Built target pick_robot_action_server
+[ 78%] [32mBuilding CXX object CMakeFiles/find_robot_action_server.dir/src/find_robot_action_server.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable find_robot_action_server[0m
+[ 81%] Built target find_robot_action_server
+[ 84%] [32mBuilding CXX object CMakeFiles/robot_picker.dir/src/robot_picker.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable robot_picker[0m
+[ 87%] Built target robot_picker
+[ 90%] [32mBuilding CXX object CMakeFiles/pick_coloured_box.dir/src/bt_plugins/pick_coloured_box.cpp.o[0m
+[ 93%] [32m[1mLinking CXX shared library libpick_coloured_box.so[0m
+[ 93%] Built target pick_coloured_box
+[ 96%] [32mBuilding CXX object CMakeFiles/approach_coloured_box.dir/src/bt_plugins/approach_coloured_box.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libapproach_coloured_box.so[0m
+[100%] Built target approach_coloured_box
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libfind_coloured_box.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libapproach_coloured_box.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libpick_coloured_box.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/robot_picker
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/find_robot_action_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/pick_robot_action_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/wait_for_fin
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/local_rrt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/global_rrt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/filter
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/assigner
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/robot_pose_publisher
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/navigation/nav2_bringup_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/navigation/nav2_localization_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/navigation/nav2_navigation_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/navigation/nav2_slam_launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/rrt_exploration/action_servers.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/rrt_exploration/rrt_assigner.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/rrt_exploration/rrt_exploration.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/rrt_exploration/visual_slam_start.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//launch/rrt_exploration/wheeltec_rrt_slam.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//config/ekf.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//config/exploration_params.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//config/nav2_params.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//config/rtabmap.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//behaviour_trees/navigate_w_replanning_time.xml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//behaviour_trees/robot_picker_behaviour_tree.xml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt//behaviour_trees/rrt_navigate_w_replanning_time.xml
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libutils.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libmtrand.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/libmean_shift.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/librobot.so
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/lib/wheeltec_robot_rrt/boundary_publisher.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_rrt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_rrt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/ament_index/resource_index/packages/wheeltec_robot_rrt
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/cmake/wheeltec_robot_rrtConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/cmake/wheeltec_robot_rrtConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_robot_rrt/share/wheeltec_robot_rrt/package.xml

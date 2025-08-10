@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing nav2_simple_commander.egg-info/PKG-INFO
+writing dependency_links to nav2_simple_commander.egg-info/dependency_links.txt
+writing entry points to nav2_simple_commander.egg-info/entry_points.txt
+writing requirements to nav2_simple_commander.egg-info/requires.txt
+writing top-level names to nav2_simple_commander.egg-info/top_level.txt
+reading manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+writing manifest file 'nav2_simple_commander.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/python3.10/site-packages/nav2-simple-commander.egg-link (link to .)
+Installing demo_inspection script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_picking script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_recoveries script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing demo_security script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_assisted_teleop script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_follow_path script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_nav_through_poses script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_nav_to_pose script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+Installing example_waypoint_follower script to /home/wheeltec/wheeltec_robot/install/nav2_simple_commander/lib/nav2_simple_commander
+
+Installed /home/wheeltec/wheeltec_robot/build/nav2_simple_commander
+running symlink_data

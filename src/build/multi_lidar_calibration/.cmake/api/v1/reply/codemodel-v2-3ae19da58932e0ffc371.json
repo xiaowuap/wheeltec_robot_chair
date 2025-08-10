@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-095ef4d35e92eef47ea3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "multi_lidar_calibration",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_lidar_calibration_icp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_lidar_calibration_icp-0d8342b292f1bcf5c8f4.json",
+					"name" : "multi_lidar_calibration_icp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_lidar_calibration_icp_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_lidar_calibration_icp_node-762dbdfed284f9104670.json",
+					"name" : "multi_lidar_calibration_icp_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_lidar_calibration_ndt::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_lidar_calibration_ndt-3ae8f3cb3f546b5c6874.json",
+					"name" : "multi_lidar_calibration_ndt",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_lidar_calibration_ndt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_lidar_calibration_ndt_node-c2e16caf8f7ad0d31649.json",
+					"name" : "multi_lidar_calibration_ndt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multi_lidar_calibration_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multi_lidar_calibration_uninstall-b69ab4c5eec6b2ded1b7.json",
+					"name" : "multi_lidar_calibration_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-cb31b95e475028e2deb9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibration",
+		"source" : "/home/wheeltec/wheeltec_robot/src/multi_lidar_calibration_ros2"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

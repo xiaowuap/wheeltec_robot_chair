@@ -1,0 +1,747 @@
+[0.023s] Invoking command in '/home/wheeltec/wheeltec_robot/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_imu/yesense_ros2/yesense_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/yesense_interface
+[1.248s] -- The C compiler identification is GNU 11.4.0
+[1.263s] -- The CXX compiler identification is GNU 11.4.0
+[1.263s] -- Detecting C compiler ABI info
+[1.263s] -- Detecting C compiler ABI info - done
+[1.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.263s] -- Detecting C compile features
+[1.263s] -- Detecting C compile features - done
+[1.263s] -- Detecting CXX compiler ABI info
+[1.264s] -- Detecting CXX compiler ABI info - done
+[1.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.264s] -- Detecting CXX compile features
+[1.264s] -- Detecting CXX compile features - done
+[1.264s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.913s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.065s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.152s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.207s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.340s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.265s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.378s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.445s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.449s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.517s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.517s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.518s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.518s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.563s] -- Found PythonExtra: .so  
+[4.731s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.783s] -- Added test 'lint_cmake' to check CMake code style
+[4.789s] -- Added test 'xmllint' to check XML markup files
+[4.800s] -- Configuring done
+[4.907s] -- Generating done
+[4.930s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/yesense_interface
+[4.962s] Invoked command in '/home/wheeltec/wheeltec_robot/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_imu/yesense_ros2/yesense_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/yesense_interface
+[4.962s] Invoking command in '/home/wheeltec/wheeltec_robot/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/yesense_interface -- -j8 -l8
+[10.922s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.922s] [  0%] Built target yesense_interface__cpp
+[10.922s] [  0%] Built target ament_cmake_python_symlink_yesense_interface
+[10.922s] [  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[12.858s] [  1%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/tid__type_support.cpp.o[0m
+[13.587s] [  2%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/pressure__type_support.cpp.o[0m
+[14.279s] [  2%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/euler_angle__type_support.cpp.o[0m
+[14.961s] [  3%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/quat__type_support.cpp.o[0m
+[15.642s] [  3%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/gnss_pos__type_support.cpp.o[0m
+[16.353s] [  4%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/nav_status__type_support.cpp.o[0m
+[17.106s] [  4%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/vel__type_support.cpp.o[0m
+[17.836s] [  5%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/utc__type_support.cpp.o[0m
+[18.555s] [  5%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/sample_timestamp__type_support.cpp.o[0m
+[19.272s] [  6%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/imu_data__type_support.cpp.o[0m
+[20.006s] [  6%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/imu_data_ten_axis__type_support.cpp.o[0m
+[20.785s] [  7%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/euler_only__type_support.cpp.o[0m
+[21.668s] [  7%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/robot_lord__type_support.cpp.o[0m
+[22.466s] [  8%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/attitude_min_vru__type_support.cpp.o[0m
+[23.426s] [  8%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/attitude_min_ahrs__type_support.cpp.o[0m
+[24.233s] [  9%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/attitude_all_data__type_support.cpp.o[0m
+[25.122s] [  9%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/pos_only__type_support.cpp.o[0m
+[25.994s] [ 10%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/nav_min__type_support.cpp.o[0m
+[26.844s] [ 10%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/nav_min_utc__type_support.cpp.o[0m
+[27.774s] [ 11%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/nav_all__type_support.cpp.o[0m
+[28.617s] [ 11%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/sensor_temp__type_support.cpp.o[0m
+[29.357s] [ 12%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yesense_interface/msg/detail/three_axis__type_support.cpp.o[0m
+[30.162s] [ 13%] [32m[1mLinking CXX shared library libyesense_interface__rosidl_typesupport_introspection_cpp.so[0m
+[30.488s] [ 13%] Built target yesense_interface__rosidl_typesupport_introspection_cpp
+[31.072s] running egg_info
+[31.108s] creating yesense_interface.egg-info
+[31.109s] writing yesense_interface.egg-info/PKG-INFO
+[31.110s] writing dependency_links to yesense_interface.egg-info/dependency_links.txt
+[31.111s] writing top-level names to yesense_interface.egg-info/top_level.txt
+[31.111s] writing manifest file 'yesense_interface.egg-info/SOURCES.txt'
+[31.223s] reading manifest file 'yesense_interface.egg-info/SOURCES.txt'
+[31.225s] writing manifest file 'yesense_interface.egg-info/SOURCES.txt'
+[31.312s] [ 13%] Built target ament_cmake_python_build_yesense_interface_egg
+[31.337s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.354s] [ 14%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/tid__type_support.cpp.o[0m
+[35.172s] [ 15%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/quat__type_support.cpp.o[0m
+[35.957s] [ 15%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/gnss_pos__type_support.cpp.o[0m
+[36.716s] [ 16%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/nav_status__type_support.cpp.o[0m
+[37.445s] [ 16%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/vel__type_support.cpp.o[0m
+[38.171s] [ 17%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/utc__type_support.cpp.o[0m
+[38.908s] [ 17%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/sample_timestamp__type_support.cpp.o[0m
+[39.629s] [ 18%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/imu_data__type_support.cpp.o[0m
+[40.365s] [ 18%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/imu_data_ten_axis__type_support.cpp.o[0m
+[41.236s] [ 19%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/euler_only__type_support.cpp.o[0m
+[42.162s] [ 19%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/robot_lord__type_support.cpp.o[0m
+[42.969s] [ 20%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/attitude_min_vru__type_support.cpp.o[0m
+[43.806s] [ 20%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/attitude_min_ahrs__type_support.cpp.o[0m
+[44.596s] [ 21%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/attitude_all_data__type_support.cpp.o[0m
+[45.438s] [ 21%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/pos_only__type_support.cpp.o[0m
+[46.278s] [ 22%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/nav_min__type_support.cpp.o[0m
+[47.091s] [ 22%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/nav_min_utc__type_support.cpp.o[0m
+[47.940s] [ 23%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/nav_all__type_support.cpp.o[0m
+[48.791s] [ 23%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/euler_angle__type_support.cpp.o[0m
+[49.627s] [ 24%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/pressure__type_support.cpp.o[0m
+[50.401s] [ 24%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/sensor_temp__type_support.cpp.o[0m
+[51.426s] [ 25%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yesense_interface/msg/detail/dds_fastrtps/three_axis__type_support.cpp.o[0m
+[52.304s] [ 25%] [32m[1mLinking CXX shared library libyesense_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[52.521s] [ 25%] Built target yesense_interface__rosidl_typesupport_fastrtps_cpp
+[52.581s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[55.015s] [ 26%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/tid__type_support.cpp.o[0m
+[55.643s] [ 26%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/gnss_pos__type_support.cpp.o[0m
+[56.139s] [ 27%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/nav_status__type_support.cpp.o[0m
+[56.773s] [ 27%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/vel__type_support.cpp.o[0m
+[57.305s] [ 28%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/utc__type_support.cpp.o[0m
+[58.236s] [ 28%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/sample_timestamp__type_support.cpp.o[0m
+[58.726s] [ 29%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/imu_data__type_support.cpp.o[0m
+[59.208s] [ 29%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/imu_data_ten_axis__type_support.cpp.o[0m
+[59.706s] [ 30%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/euler_only__type_support.cpp.o[0m
+[60.202s] [ 30%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/robot_lord__type_support.cpp.o[0m
+[60.719s] [ 31%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/attitude_min_vru__type_support.cpp.o[0m
+[61.210s] [ 31%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/attitude_min_ahrs__type_support.cpp.o[0m
+[61.706s] [ 32%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/attitude_all_data__type_support.cpp.o[0m
+[62.203s] [ 32%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/pos_only__type_support.cpp.o[0m
+[62.687s] [ 33%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/nav_min__type_support.cpp.o[0m
+[63.179s] [ 33%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/nav_min_utc__type_support.cpp.o[0m
+[63.686s] [ 34%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/nav_all__type_support.cpp.o[0m
+[64.218s] [ 35%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/quat__type_support.cpp.o[0m
+[64.722s] [ 35%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/euler_angle__type_support.cpp.o[0m
+[65.202s] [ 36%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/pressure__type_support.cpp.o[0m
+[65.686s] [ 36%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/sensor_temp__type_support.cpp.o[0m
+[66.179s] [ 37%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yesense_interface/msg/three_axis__type_support.cpp.o[0m
+[66.670s] [ 37%] [32m[1mLinking CXX shared library libyesense_interface__rosidl_typesupport_cpp.so[0m
+[66.755s] [ 37%] Built target yesense_interface__rosidl_typesupport_cpp
+[66.781s] [ 37%] [34m[1mGenerating C code for ROS interfaces[0m
+[70.821s] [ 38%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/tid__functions.c.o[0m
+[70.910s] [ 38%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/nav_status__functions.c.o[0m
+[70.999s] [ 39%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/vel__functions.c.o[0m
+[71.088s] [ 39%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/utc__functions.c.o[0m
+[71.187s] [ 40%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/sample_timestamp__functions.c.o[0m
+[71.277s] [ 40%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/imu_data__functions.c.o[0m
+[71.373s] [ 41%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/imu_data_ten_axis__functions.c.o[0m
+[71.469s] [ 41%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/euler_only__functions.c.o[0m
+[71.559s] [ 42%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/robot_lord__functions.c.o[0m
+[71.654s] [ 42%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/attitude_min_vru__functions.c.o[0m
+[71.754s] [ 43%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/attitude_min_ahrs__functions.c.o[0m
+[71.847s] [ 43%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/attitude_all_data__functions.c.o[0m
+[71.943s] [ 44%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/pos_only__functions.c.o[0m
+[72.038s] [ 44%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/nav_min__functions.c.o[0m
+[72.130s] [ 45%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/nav_min_utc__functions.c.o[0m
+[72.224s] [ 45%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/nav_all__functions.c.o[0m
+[72.328s] [ 46%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/gnss_pos__functions.c.o[0m
+[72.418s] [ 46%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/quat__functions.c.o[0m
+[72.510s] [ 47%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/euler_angle__functions.c.o[0m
+[72.602s] [ 47%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/pressure__functions.c.o[0m
+[72.693s] [ 48%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/sensor_temp__functions.c.o[0m
+[72.781s] [ 48%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_c.dir/rosidl_generator_c/yesense_interface/msg/detail/three_axis__functions.c.o[0m
+[72.873s] [ 49%] [32m[1mLinking C shared library libyesense_interface__rosidl_generator_c.so[0m
+[72.962s] [ 49%] Built target yesense_interface__rosidl_generator_c
+[72.998s] [ 50%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[75.471s] [ 50%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/tid__type_support_c.cpp.o[0m
+[76.072s] [ 51%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/quat__type_support_c.cpp.o[0m
+[76.686s] [ 51%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/gnss_pos__type_support_c.cpp.o[0m
+[77.282s] [ 52%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/nav_status__type_support_c.cpp.o[0m
+[77.883s] [ 52%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/vel__type_support_c.cpp.o[0m
+[78.492s] [ 53%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/utc__type_support_c.cpp.o[0m
+[79.095s] [ 53%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/sample_timestamp__type_support_c.cpp.o[0m
+[79.707s] [ 54%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/imu_data__type_support_c.cpp.o[0m
+[80.323s] [ 54%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/imu_data_ten_axis__type_support_c.cpp.o[0m
+[80.949s] [ 55%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/euler_only__type_support_c.cpp.o[0m
+[81.561s] [ 55%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/robot_lord__type_support_c.cpp.o[0m
+[82.198s] [ 56%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/attitude_min_vru__type_support_c.cpp.o[0m
+[82.789s] [ 56%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/attitude_min_ahrs__type_support_c.cpp.o[0m
+[83.407s] [ 57%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/attitude_all_data__type_support_c.cpp.o[0m
+[84.010s] [ 57%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/pos_only__type_support_c.cpp.o[0m
+[84.614s] [ 58%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/nav_min__type_support_c.cpp.o[0m
+[85.184s] [ 58%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/nav_min_utc__type_support_c.cpp.o[0m
+[85.752s] [ 59%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/nav_all__type_support_c.cpp.o[0m
+[86.344s] [ 59%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/euler_angle__type_support_c.cpp.o[0m
+[86.912s] [ 60%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/pressure__type_support_c.cpp.o[0m
+[87.474s] [ 60%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/sensor_temp__type_support_c.cpp.o[0m
+[88.036s] [ 61%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yesense_interface/msg/detail/three_axis__type_support_c.cpp.o[0m
+[88.606s] [ 61%] [32m[1mLinking CXX shared library libyesense_interface__rosidl_typesupport_fastrtps_c.so[0m
+[88.763s] [ 61%] Built target yesense_interface__rosidl_typesupport_fastrtps_c
+[88.788s] [ 62%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[90.232s] [ 62%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/tid__type_support.cpp.o[0m
+[90.297s] [ 62%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/gnss_pos__type_support.cpp.o[0m
+[90.368s] [ 63%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/nav_status__type_support.cpp.o[0m
+[90.429s] [ 63%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/vel__type_support.cpp.o[0m
+[90.491s] [ 64%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/utc__type_support.cpp.o[0m
+[90.554s] [ 64%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/sample_timestamp__type_support.cpp.o[0m
+[90.614s] [ 65%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/imu_data__type_support.cpp.o[0m
+[90.678s] [ 65%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/imu_data_ten_axis__type_support.cpp.o[0m
+[90.741s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/euler_only__type_support.cpp.o[0m
+[90.805s] [ 66%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/robot_lord__type_support.cpp.o[0m
+[90.870s] [ 67%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/attitude_min_vru__type_support.cpp.o[0m
+[90.933s] [ 67%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/attitude_min_ahrs__type_support.cpp.o[0m
+[90.999s] [ 68%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/attitude_all_data__type_support.cpp.o[0m
+[91.064s] [ 68%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/pos_only__type_support.cpp.o[0m
+[91.126s] [ 69%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/nav_min__type_support.cpp.o[0m
+[91.189s] [ 69%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/nav_min_utc__type_support.cpp.o[0m
+[91.252s] [ 70%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/nav_all__type_support.cpp.o[0m
+[91.316s] [ 71%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/quat__type_support.cpp.o[0m
+[91.382s] [ 71%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/euler_angle__type_support.cpp.o[0m
+[91.442s] [ 72%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/pressure__type_support.cpp.o[0m
+[91.502s] [ 72%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/sensor_temp__type_support.cpp.o[0m
+[91.563s] [ 73%] [32mBuilding CXX object CMakeFiles/yesense_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/yesense_interface/msg/three_axis__type_support.cpp.o[0m
+[91.623s] [ 73%] [32m[1mLinking CXX shared library libyesense_interface__rosidl_typesupport_c.so[0m
+[91.726s] [ 73%] Built target yesense_interface__rosidl_typesupport_c
+[91.751s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[94.028s] [ 74%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/tid__type_support.c.o[0m
+[94.097s] [ 75%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/nav_status__type_support.c.o[0m
+[94.162s] [ 75%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/vel__type_support.c.o[0m
+[94.227s] [ 76%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/utc__type_support.c.o[0m
+[94.296s] [ 76%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/sample_timestamp__type_support.c.o[0m
+[94.363s] [ 77%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/imu_data__type_support.c.o[0m
+[94.432s] [ 77%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/imu_data_ten_axis__type_support.c.o[0m
+[94.502s] [ 78%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/euler_only__type_support.c.o[0m
+[94.568s] [ 78%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/robot_lord__type_support.c.o[0m
+[94.634s] [ 79%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/attitude_min_vru__type_support.c.o[0m
+[94.699s] [ 79%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/attitude_min_ahrs__type_support.c.o[0m
+[94.773s] [ 80%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/attitude_all_data__type_support.c.o[0m
+[94.840s] [ 80%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/pos_only__type_support.c.o[0m
+[94.907s] [ 81%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/nav_min__type_support.c.o[0m
+[94.973s] [ 81%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/nav_min_utc__type_support.c.o[0m
+[95.038s] [ 82%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/nav_all__type_support.c.o[0m
+[95.109s] [ 82%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/gnss_pos__type_support.c.o[0m
+[95.178s] [ 83%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/quat__type_support.c.o[0m
+[95.246s] [ 83%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/euler_angle__type_support.c.o[0m
+[95.311s] [ 84%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/pressure__type_support.c.o[0m
+[95.384s] [ 84%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/sensor_temp__type_support.c.o[0m
+[95.451s] [ 85%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/three_axis__type_support.c.o[0m
+[95.527s] [ 85%] [32m[1mLinking C shared library libyesense_interface__rosidl_typesupport_introspection_c.so[0m
+[95.612s] [ 85%] Built target yesense_interface__rosidl_typesupport_introspection_c
+[95.658s] [ 85%] Built target yesense_interface
+[95.706s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[99.957s] [ 86%] Built target yesense_interface__py
+[100.008s] [ 86%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_tid_s.c.o[0m
+[100.185s] [ 87%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_nav_status_s.c.o[0m
+[100.362s] [ 87%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_vel_s.c.o[0m
+[100.564s] [ 88%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_utc_s.c.o[0m
+[100.757s] [ 88%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_sample_timestamp_s.c.o[0m
+[100.946s] [ 89%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_imu_data_s.c.o[0m
+[101.130s] [ 89%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_imu_data_ten_axis_s.c.o[0m
+[101.324s] [ 90%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_euler_only_s.c.o[0m
+[101.504s] [ 90%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_robot_lord_s.c.o[0m
+[101.699s] [ 91%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_attitude_min_vru_s.c.o[0m
+[101.957s] [ 91%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_attitude_min_ahrs_s.c.o[0m
+[102.252s] [ 92%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_attitude_all_data_s.c.o[0m
+[102.435s] [ 92%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_pos_only_s.c.o[0m
+[102.645s] [ 93%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_nav_min_s.c.o[0m
+[102.840s] [ 93%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_nav_min_utc_s.c.o[0m
+[103.046s] [ 94%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_nav_all_s.c.o[0m
+[103.264s] [ 94%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_gnss_pos_s.c.o[0m
+[103.445s] [ 95%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_quat_s.c.o[0m
+[103.628s] [ 95%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_euler_angle_s.c.o[0m
+[103.838s] [ 96%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_pressure_s.c.o[0m
+[104.055s] [ 96%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_sensor_temp_s.c.o[0m
+[104.335s] [ 97%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_generator_py.dir/rosidl_generator_py/yesense_interface/msg/_three_axis_s.c.o[0m
+[104.509s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/yesense_interface/libyesense_interface__rosidl_generator_py.so[0m
+[104.599s] [ 97%] Built target yesense_interface__rosidl_generator_py
+[104.652s] [ 98%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[105.133s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/yesense_interface/yesense_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[105.227s] [ 98%] Built target yesense_interface__rosidl_typesupport_fastrtps_c__pyext
+[105.351s] [ 99%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[105.646s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/yesense_interface/yesense_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[105.802s] [ 99%] Built target yesense_interface__rosidl_typesupport_c__pyext
+[105.961s] [100%] [32mBuilding C object CMakeFiles/yesense_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[106.373s] [100%] [32m[1mLinking C shared library rosidl_generator_py/yesense_interface/yesense_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[106.448s] [100%] Built target yesense_interface__rosidl_typesupport_introspection_c__pyext
+[106.494s] Invoked command in '/home/wheeltec/wheeltec_robot/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/yesense_interface -- -j8 -l8
+[106.506s] Invoking command in '/home/wheeltec/wheeltec_robot/build/yesense_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/yesense_interface
+[106.552s] -- Install configuration: ""
+[106.567s] -- Execute custom install script
+[106.567s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/ament_index/resource_index/rosidl_interfaces/yesense_interface
+[106.615s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_all_data.h
+[106.635s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_min_ahrs.h
+[106.692s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_min_vru.h
+[106.732s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__functions.h
+[106.780s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__struct.h
+[106.831s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__type_support.h
+[106.869s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__functions.h
+[106.924s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__struct.h
+[106.990s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__type_support.h
+[107.040s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__functions.h
+[107.084s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__struct.h
+[107.136s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__type_support.h
+[107.178s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__functions.h
+[107.228s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__struct.h
+[107.277s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__type_support.h
+[107.307s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__functions.h
+[107.366s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__struct.h
+[107.420s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__type_support.h
+[107.468s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__functions.h
+[107.499s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__struct.h
+[107.531s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__type_support.h
+[107.578s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__functions.h
+[107.627s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__struct.h
+[107.687s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__type_support.h
+[107.736s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__functions.h
+[107.780s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__struct.h
+[107.844s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__type_support.h
+[107.888s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__functions.h
+[107.934s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__struct.h
+[107.981s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__type_support.h
+[108.020s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__functions.h
+[108.064s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__struct.h
+[108.108s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__type_support.h
+[108.156s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__functions.h
+[108.189s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__struct.h
+[108.237s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__type_support.h
+[108.257s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__functions.h
+[108.303s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__struct.h
+[108.334s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__type_support.h
+[108.376s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__functions.h
+[108.431s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__struct.h
+[108.467s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__type_support.h
+[108.514s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__functions.h
+[108.569s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__struct.h
+[108.642s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__type_support.h
+[108.700s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__functions.h
+[108.752s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__struct.h
+[108.812s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__type_support.h
+[108.874s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__functions.h
+[108.930s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__struct.h
+[108.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__type_support.h
+[109.038s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__functions.h
+[109.088s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__struct.h
+[109.108s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__type_support.h
+[109.128s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__functions.h
+[109.148s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__struct.h
+[109.172s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__type_support.h
+[109.189s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__functions.h
+[109.209s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__struct.h
+[109.232s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__type_support.h
+[109.251s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__functions.h
+[109.284s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__struct.h
+[109.313s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__type_support.h
+[109.365s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__functions.h
+[109.423s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__struct.h
+[109.469s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__type_support.h
+[109.489s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__functions.h
+[109.540s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__struct.h
+[109.563s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__type_support.h
+[109.612s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/euler_angle.h
+[109.664s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/euler_only.h
+[109.736s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/gnss_pos.h
+[109.789s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/imu_data.h
+[109.843s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/imu_data_ten_axis.h
+[109.880s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_all.h
+[109.924s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_min.h
+[109.976s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_min_utc.h
+[110.036s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_status.h
+[110.085s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/pos_only.h
+[110.147s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/pressure.h
+[110.190s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/quat.h
+[110.241s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/robot_lord.h
+[110.278s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/rosidl_generator_c__visibility_control.h
+[110.296s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/sample_timestamp.h
+[110.344s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/sensor_temp.h
+[110.388s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/three_axis.h
+[110.422s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/tid.h
+[110.458s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/utc.h
+[110.491s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/vel.h
+[110.534s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/library_path.sh
+[110.576s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/library_path.dsv
+[110.624s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__rosidl_typesupport_fastrtps_c.h
+[110.672s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__rosidl_typesupport_fastrtps_c.h
+[110.746s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__rosidl_typesupport_fastrtps_c.h
+[110.796s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__rosidl_typesupport_fastrtps_c.h
+[110.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__rosidl_typesupport_fastrtps_c.h
+[110.879s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__rosidl_typesupport_fastrtps_c.h
+[110.899s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__rosidl_typesupport_fastrtps_c.h
+[110.918s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__rosidl_typesupport_fastrtps_c.h
+[110.938s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__rosidl_typesupport_fastrtps_c.h
+[110.958s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__rosidl_typesupport_fastrtps_c.h
+[110.978s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__rosidl_typesupport_fastrtps_c.h
+[111.010s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__rosidl_typesupport_fastrtps_c.h
+[111.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__rosidl_typesupport_fastrtps_c.h
+[111.055s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__rosidl_typesupport_fastrtps_c.h
+[111.099s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__rosidl_typesupport_fastrtps_c.h
+[111.143s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__rosidl_typesupport_fastrtps_c.h
+[111.183s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__rosidl_typesupport_fastrtps_c.h
+[111.226s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__rosidl_typesupport_fastrtps_c.h
+[111.286s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__rosidl_typesupport_fastrtps_c.h
+[111.328s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__rosidl_typesupport_fastrtps_c.h
+[111.380s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__rosidl_typesupport_fastrtps_c.h
+[111.412s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__rosidl_typesupport_fastrtps_c.h
+[111.456s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[111.510s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__rosidl_typesupport_introspection_c.h
+[111.567s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__rosidl_typesupport_introspection_c.h
+[111.620s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__rosidl_typesupport_introspection_c.h
+[111.666s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__rosidl_typesupport_introspection_c.h
+[111.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__rosidl_typesupport_introspection_c.h
+[111.754s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__rosidl_typesupport_introspection_c.h
+[111.810s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__rosidl_typesupport_introspection_c.h
+[111.857s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__rosidl_typesupport_introspection_c.h
+[111.917s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__rosidl_typesupport_introspection_c.h
+[111.954s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__rosidl_typesupport_introspection_c.h
+[112.004s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__rosidl_typesupport_introspection_c.h
+[112.042s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__rosidl_typesupport_introspection_c.h
+[112.062s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__rosidl_typesupport_introspection_c.h
+[112.098s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__rosidl_typesupport_introspection_c.h
+[112.138s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__rosidl_typesupport_introspection_c.h
+[112.189s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__rosidl_typesupport_introspection_c.h
+[112.218s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__rosidl_typesupport_introspection_c.h
+[112.253s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__rosidl_typesupport_introspection_c.h
+[112.276s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__rosidl_typesupport_introspection_c.h
+[112.299s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__rosidl_typesupport_introspection_c.h
+[112.331s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__rosidl_typesupport_introspection_c.h
+[112.351s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__rosidl_typesupport_introspection_c.h
+[112.381s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[112.401s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_all_data.hpp
+[112.420s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_min_ahrs.hpp
+[112.440s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/attitude_min_vru.hpp
+[112.459s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__builder.hpp
+[112.479s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__struct.hpp
+[112.498s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__traits.hpp
+[112.518s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__type_support.hpp
+[112.537s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__builder.hpp
+[112.557s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__struct.hpp
+[112.586s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__traits.hpp
+[112.605s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__type_support.hpp
+[112.641s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__builder.hpp
+[112.686s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__struct.hpp
+[112.728s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__traits.hpp
+[112.772s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__type_support.hpp
+[112.830s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__builder.hpp
+[112.864s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__struct.hpp
+[112.884s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__traits.hpp
+[112.922s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__type_support.hpp
+[112.949s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__builder.hpp
+[112.996s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__struct.hpp
+[113.050s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__traits.hpp
+[113.090s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__type_support.hpp
+[113.109s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__builder.hpp
+[113.132s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__struct.hpp
+[113.152s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__traits.hpp
+[113.174s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__type_support.hpp
+[113.195s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__builder.hpp
+[113.216s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__struct.hpp
+[113.236s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__traits.hpp
+[113.260s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__type_support.hpp
+[113.281s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__builder.hpp
+[113.301s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__struct.hpp
+[113.323s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__traits.hpp
+[113.370s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__type_support.hpp
+[113.424s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__builder.hpp
+[113.477s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__struct.hpp
+[113.531s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__traits.hpp
+[113.572s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__type_support.hpp
+[113.600s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__builder.hpp
+[113.648s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__struct.hpp
+[113.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__traits.hpp
+[113.747s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__type_support.hpp
+[113.821s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__builder.hpp
+[113.845s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__struct.hpp
+[113.890s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__traits.hpp
+[113.940s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__type_support.hpp
+[113.977s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__builder.hpp
+[114.033s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__struct.hpp
+[114.079s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__traits.hpp
+[114.143s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__type_support.hpp
+[114.178s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__builder.hpp
+[114.200s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__struct.hpp
+[114.222s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__traits.hpp
+[114.245s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__type_support.hpp
+[114.278s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__builder.hpp
+[114.298s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__struct.hpp
+[114.319s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__traits.hpp
+[114.343s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__type_support.hpp
+[114.363s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__builder.hpp
+[114.383s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__struct.hpp
+[114.402s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__traits.hpp
+[114.423s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__type_support.hpp
+[114.443s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__builder.hpp
+[114.488s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__struct.hpp
+[114.518s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__traits.hpp
+[114.537s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__type_support.hpp
+[114.559s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__builder.hpp
+[114.600s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__struct.hpp
+[114.620s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__traits.hpp
+[114.639s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__type_support.hpp
+[114.660s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__builder.hpp
+[114.682s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__struct.hpp
+[114.702s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__traits.hpp
+[114.722s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__type_support.hpp
+[114.742s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__builder.hpp
+[114.762s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__struct.hpp
+[114.785s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__traits.hpp
+[114.806s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__type_support.hpp
+[114.827s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__builder.hpp
+[114.847s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__struct.hpp
+[114.867s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__traits.hpp
+[114.897s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__type_support.hpp
+[114.915s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__builder.hpp
+[114.935s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__struct.hpp
+[114.954s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__traits.hpp
+[114.973s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__type_support.hpp
+[114.992s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__builder.hpp
+[115.013s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__struct.hpp
+[115.033s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__traits.hpp
+[115.053s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__type_support.hpp
+[115.072s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/euler_angle.hpp
+[115.092s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/euler_only.hpp
+[115.122s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/gnss_pos.hpp
+[115.141s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/imu_data.hpp
+[115.161s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/imu_data_ten_axis.hpp
+[115.182s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_all.hpp
+[115.203s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_min.hpp
+[115.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_min_utc.hpp
+[115.254s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/nav_status.hpp
+[115.274s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/pos_only.hpp
+[115.294s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/pressure.hpp
+[115.330s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/quat.hpp
+[115.349s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/robot_lord.hpp
+[115.394s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[115.440s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/sample_timestamp.hpp
+[115.483s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/sensor_temp.hpp
+[115.539s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/three_axis.hpp
+[115.587s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/tid.hpp
+[115.631s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/utc.hpp
+[115.683s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/vel.hpp
+[115.737s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__rosidl_typesupport_fastrtps_cpp.hpp
+[115.805s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__rosidl_typesupport_fastrtps_cpp.hpp
+[115.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__rosidl_typesupport_fastrtps_cpp.hpp
+[115.868s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__rosidl_typesupport_fastrtps_cpp.hpp
+[115.887s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__rosidl_typesupport_fastrtps_cpp.hpp
+[115.912s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__rosidl_typesupport_fastrtps_cpp.hpp
+[115.938s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__rosidl_typesupport_fastrtps_cpp.hpp
+[115.957s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__rosidl_typesupport_fastrtps_cpp.hpp
+[115.978s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__rosidl_typesupport_fastrtps_cpp.hpp
+[115.997s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__rosidl_typesupport_fastrtps_cpp.hpp
+[116.017s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__rosidl_typesupport_fastrtps_cpp.hpp
+[116.037s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__rosidl_typesupport_fastrtps_cpp.hpp
+[116.056s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__rosidl_typesupport_fastrtps_cpp.hpp
+[116.075s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[116.103s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__rosidl_typesupport_fastrtps_cpp.hpp
+[116.128s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__rosidl_typesupport_fastrtps_cpp.hpp
+[116.154s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__rosidl_typesupport_fastrtps_cpp.hpp
+[116.172s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__rosidl_typesupport_fastrtps_cpp.hpp
+[116.191s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__rosidl_typesupport_fastrtps_cpp.hpp
+[116.212s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__rosidl_typesupport_fastrtps_cpp.hpp
+[116.241s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__rosidl_typesupport_fastrtps_cpp.hpp
+[116.267s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__rosidl_typesupport_fastrtps_cpp.hpp
+[116.299s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[116.321s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_all_data__rosidl_typesupport_introspection_cpp.hpp
+[116.340s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_ahrs__rosidl_typesupport_introspection_cpp.hpp
+[116.359s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/attitude_min_vru__rosidl_typesupport_introspection_cpp.hpp
+[116.388s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_angle__rosidl_typesupport_introspection_cpp.hpp
+[116.415s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/euler_only__rosidl_typesupport_introspection_cpp.hpp
+[116.438s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/gnss_pos__rosidl_typesupport_introspection_cpp.hpp
+[116.464s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data__rosidl_typesupport_introspection_cpp.hpp
+[116.487s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/imu_data_ten_axis__rosidl_typesupport_introspection_cpp.hpp
+[116.513s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_all__rosidl_typesupport_introspection_cpp.hpp
+[116.537s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min__rosidl_typesupport_introspection_cpp.hpp
+[116.555s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_min_utc__rosidl_typesupport_introspection_cpp.hpp
+[116.574s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/nav_status__rosidl_typesupport_introspection_cpp.hpp
+[116.591s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pos_only__rosidl_typesupport_introspection_cpp.hpp
+[116.609s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/pressure__rosidl_typesupport_introspection_cpp.hpp
+[116.627s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/quat__rosidl_typesupport_introspection_cpp.hpp
+[116.646s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/robot_lord__rosidl_typesupport_introspection_cpp.hpp
+[116.666s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sample_timestamp__rosidl_typesupport_introspection_cpp.hpp
+[116.686s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/sensor_temp__rosidl_typesupport_introspection_cpp.hpp
+[116.704s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/three_axis__rosidl_typesupport_introspection_cpp.hpp
+[116.722s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/tid__rosidl_typesupport_introspection_cpp.hpp
+[116.741s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/utc__rosidl_typesupport_introspection_cpp.hpp
+[116.760s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/include/yesense_interface/yesense_interface/msg/detail/vel__rosidl_typesupport_introspection_cpp.hpp
+[116.782s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/pythonpath.sh
+[116.802s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/pythonpath.dsv
+[116.823s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface-1.0.0-py3.10.egg-info/PKG-INFO
+[116.842s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface-1.0.0-py3.10.egg-info/SOURCES.txt
+[116.862s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface-1.0.0-py3.10.egg-info/dependency_links.txt
+[116.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface-1.0.0-py3.10.egg-info/top_level.txt
+[116.905s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/__init__.py
+[116.925s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_c.c
+[116.944s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[116.966s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/_yesense_interface_s.ep.rosidl_typesupport_introspection_c.c
+[116.990s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/libyesense_interface__rosidl_generator_py.so
+[117.010s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/__init__.py
+[117.031s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_all_data.py
+[117.051s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_all_data_s.c
+[117.072s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_ahrs.py
+[117.092s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_ahrs_s.c
+[117.112s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_vru.py
+[117.129s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_vru_s.c
+[117.149s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_angle.py
+[117.170s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_angle_s.c
+[117.190s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_only.py
+[117.208s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_only_s.c
+[117.227s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_gnss_pos.py
+[117.249s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_gnss_pos_s.c
+[117.269s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data.py
+[117.288s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data_s.c
+[117.307s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data_ten_axis.py
+[117.323s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data_ten_axis_s.c
+[117.343s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_all.py
+[117.362s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_all_s.c
+[117.388s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min.py
+[117.409s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min_s.c
+[117.428s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min_utc.py
+[117.447s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min_utc_s.c
+[117.466s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_status.py
+[117.485s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_status_s.c
+[117.504s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pos_only.py
+[117.522s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pos_only_s.c
+[117.541s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pressure.py
+[117.560s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pressure_s.c
+[117.581s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_quat.py
+[117.602s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_quat_s.c
+[117.620s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_robot_lord.py
+[117.638s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_robot_lord_s.c
+[117.656s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sample_timestamp.py
+[117.675s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sample_timestamp_s.c
+[117.694s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sensor_temp.py
+[117.712s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sensor_temp_s.c
+[117.730s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_three_axis.py
+[117.749s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_three_axis_s.c
+[117.768s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_tid.py
+[117.786s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_tid_s.c
+[117.810s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_utc.py
+[117.832s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_utc_s.c
+[117.855s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_vel.py
+[117.875s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_vel_s.c
+[117.897s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[117.920s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[117.942s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[117.962s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[117.963s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[117.963s] -- Up-to-date symlink: /home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/yesense_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[117.964s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Tid.idl
+[117.986s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ThreeAxis.idl
+[118.008s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/SensorTemp.idl
+[118.029s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Pressure.idl
+[118.051s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/EulerAngle.idl
+[118.073s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Quat.idl
+[118.094s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/GnssPos.idl
+[118.118s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavStatus.idl
+[118.139s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Vel.idl
+[118.159s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Utc.idl
+[118.183s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/SampleTimestamp.idl
+[118.205s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ImuData.idl
+[118.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ImuDataTenAxis.idl
+[118.248s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/EulerOnly.idl
+[118.270s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/RobotLord.idl
+[118.294s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeMinVru.idl
+[118.319s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeMinAhrs.idl
+[118.341s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeAllData.idl
+[118.361s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/PosOnly.idl
+[118.387s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavMin.idl
+[118.409s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavMinUtc.idl
+[118.438s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavAll.idl
+[118.459s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Tid.msg
+[118.483s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ThreeAxis.msg
+[118.506s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/SensorTemp.msg
+[118.528s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Pressure.msg
+[118.551s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/EulerAngle.msg
+[118.574s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Quat.msg
+[118.594s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/GnssPos.msg
+[118.617s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavStatus.msg
+[118.637s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Vel.msg
+[118.660s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/Utc.msg
+[118.681s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/SampleTimestamp.msg
+[118.703s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ImuData.msg
+[118.726s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/ImuDataTenAxis.msg
+[118.748s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/EulerOnly.msg
+[118.769s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/RobotLord.msg
+[118.791s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeMinVru.msg
+[118.812s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeMinAhrs.msg
+[118.830s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/AttitudeAllData.msg
+[118.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/PosOnly.msg
+[118.869s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavMin.msg
+[118.889s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavMinUtc.msg
+[118.909s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/msg/NavAll.msg
+[118.930s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/ament_index/resource_index/package_run_dependencies/yesense_interface
+[118.951s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/ament_index/resource_index/parent_prefix_path/yesense_interface
+[118.971s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/ament_prefix_path.sh
+[118.991s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/ament_prefix_path.dsv
+[119.013s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/path.sh
+[119.034s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/environment/path.dsv
+[119.058s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/local_setup.bash
+[119.079s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/local_setup.sh
+[119.099s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/local_setup.zsh
+[119.121s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/local_setup.dsv
+[119.142s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/package.dsv
+[119.162s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/ament_index/resource_index/packages/yesense_interface
+[119.186s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/rosidl_cmake-extras.cmake
+[119.206s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[119.229s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[119.252s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/ament_cmake_export_targets-extras.cmake
+[119.284s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[119.304s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[119.324s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[119.344s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interfaceConfig.cmake
+[119.363s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interfaceConfig-version.cmake
+[119.383s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/package.xml
+[119.404s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_generator_c.so
+[119.406s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_generator_c.so" to ""
+[119.407s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_fastrtps_c.so
+[119.407s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[119.407s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_introspection_c.so
+[119.407s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_introspection_c.so" to ""
+[119.408s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_c.so
+[119.409s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_c.so" to ""
+[119.409s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_fastrtps_cpp.so
+[119.410s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[119.410s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_introspection_cpp.so
+[119.411s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[119.411s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_cpp.so
+[119.411s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_typesupport_cpp.so" to ""
+[119.550s] Listing '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/__init__.py'...
+[119.550s] Listing '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/__init__.py'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_all_data.py'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_ahrs.py'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_attitude_min_vru.py'...
+[119.550s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_angle.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_euler_only.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_gnss_pos.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_imu_data_ten_axis.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_all.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_min_utc.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_nav_status.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pos_only.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_pressure.py'...
+[119.551s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_quat.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_robot_lord.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sample_timestamp.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_sensor_temp.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_three_axis.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_tid.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_utc.py'...
+[119.552s] Compiling '/home/wheeltec/wheeltec_robot/install/yesense_interface/local/lib/python3.10/dist-packages/yesense_interface/msg/_vel.py'...
+[119.562s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_generator_py.so
+[119.563s] -- Set runtime path of "/home/wheeltec/wheeltec_robot/install/yesense_interface/lib/libyesense_interface__rosidl_generator_py.so" to ""
+[119.563s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_generator_cExport.cmake
+[119.563s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_generator_cExport-noconfig.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_introspection_cExport.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_cExport.cmake
+[119.564s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_cExport-noconfig.cmake
+[119.565s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_generator_cppExport.cmake
+[119.565s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[119.565s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[119.565s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_introspection_cppExport.cmake
+[119.566s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[119.566s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_cppExport.cmake
+[119.566s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/yesense_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[119.566s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_generator_pyExport.cmake
+[119.566s] -- Installing: /home/wheeltec/wheeltec_robot/install/yesense_interface/share/yesense_interface/cmake/export_yesense_interface__rosidl_generator_pyExport-noconfig.cmake
+[119.592s] Invoked command in '/home/wheeltec/wheeltec_robot/build/yesense_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/yesense_interface

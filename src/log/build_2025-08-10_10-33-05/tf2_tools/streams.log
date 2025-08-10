@@ -1,0 +1,37 @@
+[3.642s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/tf2_tools': PYTHONPATH=/home/wheeltec/wheeltec_robot/src/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/src/build/tf2_tools/build --no-deps symlink_data
+[10.307s] running develop
+[10.307s] running egg_info
+[10.307s] creating tf2_tools.egg-info
+[10.308s] writing tf2_tools.egg-info/PKG-INFO
+[10.308s] writing dependency_links to tf2_tools.egg-info/dependency_links.txt
+[10.308s] writing entry points to tf2_tools.egg-info/entry_points.txt
+[10.308s] writing requirements to tf2_tools.egg-info/requires.txt
+[10.308s] writing top-level names to tf2_tools.egg-info/top_level.txt
+[10.308s] writing manifest file 'tf2_tools.egg-info/SOURCES.txt'
+[10.308s] reading manifest file 'tf2_tools.egg-info/SOURCES.txt'
+[10.308s] writing manifest file 'tf2_tools.egg-info/SOURCES.txt'
+[10.308s] running build_ext
+[10.308s] Creating /home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/python3.10/site-packages/tf2-tools.egg-link (link to .)
+[10.309s] Installing view_frames script to /home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/tf2_tools
+[10.309s] 
+[10.309s] Installed /home/wheeltec/wheeltec_robot/src/build/tf2_tools
+[10.309s] running symlink_data
+[10.309s] creating /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/ament_index/resource_index/packages
+[10.326s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/tf2_tools/resource/tf2_tools -> /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/ament_index/resource_index/packages
+[10.326s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/tf2_tools/package.xml -> /home/wheeltec/wheeltec_robot/src/install/tf2_tools/share/tf2_tools
+[10.327s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[10.327s]   warnings.warn(msg)
+[10.327s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+[10.327s] !!
+[10.327s] 
+[10.327s]         ********************************************************************************
+[10.327s]         Please consider removing the following classifiers in favor of a SPDX license expression:
+[10.327s] 
+[10.327s]         License :: OSI Approved :: Apache Software License
+[10.328s] 
+[10.328s]         See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+[10.328s]         ********************************************************************************
+[10.328s] 
+[10.328s] !!
+[10.328s]   self._finalize_license_expression()
+[10.350s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/tf2_tools' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/src/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/src/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/src/build/tf2_tools/build --no-deps symlink_data

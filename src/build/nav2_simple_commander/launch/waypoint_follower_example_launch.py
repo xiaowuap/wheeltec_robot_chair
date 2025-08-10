@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_simple_commander/launch/waypoint_follower_example_launch.py

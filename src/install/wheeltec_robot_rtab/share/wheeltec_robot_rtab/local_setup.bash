@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_robot_rtab/ament_cmake_environment_hooks/local_setup.bash

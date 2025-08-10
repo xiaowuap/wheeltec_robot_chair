@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/wheeltec_mic_msg/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_device_type__struct.h

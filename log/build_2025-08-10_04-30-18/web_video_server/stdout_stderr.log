@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target web_video_server[0m
+[  9%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/image_streamer.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/h264_streamer.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/vp8_streamer.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/web_video_server.dir/src/libav_streamer.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable web_video_server[0m
+/usr/bin/ld: warning: libboost_filesystem.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_filesystem.so.1.75.0
+/usr/bin/ld: warning: libboost_thread.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_thread.so.1.75.0
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+/usr/bin/ld: warning: libavcodec.so.58, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavcodec.so.61
+/usr/bin/ld: warning: libavutil.so.56, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavutil.so.59
+[100%] Built target web_video_server
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/lib/web_video_server/web_video_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/package_run_dependencies/web_video_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/parent_prefix_path/web_video_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/ament_index/resource_index/packages/web_video_server
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/cmake/web_video_serverConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/install/web_video_server/share/web_video_server/package.xml
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/jpeg_streamers.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/h264_streamer.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp9_streamer.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/png_streamers.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/multipart_stream.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/vp8_streamer.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/web_video_server.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/ros_compressed_streamer.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/libav_streamer.h
+-- Installing: /home/wheeltec/wheeltec_robot/install/web_video_server/include/web_video_server/image_streamer.h

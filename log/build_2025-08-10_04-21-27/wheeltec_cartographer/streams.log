@@ -1,0 +1,52 @@
+[0.038s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/wheeltec_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer
+[4.447s] -- The C compiler identification is GNU 11.4.0
+[4.447s] -- The CXX compiler identification is GNU 11.4.0
+[4.447s] -- Detecting C compiler ABI info
+[4.447s] -- Detecting C compiler ABI info - done
+[4.447s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.448s] -- Detecting C compile features
+[4.448s] -- Detecting C compile features - done
+[4.448s] -- Detecting CXX compiler ABI info
+[4.448s] -- Detecting CXX compiler ABI info - done
+[4.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.448s] -- Detecting CXX compile features
+[4.448s] -- Detecting CXX compile features - done
+[4.448s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.448s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.448s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.448s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.449s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.449s] -- Added test 'lint_cmake' to check CMake code style
+[4.449s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.449s] -- Added test 'xmllint' to check XML markup files
+[4.449s] -- Configuring done
+[4.449s] -- Generating done
+[4.449s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/build/wheeltec_cartographer
+[4.467s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/wheeltec_cartographer -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/install/wheeltec_cartographer
+[4.468s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_cartographer -- -j8 -l8
+[35.755s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/build/wheeltec_cartographer -- -j8 -l8
+[35.756s] Invoking command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_cartographer
+[36.848s] -- Install configuration: ""
+[36.848s] -- Execute custom install script
+[36.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/launch/cartographer.launch.py
+[36.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/launch/realsense_d400.launch.py
+[36.848s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/launch/slam_rtabmap.launch.py
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/launch/turtlebot3_scan.launch.py
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/config/cartographer.lua
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/ament_index/resource_index/package_run_dependencies/wheeltec_cartographer
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/ament_index/resource_index/parent_prefix_path/wheeltec_cartographer
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/environment/ament_prefix_path.sh
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/environment/ament_prefix_path.dsv
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/environment/path.sh
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/environment/path.dsv
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/local_setup.bash
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/local_setup.sh
+[36.849s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/local_setup.zsh
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/local_setup.dsv
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/package.dsv
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/ament_index/resource_index/packages/wheeltec_cartographer
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/cmake/wheeltec_cartographerConfig.cmake
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/cmake/wheeltec_cartographerConfig-version.cmake
+[36.850s] -- Symlinking: /home/wheeltec/wheeltec_robot/install/wheeltec_cartographer/share/wheeltec_cartographer/package.xml
+[36.934s] Invoked command in '/home/wheeltec/wheeltec_robot/build/wheeltec_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/build/wheeltec_cartographer

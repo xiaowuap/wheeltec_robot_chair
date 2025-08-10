@@ -1,0 +1,4 @@
+source;share/wheeltec_mic_ros2/local_setup.bash
+source;share/wheeltec_mic_ros2/local_setup.dsv
+source;share/wheeltec_mic_ros2/local_setup.sh
+source;share/wheeltec_mic_ros2/local_setup.zsh

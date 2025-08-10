@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/wheeltec_robot_rtab
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/rtabmap.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/rtabmap_localization.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/rtabmap_localization_pure3d.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/wheeltec_nav2_rtab.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/wheeltec_nav2_rtab_pure3d.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/wheeltec_slam_rtab.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/launch/wheeltec_slam_rtab_pure3d.launch.py
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/params/rtabmap_nav_params.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/params/rtabmap_nav_params_pure3d.yaml
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_rtab
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_rtab
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/environment/ament_prefix_path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/environment/ament_prefix_path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/environment/path.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/environment/path.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/local_setup.bash
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/local_setup.sh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/local_setup.zsh
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/local_setup.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/package.dsv
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/ament_index/resource_index/packages/wheeltec_robot_rtab
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/cmake/wheeltec_robot_rtabConfig.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/cmake/wheeltec_robot_rtabConfig-version.cmake
+-- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_robot_rtab/share/wheeltec_robot_rtab/package.xml

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target dual_laser_merger[0m
+[ 50%] Built target dual_laser_merger
+[100%] Built target dual_laser_merger_node
+-- Install configuration: ""
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include/dual_laser_merger/include
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include/dual_laser_merger/include/dual_laser_merger
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/launch
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/bag
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/bag/dual_lidar
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/config
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include
+-- Up-to-date: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/include/dual_laser_merger
+-- Installing: /home/wheeltec/wheeltec_robot/install/dual_laser_merger/share/dual_laser_merger/package.dsv

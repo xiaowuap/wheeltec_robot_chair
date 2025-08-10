@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/astra_camera_msgs/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__struct.h

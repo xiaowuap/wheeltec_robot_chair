@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ublox_msgs__py",
+		"source" : "/home/wheeltec/wheeltec_robot/src/build/ublox_msgs/ublox_msgs__py"
+	}
+}

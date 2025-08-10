@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yesense_interface/msg/RobotLord.msg
+// generated code does not contain a copyright notice
+
+#include "yesense_interface/msg/Quat.idl"
+#include "yesense_interface/msg/ThreeAxis.idl"
+#include "yesense_interface/msg/Tid.idl"
+
+module yesense_interface {
+  module msg {
+    struct RobotLord {
+      yesense_interface::msg::Tid tid;
+
+      yesense_interface::msg::ThreeAxis acc;
+
+      yesense_interface::msg::ThreeAxis gyro;
+
+      yesense_interface::msg::Quat quat;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/astra_camera_msgs/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h

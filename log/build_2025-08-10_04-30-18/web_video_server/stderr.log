@@ -1,0 +1,7 @@
+/usr/bin/ld: warning: libboost_filesystem.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_filesystem.so.1.75.0
+/usr/bin/ld: warning: libboost_thread.so.1.74.0, needed by /opt/ros/humble/lib/libasync_web_server_cpp.so.2.0.0, may conflict with libboost_thread.so.1.75.0
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.408
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.408
+/usr/bin/ld: warning: libavcodec.so.58, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavcodec.so.61
+/usr/bin/ld: warning: libavutil.so.56, needed by /lib/aarch64-linux-gnu/libchromaprint.so.1, may conflict with libavutil.so.59

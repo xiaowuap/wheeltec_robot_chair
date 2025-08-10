@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "turn_on_wheeltec_robot__py",
+		"source" : "/home/wheeltec/wheeltec_robot/src/build/turn_on_wheeltec_robot/turn_on_wheeltec_robot__py"
+	}
+}

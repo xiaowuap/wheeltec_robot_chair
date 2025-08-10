@@ -1,0 +1,27 @@
+[3.802s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator': PYTHONPATH=/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/build --no-deps symlink_data
+[18.294s] running develop
+[18.294s] running egg_info
+[18.294s] creating multi_lidar_calibrator.egg-info
+[18.294s] writing multi_lidar_calibrator.egg-info/PKG-INFO
+[18.295s] writing dependency_links to multi_lidar_calibrator.egg-info/dependency_links.txt
+[18.296s] writing entry points to multi_lidar_calibrator.egg-info/entry_points.txt
+[18.296s] writing requirements to multi_lidar_calibrator.egg-info/requires.txt
+[18.296s] writing top-level names to multi_lidar_calibrator.egg-info/top_level.txt
+[18.297s] writing manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+[18.297s] reading manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+[18.297s] writing manifest file 'multi_lidar_calibrator.egg-info/SOURCES.txt'
+[18.297s] running build_ext
+[18.297s] Creating /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/lib/python3.10/site-packages/multi-lidar-calibrator.egg-link (link to .)
+[18.297s] Installing multi_lidar_calibrator script to /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/lib/multi_lidar_calibrator
+[18.298s] 
+[18.298s] Installed /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator
+[18.298s] running symlink_data
+[18.298s] creating /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/ament_index/resource_index/packages
+[18.299s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/resource/multi_lidar_calibrator -> /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/ament_index/resource_index/packages
+[18.299s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/package.xml -> /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator
+[18.300s] creating /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+[18.318s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/launch/calibration.launch.py -> /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator/launch
+[18.318s] creating /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config
+[18.318s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/config/params.yaml -> /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config
+[18.318s] symbolically linking /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/config/demo.yaml -> /home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/share/multi_lidar_calibrator/config
+[18.334s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator' returned '0': PYTHONPATH=/home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wheeltec/wheeltec_robot/src/install/multi_lidar_calibrator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wheeltec/wheeltec_robot/src/build/multi_lidar_calibrator/build --no-deps symlink_data

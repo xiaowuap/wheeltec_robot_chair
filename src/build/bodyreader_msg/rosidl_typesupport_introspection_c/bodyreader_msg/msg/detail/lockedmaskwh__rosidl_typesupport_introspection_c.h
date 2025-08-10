@@ -1,0 +1,26 @@
+// generated from rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em
+// with input from bodyreader_msg:msg/Lockedmaskwh.idl
+// generated code does not contain a copyright notice
+
+#ifndef BODYREADER_MSG__MSG__DETAIL__LOCKEDMASKWH__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+#define BODYREADER_MSG__MSG__DETAIL__LOCKEDMASKWH__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "bodyreader_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_C_PUBLIC_bodyreader_msg
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, bodyreader_msg, msg, Lockedmaskwh)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // BODYREADER_MSG__MSG__DETAIL__LOCKEDMASKWH__ROSIDL_TYPESUPPORT_INTROSPECTION_C_H_

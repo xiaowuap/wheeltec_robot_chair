@@ -1,0 +1,14 @@
+{
+  "package_name": "bodyreader_msg",
+  "non_idl_tuples": [
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Body.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Bodylist.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Bodyposture.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Joint.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Lockedcharrgb.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Lockedmaskwh.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Maskdata.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Vector2f.msg",
+    "/home/wheeltec/wheeltec_robot/src/wheeltec_bodyreader/bodyreader_msg:msg/Vector3f.msg"
+  ]
+}

@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/wheeltec_mic_msg__cpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/motion_control__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/motion_control__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/motion_control__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/motion_control__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/motion_control.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/msg/pcm_msg.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_device_type__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_device_type__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_device_type__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_device_type__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/switch_mic__builder.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/switch_mic__struct.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/switch_mic__traits.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/detail/switch_mic__type_support.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/get_device_type.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/get_offline_result.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/set_awake_word.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/set_major_mic.hpp"
+  "rosidl_generator_cpp/wheeltec_mic_msg/srv/switch_mic.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/wheeltec_mic_msg__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

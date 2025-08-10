@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/aruco/ament_cmake_core/arucoConfig-version.cmake

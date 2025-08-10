@@ -1,0 +1,1 @@
+/home/wheeltec/wheeltec_robot/src/build/orb_slam2_ros/rosidl_generator_py/orb_slam2_ros/srv/__init__.py

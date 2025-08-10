@@ -1,0 +1,54 @@
+[0.095s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2
+[74.927s] -- The C compiler identification is GNU 11.4.0
+[74.927s] -- The CXX compiler identification is GNU 11.4.0
+[74.928s] -- Detecting C compiler ABI info
+[74.928s] -- Detecting C compiler ABI info - done
+[74.928s] -- Check for working C compiler: /usr/bin/cc - skipped
+[74.928s] -- Detecting C compile features
+[74.928s] -- Detecting C compile features - done
+[74.928s] -- Detecting CXX compiler ABI info
+[74.928s] -- Detecting CXX compiler ABI info - done
+[74.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[74.928s] -- Detecting CXX compile features
+[74.928s] -- Detecting CXX compile features - done
+[74.928s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[74.928s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[74.929s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[74.929s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[74.929s] -- Added test 'copyright' to check source files copyright and LICENSE
+[74.929s] -- Added test 'flake8' to check Python code syntax and style conventions
+[74.929s] -- Added test 'lint_cmake' to check CMake code style
+[74.929s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[74.929s] -- Added test 'xmllint' to check XML markup files
+[74.929s] -- Configuring done
+[74.929s] -- Generating done
+[74.929s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2
+[74.996s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_rviz2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2
+[74.997s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2 -- -j8 -l8
+[83.199s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2 -- -j8 -l8
+[83.201s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2
+[83.334s] -- Install configuration: ""
+[83.334s] -- Execute custom install script
+[83.334s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rtabmapviz.launch.py
+[83.334s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/launch/wheeltec_rviz.launch.py
+[83.391s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/carto_3d.rviz
+[83.445s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lego_loam.rviz
+[83.472s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/lio-sam.rviz
+[83.535s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/orb_config.rviz
+[83.577s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/rviz/wheeltec.rviz
+[83.642s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/ament_index/resource_index/package_run_dependencies/wheeltec_rviz2
+[83.698s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/ament_index/resource_index/parent_prefix_path/wheeltec_rviz2
+[83.764s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.sh
+[83.820s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/ament_prefix_path.dsv
+[83.882s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.sh
+[83.923s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/environment/path.dsv
+[83.988s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.bash
+[84.048s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.sh
+[84.081s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.zsh
+[84.120s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/local_setup.dsv
+[84.159s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/package.dsv
+[84.224s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/ament_index/resource_index/packages/wheeltec_rviz2
+[84.301s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config.cmake
+[84.358s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/cmake/wheeltec_rviz2Config-version.cmake
+[84.395s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_rviz2/share/wheeltec_rviz2/package.xml
+[84.435s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_rviz2

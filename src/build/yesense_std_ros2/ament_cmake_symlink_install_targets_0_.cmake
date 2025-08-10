@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/src/build/yesense_std_ros2/yesense_node_publisher" "/home/wheeltec/wheeltec_robot/src/build/yesense_std_ros2/yesense_node_subscriber" "TARGETS" "yesense_node_publisher" "yesense_node_subscriber" "DESTINATION" "lib/yesense_std_ros2")

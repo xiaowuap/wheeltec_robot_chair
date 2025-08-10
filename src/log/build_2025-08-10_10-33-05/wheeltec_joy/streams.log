@@ -1,0 +1,78 @@
+[0.078s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_joy
+[8.752s] -- The C compiler identification is GNU 11.4.0
+[8.752s] -- The CXX compiler identification is GNU 11.4.0
+[8.753s] -- Detecting C compiler ABI info
+[8.753s] -- Detecting C compiler ABI info - done
+[8.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.753s] -- Detecting C compile features
+[8.753s] -- Detecting C compile features - done
+[8.753s] -- Detecting CXX compiler ABI info
+[8.753s] -- Detecting CXX compiler ABI info - done
+[8.753s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.753s] -- Detecting CXX compile features
+[8.753s] -- Detecting CXX compile features - done
+[8.753s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.754s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.754s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.754s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[8.754s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.754s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.754s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.754s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.754s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.754s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.754s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.755s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.755s] -- Looking for pthread.h
+[8.755s] -- Looking for pthread.h - found
+[8.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.755s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.755s] -- Found Threads: TRUE  
+[8.755s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.755s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[8.755s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.755s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.755s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.756s] -- Configured cppcheck include dirs: 
+[8.756s] -- Configured cppcheck exclude dirs and/or files: 
+[8.756s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.756s] -- Configured cpplint exclude dirs and/or files: 
+[8.756s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.756s] -- Added test 'lint_cmake' to check CMake code style
+[8.756s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[8.756s] -- Added test 'uncrustify' to check C / C++ code style
+[8.756s] -- Configured uncrustify additional arguments: 
+[8.756s] -- Added test 'xmllint' to check XML markup files
+[8.756s] -- Configuring done
+[8.756s] -- Generating done
+[8.757s] -- Build files have been written to: /home/wheeltec/wheeltec_robot/src/build/wheeltec_joy
+[8.782s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake /home/wheeltec/wheeltec_robot/src/wheeltec_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/wheeltec/wheeltec_robot/src/install/wheeltec_joy
+[8.787s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_joy -- -j8 -l8
+[10.064s] [ 50%] [32mBuilding CXX object CMakeFiles/wheeltec_joy.dir/src/wheeltec_joy_control.cpp.o[0m
+[33.380s] [100%] [32m[1mLinking CXX executable wheeltec_joy[0m
+[34.800s] [100%] Built target wheeltec_joy
+[34.868s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --build /home/wheeltec/wheeltec_robot/src/build/wheeltec_joy -- -j8 -l8
+[34.869s] Invoking command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_joy
+[36.066s] -- Install configuration: ""
+[36.066s] -- Execute custom install script
+[36.066s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/lib/wheeltec_joy/wheeltec_joy
+[36.066s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/launch/only_joy.launch.py
+[36.066s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/launch/wheeltec_joy.launch.py
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/ament_index/resource_index/package_run_dependencies/wheeltec_joy
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/ament_index/resource_index/parent_prefix_path/wheeltec_joy
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/environment/ament_prefix_path.sh
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/environment/ament_prefix_path.dsv
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/environment/path.sh
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/environment/path.dsv
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/local_setup.bash
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/local_setup.sh
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/local_setup.zsh
+[36.067s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/local_setup.dsv
+[36.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/package.dsv
+[36.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/ament_index/resource_index/packages/wheeltec_joy
+[36.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/cmake/wheeltec_joyConfig.cmake
+[36.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/cmake/wheeltec_joyConfig-version.cmake
+[36.068s] -- Symlinking: /home/wheeltec/wheeltec_robot/src/install/wheeltec_joy/share/wheeltec_joy/package.xml
+[36.113s] Invoked command in '/home/wheeltec/wheeltec_robot/src/build/wheeltec_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wheeltec/wheeltec_robot/install/simple_follower_ros2:/home/wheeltec/wheeltec_robot/install/wheeltec_robot_keyboard:/home/wheeltec/wheeltec_robot/install/wheeltec_dual_rtk_driver:/home/wheeltec/wheeltec_robot/install/ultralytics_ros2:/home/wheeltec/wheeltec_robot/install/tf2_tools:/home/wheeltec/wheeltec_robot/install/ollama_ros_chat:/home/wheeltec/wheeltec_robot/install/nmea_navsat_driver:/home/wheeltec/wheeltec_robot/install/nav2_waypoint_cycle:/home/wheeltec/wheeltec_robot/install/nav2_simple_commander:/home/wheeltec/wheeltec_robot/install/multi_lidar_calibrator:/opt/ros/humble /usr/bin/cmake --install /home/wheeltec/wheeltec_robot/src/build/wheeltec_joy
