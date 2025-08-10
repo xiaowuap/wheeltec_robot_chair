@@ -25,6 +25,11 @@ CATKIN_IGNORE
 *.project
 *.pydevproject
 *.cproject
+*.vc.db
+*.db
+browse.vc.db
+ipch/
+*.ipch
 
 # System generated files
 .DS_Store
