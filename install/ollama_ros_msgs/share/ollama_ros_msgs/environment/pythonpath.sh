@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/ament_cmake_environment_hooks/pythonpath.sh

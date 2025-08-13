@@ -1,5 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_adapter/wheeltec_rrt_msg:action/ChangePosition.idl
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_adapter/wheeltec_rrt_msg:action/FindColouredBox.idl
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_adapter/wheeltec_rrt_msg:action/PickColouredBox.idl
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_adapter/wheeltec_rrt_msg:srv/DeleteShape.idl
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/rosidl_adapter/wheeltec_rrt_msg:msg/PointArray.idl

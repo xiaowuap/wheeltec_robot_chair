@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/ultralytics_ros2/launch/yolo.launch.py

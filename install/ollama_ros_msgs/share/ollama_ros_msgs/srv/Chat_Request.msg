@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/rosidl_cmake/srv/Chat_Request.msg

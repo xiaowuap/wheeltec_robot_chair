@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/turn_on_wheeltec_robot/ament_cmake_python/turn_on_wheeltec_robot/turn_on_wheeltec_robot.egg-info/SOURCES.txt

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_robot_slam/orb_slam_2_ros-ros2/ros/launch/orb_slam2_d435_mono_launch.py

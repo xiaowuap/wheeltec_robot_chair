@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/yesense_interface/rosidl_generator_c/yesense_interface/msg/attitude_all_data.h

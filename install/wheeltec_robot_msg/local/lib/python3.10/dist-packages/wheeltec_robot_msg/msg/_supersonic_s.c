@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_robot_msg/rosidl_generator_py/wheeltec_robot_msg/msg/_supersonic_s.c

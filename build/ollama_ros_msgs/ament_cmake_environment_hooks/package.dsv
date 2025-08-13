@@ -1,4 +1,0 @@
-source;share/ollama_ros_msgs/local_setup.bash
-source;share/ollama_ros_msgs/local_setup.dsv
-source;share/ollama_ros_msgs/local_setup.sh
-source;share/ollama_ros_msgs/local_setup.zsh

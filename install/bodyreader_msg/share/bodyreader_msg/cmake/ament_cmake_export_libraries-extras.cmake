@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/bodyreader_msg/ament_cmake_export_libraries/ament_cmake_export_libraries-extras.cmake

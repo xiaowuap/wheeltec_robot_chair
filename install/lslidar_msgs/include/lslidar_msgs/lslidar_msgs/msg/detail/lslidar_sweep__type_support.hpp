@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/lslidar_msgs/rosidl_generator_cpp/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp

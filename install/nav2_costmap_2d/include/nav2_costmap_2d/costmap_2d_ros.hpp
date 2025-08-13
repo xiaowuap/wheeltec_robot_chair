@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_costmap_2d/include/nav2_costmap_2d/costmap_2d_ros.hpp

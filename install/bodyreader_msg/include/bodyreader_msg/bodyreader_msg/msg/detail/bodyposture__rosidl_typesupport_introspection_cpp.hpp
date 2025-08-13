@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_typesupport_introspection_cpp/bodyreader_msg/msg/detail/bodyposture__rosidl_typesupport_introspection_cpp.hpp

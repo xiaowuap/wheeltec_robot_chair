@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ldlidar/ament_cmake_core/ldlidarConfig-version.cmake

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_robot_rtab/launch/rtabmap_localization_pure3d.launch.py

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/nav2_smoother/ament_cmake_environment_hooks/local_setup.zsh

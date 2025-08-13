@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_collision_monitor/include/nav2_collision_monitor/kinematics.hpp

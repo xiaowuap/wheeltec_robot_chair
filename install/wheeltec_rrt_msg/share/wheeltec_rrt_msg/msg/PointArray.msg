@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_rrt_msg/msg/PointArray.msg

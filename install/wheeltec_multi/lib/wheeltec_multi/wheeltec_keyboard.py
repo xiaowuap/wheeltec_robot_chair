@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_multi/scripts/wheeltec_keyboard.py

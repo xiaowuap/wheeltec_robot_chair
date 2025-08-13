@@ -1,1 +1,0 @@
-string mic_name

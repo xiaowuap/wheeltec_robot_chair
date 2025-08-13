@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_robot_rrt2/launch/rrt_exploration/wheeltec_rrt_slam.launch.py

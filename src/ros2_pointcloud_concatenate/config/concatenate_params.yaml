@@ -1,0 +1,11 @@
+pointcloud_merge:
+  ros__parameters:
+    target_frame: base_link
+    clouds: 2
+    hz: 10.0
+
+    cloud_in1_topic: /livox/front_lidar/points
+    cloud_in2_topic: /livox/back_lidar/points
+    cloud_in3_topic: /lidar3/points
+    cloud_in4_topic: /lidar4/points
+    cloud_out_topic: /livox_merged/points

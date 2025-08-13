@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/build/wheeltec_robot_msg/rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "wheeltec_robot_msg__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/wheeltec_robot_msg")

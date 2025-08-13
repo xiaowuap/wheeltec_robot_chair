@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LDlidar/ldlidar06/launch/ld19.launch.py

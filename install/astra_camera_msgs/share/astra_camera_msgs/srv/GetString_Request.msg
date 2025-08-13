@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/astra_camera_msgs/rosidl_cmake/srv/GetString_Request.msg

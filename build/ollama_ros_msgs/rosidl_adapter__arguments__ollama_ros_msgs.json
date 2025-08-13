@@ -1,6 +1,0 @@
-{
-  "package_name": "ollama_ros_msgs",
-  "non_idl_tuples": [
-    "/home/wheeltec/wheeltec_robot/src/ollama_ros_chat/ollama_ros_msgs:srv/Chat.srv"
-  ]
-}

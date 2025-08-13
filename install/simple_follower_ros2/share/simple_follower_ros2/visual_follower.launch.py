@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/simple_follower_ros2/launch/visual_follower.launch.py

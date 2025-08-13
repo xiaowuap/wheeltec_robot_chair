@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_collision_monitor/launch/collision_monitor_node.launch.py

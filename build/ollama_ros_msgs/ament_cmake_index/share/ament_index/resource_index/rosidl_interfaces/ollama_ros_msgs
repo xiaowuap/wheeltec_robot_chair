@@ -1,4 +1,0 @@
-srv/Chat.idl
-srv/Chat.srv
-srv/Chat_Request.msg
-srv/Chat_Response.msg

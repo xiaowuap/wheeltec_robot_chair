@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_simple_commander/launch/nav_to_pose_example_launch.py

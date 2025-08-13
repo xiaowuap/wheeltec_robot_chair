@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_dwb_controller/nav_2d_msgs/msg/Pose2DStamped.msg

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_generator_cpp/bodyreader_msg/msg/rosidl_generator_cpp__visibility_control.hpp

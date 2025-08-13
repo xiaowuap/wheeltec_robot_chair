@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/dual_laser_merger/launch/demo_laser_merger.launch.py

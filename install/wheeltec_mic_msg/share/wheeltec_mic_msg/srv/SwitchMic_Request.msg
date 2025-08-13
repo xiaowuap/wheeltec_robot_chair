@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg/rosidl_cmake/srv/SwitchMic_Request.msg

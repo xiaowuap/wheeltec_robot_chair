@@ -1,4 +1,0 @@
-gmake[2]: *** Deleting file 'rosidl_typesupport_cpp/ublox_msgs/msg/nav_svinfo__type_support.cpp'
-gmake[2]: *** [CMakeFiles/ublox_msgs__rosidl_typesupport_cpp.dir/build.make:436: rosidl_typesupport_cpp/ublox_msgs/msg/nav_svinfo__type_support.cpp] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:396: CMakeFiles/ublox_msgs__rosidl_typesupport_cpp.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

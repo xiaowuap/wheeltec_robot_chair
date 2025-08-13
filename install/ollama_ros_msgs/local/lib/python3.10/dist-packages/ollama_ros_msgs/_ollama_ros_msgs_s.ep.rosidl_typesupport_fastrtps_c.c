@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/rosidl_generator_py/ollama_ros_msgs/_ollama_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

@@ -1,7 +1,0 @@
-{
-  "package_name": "aruco_msgs",
-  "non_idl_tuples": [
-    "/home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco_msgs:msg/Marker.msg",
-    "/home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco_msgs:msg/MarkerArray.msg"
-  ]
-}

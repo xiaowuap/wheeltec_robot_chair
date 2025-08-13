@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/turn_on_wheeltec_robot/rosidl_generator_py/turn_on_wheeltec_robot/__init__.py

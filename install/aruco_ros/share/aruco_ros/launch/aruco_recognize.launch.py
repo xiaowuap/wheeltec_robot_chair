@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/aruco_ros-humble-devel/aruco_ros/launch/aruco_recognize.launch.py

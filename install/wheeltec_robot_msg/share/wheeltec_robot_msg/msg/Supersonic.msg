@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_robot_msg/msg/Supersonic.msg

@@ -1,5 +1,0 @@
-[console_scripts]
-chat_client = ollama_ros_chat.ollama_client:main
-chat_service = ollama_ros_chat.ollama_service:main
-topic_client = ollama_ros_chat.ollama_topic_client:main
-topic_server = ollama_ros_chat.ollama_topic_server:main

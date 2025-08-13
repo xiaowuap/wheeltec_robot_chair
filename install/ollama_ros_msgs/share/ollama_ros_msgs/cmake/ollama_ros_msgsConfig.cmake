@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ollama_ros_msgs/ament_cmake_core/ollama_ros_msgsConfig.cmake

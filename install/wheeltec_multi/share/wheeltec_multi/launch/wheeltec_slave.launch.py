@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_multi/launch/wheeltec_slave.launch.py

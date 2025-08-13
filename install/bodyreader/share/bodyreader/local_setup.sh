@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/bodyreader/ament_cmake_environment_hooks/local_setup.sh

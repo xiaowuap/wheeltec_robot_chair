@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_rviz_plugins/include/nav2_rviz_plugins/ros_action_qevent.hpp

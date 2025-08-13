@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/ollama_ros_chat/launch/ollama_ros_chat.launch.py

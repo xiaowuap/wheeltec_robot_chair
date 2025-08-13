@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/turn_on_wheeltec_robot/launch/base_serial.launch.py

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_robot_rtab/launch/wheeltec_nav2_rtab.launch.py

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_controller/include/nav2_controller/plugins/stopped_goal_checker.hpp

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_gps/ublox-ros2/ublox_serialization/include/ublox_serialization/serialization.hpp

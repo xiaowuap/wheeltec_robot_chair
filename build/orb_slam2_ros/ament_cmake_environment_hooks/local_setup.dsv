@@ -1,4 +1,0 @@
-source;share/orb_slam2_ros/environment/ament_prefix_path.sh
-source;share/orb_slam2_ros/environment/library_path.sh
-source;share/orb_slam2_ros/environment/path.sh
-source;share/orb_slam2_ros/environment/pythonpath.sh

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/yesense_interface/rosidl_generator_py/yesense_interface/msg/_imu_data_ten_axis.py

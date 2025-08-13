@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/nav2_msgs/rosidl_generator_py/nav2_msgs/action/_compute_path_through_poses.py

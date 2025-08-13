@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/dwb_msgs/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h

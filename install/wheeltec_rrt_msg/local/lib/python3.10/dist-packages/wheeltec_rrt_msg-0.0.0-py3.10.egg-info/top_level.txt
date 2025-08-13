@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_rrt_msg/ament_cmake_python/wheeltec_rrt_msg/wheeltec_rrt_msg.egg-info/top_level.txt

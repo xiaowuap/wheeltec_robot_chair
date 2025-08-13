@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_constrained_smoother/include/nav2_constrained_smoother/smoother.hpp

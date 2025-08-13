@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/astra_camera_msgs/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c

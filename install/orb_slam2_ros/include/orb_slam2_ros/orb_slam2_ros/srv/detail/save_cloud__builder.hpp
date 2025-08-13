@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/orb_slam2_ros/rosidl_generator_cpp/orb_slam2_ros/srv/detail/save_cloud__builder.hpp

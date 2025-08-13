@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_behavior_tree/include/nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp

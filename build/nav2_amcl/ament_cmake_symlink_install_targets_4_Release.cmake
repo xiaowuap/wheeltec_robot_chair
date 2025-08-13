@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/build/nav2_amcl/libamcl_core.so" "TARGETS" "amcl_core" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

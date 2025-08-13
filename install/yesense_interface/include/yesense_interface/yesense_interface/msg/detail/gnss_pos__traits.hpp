@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/yesense_interface/rosidl_generator_cpp/yesense_interface/msg/detail/gnss_pos__traits.hpp

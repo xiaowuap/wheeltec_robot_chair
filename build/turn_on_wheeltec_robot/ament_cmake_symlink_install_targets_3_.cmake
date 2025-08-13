@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/build/turn_on_wheeltec_robot/wheeltec_robot_node" "TARGETS" "wheeltec_robot_node" "DESTINATION" "lib/turn_on_wheeltec_robot" "ARCHIVE_DESTINATION" "LIBRARY_DESTINATION" "RUNTIME_DESTINATION")

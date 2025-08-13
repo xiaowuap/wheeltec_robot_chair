@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/build/astra_camera/list_devices_node" "/home/wheeltec/wheeltec_robot/build/astra_camera/clean_shm_node" "/home/wheeltec/wheeltec_robot/build/astra_camera/astra_camera_node" "TARGETS" "list_devices_node" "clean_shm_node" "astra_camera_node" "DESTINATION" "lib/astra_camera/")

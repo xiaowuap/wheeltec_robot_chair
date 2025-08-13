@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/bodyreader_msg/rosidl_typesupport_fastrtps_cpp/bodyreader_msg/msg/detail/lockedcharrgb__rosidl_typesupport_fastrtps_cpp.hpp

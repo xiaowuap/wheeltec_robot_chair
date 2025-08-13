@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg/ament_cmake_core/wheeltec_mic_msgConfig-version.cmake

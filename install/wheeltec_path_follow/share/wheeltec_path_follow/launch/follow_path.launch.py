@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_path_follow/launch/follow_path.launch.py

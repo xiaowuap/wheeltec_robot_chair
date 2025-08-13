@@ -1,3 +1,0 @@
-[console_scripts]
-dual_rtk_driver_node = wheeltec_dual_rtk_driver.wheeltec_dual_rtk_driver:main
-serial_demo_node = wheeltec_dual_rtk_driver.serial_demo:main

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_gps/nmea_msgs/msg/Gprmc.msg

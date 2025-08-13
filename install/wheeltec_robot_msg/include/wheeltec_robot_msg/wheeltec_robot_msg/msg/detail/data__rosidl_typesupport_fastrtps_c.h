@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_robot_msg/rosidl_typesupport_fastrtps_c/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h

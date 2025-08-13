@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_amcl/include/nav2_amcl/sensors/laser/laser.hpp

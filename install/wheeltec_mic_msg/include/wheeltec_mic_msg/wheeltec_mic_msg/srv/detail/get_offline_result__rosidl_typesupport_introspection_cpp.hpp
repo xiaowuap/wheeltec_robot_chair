@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/wheeltec_mic_msg/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_introspection_cpp.hpp

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_regulated_pure_pursuit_controller/include/nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp

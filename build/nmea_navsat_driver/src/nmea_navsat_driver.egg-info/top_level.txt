@@ -1,1 +1,0 @@
-libnmea_navsat_driver

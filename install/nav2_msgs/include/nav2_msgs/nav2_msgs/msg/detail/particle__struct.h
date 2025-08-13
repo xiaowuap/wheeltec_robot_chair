@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/nav2_msgs/rosidl_generator_c/nav2_msgs/msg/detail/particle__struct.h

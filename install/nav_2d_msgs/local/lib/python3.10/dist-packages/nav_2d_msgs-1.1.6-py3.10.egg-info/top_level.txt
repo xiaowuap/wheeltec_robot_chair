@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/nav_2d_msgs/ament_cmake_python/nav_2d_msgs/nav_2d_msgs.egg-info/top_level.txt

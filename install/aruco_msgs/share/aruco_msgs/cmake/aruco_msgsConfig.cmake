@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/aruco_msgs/ament_cmake_core/aruco_msgsConfig.cmake

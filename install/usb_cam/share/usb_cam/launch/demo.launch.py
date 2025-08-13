@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/usb_cam-ros2/launch/demo.launch.py

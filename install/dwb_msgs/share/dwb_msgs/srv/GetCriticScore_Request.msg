@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/dwb_msgs/rosidl_cmake/srv/GetCriticScore_Request.msg

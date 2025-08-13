@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/dwb_msgs/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c

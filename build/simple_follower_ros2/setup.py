@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/simple_follower_ros2/setup.py

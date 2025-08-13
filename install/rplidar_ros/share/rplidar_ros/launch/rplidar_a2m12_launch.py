@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/rplidar_ros/launch/rplidar_a2m12_launch.py

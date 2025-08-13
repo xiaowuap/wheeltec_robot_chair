@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/wheeltec/wheeltec_robot/build/dual_laser_merger/dual_laser_merger_node" "TARGETS" "dual_laser_merger_node" "DESTINATION" "lib/dual_laser_merger")

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs/msg/LslidarSweep.msg

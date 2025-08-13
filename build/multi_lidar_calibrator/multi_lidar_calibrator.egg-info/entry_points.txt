@@ -1,2 +1,0 @@
-[console_scripts]
-multi_lidar_calibrator = multi_lidar_calibrator.multi_lidar_calibrator:main

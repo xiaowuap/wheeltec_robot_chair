@@ -1,5 +1,0 @@
-string awake_word
-string threshold
----
-bool success
-string result

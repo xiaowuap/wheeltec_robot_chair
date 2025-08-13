@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_behavior_tree/include/nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp

@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/src/navigation2-humble/nav2_lifecycle_manager/include/nav2_lifecycle_manager/lifecycle_manager.hpp

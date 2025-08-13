@@ -1,1 +1,0 @@
-/home/wheeltec/wheeltec_robot/build/yesense_interface/rosidl_typesupport_introspection_c/yesense_interface/msg/detail/nav_min_utc__rosidl_typesupport_introspection_c.h

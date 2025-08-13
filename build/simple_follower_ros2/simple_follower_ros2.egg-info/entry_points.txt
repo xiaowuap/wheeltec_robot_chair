@@ -1,8 +1,0 @@
-[console_scripts]
-adjust_hsv = simple_follower_ros2.adjust_hsv:main
-arfollower = simple_follower_ros2.ar_follow:main
-laserfollower = simple_follower_ros2.laserfollower:main
-lasertracker = simple_follower_ros2.laserTracker:main
-line_follow = simple_follower_ros2.line_follow:main
-visualfollow = simple_follower_ros2.visualFollower:main
-visualtracker = simple_follower_ros2.visualTracker:main
