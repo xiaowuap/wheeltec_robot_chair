@@ -87,7 +87,7 @@ def generate_launch_description():
         parameters=[{
                 'target_frame': 'base_footprint',
                 'clouds': 2,
-                'hz': 20.0,
+                'hz': 10.0,
                 'cloud_in1_topic': '/laser1/pointcloud',
                 'cloud_in2_topic': '/laser2/pointcloud',
                 'cloud_out_topic': '/laser/pointcloud',

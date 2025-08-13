@@ -62,6 +62,7 @@ def generate_launch_description():
     )
     
     imu_filter_node =  launch_ros.actions.Node(
+        name='imu_filter_madgwick',
         package='imu_filter_madgwick',
         executable='imu_filter_madgwick_node',
         parameters=[imu_config]
