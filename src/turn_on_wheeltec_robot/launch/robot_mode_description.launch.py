@@ -234,7 +234,7 @@ def generate_launch_description():
         condition=IfCondition(chair_diff_robot),
         actions=[
             generate_robot_node('chair_diff_robot.urdf', 'chair_diff_robot'),
-            generate_static_transform_publisher_node(['0.55', '0.25', '0'], ['0', '0', '0'], 'base_footprint', 'laser1'),
+            generate_static_transform_publisher_node(['0.55', '0.25', '0'], ['-0.04', '0', '0'], 'base_footprint', 'laser1'),
             generate_static_transform_publisher_node(
                 ['-1.0179', '-0.0347578', '-3.24913e-08'], ['0.0795887', '3.14159', '3.14159'], 'laser1', 'laser2'
             ),

@@ -6,6 +6,7 @@ from launch import LaunchDescription
 from launch.actions import (DeclareLaunchArgument, GroupAction,
                             IncludeLaunchDescription, SetEnvironmentVariable)
 from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch_ros.actions import Node
 
 def generate_launch_description():
     Lslidar_dir = get_package_share_directory('lslidar_driver')
@@ -65,31 +66,57 @@ def generate_launch_description():
     ld.add_action(Lsn10p)
     ld.add_action(Lsn10p2)
     
-    dual_laser_merger_node = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            [
-                f"{get_package_share_directory('dual_laser_merger')}/launch/dual_laser_merger.launch.py"
-            ]
-        ),
-        launch_arguments={
-            'laser_1_topic': 'scan1',
-            'laser_2_topic': 'scan2',
-            'merged_topic': 'scan',
-            'publish_rate': '100',
-            'target_frame': 'base_footprint',
-            'angle_increment': '0.001',
-            'scan_time': '0.067',
-            'range_min': '0.01',
-            'range_max': '25.0',
-            'min_height': '-1.0',
-            'max_height': '1.0',
-            'angle_min': '-3.141592654',
-            'angle_max': '3.141592654',
-            'use_inf': 'true',
-        }.items(),
+    dual_laser_passthrough_node = Node(
+        package='topic_tools',
+        executable='relay',
+        name='scan1_to_scan_relay',
+        remappings=[('/scan1', '/scan')],
+        output='screen'
     )
 
-    ld.add_action(dual_laser_merger_node)
+    dual_laser_merge_node = Node(
+                package="pointcloud_concatenate",
+                executable="pointcloud_concatenate_node",
+                name="pointcloud_merge",
+        remappings=[
+                ('cloud_in1', '/laser1/pointcloud'),
+                ('cloud_in2', '/laser2/pointcloud'),
+                ('cloud_out', '/laser/pointcloud')
+        ],
+        output='screen',
+        parameters=[{
+                'target_frame': 'base_footprint',
+                'clouds': 2,
+                'hz': 20.0,
+                'cloud_in1_topic': '/laser1/pointcloud',
+                'cloud_in2_topic': '/laser2/pointcloud',
+                'cloud_out_topic': '/laser/pointcloud',
+        }]
+    )
+    
+    dual_laser_merge_gen = Node(
+            package='pointcloud_to_laserscan',
+                executable='pointcloud_to_laserscan_node',
+                name='pointcloud_to_laserscan_node',
+                remappings=[('cloud_in', '/laser/pointcloud'), ('scan', '/scan')],
+                output='screen',
+                parameters=[{
+                    'target_frame': 'base_footprint',
+                    'transform_tolerance': 0.01,
+                        'min_height': -0.1,
+                        'max_height': 0.1,
+                        'angle_min': -3.14,
+                        'angle_max': 3.14,
+                        'angle_increment': 0.0058,
+                        'scan_time': 0.1,
+                        'range_min': 0.05,
+                        'range_max': 30.0,
+                }]
+        )
+    
+    #ld.add_action(dual_laser_passthrough_node)
+    ld.add_action(dual_laser_merge_node)
+    ld.add_action(dual_laser_merge_gen)
 
     return ld
 
