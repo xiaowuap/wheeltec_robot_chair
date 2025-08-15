@@ -76,7 +76,13 @@ DESTINATION lib/${PROJECT_NAME}
 )
 
 install(
-  DIRECTORY launch config
+  DIRECTORY launch config scripts
   DESTINATION share/${PROJECT_NAME}
+)
+
+# Install Python executables
+install(PROGRAMS
+  scripts/robot_polygon_publisher.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 ament_package()
