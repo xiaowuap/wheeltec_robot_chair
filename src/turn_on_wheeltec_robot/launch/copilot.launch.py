@@ -25,7 +25,7 @@ def generate_launch_description():
 #    )
 
     wheeltec_slam = IncludeLaunchDescription(
-         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('wheeltec_slam_toolbox'), 'online_async_launch.py')),
+         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('wheeltec_slam_toolbox'), 'launch', 'online_async_launch.py')),
     )
     # Launch foxglove bridge
     foxglove_bridge = IncludeLaunchDescription(
@@ -72,6 +72,7 @@ def generate_launch_description():
         # Launch the main components
 #        wheeltec_robot,
 #        wheeltec_lidar,
+        wheeltec_slam,
         foxglove_bridge,
         
         # Add robot footprint polygon broadcasting
