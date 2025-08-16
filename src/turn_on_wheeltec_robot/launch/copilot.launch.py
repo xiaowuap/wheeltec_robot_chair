@@ -25,7 +25,7 @@ def generate_launch_description():
 #    )
 
     wheeltec_slam = IncludeLaunchDescription(
-         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('wheeltec_slam_toolbox'), 'launch', 'online_async_launch.py')),
+         PythonLaunchDescriptionSource(os.path.join(get_package_share_directory('slam_gmapping'), 'launch', 'slam_gmapping.launch.py')),
     )
     # Launch foxglove bridge
     foxglove_bridge = IncludeLaunchDescription(
